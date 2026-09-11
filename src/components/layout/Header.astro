@@ -1,28 +1,83 @@
 ---
-import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+import { i18nConfig, withLangPrefix, LANGS, type Lang } from '../../i18n/config';
 
 interface Props {
   lang: Lang;
+  /** Versiones de esta página en otros idiomas (mismas que hreflang). Si un
+   * idioma no tiene versión, el selector lleva a su home. */
+  translations?: { lang: Lang; url: string }[];
 }
 
-const { lang } = Astro.props;
+const { lang, translations = [] } = Astro.props;
 const t = i18nConfig[lang];
 const navItems = [t.nav.home, t.nav.services, t.nav.blog, t.nav.about, t.nav.contact];
+const ctaHref = withLangPrefix(lang, `${t.nav.contact.href}?origen=header`);
+const langLinks = LANGS.map((l) => ({
+  code: l,
+  name: i18nConfig[l].name,
+  href: l === lang ? Astro.url.pathname : (translations.find((tr) => tr.lang === l)?.url.replace(/^https?:\/\/[^/]+/, '') ?? `/${l}/`),
+  current: l === lang,
+}));
 ---
 
-<header class="sghh">
+<header class="sghh" id="sghh">
   <div class="in">
     <a class="lg" href={withLangPrefix(lang, '/')} aria-label="Spain Global Hub">
-      <img src="/logo-sgh.png" alt="Spain Global Hub" />
+      <img src="/logo-sgh.png" alt="Spain Global Hub" width="300" height="137" />
       <span class="lg-t">Spain Global Hub<small>Boutique Advisory</small></span>
     </a>
-    <nav aria-label="Principal">
+    <nav aria-label="Principal" id="sghh-nav">
       <ul>
         {navItems.map((item) => (
           <li><a href={withLangPrefix(lang, item.href)}>{item.label}</a></li>
         ))}
       </ul>
+      <a class="cta cta-menu" href={ctaHref}>{t.cta.privateConsultation}</a>
     </nav>
-    <a class="cta" href={withLangPrefix(lang, `${t.nav.contact.href}?origen=header`)}>{t.cta.privateConsultation}</a>
+    <div class="lang" id="sghh-lang">
+      <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label={t.name}>
+        {lang.toUpperCase()}
+        <svg class="cx" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
+      </button>
+      <div class="lang-menu">
+        {langLinks.map((l) => (
+          <a href={l.href} hreflang={l.code} lang={l.code} class:list={{ on: l.current }}>{l.name}</a>
+        ))}
+      </div>
+    </div>
+    <a class="cta" href={ctaHref}>{t.cta.privateConsultation}</a>
+    <button class="bur" type="button" aria-label="Menú" aria-controls="sghh-nav" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </header>
+
+<script>
+  const h = document.getElementById('sghh')!;
+  const nav = document.getElementById('sghh-nav')!;
+  const langBox = document.getElementById('sghh-lang')!;
+  const bur = h.querySelector<HTMLButtonElement>('.bur')!;
+  const langBtn = langBox.querySelector<HTMLButtonElement>('.lang-btn')!;
+
+  bur.addEventListener('click', () => {
+    const open = nav.classList.toggle('open');
+    bur.setAttribute('aria-expanded', String(open));
+    langBox.classList.remove('open');
+  });
+  langBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const open = langBox.classList.toggle('open');
+    langBtn.setAttribute('aria-expanded', String(open));
+  });
+  document.addEventListener('click', (e) => {
+    if (!h.contains(e.target as Node)) {
+      nav.classList.remove('open');
+      langBox.classList.remove('open');
+      bur.setAttribute('aria-expanded', 'false');
+      langBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+  const onScroll = () => h.classList.toggle('sc', window.scrollY > 40);
+  onScroll();
+  window.addEventListener('scroll', onScroll, { passive: true });
+</script>

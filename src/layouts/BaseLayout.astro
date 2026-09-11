@@ -49,7 +49,7 @@ const locale = i18nConfig[lang].locale;
     <Analytics />
   </head>
   <body>
-    <Header lang={lang} />
+    <Header lang={lang} translations={translations} />
     <main class:list={{ 'sgh-main-fullbleed': fullBleed }}>
       <slot />
     </main>

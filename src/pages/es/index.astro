@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import homeContent from '../../content-raw/home-es.html?raw';
+import Home from '../../components/home/Home.astro';
 
 const SITE_URL = 'https://spaingh.com';
 ---
@@ -16,5 +16,5 @@ const SITE_URL = 'https://spaingh.com';
     { lang: 'fr', url: `${SITE_URL}/fr/` },
   ]}
 >
-  <Fragment set:html={homeContent} />
+  <Home lang="es" />
 </BaseLayout>

@@ -5,6 +5,26 @@
 
 @import './components.css';
 
+/* Tipografías autoalojadas (variable, subset latin). En producción WordPress
+   solo se cargaba Inter (Elementor); Playfair y Montserrat caían a Georgia/
+   Arial. Aquí: Inter para texto/nav, Playfair Display para la marca. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/inter-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700 900;
+  font-display: swap;
+  src: url('/fonts/playfair-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
 :root {
   --sgh-verde: #061f1d;
   --sgh-dorado: #c5a059;
@@ -19,7 +39,7 @@
 
 body {
   margin: 0;
-  font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+  font-family: 'Inter', Arial, sans-serif;
   color: var(--sgh-texto);
   line-height: 1.6;
 }

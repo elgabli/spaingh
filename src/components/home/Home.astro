@@ -1,0 +1,181 @@
+---
+// Home única para los 3 idiomas: estructura .sgh2 (portada ES de producción)
+// con textos de src/i18n/home.ts. Sin canvas de partículas, sin eval base64,
+// sin botón scroll-top: solo contenido y las clases ya estiladas.
+import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+import { homeContent } from '../../i18n/home';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const c = homeContent[lang];
+const contactHref = withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=home`);
+
+const ICONS = {
+  lock: 'M7 11V7a5 5 0 0 1 10 0v4M5 11h14v8a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2z',
+  chart: 'M3 3v18h18M18 9l-5 5-3-3-4 4',
+  percent: 'M19 5L5 19M6.5 9a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zM17.5 20a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z',
+  laptop: 'M3 5h18v11H3zM1 19h22',
+  badge: 'M12 2l3 6 6 1-4.5 4.5L18 20l-6-3-6 3 1.5-6.5L3 9l6-1z',
+  building: 'M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6',
+  shield: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z',
+  shieldCheck: 'M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10zM9 12l2 2 4-4',
+  globe: 'M21 12a9 9 0 1 1-9-9M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18',
+  trend: 'M3 3v18h18M7 14l3-3 3 3 5-5',
+  doc: 'M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M9 15h6M9 11h2',
+  warn: 'M12 9v4M12 17h.01M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z',
+  card: 'M3 5h18v14H3zM3 10h18M7 15h4',
+  clock: 'M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18zM12 7v5l3 2',
+  check: 'M9 12l2 2 4-4M21 12a9 9 0 1 1-9-9',
+};
+const pillarIcons = [ICONS.percent, ICONS.laptop, ICONS.badge, ICONS.building];
+const trustIcons = [ICONS.shieldCheck, ICONS.globe, ICONS.trend];
+const chalIcons = [ICONS.doc, ICONS.warn, ICONS.card];
+const guaranteeIcons = [ICONS.shieldCheck, ICONS.clock, ICONS.check];
+---
+
+<div class="sgh2">
+  <section class="sgh2-hero">
+    <div class="wrap">
+      <div class="sgh2-hero-inner">
+        <h1>{c.hero.h1Pre}<em>{c.hero.h1Em}</em>{c.hero.h1Post}</h1>
+        <p>{c.hero.lead}</p>
+        <div class="sgh2-hero-actions">
+          <a href={contactHref} class="btn-gold"><svg viewBox="0 0 24 24"><path d={ICONS.lock} /></svg> {c.hero.ctaPrimary}</a>
+          <a href={c.hero.ctaSecondaryHref} class="btn-ghost"><svg viewBox="0 0 24 24"><path d={ICONS.chart} /></svg> {c.hero.ctaSecondary}</a>
+        </div>
+      </div>
+      <div class="sgh2-hero-cards">
+        {c.pillars.map((p, i) => (
+          <a class="sgh2-hero-card" href={p.href}>
+            <div class="ic"><svg viewBox="0 0 24 24"><path d={pillarIcons[i]} /></svg></div>
+            <h3>{p.title}</h3>
+            <p>{p.text}</p>
+            <span class="more">{p.cta}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sgh2-trust">
+    <div class="wrap reveal">
+      <span class="kicker">{c.trust.kicker}</span>
+      <h2 class="h2">{c.trust.h2}</h2>
+      <p class="lead">{c.trust.lead}</p>
+      <div class="sgh2-trust-grid">
+        {c.trust.items.map((it, i) => (
+          <div class="sgh2-trust-item">
+            <div class="ic"><svg viewBox="0 0 24 24"><path d={trustIcons[i]} /></svg></div>
+            <h3>{it.title}</h3>
+            <p>{it.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sgh2-challenges">
+    <div class="wrap reveal">
+      <span class="kicker">{c.challenges.kicker}</span>
+      <h2 class="h2">{c.challenges.h2}</h2>
+      <p class="lead">{c.challenges.lead}</p>
+      <div class="sgh2-challenges-grid">
+        {c.challenges.items.map((it, i) => (
+          <div class="sgh2-chal">
+            <div class="ic"><svg viewBox="0 0 24 24"><path d={chalIcons[i]} /></svg></div>
+            <h3>{it.title}</h3>
+            <p>{it.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sgh2-method">
+    <div class="wrap reveal">
+      <span class="kicker">{c.method.kicker}</span>
+      <h2 class="h2">{c.method.h2}</h2>
+      <div class="sgh2-method-steps">
+        {c.method.steps.map((s, i) => (
+          <div class="sgh2-step">
+            <div class="num">{String(i + 1).padStart(2, '0')}</div>
+            <h3>{s.title}</h3>
+            <p>{s.text}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sgh2-testi">
+    <div class="wrap reveal">
+      <span class="kicker">{c.testimonials.kicker}</span>
+      <h2 class="h2">{c.testimonials.h2}</h2>
+      <div class="sgh2-testi-grid">
+        {c.testimonials.items.map((t) => (
+          <div class="sgh2-testi-card">
+            <p>{t.text}</p>
+            <div class="sgh2-testi-user">
+              <div class="av">{t.name.charAt(0)}</div>
+              <div class="u"><strong>{t.name}</strong><span>{t.role}</span></div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sgh2-blog">
+    <div class="wrap reveal">
+      <span class="kicker">{c.insights.kicker}</span>
+      <h2 class="h2">{c.insights.h2}</h2>
+      <p class="lead">{c.insights.lead}</p>
+      <div class="sgh2-blog-grid">
+        {c.insights.items.map((it, i) => (
+          <a class="sgh2-blog-card" href={it.href}>
+            <div class="bn">{String(i + 1).padStart(2, '0')}</div>
+            <h3>{it.title}</h3>
+            <span>{it.meta}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="sgh2-cta">
+    <div class="wrap reveal">
+      <span class="kicker">{c.cta.kicker}</span>
+      <h2 class="h2">{c.cta.h2}</h2>
+      <p>{c.cta.text}</p>
+      <a href={contactHref} class="btn">{c.cta.button}</a>
+      <div class="meta"><span>✉ sgh@spaingh.com</span><span>WhatsApp: +34 601 555 547</span></div>
+      <p class="privacy">{c.cta.privacy}</p>
+    </div>
+  </section>
+
+  <section class="sgh2-guarantee">
+    <div class="wrap reveal">
+      {c.guarantee.map((g, i) => (
+        <div class="gi">
+          <div class="ic"><svg viewBox="0 0 24 24"><path d={guaranteeIcons[i]} /></svg></div>
+          <h3>{g.title}</h3>
+          <p>{g.text}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+</div>
+
+<script>
+  // Aparición suave al hacer scroll. Si el navegador no soporta
+  // IntersectionObserver, todo queda visible (CSS: .reveal solo se oculta
+  // cuando <html> tiene .js-reveal).
+  const els = document.querySelectorAll('.sgh2 .reveal');
+  if ('IntersectionObserver' in window && els.length) {
+    document.documentElement.classList.add('js-reveal');
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -60px 0px' });
+    els.forEach((el) => io.observe(el));
+  }
+</script>
