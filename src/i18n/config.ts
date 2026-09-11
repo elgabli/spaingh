@@ -40,6 +40,12 @@ export interface LangConfig {
   cta: {
     privateConsultation: string;
   };
+  cookies: {
+    text: string;
+    more: string;
+    accept: string;
+    reject: string;
+  };
 }
 
 export const i18nConfig: Record<Lang, LangConfig> = {
@@ -63,6 +69,12 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       terms: { href: '/terminos-y-condiciones-de-uso/', label: 'Condiciones de uso' },
     },
     cta: { privateConsultation: 'Evaluación Privada' },
+    cookies: {
+      text: 'Usamos cookies analíticas (Google Analytics) para medir el uso de la web y mejorarla. No se activan hasta que las aceptes.',
+      more: 'Política de cookies',
+      accept: 'Aceptar',
+      reject: 'Rechazar',
+    },
   },
   en: {
     code: 'en',
@@ -84,6 +96,12 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       terms: { href: '/terms-of-use/', label: 'Terms of Use' },
     },
     cta: { privateConsultation: 'Request Private Evaluation' },
+    cookies: {
+      text: 'We use analytics cookies (Google Analytics) to measure how the site is used and improve it. They are not set until you accept.',
+      more: 'Cookie policy',
+      accept: 'Accept',
+      reject: 'Reject',
+    },
   },
   fr: {
     code: 'fr',
@@ -105,6 +123,12 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       terms: { href: '/conditions-utilisation/', label: "Conditions d'utilisation" },
     },
     cta: { privateConsultation: 'Consultation Privée' },
+    cookies: {
+      text: "Nous utilisons des cookies analytiques (Google Analytics) pour mesurer l'utilisation du site et l'améliorer. Ils ne sont activés qu'après votre accord.",
+      more: 'Politique de cookies',
+      accept: 'Accepter',
+      reject: 'Refuser',
+    },
   },
 };
 

@@ -3,6 +3,8 @@ import SeoHead from '../components/seo/SeoHead.astro';
 import JsonLd from '../components/seo/JsonLd.astro';
 import Header from '../components/layout/Header.astro';
 import Footer from '../components/layout/Footer.astro';
+import Analytics from '../components/layout/Analytics.astro';
+import CookieBanner from '../components/layout/CookieBanner.astro';
 import { i18nConfig, type Lang } from '../i18n/config';
 import '../styles/global.css';
 
@@ -44,6 +46,7 @@ const locale = i18nConfig[lang].locale;
     />
     <JsonLd nodes={schemaNodes} />
     <meta property="og:locale" content={locale} />
+    <Analytics />
   </head>
   <body>
     <Header lang={lang} />
@@ -51,5 +54,6 @@ const locale = i18nConfig[lang].locale;
       <slot />
     </main>
     <Footer lang={lang} />
+    <CookieBanner lang={lang} />
   </body>
 </html>

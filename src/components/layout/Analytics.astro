@@ -1,0 +1,54 @@
+---
+// GA4 con Consent Mode v2. El script de Google NO se carga hasta que el
+// usuario acepta en el banner (CookieBanner.astro); la elección se guarda
+// en la cookie `sgh_consent` (1 año). Los eventos de las herramientas
+// (sgh_calc_use, sgh_tool_use) comprueban `typeof gtag === 'function'`,
+// así que sin consentimiento simplemente no se envían.
+const GA_ID = 'G-324C7W9F7F';
+---
+
+<script is:inline define:vars={{ GA_ID }}>
+  (function () {
+    var w = window;
+    w.dataLayer = w.dataLayer || [];
+    function gtagQ() { w.dataLayer.push(arguments); }
+    gtagQ('consent', 'default', {
+      ad_storage: 'denied',
+      ad_user_data: 'denied',
+      ad_personalization: 'denied',
+      analytics_storage: 'denied',
+      wait_for_update: 500,
+    });
+
+    function readConsent() {
+      var m = document.cookie.match(/(?:^|; )sgh_consent=(granted|denied)/);
+      return m ? m[1] : null;
+    }
+    function loadGa() {
+      if (w.__sghGaLoaded) return;
+      w.__sghGaLoaded = true;
+      w.gtag = gtagQ;
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=' + GA_ID;
+      document.head.appendChild(s);
+      gtagQ('js', new Date());
+      gtagQ('config', GA_ID, { anonymize_ip: true });
+    }
+    w.sghConsent = function (choice) {
+      var v = choice === 'granted' ? 'granted' : 'denied';
+      document.cookie = 'sgh_consent=' + v + '; Max-Age=31536000; Path=/; SameSite=Lax' +
+        (location.protocol === 'https:' ? '; Secure' : '');
+      if (v === 'granted') {
+        gtagQ('consent', 'update', { analytics_storage: 'granted' });
+        loadGa();
+      }
+      document.dispatchEvent(new CustomEvent('sgh:consent', { detail: v }));
+    };
+    w.sghConsentState = readConsent;
+    if (readConsent() === 'granted') {
+      gtagQ('consent', 'update', { analytics_storage: 'granted' });
+      loadGa();
+    }
+  })();
+</script>

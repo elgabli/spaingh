@@ -1,0 +1,72 @@
+---
+import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = i18nConfig[lang].cookies;
+const policyHref = withLangPrefix(lang, i18nConfig[lang].footer.cookies.href);
+---
+
+<div class="sgh-cookies" id="sgh-cookies" role="dialog" aria-live="polite" aria-label="Cookies" hidden>
+  <p>{t.text} <a href={policyHref}>{t.more}</a></p>
+  <div class="sgh-cookies-btns">
+    <button type="button" class="sgh-cookies-reject" data-consent="denied">{t.reject}</button>
+    <button type="button" class="sgh-cookies-accept" data-consent="granted">{t.accept}</button>
+  </div>
+</div>
+
+<script>
+  const box = document.getElementById('sgh-cookies');
+  const w = window as unknown as { sghConsentState?: () => string | null; sghConsent?: (c: string) => void };
+  if (box && w.sghConsentState && !w.sghConsentState()) {
+    box.hidden = false;
+    box.querySelectorAll<HTMLButtonElement>('button[data-consent]').forEach((b) => {
+      b.addEventListener('click', () => {
+        w.sghConsent?.(b.dataset.consent || 'denied');
+        box.hidden = true;
+      });
+    });
+  }
+</script>
+
+<style>
+  .sgh-cookies {
+    position: fixed;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10000;
+    max-width: 720px;
+    margin: 0 auto;
+    background: var(--sgh-verde);
+    color: #fff;
+    border: 1px solid rgba(197, 160, 89, 0.45);
+    border-radius: 14px;
+    padding: 16px 18px;
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+    font-size: 0.9rem;
+    line-height: 1.5;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .sgh-cookies[hidden] { display: none; }
+  .sgh-cookies p { margin: 0; flex: 1 1 320px; }
+  .sgh-cookies a { color: var(--sgh-dorado); font-weight: 700; text-decoration: underline; }
+  .sgh-cookies-btns { display: flex; gap: 10px; flex: 0 0 auto; }
+  .sgh-cookies button {
+    font: inherit;
+    font-weight: 700;
+    border-radius: 9px;
+    padding: 9px 16px;
+    cursor: pointer;
+    border: 1.5px solid var(--sgh-dorado);
+  }
+  .sgh-cookies-accept { background: var(--sgh-dorado); color: var(--sgh-verde); }
+  .sgh-cookies-reject { background: transparent; color: #fff; border-color: rgba(255, 255, 255, 0.5); }
+  .sgh-cookies-accept:hover { filter: brightness(1.08); }
+  .sgh-cookies-reject:hover { border-color: #fff; }
+</style>
