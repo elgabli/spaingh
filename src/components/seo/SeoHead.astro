@@ -1,0 +1,44 @@
+---
+import type { Lang } from '../../i18n/config';
+
+interface Translation {
+  lang: Lang;
+  url: string; // URL absoluta completa de esa traducción
+}
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  canonicalUrl: string; // URL absoluta de ESTA página
+  /** Traducciones de esta misma página en otros idiomas, para hreflang. */
+  translations?: Translation[];
+  noindex?: boolean;
+  ogImage?: string;
+}
+
+const { title, description, lang, canonicalUrl, translations = [], noindex = false, ogImage } = Astro.props;
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalUrl} />
+{noindex && <meta name="robots" content="noindex, nofollow" />}
+
+{/* hreflang recíproco: cada idioma declara TODAS sus alternativas, incluida
+   a sí mismo (self-referencing), tal y como exige Google. Generado a partir
+   de translationGroup en el frontmatter — no se puede olvidar un idioma
+   porque el build falla si falta una entrada, a diferencia del CSV/HTML a
+   mano de antes. */}
+<link rel="alternate" hreflang={lang} href={canonicalUrl} />
+{translations.map((t) => <link rel="alternate" hreflang={t.lang} href={t.url} />)}
+{translations.length > 0 && (
+  <link rel="alternate" hreflang="x-default" href={translations.find((t) => t.lang === 'es')?.url ?? canonicalUrl} />
+)}
+
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonicalUrl} />
+<meta property="og:type" content="website" />
+{ogImage && <meta property="og:image" content={ogImage} />}
+<meta name="twitter:card" content="summary_large_image" />

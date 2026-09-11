@@ -1,0 +1,55 @@
+---
+import SeoHead from '../components/seo/SeoHead.astro';
+import JsonLd from '../components/seo/JsonLd.astro';
+import Header from '../components/layout/Header.astro';
+import Footer from '../components/layout/Footer.astro';
+import { i18nConfig, type Lang } from '../i18n/config';
+import '../styles/global.css';
+
+interface Translation {
+  lang: Lang;
+  url: string;
+}
+
+interface Props {
+  title: string;
+  description: string;
+  lang: Lang;
+  canonicalUrl: string;
+  translations?: Translation[];
+  noindex?: boolean;
+  /** Nodos schema.org adicionales de la página (Article, FAQPage, WebApplication...). */
+  schemaNodes?: object[];
+  /** Homes: secciones a sangre completa que ya traen su propio hueco para el
+   * header fijo (.sgh2{padding-top:70px}); <main> no debe añadir otro. */
+  fullBleed?: boolean;
+}
+
+const { title, description, lang, canonicalUrl, translations, noindex, schemaNodes, fullBleed = false } = Astro.props;
+const locale = i18nConfig[lang].locale;
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <SeoHead
+      title={title}
+      description={description}
+      lang={lang}
+      canonicalUrl={canonicalUrl}
+      translations={translations}
+      noindex={noindex}
+    />
+    <JsonLd nodes={schemaNodes} />
+    <meta property="og:locale" content={locale} />
+  </head>
+  <body>
+    <Header lang={lang} />
+    <main class:list={{ 'sgh-main-fullbleed': fullBleed }}>
+      <slot />
+    </main>
+    <Footer lang={lang} />
+  </body>
+</html>

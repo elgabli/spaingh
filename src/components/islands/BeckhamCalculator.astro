@@ -1,0 +1,287 @@
+---
+// Isla interactiva: componente Astro normal con un <script> de módulo.
+// Astro lo compila e incluye SOLO en las páginas que lo usan.
+//
+// Sin base64+eval: ese truco en producción existía únicamente para
+// esquivar que wptexturize/KSES de WordPress mutilara comillas y `> 0`
+// dentro de un <script> en post_content. Aquí el contenido no pasa por
+// ningún filtro de texto, así que el JS se escribe normal.
+//
+// Marcado del formulario: MISMAS clases que la página en producción
+// (.sghb-calc > .sghb-grid > .sghb-field, chips .sghb-chip) para reutilizar
+// el CSS original tal cual (src/styles/components.css). El 12-sep-2026 se
+// vio en captura que con nombres inventados el formulario salía sin estilo.
+//
+// i18n: las versiones EN/FR de la calculadora en WordPress están
+// desactualizadas (motor viejo, 37% plano) — esta isla usa siempre el
+// motor real (19 CCAA + forales) con la UI traducida.
+import { REGIONS } from '../../lib/tax-engine/beckham';
+import type { Lang } from '../../i18n/config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+
+const T = {
+  es: {
+    calcTitle: 'Calculadora Ley Beckham de Spain Global Hub · Simulador fiscal 2026',
+    calcSub: 'Cálculo en tiempo real · Escalas oficiales IRPF 2025/2026 por comunidad autónoma',
+    salary: 'Salario bruto anual (€)', salaryHint: 'Rendimientos del trabajo en España',
+    bonus: 'Bonus / Stock options (€)', bonusHint: 'Se suman como rendimiento del trabajo',
+    community: 'Comunidad autónoma',
+    range: 'Ajuste rápido del salario',
+    years: 'Duración del régimen', yearsHint: 'El régimen cubre el primer ejercicio de residencia fiscal + 5 siguientes (máx. 6)',
+    yearLabel: (y: number) => `${y} ${y === 1 ? 'año' : 'años'}`,
+    ordinary: 'IRPF ordinario', beckham: 'Ley Beckham', breakdown: 'Desglose por tramos', scale: 'IRPF 2025/26',
+    tramo: 'Tramo', baseUntil: 'Base hasta', marginalRate: 'Tipo marginal', tramoQuota: 'Cuota del tramo',
+    warn: 'Con este nivel de renta, la Ley Beckham puede no compensar solo por el salario. Las rentas y activos extranjeros requieren un análisis separado; esta calculadora no los modela.',
+  },
+  en: {
+    calcTitle: 'Spain Global Hub Beckham Law Calculator · 2026 tax simulator',
+    calcSub: 'Real-time calculation · Official IRPF 2025/2026 scales by Autonomous Community',
+    salary: 'Gross annual salary (€)', salaryHint: 'Employment income in Spain',
+    bonus: 'Bonus / Stock options (€)', bonusHint: 'Added as employment income',
+    community: 'Autonomous Community',
+    range: 'Quick salary adjustment',
+    years: 'Duration of the regime', yearsHint: 'The regime covers the first tax-residency year + the next 5 (max. 6)',
+    yearLabel: (y: number) => `${y} ${y === 1 ? 'year' : 'years'}`,
+    ordinary: 'Ordinary IRPF', beckham: 'Beckham Law', breakdown: 'Breakdown by bracket', scale: 'IRPF 2025/26',
+    tramo: 'Bracket', baseUntil: 'Base up to', marginalRate: 'Marginal rate', tramoQuota: 'Bracket amount',
+    warn: 'At this income level, the Beckham Law may not pay off from salary alone. Foreign income and assets require separate analysis; this calculator does not model them.',
+  },
+  fr: {
+    calcTitle: 'Calculateur Loi Beckham de Spain Global Hub · Simulateur fiscal 2026',
+    calcSub: 'Calcul en temps réel · Barèmes officiels IRPF 2025/2026 par Communauté Autonome',
+    salary: 'Salaire brut annuel (€)', salaryHint: "Revenus du travail en Espagne",
+    bonus: 'Bonus / Stock options (€)', bonusHint: "S'ajoutent comme revenus du travail",
+    community: 'Communauté Autonome',
+    range: 'Ajustement rapide du salaire',
+    years: 'Durée du régime', yearsHint: "Le régime couvre la première année de résidence fiscale + les 5 suivantes (max. 6)",
+    yearLabel: (y: number) => `${y} ${y === 1 ? 'an' : 'ans'}`,
+    ordinary: 'IRPF ordinaire', beckham: 'Loi Beckham', breakdown: 'Détail par tranche', scale: 'IRPF 2025/26',
+    tramo: 'Tranche', baseUntil: "Base jusqu'à", marginalRate: 'Taux marginal', tramoQuota: 'Montant de la tranche',
+    warn: "À ce niveau de revenu, la loi Beckham peut ne pas être avantageuse sur le seul salaire. Les revenus et actifs étrangers nécessitent une analyse séparée ; ce calculateur ne les modélise pas.",
+  },
+} as const;
+
+const t = T[lang];
+const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.name }));
+---
+
+<div class="sgh-beckham" id="sgh-beckham-calc" data-lang={lang}>
+  <div class="sghb-calc">
+    <p class="sghb-calc-title">{t.calcTitle}</p>
+    <p class="sghb-calc-sub">{t.calcSub}</p>
+    <div class="sghb-grid">
+      <div class="sghb-field">
+        <label for="sghb-salary">{t.salary}</label>
+        <input type="number" id="sghb-salary" value="120000" min="0" max="5000000" step="1000" />
+        <small>{t.salaryHint}</small>
+      </div>
+      <div class="sghb-field">
+        <label for="sghb-bonus">{t.bonus}</label>
+        <input type="number" id="sghb-bonus" value="0" min="0" max="2000000" step="500" />
+        <small>{t.bonusHint}</small>
+      </div>
+      <div class="sghb-field">
+        <label for="sghb-community">{t.community}</label>
+        <select id="sghb-community">
+          {regionOptions.map((r) => (
+            <option value={r.key} selected={r.key === 'madrid'}>{r.name}</option>
+          ))}
+        </select>
+        <small id="sghb-community-note" style="color:#c5a059"></small>
+      </div>
+      <div class="sghb-field sghb-range">
+        <label for="sghb-salary-range">{t.range}</label>
+        <input type="range" id="sghb-salary-range" min="20000" max="2000000" step="1000" value="120000" />
+      </div>
+      <div class="sghb-field sghb-years">
+        <label style="width:100%">{t.years}</label>
+        <div style="display:flex;gap:8px;flex-wrap:wrap" id="sghb-years">
+          {[1, 2, 3, 4, 5, 6].map((y) => (
+            <button type="button" class:list={['sghb-chip', { active: y === 6 }]} data-y={y}>{t.yearLabel(y)}</button>
+          ))}
+        </div>
+        <small>{t.yearsHint}</small>
+      </div>
+    </div>
+
+    <div class="sghb-results" id="sghb-results" style="display:none">
+      <div class="sghb-cards">
+        <div class="sghb-card sghb-card-general">
+          <h4>{t.ordinary}</h4>
+          <p id="sghb-std-tax" class="sghb-amount"></p>
+          <p id="sghb-std-rate" class="sghb-rate"></p>
+          <p id="sghb-std-meta" class="sghb-meta"></p>
+        </div>
+        <div class="sghb-card sghb-card-beckham">
+          <h4>{t.beckham}</h4>
+          <p id="sghb-bek-tax" class="sghb-amount"></p>
+          <p id="sghb-bek-rate" class="sghb-rate"></p>
+          <p id="sghb-bek-meta" class="sghb-meta"></p>
+        </div>
+      </div>
+      <div id="sghb-save" class="sghb-save">
+        <p id="sghb-save-amount" class="sghb-save-amount"></p>
+        <p id="sghb-save-note" class="sghb-save-note"></p>
+      </div>
+      <div class="sghb-warn" id="sghb-warn" style="display:none"><p>⚠️ {t.warn}</p></div>
+
+      <details class="sghb-break">
+        <summary>{t.breakdown} · <span id="sghb-break-title">{t.scale}</span></summary>
+        <table class="sghb-table">
+          <thead><tr><th>{t.tramo}</th><th>{t.baseUntil}</th><th>{t.marginalRate}</th><th>{t.tramoQuota}</th></tr></thead>
+          <tbody id="sghb-break-body"></tbody>
+        </table>
+      </details>
+    </div>
+  </div>
+</div>
+
+<script>
+  import { compareBeckham, mergedScale, type RegionKey } from '../../lib/tax-engine/beckham';
+  import type { Lang } from '../../i18n/config';
+
+  const root = document.getElementById('sgh-beckham-calc')!;
+  const lang = (root.dataset.lang ?? 'es') as Lang;
+
+  const STRINGS: Record<Lang, any> = {
+    es: { effRate: 'Tipo efectivo', scaleMeta: (r: string) => `Escala 2025/26 · ${r}`, bekIncl: 'Incluye tramo del 47% sobre el exceso de 600.000 €', bekFlat: 'Tipo fijo 24% hasta 600.000 €', saveNote: (y: number, total: string) => `Ahorro acumulado en ${y} ${y === 1 ? 'año' : 'años'}: ${total} · frente al IRPF general`, loseNote: 'Con este salario, Beckham pagaría más IRPF que el régimen general', perYear: '/ año', from: 'Desde', tramoLabel: 'Tramo', combined: (r: string) => `IRPF 2025/26 · ${r} · combinado estatal + autonómico`, locale: 'es-ES' },
+    en: { effRate: 'Effective rate', scaleMeta: (r: string) => `2025/26 scale · ${r}`, bekIncl: 'Includes the 47% bracket on the excess over €600,000', bekFlat: 'Flat 24% rate up to €600,000', saveNote: (y: number, total: string) => `Accumulated savings over ${y} ${y === 1 ? 'year' : 'years'}: ${total} · vs. ordinary IRPF`, loseNote: 'With this salary, Beckham would pay more IRPF than the general regime', perYear: '/ year', from: 'From', tramoLabel: 'Bracket', combined: (r: string) => `IRPF 2025/26 · ${r} · combined state + regional`, locale: 'en-GB' },
+    fr: { effRate: 'Taux effectif', scaleMeta: (r: string) => `Barème 2025/26 · ${r}`, bekIncl: "Inclut la tranche de 47% sur l'excédent de 600 000 €", bekFlat: "Taux fixe de 24% jusqu'à 600 000 €", saveNote: (y: number, total: string) => `Économies cumulées sur ${y} ${y === 1 ? 'an' : 'ans'} : ${total} · vs IRPF général`, loseNote: "Avec ce salaire, le régime Beckham paierait plus d'IRPF que le régime général", perYear: '/ an', from: 'À partir de', tramoLabel: 'Tranche', combined: (r: string) => `IRPF 2025/26 · ${r} · combiné État + région`, locale: 'fr-FR' },
+  };
+  const s = STRINGS[lang];
+
+  const el = <T extends HTMLElement = HTMLElement>(id: string) => document.getElementById(id) as T;
+  const fmt = (n: number) => `${Math.round(Math.abs(n)).toLocaleString(s.locale)} €`;
+  const pct = (n: number) => `${(n * 100).toFixed(1).replace('.', s.locale === 'en-GB' ? '.' : ',')}%`;
+
+  const state = { salary: 120000, bonus: 0, community: 'madrid' as RegionKey, years: 6 };
+
+  function render() {
+    const total = (Number(state.salary) || 0) + (Number(state.bonus) || 0);
+    const { standard, beckham, annualSavings } = compareBeckham(total, state.community);
+    const totalSave = annualSavings * state.years;
+
+    el('sghb-results').style.display = 'block';
+    el('sghb-std-tax').textContent = fmt(standard.cuota);
+    el('sghb-std-rate').textContent = total > 0 ? `${s.effRate} ${pct(standard.cuota / total)}` : '—';
+    el('sghb-std-meta').textContent = s.scaleMeta(standard.region.name);
+    el('sghb-bek-tax').textContent = fmt(beckham);
+    el('sghb-bek-rate').textContent = total > 0 ? `${s.effRate} ${pct(beckham / total)} · 24%/47%` : '—';
+    el('sghb-bek-meta').textContent = total > 600000 ? s.bekIncl : s.bekFlat;
+
+    const saveBox = el('sghb-save');
+    if (annualSavings >= 0) {
+      saveBox.className = 'sghb-save sghb-save-gain';
+      el('sghb-save-amount').textContent = `+ ${fmt(annualSavings)} ${s.perYear}`;
+      el('sghb-save-note').textContent = s.saveNote(state.years, fmt(totalSave));
+      el('sghb-warn').style.display = 'none';
+    } else {
+      saveBox.className = 'sghb-save sghb-save-lose';
+      el('sghb-save-amount').textContent = `− ${fmt(annualSavings)} ${s.perYear}`;
+      el('sghb-save-note').textContent = s.loseNote;
+      el('sghb-warn').style.display = 'block';
+    }
+
+    el('sghb-community-note').textContent = standard.region.note ?? '';
+    el('sghb-break-title').textContent = s.combined(standard.region.name);
+    renderScenarios(standard.region.name);
+
+    const tbody = el('sghb-break-body');
+    tbody.innerHTML = '';
+    mergedScale(state.community).forEach((b, i) => {
+      const tr = document.createElement('tr');
+      const applied = b.min < total;
+      const cells = [
+        `${s.tramoLabel} ${i + 1}`,
+        b.max === Infinity ? `${s.from} ${fmt(b.min)}` : `${fmt(b.min)} – ${fmt(b.max)}`,
+        pct(b.rate),
+        applied ? fmt((Math.min(total, b.max) - b.min) * b.rate) : '—',
+      ];
+      cells.forEach((text) => {
+        const td = document.createElement('td');
+        td.textContent = text;
+        tr.appendChild(td);
+      });
+      tbody.appendChild(tr);
+    });
+  }
+
+  // Tabla "Ejemplos orientativos de ahorro" (vive en la cola de contenido
+  // de la página, fuera de la isla): portada del renderScenarios() del motor
+  // original — 5 salarios fijos, comunidad y años los del formulario.
+  const SCEN_INCOMES = [100000, 200000, 300000, 500000, 1000000];
+  const SCEN_TITLE: Record<Lang, (r: string, y: number) => string> = {
+    es: (r, y) => `${r} · duración seleccionada: ${y} ${y === 1 ? 'año' : 'años'}`,
+    en: (r, y) => `${r} · selected duration: ${y} ${y === 1 ? 'year' : 'years'}`,
+    fr: (r, y) => `${r} · durée sélectionnée : ${y} ${y === 1 ? 'an' : 'ans'}`,
+  };
+  function renderScenarios(regionName: string) {
+    const tb = document.getElementById('sghb-scen-body');
+    if (!tb) return;
+    tb.innerHTML = '';
+    for (const income of SCEN_INCOMES) {
+      const { standard, beckham, annualSavings } = compareBeckham(income, state.community);
+      const sign = annualSavings >= 0 ? '+ ' : '− ';
+      const cls = annualSavings >= 0 ? 'pos' : 'neg';
+      const tr = document.createElement('tr');
+      tr.innerHTML =
+        `<td>${fmt(income)}</td>` +
+        `<td>${fmt(standard.cuota)} · ${pct(standard.cuota / income)}</td>` +
+        `<td>${fmt(beckham)} · ${pct(beckham / income)}</td>` +
+        `<td class="${cls}">${sign}${fmt(annualSavings)}</td>` +
+        `<td class="${cls}">${sign}${fmt(annualSavings * state.years)}</td>`;
+      tb.appendChild(tr);
+    }
+    const title = document.getElementById('sghb-scen-title');
+    if (title) title.textContent = SCEN_TITLE[lang](regionName, state.years);
+  }
+
+  const salaryInput = el<HTMLInputElement>('sghb-salary');
+  const rangeInput = el<HTMLInputElement>('sghb-salary-range');
+
+  salaryInput.addEventListener('input', (e) => {
+    state.salary = Number((e.target as HTMLInputElement).value) || 0;
+    if (state.salary >= 20000 && state.salary <= 2000000) rangeInput.value = String(state.salary);
+    render();
+  });
+  rangeInput.addEventListener('input', (e) => {
+    state.salary = Number((e.target as HTMLInputElement).value) || 0;
+    salaryInput.value = String(state.salary);
+    render();
+  });
+  el('sghb-bonus').addEventListener('input', (e) => {
+    state.bonus = Number((e.target as HTMLInputElement).value) || 0;
+    render();
+  });
+  el('sghb-community').addEventListener('change', (e) => {
+    state.community = (e.target as HTMLSelectElement).value as RegionKey;
+    render();
+  });
+  el('sghb-years').addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('.sghb-chip');
+    if (!btn) return;
+    el('sghb-years').querySelectorAll('.sghb-chip').forEach((c) => c.classList.remove('active'));
+    btn.classList.add('active');
+    state.years = Number(btn.dataset.y);
+    render();
+  });
+
+  // Tracking GA4 del uso real (evento sgh_calc_use — confirmado funcionando
+  // en producción el 11-sep-2026: 4 usos/30 días).
+  let tracked = false;
+  function trackUse() {
+    if (tracked) return;
+    tracked = true;
+    const w = window as any;
+    const params = { lang, ccaa: state.community, salario: state.salary, anos: state.years };
+    if (typeof w.gtag === 'function') w.gtag('event', 'sgh_calc_use', params);
+  }
+  root.addEventListener('input', trackUse, { once: true });
+
+  render();
+</script>

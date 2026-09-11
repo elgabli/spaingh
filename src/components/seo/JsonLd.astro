@@ -1,0 +1,18 @@
+---
+import { organization } from '../../lib/schema';
+
+interface Props {
+  /** Nodos adicionales del @graph (Article, FAQPage, WebApplication, etc.),
+   * generados con los helpers de src/lib/schema.ts — nunca a mano. */
+  nodes?: object[];
+}
+
+const { nodes = [] } = Astro.props;
+
+const graph = {
+  '@context': 'https://schema.org',
+  '@graph': [organization, ...nodes],
+};
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(graph)} />

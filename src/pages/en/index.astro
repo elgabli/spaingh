@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import homeContent from '../../content-raw/home-en.html?raw';
+
+const SITE_URL = 'https://spaingh.com';
+---
+
+<BaseLayout
+  title="Private Advisory for Investors and Expats in Spain | Spain Global Hub"
+  description="Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation."
+  lang="en"
+  fullBleed
+  canonicalUrl={`${SITE_URL}/en/`}
+  translations={[
+    { lang: 'es', url: `${SITE_URL}/es/` },
+    { lang: 'fr', url: `${SITE_URL}/fr/` },
+  ]}
+>
+  <Fragment set:html={homeContent} />
+</BaseLayout>

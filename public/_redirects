@@ -1,0 +1,60 @@
+# Mapa de redirecciones 301 — Fase 0 de la migración fuera de WordPress.
+# Fuente: notas/docs/spaingh/migracion-astro-fase0-redirects.md
+# Formato Cloudflare Pages / Netlify: origen destino código
+#
+# Regla general: las páginas con tráfico/posición real en GSC CONSERVAN su
+# URL exacta (no están aquí). Esta lista es solo para lo roto, duplicado,
+# legacy o descartado — nunca para los 4 pilares ni el blog satélite.
+
+# --- E. Slug renombrado al reconstruir en Astro (sin impresiones históricas, sin pérdida de señal) ---
+/en/politica-de-cookies-2/                                          /en/cookie-policy/                               301
+
+# --- E. URLs legacy sin prefijo de idioma -> equivalente con prefijo ---
+/contacto/                                                          /es/contacto/                                    301
+/sobre-nosotros/                                                    /es/sobre-nosotros/                              301
+/calculadora-ley-beckham-calcula-tus-impuestos-como-expatriado-en-espana/  /es/calculadora-ley-beckham/               301
+/step-to-apply-tourist-visa-in-spain-from-kuwait/                   /en/step-to-apply-tourist-visa-in-spain-from-kuwait/  301
+/invertir-en-el-mercado-inmobiliario-de-madrid/                     /es/                                              301
+/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/ /en/                                              301
+/como-crear-una-empresa-en-espana-guia-completa-para-extranjeros-en-2025/  /es/servicios/creacion-de-empresas-en-espana/  301
+
+# --- E. Prefijo /ar/ roto (nunca decidido, no es el usuario elena_ar) ---
+/ar/invertir-en-el-mercado-inmobiliario-de-madrid/                  /es/                                              301
+/ar/step-to-apply-tourist-visa-in-spain-from-kuwait/                 /en/step-to-apply-tourist-visa-in-spain-from-kuwait/  301
+
+# --- E. Slug en español bajo prefijo de idioma equivocado ---
+/en/calculadora-ley-beckham-calcula-tus-impuestos-como-expatriado-en-espana/  /en/beckham-law-calculator/            301
+/en/como-crear-una-empresa-en-espana-guia-completa-para-extranjeros-en-2025/  /en/services/strategic-corporate-deployment-in-spain/  301
+/fr/como-crear-una-empresa-en-espana-guia-completa-para-extranjeros-en-2025/  /fr/services/company-formation-spain-premium-investment/  301
+
+# --- E. Duplicados de la calculadora Beckham FR (typo + versión vieja) ---
+/fr/calculateur-loi-beckham-2026/                                   /fr/calculateur-loi-beckham/                     301
+/fr/services/oi-beckham/                                            /fr/calculateur-loi-beckham/                     301
+
+# --- D. Golden Visa e inmobiliario disperso -> home del idioma ---
+/en/apartments-for-sale-estepona/                                   /en/                                              301
+/en/investor-visa-spain/                                            /en/                                              301
+/en/real-estate-lawyer/                                             /en/                                              301
+/en/selling-property-in-spain-guide/                                /en/                                              301
+/en/investing-in-the-madrid-real-estate-market/                     /en/                                              301
+/en/investing-in-madrid-real-estate/                                /en/                                              301
+/en/madrid-real-estate-investment-guide-2026/                       /en/                                              301
+/en/invest-in-costa-del-sol-guide/                                  /en/                                              301
+/en/costa-del-sol-best-places-to-invest-in-spain/                   /en/                                              301
+/en/services/real-estate-investment-spain/                          /en/                                              301
+/en/how-easy-is-it-to-move-to-spain-from-uk/                        /en/                                              301
+/es/abogado-inmobiliario/                                           /es/                                              301
+/es/invertir-en-el-mercado-inmobiliario-de-madrid/                  /es/                                              301
+/es/vender-propiedad-espana-guia-2026/                               /es/                                              301
+/es/vender-propiedad-espana-no-residentes-guia-2026/                 /es/                                              301
+/es/visado-para-inversores-en-espana/                                /es/                                              301
+/es/visado-turistico-espana-dubai-2026/                              /es/                                              301
+/es/servicios/inversion-inmobiliaria-espana/                        /es/                                              301
+/es/servicios/inversion-inmobiliaria/                                /es/                                              301
+/es/iva-franquiciado-espana-2026-autonomos/                          /es/                                              301
+/es/devoluciones-de-irpf-a-mutualistas-y-sentencia-del-tribunal-supremo-claves-para-entender-los-cambios-recientes/  /es/  301
+/fr/avocat-immobilier-espagne-due-diligence/                        /fr/                                              301
+/fr/guide-investissement-immobilier-madrid-2026/                    /fr/                                              301
+/fr/vendre-propriete-espagne-non-resident-guide-2026/                /fr/                                              301
+/fr/services/achat-et-vente-de-biens-immobiliers-en-espagne-avec-conseil-global/  /fr/                                301
+/fr/devoluciones-de-irpf-a-mutualistas-y-sentencia-del-tribunal-supremo-claves-para-entender-los-cambios-recientes/  /fr/  301

@@ -1,0 +1,28 @@
+---
+import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = i18nConfig[lang];
+const navItems = [t.nav.home, t.nav.services, t.nav.blog, t.nav.about, t.nav.contact];
+---
+
+<header class="sghh">
+  <div class="in">
+    <a class="lg" href={withLangPrefix(lang, '/')} aria-label="Spain Global Hub">
+      <img src="/logo-sgh.png" alt="Spain Global Hub" />
+      <span class="lg-t">Spain Global Hub<small>Boutique Advisory</small></span>
+    </a>
+    <nav aria-label="Principal">
+      <ul>
+        {navItems.map((item) => (
+          <li><a href={withLangPrefix(lang, item.href)}>{item.label}</a></li>
+        ))}
+      </ul>
+    </nav>
+    <a class="cta" href={withLangPrefix(lang, `${t.nav.contact.href}?origen=header`)}>{t.cta.privateConsultation}</a>
+  </div>
+</header>

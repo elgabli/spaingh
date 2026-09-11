@@ -1,0 +1,84 @@
+/* Reset y base — paleta real de spaingh.com (verde #061f1d, dorado #c5a059,
+   teal #3fb0ac, coral #f05a5e), tipografía Montserrat. No es un diseño
+   nuevo: son los valores ya usados en producción, para no romper la
+   identidad visual durante la migración. */
+
+@import './components.css';
+
+:root {
+  --sgh-verde: #061f1d;
+  --sgh-dorado: #c5a059;
+  --sgh-teal: #3fb0ac;
+  --sgh-coral: #f05a5e;
+  --sgh-texto: #33475b;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', 'Inter', Arial, sans-serif;
+  color: var(--sgh-texto);
+  line-height: 1.6;
+}
+
+/* El header es fijo (.sghh, ~89px de alto): solo se compensa esa altura.
+   NO se limita el ancho de <main>: las homes tienen secciones a sangre
+   completa (.sgh2) con su propio contenedor interno (.wrap). El ancho de
+   lectura se aplica solo a los artículos (.sgh-article). */
+main {
+  padding-top: 89px;
+}
+
+main.sgh-main-fullbleed {
+  padding-top: 0;
+}
+
+/* Artículos: contenido semántico limpio (saneado de WordPress, sin
+   wrappers ni estilos inline) estilado aquí de forma uniforme. */
+.sgh-article {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 20px 60px;
+  font-size: 1.02rem;
+  line-height: 1.7;
+}
+.sgh-article.sgh-beckham { max-width: 1127px; }
+.sgh-article h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 18px; letter-spacing: -.4px; }
+.sgh-article h2 { font-size: 1.45rem; color: var(--sgh-verde); margin: 40px 0 12px; padding-bottom: 8px; position: relative; }
+.sgh-article h2::after { content: ""; position: absolute; left: 0; bottom: 0; width: 54px; height: 3px; background: linear-gradient(90deg, var(--sgh-dorado), var(--sgh-teal)); border-radius: 2px; }
+.sgh-article h3 { font-size: 1.15rem; color: #0a3d3c; margin: 26px 0 8px; }
+.sgh-article p { margin: 0 0 14px; }
+.sgh-article ul, .sgh-article ol { padding-left: 22px; margin: 0 0 16px; }
+.sgh-article li { margin-bottom: 6px; }
+.sgh-article a { color: #0a3d3c; font-weight: 700; text-decoration: underline; }
+.sgh-article a:hover { color: var(--sgh-teal); }
+.sgh-article img { max-width: 100%; height: auto; border-radius: 12px; margin: 16px 0; }
+.sgh-article blockquote { margin: 18px 0; padding: 14px 20px; border-left: 4px solid var(--sgh-teal); background: #f2faf9; border-radius: 0 10px 10px 0; }
+.sgh-article hr { border: 0; border-top: 1px solid #e4ebe9; margin: 28px 0; }
+.sgh-article table { width: 100%; border-collapse: collapse; margin: 18px 0; font-size: .95rem; }
+.sgh-article th { background: var(--sgh-verde); color: var(--sgh-dorado); text-align: left; padding: 10px 14px; font-size: .8rem; text-transform: uppercase; letter-spacing: .5px; }
+.sgh-article td { padding: 10px 14px; border-top: 1px solid #eef3f1; vertical-align: top; }
+.sgh-article tr:nth-child(even) td { background: #fbfdfc; }
+.sgh-article details { border: 1.5px solid #e4ebe9; border-radius: 11px; margin-bottom: 10px; background: #fff; overflow: hidden; }
+.sgh-article summary { cursor: pointer; padding: 14px 17px; font-weight: 800; color: var(--sgh-verde); background: #f4f7f6; list-style: none; }
+.sgh-article summary::-webkit-details-marker { display: none; }
+.sgh-article summary::after { content: "+"; float: right; color: var(--sgh-dorado); font-size: 18px; }
+.sgh-article details[open] summary::after { content: "−"; }
+.sgh-article details > :not(summary) { padding: 0 17px; }
+.sgh-article details > p:last-child { padding-bottom: 13px; }
+@media (max-width: 640px) {
+  .sgh-article table { display: block; overflow-x: auto; }
+  .sgh-article h1 { font-size: 1.55rem; }
+}
+
+main h1 {
+  color: var(--sgh-verde);
+  font-weight: 800;
+}
+
+main a {
+  color: var(--sgh-teal);
+}

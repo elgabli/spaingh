@@ -1,0 +1,26 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withLangPrefix } from '../../../i18n/config';
+
+const SITE_URL = 'https://spaingh.com';
+const posts = (await getCollection('blog')).filter((p) => p.data.lang === 'fr');
+---
+
+<BaseLayout
+  title="Actualités | Spain Global Hub"
+  description="Articles sur la fiscalité, les visas et l'investissement pour les étrangers en Espagne."
+  lang="fr"
+  canonicalUrl={`${SITE_URL}/fr/blog/`}
+>
+  <h1>Actualités</h1>
+  {posts.length === 0 ? (
+    <p>Aucun article disponible pour le moment en français.</p>
+  ) : (
+    <ul>
+      {posts.map((p) => (
+        <li><a href={withLangPrefix('fr', `/${p.data.slug}/`)}>{p.data.title}</a></li>
+      ))}
+    </ul>
+  )}
+</BaseLayout>

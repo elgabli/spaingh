@@ -1,0 +1,27 @@
+---
+import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = i18nConfig[lang];
+---
+
+<footer class="sghf">
+  <div class="w">
+    <div class="brand">
+      <img src="/logo-sgh.png" alt="Spain Global Hub" />
+    </div>
+  </div>
+  <div class="discl">{t.footer.professionalNotice}</div>
+  <div class="legal">
+    <span>{t.footer.rightsReserved}</span>
+    <span>
+      <a href={withLangPrefix(lang, t.footer.privacy.href)}>{t.footer.privacy.label}</a>
+      <a href={withLangPrefix(lang, t.footer.cookies.href)}>{t.footer.cookies.label}</a>
+      <a href={withLangPrefix(lang, t.footer.terms.href)}>{t.footer.terms.label}</a>
+    </span>
+  </div>
+</footer>

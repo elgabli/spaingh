@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withLangPrefix } from '../../../i18n/config';
+
+const SITE_URL = 'https://spaingh.com';
+const posts = (await getCollection('blog')).filter((p) => p.data.lang === 'en');
+---
+
+<BaseLayout
+  title="Blog | Spain Global Hub"
+  description="Articles on taxation, visas and investment for foreigners in Spain."
+  lang="en"
+  canonicalUrl={`${SITE_URL}/en/blog/`}
+>
+  <h1>Blog</h1>
+  <ul>
+    {posts.map((p) => (
+      <li><a href={withLangPrefix('en', `/${p.data.slug}/`)}>{p.data.title}</a></li>
+    ))}
+  </ul>
+</BaseLayout>

@@ -1,0 +1,22 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { withLangPrefix } from '../../../i18n/config';
+
+const SITE_URL = 'https://spaingh.com';
+const pilares = (await getCollection('pilares')).filter((p) => p.data.lang === 'es');
+---
+
+<BaseLayout
+  title="Servicios | Spain Global Hub"
+  description="Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Altamente Cualificado y constitución de empresas."
+  lang="es"
+  canonicalUrl={`${SITE_URL}/es/servicios/`}
+>
+  <h1>Servicios</h1>
+  <ul>
+    {pilares.map((p) => (
+      <li><a href={withLangPrefix('es', `/${p.data.slug}/`)}>{p.data.title}</a></li>
+    ))}
+  </ul>
+</BaseLayout>

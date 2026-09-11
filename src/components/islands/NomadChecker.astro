@@ -1,0 +1,187 @@
+---
+// Isla interactiva del checker de Nómada Digital, en los 3 idiomas.
+// Lógica pura en src/lib/nomad-checker/eligibility.ts (testeada), textos
+// en questions.ts/messages.ts/results.ts (extraídos de producción), aquí
+// solo DOM.
+import { questions_es, questions_en, questions_fr, type Question } from '../../lib/nomad-checker/questions';
+import type { Lang } from '../../i18n/config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const QUESTIONS: Record<Lang, Question[]> = { es: questions_es, en: questions_en, fr: questions_fr };
+const questions = QUESTIONS[lang];
+
+const progressLabel = { es: (s: number, t: number) => `Paso ${s} de ${t}`, en: (s: number, t: number) => `Step ${s} of ${t}`, fr: (s: number, t: number) => `Étape ${s} sur ${t}` }[lang];
+const assessmentTitle = { es: 'Evaluación de Elegibilidad', en: 'Eligibility Assessment', fr: "Évaluation d'Éligibilité" }[lang];
+const assessmentDesc = { es: 'Responde 7 preguntas sencillas. No se requieren datos personales.', en: 'Answer 7 simple questions. No personal data required.', fr: 'Répondez à 7 questions simples. Aucune donnée personnelle requise.' }[lang];
+---
+
+<div class="dnv-wrap">
+  <div class="tool-box">
+    <div class="tool-header">
+      <h2 class="sgh-elig">{assessmentTitle}</h2>
+      <p>{assessmentDesc}</p>
+    </div>
+    <div class="progress-wrap" id="progress-wrap">
+      <div class="progress-meta">
+        <span id="step-label">{progressLabel(1, questions.length)}</span>
+        <span id="progress-text">{Math.round((1 / questions.length) * 100)}%</span>
+      </div>
+      <div class="progress-track"><div class="progress-fill" id="progress-bar"></div></div>
+    </div>
+    <div id="quiz-container">
+      {questions.map((q, i) => (
+        <div class:list={['question-card', { active: i === 0 }]} data-step={q.step}>
+          <div style="display:flex;align-items:center;margin-bottom:16px;">
+            <span class="q-number">{q.step}</span>
+            <h3 class="q-title">{q.title}</h3>
+          </div>
+          <p class="q-desc" set:html={q.desc} />
+          <div class="options">
+            {q.options.map((o) => (
+              <button class="option-btn" type="button" data-step={q.step} data-answer={o.answer}>
+                <span class="text">{o.text}</span>
+              </button>
+            ))}
+          </div>
+          <div class="tip-box"><p>💡 <strong set:html={q.tip.split(':')[0] + ':'} />{q.tip.split(':').slice(1).join(':')}</p></div>
+        </div>
+      ))}
+    </div>
+    <div class="result-card" id="result-card"></div>
+  </div>
+</div>
+
+<script>
+  import { evaluateEligibility, nextStepAfter, type NomadAnswers } from '../../lib/nomad-checker/eligibility';
+  import { messages } from '../../lib/nomad-checker/messages';
+  import { results } from '../../lib/nomad-checker/results';
+  import type { Lang } from '../../i18n/config';
+
+  const wrap = document.querySelector<HTMLElement>('.dnv-wrap');
+  if (!wrap) throw new Error('NomadChecker: .dnv-wrap no encontrado');
+
+  const lang = (document.documentElement.lang || 'en') as Lang;
+  const msg = messages[lang];
+  const r = results[lang];
+  const TOTAL_STEPS = wrap.querySelectorAll('.question-card').length;
+
+  let currentStep = 1;
+  const answers: Partial<NomadAnswers> = {};
+
+  const $ = (id: string) => document.getElementById(id);
+  const PROGRESS_LABEL: Record<Lang, (s: number, t: number) => string> = {
+    es: (s, t) => `Paso ${s} de ${t}`,
+    en: (s, t) => `Step ${s} of ${t}`,
+    fr: (s, t) => `Étape ${s} sur ${t}`,
+  };
+
+  function updateProgress() {
+    const pct = Math.round((currentStep / TOTAL_STEPS) * 100);
+    $('progress-bar')!.style.width = `${pct}%`;
+    $('progress-text')!.textContent = `${pct}%`;
+    $('step-label')!.textContent = PROGRESS_LABEL[lang](currentStep, TOTAL_STEPS);
+  }
+
+  function gotoStep(step: number) {
+    currentStep = step;
+    wrap!.querySelectorAll<HTMLElement>('.question-card').forEach((card) => {
+      card.classList.toggle('active', Number(card.dataset.step) === step);
+    });
+    updateProgress();
+  }
+
+  function buildEligible() {
+    return `<div class="result-emoji">🎉</div>
+      <h2 class="result-title" style="color:#166534;">${r.eligibleTitle}</h2>
+      <p class="result-desc">${r.eligibleDesc}</p>
+      <div class="result-box green"><h4>✅ ${r.eligibleBoxTitle}</h4><ul>${r.eligibleItems.map((it) => `<li>${it}</li>`).join('')}</ul></div>`;
+  }
+
+  function buildConditional(warnings: string[]) {
+    return `<div class="result-emoji">⚡</div>
+      <h2 class="result-title" style="color:#854d0e;">${r.conditionalTitle}</h2>
+      <p class="result-desc">${r.conditionalDesc}</p>
+      <div class="result-box yellow"><h4>⚠️ ${r.conditionalBoxTitle}</h4><ul>${warnings.map((w) => `<li>${w}</li>`).join('')}</ul></div>`;
+  }
+
+  function buildBlocked(blockers: string[], warnings: string[]) {
+    let out = `<div class="result-emoji">🚫</div>
+      <h2 class="result-title" style="color:#991b1b;">${r.blockedTitle}</h2>
+      <p class="result-desc">${r.blockedDesc}</p>
+      <div class="result-box red"><h4>❌ ${r.blockedBoxTitle}</h4><ul>${blockers.map((b) => `<li>${b}</li>`).join('')}</ul></div>`;
+    if (warnings.length) {
+      out += `<div class="result-box yellow"><h4>⚠️ ${r.additionalBoxTitle}</h4><ul>${warnings.map((w) => `<li>${w}</li>`).join('')}</ul></div>`;
+    }
+    return out;
+  }
+
+  function track(outcome: string) {
+    const w = window as any;
+    const params = { tool: 'digital-nomad-checker', lang, outcome };
+    if (typeof w.gtag === 'function') w.gtag('event', 'sgh_tool_use', params);
+  }
+
+  function showResult() {
+    const result = evaluateEligibility(answers as NomadAnswers);
+    const warnings = result.warnings.map((c) => msg[c]);
+    const blockers = result.blockers.map((c) => msg[c]);
+
+    let html =
+      result.outcome === 'eligible' ? buildEligible() : result.outcome === 'conditional' ? buildConditional(warnings) : buildBlocked(blockers, warnings);
+
+    const pct = Math.round((result.score / result.maxScore) * 100);
+    const color = result.outcome === 'blocked' ? '#ef4444' : result.outcome === 'conditional' ? '#f59e0b' : '#22c55e';
+    html += `<div class="score-bar"><div class="score-meta"><span>${r.scoreLabel}</span><span style="font-weight:700;">${pct}%</span></div>
+      <div class="score-track"><div class="score-fill" style="width:${pct}%;background:${color};"></div></div></div>
+      <div class="cta-box"><h4>${r.ctaTitle}</h4>
+      <p>${r.ctaDesc}</p>
+      <a href="${r.ctaPrimaryHref}" class="btn-primary">${r.ctaPrimary}</a>
+      <a href="${r.ctaSecondaryHref}" class="btn-secondary">${r.ctaSecondary}</a></div>`;
+
+    if (result.eligible) {
+      html += `<div class="next-steps"><h4>${r.nextStepsTitle}</h4>
+        ${r.nextSteps.map((step) => `<div class="step-item"><span>${step.emoji}</span><p><strong>${step.strong}</strong> ${step.text}</p></div>`).join('')}
+        </div>`;
+    }
+
+    html += `<button class="restart-btn" data-action="restart">${r.restartBtn}</button>`;
+    $('result-card')!.innerHTML = html;
+    $('progress-wrap')!.style.display = 'none';
+    $('quiz-container')!.style.display = 'none';
+    $('result-card')!.classList.add('active');
+    track(result.outcome);
+  }
+
+  function restart() {
+    for (const k of Object.keys(answers)) delete (answers as any)[k];
+    currentStep = 1;
+    $('result-card')!.classList.remove('active');
+    $('result-card')!.innerHTML = '';
+    $('quiz-container')!.style.display = 'block';
+    $('progress-wrap')!.style.display = 'block';
+    gotoStep(1);
+  }
+
+  function advance(step: number, answer: string) {
+    (answers as any)[`step${step}`] = answer;
+    const next = nextStepAfter(step, answers);
+    if (next <= TOTAL_STEPS) gotoStep(next);
+    else showResult();
+  }
+
+  wrap.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    const optionBtn = target.closest<HTMLButtonElement>('.option-btn');
+    if (optionBtn?.dataset.step && optionBtn.dataset.answer) {
+      advance(Number(optionBtn.dataset.step), optionBtn.dataset.answer);
+      return;
+    }
+    if (target.closest('.restart-btn')) restart();
+  });
+
+  gotoStep(1);
+</script>

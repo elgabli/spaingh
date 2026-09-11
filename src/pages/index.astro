@@ -1,0 +1,8 @@
+---
+// Redirección limpia a la versión española (idioma por defecto), sin el
+// "selector noindex" que causó el problema de canonicals duplicadas
+// diagnosticado como A01 en la auditoría del 10-sep-2026. Cada idioma tiene
+// su propia canonical (ver src/pages/{es,en,fr}/index.astro); esta raíz no
+// es una página real, solo redirige.
+return Astro.redirect('/es/', 302);
+---

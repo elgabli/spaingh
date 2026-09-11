@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import homeContent from '../../content-raw/home-es.html?raw';
+
+const SITE_URL = 'https://spaingh.com';
+---
+
+<BaseLayout
+  title="Asesoría Privada para Inversores y Expatriados en España | Spain Global Hub"
+  description="Asesoría legal, fiscal y de residencia para expatriados e inversores extranjeros en España: Ley Beckham, Nómada Digital, Profesional Altamente Cualificado y constitución de empresas."
+  lang="es"
+  fullBleed
+  canonicalUrl={`${SITE_URL}/es/`}
+  translations={[
+    { lang: 'en', url: `${SITE_URL}/en/` },
+    { lang: 'fr', url: `${SITE_URL}/fr/` },
+  ]}
+>
+  <Fragment set:html={homeContent} />
+</BaseLayout>

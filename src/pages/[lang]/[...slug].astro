@@ -1,0 +1,85 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { type Lang } from '../../i18n/config';
+import { articleSchema, webApplicationSchema } from '../../lib/schema';
+import BeckhamCalculator from '../../components/islands/BeckhamCalculator.astro';
+import NomadChecker from '../../components/islands/NomadChecker.astro';
+
+const SITE_URL = 'https://spaingh.com';
+
+type AnyEntry =
+  | CollectionEntry<'pilares'>
+  | CollectionEntry<'blog'>
+  | CollectionEntry<'legal'>;
+
+// Contenido que va DESPUÉS de la isla de la calculadora (metodología, FAQ,
+// fuentes, disclaimer) — copiado de producción, no reescrito.
+// Clave: idioma. Si falta para un idioma, no se renderiza nada.
+const beckhamTails = import.meta.glob<string>('../../content-raw/beckham-tail-*.html', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+});
+
+export async function getStaticPaths() {
+  const [pilares, blog, legal] = await Promise.all([
+    getCollection('pilares'),
+    getCollection('blog'),
+    getCollection('legal'),
+  ]);
+  const all: AnyEntry[] = [...pilares, ...blog, ...legal];
+
+  return all.map((entry) => ({
+    params: { lang: entry.data.lang, slug: entry.data.slug },
+    props: { entry, all },
+  }));
+}
+
+const { entry, all } = Astro.props as { entry: AnyEntry; all: AnyEntry[] };
+const { Content } = await render(entry as any);
+const lang = entry.data.lang as Lang;
+
+const canonicalUrl = `${SITE_URL}/${lang}/${entry.data.slug}/`;
+
+// hreflang: todas las entradas que comparten translationGroup, en los demás idiomas.
+const translations = all
+  .filter((e) => e.data.translationGroup === entry.data.translationGroup && e.data.lang !== entry.data.lang)
+  .map((e) => ({ lang: e.data.lang as Lang, url: `${SITE_URL}/${e.data.lang}/${e.data.slug}/` }));
+
+const isBeckhamPillar = entry.collection === 'pilares' && (entry as CollectionEntry<'pilares'>).data.pilar === 'ley-beckham';
+const isNomadPillar = entry.collection === 'pilares' && (entry as CollectionEntry<'pilares'>).data.pilar === 'nomada-digital';
+const beckhamTail = isBeckhamPillar ? beckhamTails[`../../content-raw/beckham-tail-${lang}.html`] : undefined;
+
+const schemaNodes = [
+  articleSchema({
+    url: canonicalUrl,
+    headline: entry.data.title,
+    description: entry.data.description,
+    datePublished: entry.data.publishedDate.toISOString(),
+    dateModified: entry.data.updatedDate?.toISOString(),
+  }),
+  ...(isBeckhamPillar
+    ? [webApplicationSchema({ url: canonicalUrl, name: entry.data.title, description: entry.data.description })]
+    : []),
+];
+---
+
+<BaseLayout
+  title={entry.data.title}
+  description={entry.data.description}
+  lang={lang}
+  canonicalUrl={canonicalUrl}
+  translations={translations}
+  noindex={entry.data.noindex}
+  schemaNodes={schemaNodes}
+>
+  {/* .sgh-beckham en el <article>: el CSS original de la calculadora define
+      .sghb-lead, .sghb-faq, .sghb-note… siempre bajo ese ancestro. */}
+  <article class:list={['sgh-article', { 'sgh-beckham': isBeckhamPillar }]}>
+    {isNomadPillar && <NomadChecker lang={lang} />}
+    {entry.data.format === 'html' ? <Fragment set:html={entry.body ?? ''} /> : <Content />}
+    {isBeckhamPillar && <BeckhamCalculator lang={lang} />}
+    {beckhamTail && <Fragment set:html={beckhamTail} />}
+  </article>
+</BaseLayout>
