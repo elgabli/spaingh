@@ -10,7 +10,6 @@ publishedDate: 2024-11-27
 updatedDate: 2026-09-11
 ---
 
-<img width="800" height="449" src="https://spaingh.com/wp-content/uploads/2024/12/map_bg.png" alt="" />
 					<h1>Politique relative aux cookies</h1>
 		
 <p>Avec cette politique relative aux cookies, nous aimerions vous expliquer ce que sont les cookies et les technologies similaires aux cookies, comment nous et d&#8217;autres prestataires de services les utilisons sur ce site web, quelles informations ils collectent, pendant combien de temps et à quelles fins nous les utilisons.</p>

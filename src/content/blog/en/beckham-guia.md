@@ -29,7 +29,7 @@ updatedDate: 2026-09-12
         This guide explains the conditions and limits of <strong>Beckham Law Spain 2026</strong>. Eligibility and the applicable income-tax base must be checked individually. For Wealth Tax, Article 93 provides taxation by real obligation, not a blanket guarantee that every asset held through a foreign account or entity is outside Spanish taxation.
     </p>
 
-    <img src="https://spaingh.com/wp-content/uploads/2026/02/beckham-law-spain-2026-scaled-e1771913990725.jpg" alt="Beckham Law Spain 2026 tax optimization guide" />
+    <img src="/img/beckham-law-spain-2026-scaled-e1771913990725.jpg" alt="Beckham Law Spain 2026 tax optimization guide" />
     <p>
         Strategic wealth planning under the Beckham Law Spain 2026 framework.
     </p>

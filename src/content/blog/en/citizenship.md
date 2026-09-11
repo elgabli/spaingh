@@ -20,7 +20,7 @@ updatedDate: 2026-09-11
 
 <p>| Residency Permit (TIE Card) | Citizenship (Passport) | | :&#8212; | :&#8212; | | Temporary, needs renewal | Permanent, never expires | | Doesn&#8217;t grant an EU passport | Grants a Spanish &amp; EU passport | | The required first step | The final goal |</p>
 
-<img width="1200" height="801" src="https://spaingh.com/wp-content/uploads/2026/02/get-spanish-citizenship-1200x801.jpg" alt="get spanish citizenship" />Physical paper international passport of a Spanish citizen
+<img width="1200" height="801" src="/img/get-spanish-citizenship-1200x801.jpg" alt="get spanish citizenship" />Physical paper international passport of a Spanish citizen
 
 <h2 id="heading-1">The 10-Year Path: How to Get Citizenship by Living in Spain</h2>
 

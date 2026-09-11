@@ -10,7 +10,6 @@ publishedDate: 2024-11-27
 updatedDate: 2026-09-11
 ---
 
-<img src="https://spaingh.com/wp-content/uploads/2024/12/map_bg.png" alt="" />															
 				
 				
 				

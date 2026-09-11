@@ -28,7 +28,7 @@ updatedDate: 2026-09-11
 <li><strong>Market Liquidity:</strong> A more predictable cash flow for agricultural holdings, increasing the terminal value of the land.</li>
 </ul>
 
-<img width="1200" height="675" src="https://spaingh.com/wp-content/uploads/2026/03/blueberry-fruits-1200x675.jpg" alt="Blueberry Spain" />
+<img width="1200" height="675" src="/img/blueberry-fruits-1200x675.jpg" alt="Blueberry Spain" />
 
 <h2>2. The Spain Blueberry Production Landscape in 2026</h2>
 
