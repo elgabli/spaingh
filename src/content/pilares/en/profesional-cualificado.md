@@ -1,6 +1,6 @@
 ---
 title: "Highly Qualified Professional Visa Spain: 2026 Guide to Your Work Permit"
-description: "The Highly Qualified Professional Visa Spain has become the premier choice for international talent relocating to the Mediterranean. In 2026, Spanish immigration law continues to favor skilled experts seeking a fast-track residence and work authoriza"
+description: "Highly Qualified Professional Visa Spain 2026: salary thresholds, employer requirements, UGE-CE fast track, family members, timelines and how to apply."
 lang: en
 slug: highly-qualified-professional-visa-spain
 translationGroup: profesional-cualificado

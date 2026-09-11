@@ -1,6 +1,6 @@
 ---
-title: "Beckham Law Spain: Tax Advisory &amp; Form 149 Management"
-description: "Beckham Law in Spain: Specialized Tax Advisory Reduce your tax burden from 47% to 24% under the Inbound Expatriate Regime. Executive management and asset protection for high-performance profiles. Request Eligibility Analysis Maximize Your Net Yield C"
+title: "Beckham Law Spain: Tax Advisory & Form 149 Management"
+description: "Beckham Law tax advisory in Spain: eligibility review, Form 149 filing, 24% flat rate up to €600,000 and annual compliance for executives and relocating professionals."
 lang: en
 slug: services/beckham-law-tax-advisory
 translationGroup: beckham-servicio

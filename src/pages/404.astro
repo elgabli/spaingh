@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { pagesText } from '../i18n/pages';
+import { LANGS } from '../i18n/config';
+// Página 404 única (Cloudflare Pages / Vercel sirven /404.html). Sin idioma
+// conocido: se muestra el mensaje en los tres idiomas, ES primero.
+---
+
+<BaseLayout title={pagesText.es.notFound.title} description={pagesText.es.notFound.text} lang="es" canonicalUrl="https://spaingh.com/404/" noindex>
+  <div class="sgh-404">
+    <div class="code">404</div>
+    {LANGS.map((l) => (
+      <p lang={l}><strong>{pagesText[l].notFound.h1}.</strong> {pagesText[l].notFound.text}</p>
+    ))}
+    <div class="links">
+      {LANGS.map((l) => <a href={`/${l}/`} hreflang={l}>{pagesText[l].notFound.home} ({l.toUpperCase()})</a>)}
+    </div>
+  </div>
+</BaseLayout>

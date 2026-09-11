@@ -1,6 +1,6 @@
 ---
 title: "Loi Beckham en Espagne"
-description: "Loi Beckham en Espagne : Conseil Fiscal Spécialisé Réduisez votre charge fiscale de 47% à 24% grâce au Régime des Impatriés. Gestion exécutive et protection patrimoniale pour profils à haut rendement. Demander une Analyse d&#8217;Éligibilité Maximise"
+description: "Conseil fiscal Loi Beckham en Espagne : analyse d'éligibilité, dépôt du formulaire 149, imposition à 24 % jusqu'à 600 000 € et conformité annuelle pour cadres et impatriés."
 lang: fr
 slug: services/loi-beckham-conseil-fiscal
 translationGroup: beckham-servicio

@@ -1,6 +1,6 @@
 ---
 title: "The Spain Blueberry Boom: The Blue Gold Rush for Foreign Investors in 2026"
-description: "The global agricultural landscape is witnessing a structural shift, and at its epicenter lies the Spain blueberry sector. In 2026, what was once a seasonal berry production has matured into a sophisticated, tech-driven, and multi-billion euro asset c"
+description: "Spain's blueberry boom in 2026: production in Huelva, export markets, margins and the legal and tax structure foreign investors need to enter the sector."
 lang: en
 slug: spain-blueberry-investment
 translationGroup: blueberry

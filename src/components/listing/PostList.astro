@@ -1,0 +1,32 @@
+---
+import { getCollection } from 'astro:content';
+import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+import { pagesText } from '../../i18n/pages';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = pagesText[lang].blog;
+const posts = (await getCollection('blog'))
+  .filter((p) => p.data.lang === lang)
+  .sort((a, b) => (b.data.updatedDate ?? b.data.publishedDate).getTime() - (a.data.updatedDate ?? a.data.publishedDate).getTime());
+const fmt = new Intl.DateTimeFormat(i18nConfig[lang].locale.replace('_', '-'), { year: 'numeric', month: 'long', day: 'numeric' });
+---
+
+<div class="sgh-list">
+  <h1>{t.h1}</h1>
+  <p class="sgh-list-intro">{t.intro}</p>
+  {posts.length === 0 ? (
+    <p class="sgh-soon">{t.empty}</p>
+  ) : (
+    <div class="sgh-cards sgh-cards-posts">
+      {posts.map((p) => (
+        <a class="sgh-card" href={withLangPrefix(lang, `/${p.data.slug}/`)}>
+          <time datetime={(p.data.updatedDate ?? p.data.publishedDate).toISOString().slice(0, 10)}>{fmt.format(p.data.updatedDate ?? p.data.publishedDate)}</time>
+          <h3>{p.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, '')}</h3>
+          <p>{p.data.description}</p>
+          <span class="more">{t.readMore}</span>
+        </a>
+      ))}
+    </div>
+  )}
+</div>

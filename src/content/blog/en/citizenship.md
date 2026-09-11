@@ -1,6 +1,6 @@
 ---
 title: "Steps to Obtain Spanish Citizenship Easily"
-description: "The biggest mistake people make when dreaming of a Spanish passport is focusing on the passport itself. The secret to becoming a citizen isn&#8217;t a single magic application, but the journey of legal residency you take to get there. This distinctio"
+description: "Steps to obtain Spanish citizenship: legal residency periods (10, 5, 2 or 1 year), CCSE and DELE exams, documents, timelines and common mistakes to avoid."
 lang: en
 slug: how-to-get-spanish-citizenship
 translationGroup: citizenship

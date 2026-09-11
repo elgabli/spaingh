@@ -1,6 +1,6 @@
 ---
 title: "Guía Práctica para Extranjeros: Cómo Obtener la Residencia en España en 2026"
-description: "IGuía Práctica 2026: Cómo Obtener la Residencia en España (Nueva Ley) Obtener la residencia en España es el objetivo de miles de extranjeros que buscan calidad de vida, seguridad jurídica y oportunidades en el corazón de Europa. Sin embargo, el panor"
+description: "Cómo obtener la residencia en España como extranjero con el nuevo Reglamento de Extranjería: vías (trabajo, nómada digital, arraigo, familia), requisitos y plazos."
 lang: es
 slug: guia-practica-para-extranjeros-como-obtener-la-residencia-en-espana-en-2025
 translationGroup: residencia-guia-2025

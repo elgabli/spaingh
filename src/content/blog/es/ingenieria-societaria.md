@@ -1,6 +1,6 @@
 ---
 title: "Constitución de Sociedades en España para Inversores Extranjeros (Guía 2026)"
-description: "Análisis Forense 2026: Ingeniería de Constitución Societaria en España para Capital No Residente Informe de inteligencia operativa dirigido a High-Net-Worth Individuals y Family Offices sobre el diseño societario en España bajo un marco de compliance"
+description: "Constitución de sociedades en España para inversores extranjeros: SL vs sucursal, NIE y NIF, capital, plazos, costes y fiscalidad del capital no residente en 2026."
 lang: es
 slug: ingenieria-societaria-espana-capital-extranjero
 translationGroup: ingenieria-societaria

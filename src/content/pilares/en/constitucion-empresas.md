@@ -1,6 +1,6 @@
 ---
 title: "Strategic Corporate Deployment in Spain"
-description: "Strategic Corporate Deployment in Spain We transform your business vision into a high-performance legal and tax structure. Zero bureaucratic friction. /* &#8212; CONFIGURACIÓN DEL HERO &#8212; */ .sgh-hero-corporate { position: relative; /* Altura re"
+description: "Company formation in Spain for foreign investors: SL incorporation, NIE/NIF, bank account, tax registration and corporate structure managed end to end by SGH."
 lang: en
 slug: services/strategic-corporate-deployment-in-spain
 translationGroup: constitucion-empresas

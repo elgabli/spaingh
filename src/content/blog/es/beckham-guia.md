@@ -1,6 +1,6 @@
 ---
 title: "Ley Beckham 2026: Guía Completa, Requisitos y Cómo Aplicar [+Calculadora]"
-description: "La Ley Beckham —oficialmente el Régimen Especial de Trabajadores Desplazados del artículo 93 de la Ley del IRPF— permite a quienes cumplan sus condiciones calcular su deuda de IRPF con reglas especiales basadas en el IRNR, manteniendo la condición de"
+description: "Ley Beckham 2026: requisitos, tipo del 24 % hasta 600.000 €, plazo del Modelo 149, exclusiones y cómo solicitar el régimen de impatriados. Con calculadora gratuita."
 lang: es
 slug: ley-beckham-2026-guia-completa
 translationGroup: beckham-guia

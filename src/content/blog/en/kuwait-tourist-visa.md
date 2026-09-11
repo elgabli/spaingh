@@ -1,6 +1,6 @@
 ---
 title: "How to Apply for a Spain Tourist Visa from Kuwait: Step-by-Step Guide"
-description: "Why Do You Need a Spain Tourist Visa? If you’re a Kuwaiti citizen planning to visit Spain for tourism, you’ll need a Schengen tourist visa. Spain is part of the Schengen Area, which allows you to travel to 26 European countries with a single visa. Th"
+description: "How Kuwaiti citizens apply for a Spain Schengen tourist visa: requirements, documents, BLS appointment, fees, processing time and tips for approval."
 lang: en
 slug: step-to-apply-tourist-visa-in-spain-from-kuwait
 translationGroup: kuwait-tourist-visa

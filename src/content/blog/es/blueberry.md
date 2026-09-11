@@ -1,6 +1,6 @@
 ---
 title: "Exportación de arándano en España 2026: Informe Global de Mercado"
-description: "El mercado internacional del «oro azul» ha experimentado una transformación estructural sin precedentes. Según los últimos informes de la Organización Internacional del Arándano (IBO), la superficie cultivada mundial ha superado las 267.000 hectáreas"
+description: "Exportación de arándano en España 2026: producción en Huelva, mercados, márgenes y estructura legal y fiscal para inversores extranjeros que entran en el sector."
 lang: es
 slug: exportacion-de-arandano
 translationGroup: blueberry

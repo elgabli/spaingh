@@ -1,6 +1,6 @@
 ---
 title: "Beckham Law 180-Day Rule: Official Model 149 Calculation Guide (2026)"
-description: "The Beckham Law 180-day rule is a search expression, not the statutory deadline. Article 116 RIRPF sets a maximum of six months to communicate the election through Model 149. Six calendar months are not equivalent to 180 days. The correct starting do"
+description: "The Beckham Law '180-day rule' explained: Form 149 must be filed within 6 months of Social Security registration (art. 116 RIRPF). How to count the deadline in 2026."
 lang: en
 slug: beckham-law-180-day-rule
 translationGroup: beckham-180-day

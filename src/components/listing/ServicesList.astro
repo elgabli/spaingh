@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+import { pagesText, PILAR_ORDER } from '../../i18n/pages';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = pagesText[lang].services;
+const entries = (await getCollection('pilares')).filter((p) => p.data.lang === lang);
+const contactHref = withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=servicios`);
+const groups = PILAR_ORDER.map((pilar) => ({
+  pilar,
+  ...t.pilares[pilar],
+  pages: entries.filter((e) => e.data.pilar === pilar).map((e) => ({ href: withLangPrefix(lang, `/${e.data.slug}/`), title: e.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, ''), description: e.data.description })),
+}));
+---
+
+<div class="sgh-list">
+  <h1>{t.h1}</h1>
+  <p class="sgh-list-intro">{t.intro}</p>
+  {groups.map((g) => (
+    <section class="sgh-pilar">
+      <h2>{g.name}</h2>
+      <p class="sgh-pilar-text">{g.text}</p>
+      {g.pages.length > 0 ? (
+        <div class="sgh-cards">
+          {g.pages.map((p) => (
+            <a class="sgh-card" href={p.href}>
+              <h3>{p.title}</h3>
+              <p>{p.description}</p>
+            </a>
+          ))}
+        </div>
+      ) : (
+        <p class="sgh-soon"><a href={contactHref}>{t.soon}</a></p>
+      )}
+    </section>
+  ))}
+</div>

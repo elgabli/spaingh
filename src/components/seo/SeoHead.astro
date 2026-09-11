@@ -17,12 +17,14 @@ interface Props {
   ogImage?: string;
 }
 
-const { title, description, lang, canonicalUrl, translations = [], noindex = false, ogImage } = Astro.props;
+const { title, description, lang, canonicalUrl, translations = [], noindex = false, ogImage = 'https://spaingh.com/og-default.png' } = Astro.props;
 ---
 
 <title>{title}</title>
 <meta name="description" content={description} />
 <link rel="canonical" href={canonicalUrl} />
+<link rel="icon" href="/favicon.ico" sizes="32x32" />
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
 {noindex && <meta name="robots" content="noindex, nofollow" />}
 
 {/* hreflang recíproco: cada idioma declara TODAS sus alternativas, incluida
@@ -40,5 +42,8 @@ const { title, description, lang, canonicalUrl, translations = [], noindex = fal
 <meta property="og:description" content={description} />
 <meta property="og:url" content={canonicalUrl} />
 <meta property="og:type" content="website" />
-{ogImage && <meta property="og:image" content={ogImage} />}
+<meta property="og:image" content={ogImage} />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:site_name" content="Spain Global Hub" />
 <meta name="twitter:card" content="summary_large_image" />

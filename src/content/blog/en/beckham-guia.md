@@ -1,6 +1,6 @@
 ---
-title: "Beckham Law Spain 2026: Shield Your Wealth &amp; Slash Taxes"
-description: "Ultimate Beckham Law Spain 2026 Guide: How to Shield Your Wealth &amp; Slash Taxes Legally Understanding the Beckham Law Spain 2026 is the most critical step for any high-net-worth individual or professional moving to the Iberian Peninsula this year."
+title: "Beckham Law Spain 2026: Shield Your Wealth & Slash Taxes"
+description: "Beckham Law Spain 2026 guide: 24% flat tax up to €600,000, who qualifies, Form 149 deadline, exclusions and how to apply. With free savings calculator."
 lang: en
 slug: beckham-law-spain-guide
 translationGroup: beckham-guia

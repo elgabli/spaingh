@@ -1,6 +1,6 @@
 ---
 title: "Creación de empresas en España"
-description: "Despliegue Corporativo Estratégico en España Transformamos su visión de negocio en una estructura legal y fiscal de alto rendimiento. Sin fricciones burocráticas. /* &#8212; CONFIGURACIÓN DEL HERO &#8212; */ .sgh-hero-corporate { position: relative; "
+description: "Creación de empresas en España para inversores extranjeros: constitución de SL, NIE/NIF, cuenta bancaria, alta fiscal y estructura societaria gestionadas de principio a fin."
 lang: es
 slug: servicios/creacion-de-empresas-en-espana
 translationGroup: constitucion-empresas

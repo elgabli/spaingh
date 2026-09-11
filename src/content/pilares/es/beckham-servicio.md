@@ -1,6 +1,6 @@
 ---
 title: "Ley Beckham"
-description: "Ley Beckham en España: Asesoría Fiscal Especializada Reduzca su carga impositiva del 47% al 24% con el Régimen de Impatriados. Gestión ejecutiva y blindaje patrimonial para perfiles de alto rendimiento. Solicitar Análisis de Elegibilidad Maximice su "
+description: "Asesoría Ley Beckham en España: análisis de elegibilidad, presentación del Modelo 149, tributación al 24 % hasta 600.000 € y cumplimiento anual para directivos e impatriados."
 lang: es
 slug: servicios/asesoria-ley-beckham
 translationGroup: beckham-servicio

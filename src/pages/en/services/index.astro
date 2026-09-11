@@ -1,22 +1,21 @@
 ---
-import { getCollection } from 'astro:content';
 import BaseLayout from '../../../layouts/BaseLayout.astro';
-import { withLangPrefix } from '../../../i18n/config';
+import ServicesList from '../../../components/listing/ServicesList.astro';
+import { pagesText, listingUrls } from '../../../i18n/pages';
 
 const SITE_URL = 'https://spaingh.com';
-const pilares = (await getCollection('pilares')).filter((p) => p.data.lang === 'en');
+const t = pagesText['en'].services;
 ---
 
 <BaseLayout
-  title="Services | Spain Global Hub"
-  description="Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation."
+  title={t.title}
+  description={t.description}
   lang="en"
-  canonicalUrl={`${SITE_URL}/en/services/`}
+  canonicalUrl={`${SITE_URL}${listingUrls.services.en}`}
+  translations={[
+    { lang: 'es', url: `${SITE_URL}${listingUrls.services.es}` },
+    { lang: 'fr', url: `${SITE_URL}${listingUrls.services.fr}` },
+  ]}
 >
-  <h1>Services</h1>
-  <ul>
-    {pilares.map((p) => (
-      <li><a href={withLangPrefix('en', `/${p.data.slug}/`)}>{p.data.title}</a></li>
-    ))}
-  </ul>
+  <ServicesList lang="en" />
 </BaseLayout>

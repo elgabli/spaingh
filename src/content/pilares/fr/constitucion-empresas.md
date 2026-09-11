@@ -1,6 +1,6 @@
 ---
 title: "Déploiement Corporatif Stratégique en Espagne"
-description: "Déploiement Corporatif Stratégique en Espagne Nous transformons votre vision d&#8217;affaires en une structure juridique et fiscale de haute performance. Zéro friction bureaucratique. /* &#8212; CONFIGURACIÓN DEL HERO &#8212; */ .sgh-hero-corporate {"
+description: "Création de société en Espagne pour investisseurs étrangers : constitution de SL, NIE/NIF, compte bancaire, immatriculation fiscale et structure sociétaire gérées de A à Z."
 lang: fr
 slug: services/company-formation-spain-premium-investment
 translationGroup: constitucion-empresas
