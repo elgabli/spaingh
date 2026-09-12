@@ -1,20 +1,21 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ContactForm from '../../../components/contact/ContactForm.astro';
+import { contactText, contactUrls } from '../../../i18n/contact';
 
 const SITE_URL = 'https://spaingh.com';
+const t = contactText['es'];
 ---
 
 <BaseLayout
-  title="Contacto | Spain Global Hub"
-  description="Contacta con Spain Global Hub para una evaluación privada de tu situación fiscal, de residencia o inversión en España."
+  title={t.title}
+  description={t.description}
   lang="es"
-  canonicalUrl={`${SITE_URL}/es/contacto/`}
+  canonicalUrl={`${SITE_URL}${contactUrls.es}`}
+  translations={[
+    { lang: 'en', url: `${SITE_URL}${contactUrls.en}` },
+    { lang: 'fr', url: `${SITE_URL}${contactUrls.fr}` },
+  ]}
 >
-  <h1>Contacto</h1>
-  <p>
-    <strong>PENDIENTE:</strong> portar el formulario real (CF7 ID 12490 + Cloudflare Turnstile) desde
-    WordPress. De momento, contacto directo:
-  </p>
-  <p>Email: <a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a></p>
-  <p>WhatsApp: <a href="https://wa.me/+34601555547">+34 601 555 547</a></p>
+  <ContactForm lang="es" />
 </BaseLayout>

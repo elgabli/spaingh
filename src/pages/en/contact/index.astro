@@ -1,20 +1,21 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ContactForm from '../../../components/contact/ContactForm.astro';
+import { contactText, contactUrls } from '../../../i18n/contact';
 
 const SITE_URL = 'https://spaingh.com';
+const t = contactText['en'];
 ---
 
 <BaseLayout
-  title="Contact | Spain Global Hub"
-  description="Contact Spain Global Hub for a private evaluation of your tax, residency or investment situation in Spain."
+  title={t.title}
+  description={t.description}
   lang="en"
-  canonicalUrl={`${SITE_URL}/en/contact/`}
+  canonicalUrl={`${SITE_URL}${contactUrls.en}`}
+  translations={[
+    { lang: 'es', url: `${SITE_URL}${contactUrls.es}` },
+    { lang: 'fr', url: `${SITE_URL}${contactUrls.fr}` },
+  ]}
 >
-  <h1>Contact</h1>
-  <p>
-    <strong>PENDING:</strong> port the real form (CF7 ID 12490 + Cloudflare Turnstile) from
-    WordPress. For now, direct contact:
-  </p>
-  <p>Email: <a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a></p>
-  <p>WhatsApp: <a href="https://wa.me/+34601555547">+34 601 555 547</a></p>
+  <ContactForm lang="en" />
 </BaseLayout>

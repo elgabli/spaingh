@@ -1,0 +1,136 @@
+---
+// Formulario de contacto: POST JSON a /api/contact (Cloudflare Pages Function,
+// functions/api/contact.js) con token de Turnstile. Sin dependencias.
+// Sitekey: la de producción por defecto; en local se puede sobrescribir con
+// PUBLIC_TURNSTILE_SITEKEY=1x00000000000000000000AA (clave de test, siempre pasa).
+import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+import { contactText } from '../../i18n/contact';
+
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = contactText[lang];
+const privacyHref = withLangPrefix(lang, i18nConfig[lang].footer.privacy.href);
+const SITEKEY = import.meta.env.PUBLIC_TURNSTILE_SITEKEY || '0x4AAAAAACofoaNK9WWVMXhw';
+const origen = Astro.url.searchParams.get('origen') || '';
+---
+
+<div class="sgh-contact">
+  <h1>{t.h1}</h1>
+  <p class="sgh-contact-intro">{t.intro}</p>
+
+  <form id="sgh-contact-form" class="sgh-form" method="post" action="/api/contact" novalidate data-lang={lang}>
+    <input type="hidden" name="lang" value={lang} />
+    <input type="hidden" name="origen" value={origen} />
+    <input type="hidden" name="page" value={Astro.url.pathname} />
+    <div class="sgh-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+
+    <div class="sgh-form-grid">
+      <label class="sgh-field">
+        <span>{t.labels.name} *</span>
+        <input type="text" name="name" required maxlength="200" autocomplete="name" placeholder={t.placeholders.name} />
+      </label>
+      <label class="sgh-field">
+        <span>{t.labels.email} *</span>
+        <input type="email" name="email" required maxlength="200" autocomplete="email" placeholder={t.placeholders.email} />
+      </label>
+      <label class="sgh-field">
+        <span>{t.labels.phone} *</span>
+        <input type="tel" name="phone" required maxlength="40" autocomplete="tel" placeholder={t.placeholders.phone} />
+      </label>
+      <label class="sgh-field">
+        <span>{t.labels.nationality}</span>
+        <select name="nationality">
+          <option value="">{t.select}</option>
+          {t.nationalities.map((n) => <option value={n}>{n}</option>)}
+        </select>
+      </label>
+      <label class="sgh-field sgh-field-full">
+        <span>{t.labels.reason} *</span>
+        <select name="reason" required>
+          <option value="">{t.select}</option>
+          {t.reasons.map((r) => <option value={r}>{r}</option>)}
+        </select>
+      </label>
+      <label class="sgh-field sgh-field-full">
+        <span>{t.labels.message}</span>
+        <textarea name="message" rows="5" maxlength="2000" placeholder={t.placeholders.message}></textarea>
+      </label>
+    </div>
+
+    <label class="sgh-check">
+      <input type="checkbox" name="privacy" value="1" required />
+      <span>{t.labels.privacy} <a href={privacyHref} target="_blank" rel="noopener">{t.labels.privacyLink}</a>. *</span>
+    </label>
+
+    <div class="cf-turnstile" data-sitekey={SITEKEY} data-language={lang} data-theme="light"></div>
+
+    <p class="sgh-form-msg" id="sgh-form-msg" role="alert" hidden></p>
+    <button type="submit" class="sgh-submit" data-label={t.labels.submit} data-sending={t.labels.sending}>{t.labels.submit}</button>
+  </form>
+
+  <div class="sgh-form-ok" id="sgh-form-ok" hidden>
+    <h2>{t.ok.title}</h2>
+    <p>{t.ok.text}</p>
+  </div>
+
+  <p class="sgh-contact-direct">{t.direct} <a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a> · <a href="https://wa.me/34601555547" rel="noopener">WhatsApp +34 601 555 547</a></p>
+</div>
+
+<script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+
+<script define:vars={{ errors: t.errors }}>
+  const form = document.getElementById('sgh-contact-form');
+  const msg = document.getElementById('sgh-form-msg');
+  const ok = document.getElementById('sgh-form-ok');
+  const btn = form.querySelector('.sgh-submit');
+  const show = (text) => { msg.textContent = text; msg.hidden = false; };
+
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    msg.hidden = true;
+    const fd = new FormData(form);
+    if (!fd.get('name') || !fd.get('email') || !fd.get('phone') || !fd.get('reason')) return show(errors.required);
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(fd.get('email')))) return show(errors.email);
+    if (!fd.get('privacy')) return show(errors.privacy);
+    if (!fd.get('cf-turnstile-response')) return show(errors.turnstile);
+
+    btn.disabled = true; btn.textContent = btn.dataset.sending;
+    try {
+      const r = await fetch('/api/contact', { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify(Object.fromEntries(fd)) });
+      const data = await r.json().catch(() => ({}));
+      if (r.ok && data.ok) {
+        form.hidden = true; ok.hidden = false;
+        const w = window; if (typeof w.gtag === 'function') w.gtag('event', 'generate_lead', { reason: fd.get('reason'), origen: fd.get('origen') || '' });
+        return;
+      }
+      show(data.error === 'turnstile' ? errors.turnstile : errors.generic);
+      if (window.turnstile) window.turnstile.reset();
+    } catch { show(errors.generic); }
+    finally { btn.disabled = false; btn.textContent = btn.dataset.label; }
+  });
+</script>
+
+<style>
+  .sgh-contact { max-width: 820px; margin: 0 auto; padding: 40px 20px 70px; }
+  .sgh-contact h1 { font-size: 2.1rem; margin: 0 0 10px; }
+  .sgh-contact-intro { color: #4b5f5a; font-size: 1.05rem; margin: 0 0 30px; }
+  .sgh-form { background: #f4f7f6; border: 1px solid #e4ebe9; border-radius: 16px; padding: 28px; }
+  .sgh-form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .sgh-field { display: flex; flex-direction: column; gap: 6px; font-size: .9rem; font-weight: 700; color: var(--sgh-verde); }
+  .sgh-field-full { grid-column: 1 / -1; }
+  .sgh-field input, .sgh-field select, .sgh-field textarea { font: inherit; font-weight: 400; color: var(--sgh-texto); padding: 11px 13px; border: 1.5px solid #d6e0dd; border-radius: 9px; background: #fff; width: 100%; }
+  .sgh-field input:focus, .sgh-field select:focus, .sgh-field textarea:focus { outline: none; border-color: var(--sgh-teal); box-shadow: 0 0 0 3px rgba(63,176,172,.18); }
+  .sgh-check { display: flex; gap: 10px; align-items: flex-start; margin: 18px 0; font-size: .9rem; }
+  .sgh-check input { margin-top: 4px; }
+  .sgh-check a { color: #0a3d3c; font-weight: 700; }
+  .sgh-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+  .cf-turnstile { margin: 0 0 16px; }
+  .sgh-form-msg { color: var(--sgh-coral); font-weight: 700; margin: 0 0 12px; }
+  .sgh-submit { font: inherit; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; background: linear-gradient(90deg, #c5a059, #d9b96e); color: var(--sgh-verde); border: 0; border-radius: 10px; padding: 15px 30px; cursor: pointer; box-shadow: 0 8px 22px rgba(197,160,89,.35); }
+  .sgh-submit:disabled { opacity: .6; cursor: wait; }
+  .sgh-form-ok { background: #f2faf9; border: 1.5px solid var(--sgh-teal); border-radius: 16px; padding: 30px; text-align: center; }
+  .sgh-form-ok h2 { color: var(--sgh-verde); margin: 0 0 8px; }
+  .sgh-contact-direct { margin-top: 28px; color: #4b5f5a; font-size: .95rem; }
+  .sgh-contact-direct a { color: #0a3d3c; font-weight: 700; }
+  @media (max-width: 640px) { .sgh-form-grid { grid-template-columns: 1fr; } .sgh-form { padding: 20px; } }
+</style>
