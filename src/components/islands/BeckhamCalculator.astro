@@ -94,10 +94,6 @@ const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.
         </select>
         <small id="sghb-community-note" style="color:#c5a059"></small>
       </div>
-      <div class="sghb-field sghb-range">
-        <label for="sghb-salary-range">{t.range}</label>
-        <input type="range" id="sghb-salary-range" min="20000" max="2000000" step="1000" value="120000" />
-      </div>
       <div class="sghb-field sghb-years">
         <label style="width:100%">{t.years}</label>
         <div style="display:flex;gap:8px;flex-wrap:wrap" id="sghb-years">
@@ -106,6 +102,10 @@ const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.
           ))}
         </div>
         <small>{t.yearsHint}</small>
+      </div>
+      <div class="sghb-field sghb-range">
+        <label for="sghb-salary-range">{t.range}</label>
+        <input type="range" id="sghb-salary-range" min="20000" max="2000000" step="1000" value="120000" />
       </div>
     </div>
 
@@ -166,7 +166,7 @@ const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.
     const { standard, beckham, annualSavings } = compareBeckham(total, state.community);
     const totalSave = annualSavings * state.years;
 
-    el('sghb-results').style.display = 'block';
+    el('sghb-results').style.display = '';
     el('sghb-std-tax').textContent = fmt(standard.cuota);
     el('sghb-std-rate').textContent = total > 0 ? `${s.effRate} ${pct(standard.cuota / total)}` : '—';
     el('sghb-std-meta').textContent = s.scaleMeta(standard.region.name);
