@@ -110,6 +110,6 @@ updatedDate: 2026-09-11
 
       
         <p>Connect with our network of carefully selected professionals and receive coordinated, secure support at every stage of your international project.</p>
-        <a href="/en/contact">
+        <a href="/en/contact/">
           Contact us
         </a>

@@ -97,7 +97,7 @@ imageAlt: "Beckham Law 180-day rule"
     
         <h4>Secure Your 24% Flat Rate</h4>
         <p>The dates and supporting evidence in Form 149 need careful checking. Seek advice promptly on discrepancies, deadlines and any administrative communication; a successful outcome is not guaranteed.</p>
-        <a href="/en/contact">Request Expert Filing</a>
+        <a href="/en/contact/">Request Expert Filing</a>
     
 
     

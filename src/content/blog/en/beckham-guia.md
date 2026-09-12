@@ -191,7 +191,7 @@ imageAlt: "Beckham Law Spain 2026"
         <p>⚠️ Critical Deadline Warning:</p>
         <p>
             The six-month period runs from the activity start documented under Article 116.1.a RIRPF, not universally from visa issuance. For the relevant documents and family deadline, consult our technical brief: 
-            <a href="https://spaingh.com/en/beckham-law-180-day-rule/">Beckham Law: Understanding the Six-Month Election Deadline</a>.
+            <a href="/en/beckham-law-180-day-rule/">Beckham Law: Understanding the Six-Month Election Deadline</a>.
         </p>
     
 
@@ -250,7 +250,7 @@ imageAlt: "Beckham Law Spain 2026"
     
         <h4>Eliminate Administrative Risk</h4>
         <p>Check Form 149 and its supporting dates carefully. Seek timely advice about errors, requests for information and the applicable deadline; no successful outcome is guaranteed.</p>
-        <a href="/en/contact">Apply with Experts</a>
+        <a href="/en/contact/">Apply with Experts</a>
     
 
     
@@ -334,7 +334,7 @@ imageAlt: "Beckham Law Spain 2026"
     
         <h3>Is your family relocation tax-optimized?</h3>
         <p>Moving a family unit to Spain involves individual eligibility and filing conditions. Our <strong>Family Wealth Desk</strong> can address those questions, but family membership alone does not guarantee access to the regime for every relative.</p>
-        <a href="/en/contact">Protect My Family Unit</a>
+        <a href="/en/contact/">Protect My Family Unit</a>
     
 
     
@@ -488,10 +488,10 @@ imageAlt: "Beckham Law Spain 2026"
         
             <strong>Internal Resources:</strong>
             <ul>
-                <li><a href="https://spaingh.com/en/beckham-law-calculator/">Tax Savings Calculator</a></li>
-                <li><a href="https://spaingh.com/en/beckham-law-180-day-rule/">Six-Month Election Deadline Analysis</a></li>
-                <li><a href="https://spaingh.com/en/services/real-estate-investment-spain/">Real Estate Tax Impact</a></li>
-                <li><a href="https://spaingh.com/en/services/beckham-law-tax-advisory/">Professional Filing Service</a></li>
+                <li><a href="/en/beckham-law-calculator/">Tax Savings Calculator</a></li>
+                <li><a href="/en/beckham-law-180-day-rule/">Six-Month Election Deadline Analysis</a></li>
+                <li><a href="/en/services/beckham-law-tax-advisory/">Real Estate Tax Impact</a></li>
+                <li><a href="/en/services/beckham-law-tax-advisory/">Professional Filing Service</a></li>
             </ul>
         
         

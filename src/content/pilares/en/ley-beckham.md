@@ -26,3 +26,10 @@ on your Autonomous Community.
 
 This calculator compares your ordinary IRPF liability against the Beckham Law flat rate, broken down
 by tax bracket, for your Autonomous Community.
+
+## Related guides
+
+- [Beckham Law Spain 2026: complete guide to requirements and how to apply](/en/beckham-law-spain-guide/)
+- [The 180-day rule: when Form 149 must be filed](/en/beckham-law-180-day-rule/)
+- [Beckham Law tax advisory and Form 149 management](/en/services/beckham-law-tax-advisory/)
+- [Highly Qualified Professional visa: the work permit most Beckham Law applicants use](/en/highly-qualified-professional-visa-spain/)

@@ -17,7 +17,7 @@ updatedDate: 2026-09-12
             Executive management and asset protection for high-performance profiles.
         </p>
         
-        <a href="/en/contact">Request Eligibility Analysis</a>
+        <a href="/en/contact/">Request Eligibility Analysis</a>
     
 				
 				
@@ -123,7 +123,7 @@ updatedDate: 2026-09-12
                 <p>Late filing can prevent access to the regime. Check the start-date evidence and applicable deadline in advance; do not assume NIE delays extend it. Errors, requests for information and administrative decisions require individual assessment: not every defect is irreversible, and no remedy is guaranteed in every case.</p>
                 
                 <p>
-                    <a href="https://spaingh.com/en/beckham-law-180-day-rule/">
+                    <a href="/en/beckham-law-180-day-rule/">
                         Read how the six-month election deadline is determined →
                     </a>
                 </p>
@@ -177,7 +177,7 @@ updatedDate: 2026-09-12
             </details>
 <p>
     Need more details? Explore the 
-    <a href="https://spaingh.com/en/beckham-law-spain-guide/">
+    <a href="/en/beckham-law-spain-guide/">
     Full Beckham Law 2026 Requirements & Benefits Guide</a>.
 </p>
         
@@ -204,7 +204,7 @@ updatedDate: 2026-09-12
             <p>Complete the form to receive a personalized proposal. Our senior team will contact you in less than 24 hours.</p>
             
             
-                <a href="https://spaingh.com/en/contact/">Book Consultation</a>
+                <a href="/en/contact/">Book Consultation</a>
             
             
             <p>Session subject to technical schedule availability.</p>
