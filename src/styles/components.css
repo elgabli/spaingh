@@ -10,7 +10,7 @@ sgh-nav-wrapper, site-header, .elementor-location-header{display:none}
 .sghh .lg .lg-t{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:1.05rem;letter-spacing:.3px;color:#fff;line-height:1;display:flex;flex-direction:column;white-space:nowrap}
 .sghh .lg .lg-t small{font-family:'Inter',sans-serif;font-size:.58rem;font-weight:700;letter-spacing:2px;color:#c5a059;text-transform:uppercase;margin-top:3px;white-space:nowrap}
 .sghh nav ul{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0}
-.sghh nav a{color:rgba(255,255,255,.9);text-decoration:none;font-size:.82rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;padding:9px 14px;border-radius:8px;transition:color .2s,background .2s}
+.sghh nav a{color:rgba(255,255,255,.9);text-decoration:none;font-size:.82rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;white-space:nowrap;padding:9px 14px;border-radius:8px;transition:color .2s,background .2s}
 .sghh nav a:hover{color:#c5a059;background:rgba(197,160,89,.12)}
 .sghh nav a.on{color:#c5a059}
 .sghh .lang{position:relative;margin-right:8px}
@@ -37,6 +37,9 @@ sgh-nav-wrapper, site-header, .elementor-location-header{display:none}
   .sghh .lg .lg-t{display:none}
   .sghh .lg img{height:30px}
   .sghh .cta{padding:8px 12px;font-size:.65rem}
+}
+@media(max-width:1200px){
+  .sghh nav a{padding:9px 9px;letter-spacing:.3px}
 }
 @media(max-width:1024px){
   .sghh .in{padding:0 16px;gap:8px}
@@ -92,7 +95,7 @@ sgh-nav-wrapper, site-header, .elementor-location-header{display:none}
 .sgh2 a{text-decoration:none}
 .sgh2 svg{width:24px;height:24px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
 .sgh2 .wrap{max-width:1200px;margin:0 auto;padding:0 24px}
-.sgh2 .sgh2-hero{position:relative;min-height:92vh;display:flex;align-items:center;padding-top:20px;background:linear-gradient(135deg,#061f1d 0%,#0a3d3c 55%,#0c4f4b 100%);color:#fff;overflow:hidden}
+.sgh2 .sgh2-hero{position:relative;min-height:92vh;display:flex;align-items:center;padding:130px 0 70px;background:linear-gradient(135deg,#061f1d 0%,#0a3d3c 55%,#0c4f4b 100%);color:#fff;overflow:hidden}
 .sgh2 .sgh2-hero .wrap{position:relative;z-index:2}
 .sgh2 .sgh2-hero-inner{max-width:760px}
 .sgh2 .sgh2-hero h1{font-size:clamp(1.9rem,4vw,2.8rem);color:#fff;margin:0 0 20px;line-height:1.12;font-weight:800}
@@ -173,7 +176,7 @@ html.js-reveal .sgh2 .reveal.in{opacity:1;transform:none}
 @media(max-width:1100px){.sgh2 .sgh2-hero-cards{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:900px){
   .sgh2 .sgh2-trust-grid,.sgh2 .sgh2-challenges-grid,.sgh2 .sgh2-method-steps,.sgh2 .sgh2-testi-grid,.sgh2 .sgh2-blog-grid{grid-template-columns:1fr}
-  .sgh2 .sgh2-hero{min-height:auto;padding:80px 0}
+  .sgh2 .sgh2-hero{min-height:auto;padding:110px 0 60px}
   .sgh2 section{padding:60px 0}
   .sgh2 .sgh2-guarantee .wrap{flex-direction:column;gap:36px}
 }
