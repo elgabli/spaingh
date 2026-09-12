@@ -8,7 +8,7 @@ seoPriority: normal
 format: html
 publishedDate: 2026-01-01
 updatedDate: 2026-09-11
-image: "/img/cover-empresa.svg"
+image: "/img/constitucion-sociedades-espana-madrid.jpg"
 imageAlt: "Constitución de sociedades en España"
 ---
 

@@ -6,8 +6,8 @@ slug: obtenir-la-residence-en-espagne-guide-2026
 translationGroup: residencia-guia-2025
 seoPriority: normal
 publishedDate: 2026-09-12
-image: "/img/cover-residencia.svg"
-imageAlt: "Résidence en Espagne pour étrangers"
+image: "/img/obtener-residencia-en-espana.jpg"
+imageAlt: "Comment obtenir la résidence en Espagne"
 ---
 
 Obtenir la **résidence en Espagne** est l'objectif de milliers d'étrangers qui recherchent une meilleure qualité de vie, une sécurité juridique et des opportunités au cœur de l'Europe. Cependant, le contexte juridique a profondément changé avec l'entrée en vigueur de la **nouvelle Réforme du Règlement de l'Immigration en 2026**, qui facilite la régularisation de milliers de personnes.

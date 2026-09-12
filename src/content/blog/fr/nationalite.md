@@ -6,8 +6,8 @@ slug: obtenir-nationalite-espagnole
 translationGroup: citizenship
 seoPriority: alta
 publishedDate: 2026-09-12
-image: "/img/get-spanish-citizenship-1200x801.jpg"
-imageAlt: "Passeport espagnol : obtenir la nationalité espagnole par résidence"
+image: "/img/nacionalidad-espanola-pasaporte.jpg"
+imageAlt: "Passeport espagnol : nationalité par résidence"
 ---
 
 L'obtention de la nationalité espagnole n'est pas une demande que vous présentez à votre arrivée. C'est l'aboutissement d'une période de **résidence légale en Espagne** : dix ans pour les ressortissants français et la plupart des autres nationalités, deux ans pour les ressortissants des pays ibéro-américains, un an pour les conjoints de citoyens espagnols. Tout le reste, de l'examen de langue au serment, vient après l'expiration de ces périodes.

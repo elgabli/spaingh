@@ -6,8 +6,8 @@ slug: nacionalidad-espanola-por-residencia
 translationGroup: citizenship
 seoPriority: alta
 publishedDate: 2026-09-12
-image: "/img/get-spanish-citizenship-1200x801.jpg"
-imageAlt: "Pasaporte español: obtener nacionalidad española por residencia"
+image: "/img/nacionalidad-espanola-pasaporte.jpg"
+imageAlt: "Pasaporte español: nacionalidad por residencia"
 ---
 
 La nacionalidad española no es algo que usted solicite al llegar. Es el resultado de un período de **residencia legal en España**: dos años para ciudadanos de países iberoamericanos, diez años para la mayoría de otras nacionalidades, un año para cónyuges de ciudadanos españoles. Todo lo demás, desde el examen de idioma hasta el juramento, viene después de que hayan transcurrido esos años.

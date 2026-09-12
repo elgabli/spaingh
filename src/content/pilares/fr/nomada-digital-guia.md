@@ -6,8 +6,8 @@ slug: visa-nomade-numerique-espagne
 translationGroup: nomada-digital-guia
 pilar: nomada-digital
 publishedDate: 2026-09-12
-image: "/img/cover-visado.svg"
-imageAlt: "Visa Nomade Numérique Espagne"
+image: "/img/visado-nomada-digital-espana.jpg"
+imageAlt: "Visa Nomade Numérique en Espagne"
 ---
 
 ## Introduction : Qu'est-ce que le Visa Nomade Numérique d'Espagne ?

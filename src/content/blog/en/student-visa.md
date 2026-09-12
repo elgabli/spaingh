@@ -8,7 +8,7 @@ seoPriority: alta
 format: html
 publishedDate: 2026-02-27
 updatedDate: 2026-09-11
-image: "/img/cover-residencia.svg"
+image: "/img/visado-estudiante-residencia-espana.jpg"
 imageAlt: "Student visa and residency in Spain"
 ---
 

@@ -6,8 +6,8 @@ slug: how-easy-is-it-to-move-to-spain-from-uk
 translationGroup: move-uk
 seoPriority: alta
 publishedDate: 2026-09-12
-image: "/img/cover-residencia.svg"
-imageAlt: "Moving to Spain from the UK"
+image: "/img/mudarse-a-espana-desde-reino-unido.jpg"
+imageAlt: "A British couple planning their move to Spain"
 ---
 
 ## Can You Move from the UK to Spain in 2026?

@@ -6,8 +6,8 @@ slug: visado-nomada-digital-espana
 translationGroup: nomada-digital-guia
 pilar: nomada-digital
 publishedDate: 2026-09-12
-image: "/img/cover-visado.svg"
-imageAlt: "Visado Nómada Digital España"
+image: "/img/visado-nomada-digital-espana.jpg"
+imageAlt: "Visado Nómada Digital en España"
 ---
 
 ## Introducción: Qué es el Visado Nómada Digital

@@ -8,6 +8,8 @@ pilar: ley-beckham
 format: html
 publishedDate: 2026-02-16
 updatedDate: 2026-09-12
+image: "/img/asesoria-ley-beckham-espana.jpg"
+imageAlt: "Beckham Law tax advisory in Spain"
 ---
 
 <h1>Beckham Law in Spain: <br />Specialized Tax Advisory</h1>

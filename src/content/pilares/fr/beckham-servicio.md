@@ -8,6 +8,8 @@ pilar: ley-beckham
 format: html
 publishedDate: 2026-02-16
 updatedDate: 2026-09-12
+image: "/img/asesoria-ley-beckham-espana.jpg"
+imageAlt: "Conseil fiscal Loi Beckham en Espagne"
 ---
 
 <h1>Loi Beckham en Espagne : <br />Conseil Fiscal Spécialisé</h1>

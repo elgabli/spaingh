@@ -6,7 +6,7 @@ slug: spain-digital-nomad-visa
 translationGroup: nomada-digital-guia
 pilar: nomada-digital
 publishedDate: 2026-09-12
-image: "/img/cover-visado.svg"
+image: "/img/visado-nomada-digital-espana.jpg"
 imageAlt: "Spain Digital Nomad Visa"
 ---
 

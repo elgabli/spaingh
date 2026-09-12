@@ -8,6 +8,8 @@ pilar: constitucion-empresas
 format: html
 publishedDate: 2025-01-01
 updatedDate: 2026-09-11
+image: "/img/creacion-de-empresas-espana-madrid.jpg"
+imageAlt: "Company formation in Spain"
 ---
 
 <h1>Strategic Corporate Deployment in Spain</h1>

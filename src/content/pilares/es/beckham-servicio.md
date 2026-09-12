@@ -8,6 +8,8 @@ pilar: ley-beckham
 format: html
 publishedDate: 2024-12-06
 updatedDate: 2026-09-12
+image: "/img/asesoria-ley-beckham-espana.jpg"
+imageAlt: "Asesoría fiscal Ley Beckham en España"
 ---
 
 <h1>Ley Beckham en España: <br />Asesoría Fiscal Especializada</h1>
