@@ -122,7 +122,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       email: 'Email',
       whatsapp: 'WhatsApp',
     },
-    cta: { privateConsultation: 'Request Private Evaluation' },
+    cta: { privateConsultation: 'Private Evaluation' },
     cookies: {
       text: 'We use analytics cookies (Google Analytics) to measure how the site is used and improve it. They are not set until you accept.',
       more: 'Cookie policy',
@@ -138,7 +138,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       home: { href: '/', label: 'Accueil' },
       services: { href: '/services/', label: 'Services' },
       blog: { href: '/blog/', label: 'Actualités' },
-      about: { href: '/qui-sommes-nous/', label: 'Qui sommes-nous' },
+      about: { href: '/qui-sommes-nous/', label: 'À propos' },
       contact: { href: '/contact/', label: 'Contact' },
     },
     footer: {

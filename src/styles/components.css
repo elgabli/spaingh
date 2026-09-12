@@ -3,14 +3,14 @@
 sgh-nav-wrapper, site-header, .elementor-location-header{display:none}
 .sghh{position:fixed;top:0;left:0;width:100%;z-index:999999;transition:all .35s cubic-bezier(.4,0,.2,1);background:#061f1d;padding:22px 0;font-family:'Inter',Arial,sans-serif}
 .sghh.sc{background:rgba(6,31,29,.97);padding:10px 0;box-shadow:0 6px 24px rgba(0,0,0,.25);backdrop-filter:blur(12px)}
-.sghh .in{max-width:1300px;margin:0 auto;padding:0 36px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+.sghh .in{max-width:1300px;margin:0 auto;padding:0 32px;display:flex;align-items:center;justify-content:space-between;gap:16px}
 .sghh .lg{display:flex;align-items:center;gap:12px;color:#fff;text-decoration:none}
 .sghh .lg img{height:42px;width:auto;transition:height .3s}
 .sghh.sc .lg img{height:34px}
-.sghh .lg .lg-t{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:1.05rem;letter-spacing:.3px;color:#fff;line-height:1;display:flex;flex-direction:column;white-space:nowrap}
-.sghh .lg .lg-t small{font-family:'Inter',sans-serif;font-size:.58rem;font-weight:700;letter-spacing:2px;color:#c5a059;text-transform:uppercase;margin-top:3px;white-space:nowrap}
-.sghh nav ul{display:flex;align-items:center;gap:4px;list-style:none;margin:0;padding:0}
-.sghh nav a{color:rgba(255,255,255,.9);text-decoration:none;font-size:.82rem;font-weight:700;letter-spacing:.6px;text-transform:uppercase;white-space:nowrap;padding:9px 14px;border-radius:8px;transition:color .2s,background .2s}
+.sghh .lg .lg-t{font-family:'Playfair Display',Georgia,serif;font-weight:800;font-size:.9rem;letter-spacing:.3px;color:#fff;line-height:1;display:flex;flex-direction:column;white-space:nowrap}
+.sghh .lg .lg-t small{font-family:'Inter',sans-serif;font-size:.5rem;font-weight:700;letter-spacing:1.6px;color:#c5a059;text-transform:uppercase;margin-top:3px;white-space:nowrap}
+.sghh nav ul{display:flex;align-items:center;gap:0;list-style:none;margin:0;padding:0}
+.sghh nav a{color:rgba(255,255,255,.9);text-decoration:none;font-size:.8rem;font-weight:700;letter-spacing:.4px;text-transform:uppercase;white-space:nowrap;padding:9px 10px;border-radius:8px;transition:color .2s,background .2s}
 .sghh nav a:hover{color:#c5a059;background:rgba(197,160,89,.12)}
 .sghh nav a.on{color:#c5a059}
 .sghh .lang{position:relative;margin-right:8px}
@@ -39,7 +39,8 @@ sgh-nav-wrapper, site-header, .elementor-location-header{display:none}
   .sghh .cta{padding:8px 12px;font-size:.65rem}
 }
 @media(max-width:1200px){
-  .sghh nav a{padding:9px 9px;letter-spacing:.3px}
+  .sghh nav a{padding:9px 7px;letter-spacing:.2px;font-size:.76rem}
+  .sghh .cta{padding:11px 16px;font-size:.76rem}
 }
 @media(max-width:1024px){
   .sghh .in{padding:0 16px;gap:8px}
