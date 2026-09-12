@@ -8,8 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2025-01-17
 updatedDate: 2026-09-12
-image: "/img/visado-schengen-espana.jpg"
-imageAlt: "Spain tourist visa from Dubai"
+image: "/img/dubai-skyline.jpg"
+imageAlt: "Dubai skyline: Spain tourist visa from the UAE"
 ---
 
 <style>

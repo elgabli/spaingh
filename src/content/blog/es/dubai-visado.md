@@ -8,8 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-02-15
 updatedDate: 2026-09-12
-image: "/img/visado-schengen-espana.jpg"
-imageAlt: "Visado turístico a España desde Dubái"
+image: "/img/dubai-skyline.jpg"
+imageAlt: "Skyline de Dubái: visado turístico a España desde EAU"
 ---
 
 <p>España es más que un destino de viaje para los residentes de los EAU: representa estilo de vida, inversión y una puerta de entrada a Europa. Sin embargo, el corredor de visados Dubái-España está altamente supervisado. Esta guía ofrece un desglose completo del proceso de solicitud 2026, asegurando una experiencia de aprobación fluida.</p>
