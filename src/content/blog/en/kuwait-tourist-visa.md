@@ -8,8 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-01-01
 updatedDate: 2026-09-11
-image: "/img/visado-turistico-espana-kuwait.jpg"
-imageAlt: "Spain tourist visa from Kuwait"
+image: "/img/visado-schengen-espana.jpg"
+imageAlt: "Schengen visa for Spain"
 ---
 
 <hr />
