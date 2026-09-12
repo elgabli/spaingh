@@ -1,5 +1,5 @@
 ---
-title: "Ley Beckham"
+title: "Asesoría Fiscal Ley Beckham en España: Asesores Expertos y Modelo 149"
 description: "Asesoría Ley Beckham en España: análisis de elegibilidad, presentación del Modelo 149, tributación al 24 % hasta 600.000 € y cumplimiento anual para directivos e impatriados."
 lang: es
 slug: servicios/asesoria-ley-beckham

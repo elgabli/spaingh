@@ -1,6 +1,6 @@
 ---
-title: "Steps to Obtain Spanish Citizenship Easily"
-description: "Steps to obtain Spanish citizenship: legal residency periods (10, 5, 2 or 1 year), CCSE and DELE exams, documents, timelines and common mistakes to avoid."
+title: "How to Get Spanish Citizenship in 2026: Residency Years, Requirements and Application Steps"
+description: "How to get Spanish citizenship: residency periods (10, 5, 2 or 1 year), who qualifies, CCSE and DELE exams, documents, how to apply and how long it takes in 2026."
 lang: en
 slug: how-to-get-spanish-citizenship
 translationGroup: citizenship

@@ -1,6 +1,6 @@
 ---
-title: "Beckham Law Calculator 2026 | Spain Global Hub"
-description: "Calculate your tax savings as an expatriate in Spain under the special impatriate regime (Beckham Law) versus the ordinary IRPF income tax."
+title: "Beckham Law Calculator 2026: Spain Tax Savings Calculator | Spain Global Hub"
+description: "Free Beckham Law tax calculator for Spain: compare the 24% flat rate (up to €600,000) with ordinary IRPF income tax by region and see your annual savings."
 lang: en
 slug: beckham-law-calculator
 translationGroup: ley-beckham

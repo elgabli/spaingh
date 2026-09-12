@@ -1,6 +1,6 @@
 ---
-title: "Does a Student Visa Count Towards Residency in Spain? 2026 Expert Guide"
-description: "Does a student visa count towards residency in Spain? Stay vs residency, the 2025 immigration regulation, how years are counted and routes to permanent residency."
+title: "Does a Student Visa Count Towards Residency in Spain? Official 2026 Answer"
+description: "Short answer: student stays count 50% towards long-term residency but not towards nationality by residence. The 2025 regulation, how years are counted and the routes to permanent residency."
 lang: en
 slug: does-student-visa-count-towards-residency-spain
 translationGroup: student-visa

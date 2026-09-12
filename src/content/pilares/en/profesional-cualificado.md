@@ -1,6 +1,6 @@
 ---
-title: "Highly Qualified Professional Visa Spain: 2026 Guide to Your Work Permit"
-description: "Highly Qualified Professional Visa Spain 2026: salary thresholds, employer requirements, UGE-CE fast track, family members, timelines and how to apply."
+title: "Highly Qualified Worker Visa Spain 2026: Requirements, Salary Thresholds and How to Apply"
+description: "Highly Qualified Professional (skilled worker) visa for Spain in 2026: salary thresholds, employer requirements, UGE-CE fast track, family members, processing times and how to apply."
 lang: en
 slug: highly-qualified-professional-visa-spain
 translationGroup: profesional-cualificado
