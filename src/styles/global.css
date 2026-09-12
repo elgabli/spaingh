@@ -122,3 +122,4 @@ main a {
 .sgh-404 .code { font-family: 'Playfair Display', Georgia, serif; font-size: 5rem; color: var(--sgh-dorado); line-height: 1; margin-bottom: 10px; }
 .sgh-404 .links { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
 .sgh-404 .links a { background: var(--sgh-verde); color: #fff; padding: 12px 22px; border-radius: 9px; font-weight: 700; text-decoration: none; }
+.sgh-article .sgh-btn-cookies { display: inline-block; background: var(--sgh-verde); color: #fff !important; padding: 11px 20px; border-radius: 9px; text-decoration: none !important; font-weight: 700; }

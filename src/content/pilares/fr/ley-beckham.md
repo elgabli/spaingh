@@ -16,10 +16,6 @@ permet aux expatriés éligibles de payer un taux fixe de **24%** sur les revenu
 Espagne jusqu'à 600 000 €, contre un régime progressif général pouvant atteindre 45–54% selon la
 Communauté Autonome.
 
-> **Note (12-sep-2026) :** l'ancienne version française de ce calculateur sur spaingh.com utilisait un
-> modèle obsolète à taux fixe de 37% et n'a pas été mise à jour depuis. Cette page utilise le moteur
-> réel (19 Communautés Autonomes + régimes fiscaux régionaux, vérifié en production) — la version
-> WordPress a besoin du même correctif si elle reste en ligne pendant la migration.
 
 ### Qui peut en bénéficier
 

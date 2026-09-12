@@ -37,7 +37,13 @@ export async function getStaticPaths() {
 }
 
 const { entry, all } = Astro.props as { entry: AnyEntry; all: AnyEntry[] };
-const { Content } = await render(entry as any);
+const { Content, headings } = await render(entry as any);
+// H1: WordPress mostraba el título fuera del contenido, así que la mayoría de
+// artículos no traen H1. Si el cuerpo no tiene uno, lo genera la plantilla.
+const bodyHasH1 = entry.data.format === 'html'
+  ? /<h1[\s>]/i.test(entry.body ?? '')
+  : headings.some((h: { depth: number }) => h.depth === 1);
+const h1Text = entry.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, '');
 const lang = entry.data.lang as Lang;
 
 const canonicalUrl = `${SITE_URL}/${lang}/${entry.data.slug}/`;
@@ -47,8 +53,12 @@ const translations = all
   .filter((e) => e.data.translationGroup === entry.data.translationGroup && e.data.lang !== entry.data.lang)
   .map((e) => ({ lang: e.data.lang as Lang, url: `${SITE_URL}/${e.data.lang}/${e.data.slug}/` }));
 
-const isBeckhamPillar = entry.collection === 'pilares' && (entry as CollectionEntry<'pilares'>).data.pilar === 'ley-beckham';
-const isNomadPillar = entry.collection === 'pilares' && (entry as CollectionEntry<'pilares'>).data.pilar === 'nomada-digital';
+// Las islas SOLO en sus páginas (calculadora / verificador), no en las
+// páginas de servicio del mismo pilar. Se decide por el fichero fuente
+// (src/content/pilares/<lang>/ley-beckham.md y nomada-digital.md).
+const srcFile = (entry as { filePath?: string }).filePath ?? '';
+const isBeckhamPillar = entry.collection === 'pilares' && /\/ley-beckham\.mdx?$/.test(srcFile);
+const isNomadPillar = entry.collection === 'pilares' && /\/nomada-digital\.mdx?$/.test(srcFile);
 const beckhamTail = isBeckhamPillar ? beckhamTails[`../../content-raw/beckham-tail-${lang}.html`] : undefined;
 
 const schemaNodes = [
@@ -77,6 +87,7 @@ const schemaNodes = [
   {/* .sgh-beckham en el <article>: el CSS original de la calculadora define
       .sghb-lead, .sghb-faq, .sghb-note… siempre bajo ese ancestro. */}
   <article class:list={['sgh-article', { 'sgh-beckham': isBeckhamPillar }]}>
+    {!bodyHasH1 && <h1>{h1Text}</h1>}
     {isNomadPillar && <NomadChecker lang={lang} />}
     {entry.data.format === 'html' ? <Fragment set:html={entry.body ?? ''} /> : <Content />}
     {isBeckhamPillar && <BeckhamCalculator lang={lang} />}

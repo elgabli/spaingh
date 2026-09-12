@@ -7,191 +7,23 @@ translationGroup: cookies
 legalType: cookies
 format: html
 publishedDate: 2024-11-27
-updatedDate: 2026-09-11
+updatedDate: 2026-09-12
 ---
 
-				
-				
-				
-					<h1>Política de cookies</h1>				
-				
-				
-		
-					
-				
-				
-							
-			
-		
-						
-				
-				
-				
-									
-<p>Con esta política de cookies, nos gustaría explicar qué son las cookies y las tecnologías similares a las cookies, cómo nosotros y otros proveedores de servicios las utilizamos en este sitio web, qué información recopilan, durante cuánto tiempo y con qué fines las utilizamos.</p>
-
-<h2>Índice</h2>
-
-<ul>
-<li><a href="https://spaingh.com/es/politica-de-cookies/#diff-to-privacy-policy">Información adicional a la política de privacidad</a></li>
-
-<li><a href="https://spaingh.com/es/politica-de-cookies/#cookie-technology">¿Qué son las cookies y tecnologías similares?</a></li>
-
-<li><a href="https://spaingh.com/es/politica-de-cookies/#legal-basis">¿Cuál es la base legal para establecer/leer cookies?</a></li>
-
-<li><a href="https://spaingh.com/es/politica-de-cookies/#rights-of-visitor">¿Qué derechos tiene el visitante del sitio web?</a></li>
-
-<li><a href="https://spaingh.com/es/politica-de-cookies/#manage-cookies">¿Cómo gestionar las cookies en un navegador?</a></li>
-
-<li><a href="https://spaingh.com/es/politica-de-cookies/#types-of-cookies">¿Qué tipos de cookies existen?</a></li>
-
-<li><a href="https://spaingh.com/es/politica-de-cookies/#cookies-origin">¿Quién puede instalar cookies en este sitio web?</a></li>
-
-<li><a href="https://spaingh.com/es/politica-de-cookies/#list-of-services">¿Qué cookies se utilizan en este sitio web?</a></li>
-</ul>
-
-<h2 id="diff-to-privacy-policy">Información adicional a la política de privacidad</h2>
-
-<p>Esta política de cookies es un suplemento a la política de privacidad de este sitio web. La política de cookies especifica cómo utiliza un sitio web las cookies y qué datos recopila a través de ellas, mientras que la política de privacidad es una descripción más completa de todas las actividades de procesamiento de datos en la página web y fuera de la misma.</p>
-
-<h2 id="cookie-technology">¿Qué son las cookies y tecnologías similares?</h2>
-
-<p>Las cookies son pequeños fragmentos de información similares a archivos de texto que pueden almacenarse y leerse en el dispositivo final. Sirven para diversas razones, incluyendo mantener las funcionalidades básicas del sitio web, la seguridad y la privacidad, proporcionar funciones opcionales del sitio web, recopilar datos estadísticos sobre los flujos de visitantes, y proporcionar sistemas de marketing. Algunos ejemplos prácticos de lo que se puede almacenar en las cookies son el almacenamiento del estado de inicio de sesión en las cuentas de usuario, el contenido de las cestas de la compra en las plataformas de comercio electrónico, o una identificación de usuario para el seguimiento del comportamiento en el sitio web.<br /><br />La información puede almacenarse técnicamente de varias maneras. Los ejemplos más conocidos son las cookies HTTP y las tecnologías similares a las cookies, como el almacenamiento local, el almacenamiento de sesión o IndexedDB. Cada tipo de almacenamiento tiene características diferentes, que determinan la gestión técnica, la accesibilidad y los responsables autorizados para acceder a la información. Todos estos tipos de almacenamiento suelen resumirse bajo el término «cookies» y, por lo tanto, se denominan como tales en esta política de cookies.</p>
-
-<h2 id="legal-basis">¿Cuál es la base legal para establecer/leer cookies?</h2>
-
-<p>La configuración y lectura de cookies en la Unión Europea (UE) y en el Espacio Económico Europeo (EEE) solo está permitida, de conformidad con Artículo 22 (2) de la Ley de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI), si el usuario ha dado su consentimiento sobre la base de una información exhaustiva acerca de las razones del tratamiento. El operador del sitio web también puede instalar cookies si son estrictamente necesarias para proporcionarle a usted como usuario el servicio expresamente solicitado como, por ejemplo, el contenido básico de este sitio web u otras cookies estrictamente necesarias para el funcionamiento básico del sitio web para mostrárselo sin su consentimiento.</p>
-
-<h2 id="rights-of-visitor">¿Qué derechos tiene el visitante del sitio web?</h2>
-
-<p>Los servicios y sus cookies pueden configurarse y leerse sobre la base legal de su consentimiento o de un interés legítimo. Cuando visitó este sitio web por primera vez, se le pidió su consentimiento y tuvo la oportunidad de oponerse al uso de determinados servicios. Le explicamos qué base legal se utiliza para cada servicio en nuestro diálogo de consentimiento.<br /><br />Tiene derecho a ver el historial de sus decisiones, cambiar su configuración de privacidad, oponerse al uso de servicios y revocar su consentimiento en cualquier momento. A continuación encontrará las posibilidades para ejercer sus derechos:</p>
-
-<ul>
-<li>Por favor, ¡proporcione un atributo `type` en su shortcode. Permitido: history,revoke,change!</li>
-
-<li>Por favor, ¡proporcione un atributo `type` en su shortcode. Permitido: history,revoke,change!</li>
-
-<li>Por favor, ¡proporcione un atributo `type` en su shortcode. Permitido: history,revoke,change!</li>
-</ul>
-
-<h2 id="manage-cookies">¿Cómo gestionar las cookies en un navegador?</h2>
-
-<ul>
-<li><strong>Cómo eliminar las cookies de un navegador:</strong> para eliminar las cookies de su dispositivo puede eliminar los datos de navegación en la configuración de su navegador. Esta acción eliminará todas las cookies de todos los sitios web que haya visitado, incluyendo seguramente los datos de inicio de sesión que hayan sido guardados y las preferencias de la página web . En algunos navegadores, pude eliminar solo las cookies y datos similares sin borrar todo el historial de navegación.</li>
-
-<li><strong>Cómo controlar las cookies en un navegador:</strong> para un control más granular de las cookies específicas de determinados sitios web, acceda a la configuración de privacidad y de cookies dentro del navegador que esté usando. Allí podrá configurar las preferencias relacionadas con el uso de cookies de sitios particulares.</li>
-
-<li><strong>Cómo bloquear las cookies en un navegador:</strong> es posible configurar la mayoría de los navegadores modernos en sus ajustes para bloquear todas las cookies que se instalen en su dispositivo. Pero bloquear las cookies podría hacer que algunos servicios y características no funcionen correctamente, por ejemplo, el inicio de sesión como usuario. También puede utilizar extensiones para muchos navegadores, que pueden bloquear la instalación de cookies en los sitios web.</li>
-
-<li><strong>Cómo gestionar las cookies en este sitio web:</strong> si quiere adaptar las cookies de acuerdo a sus preferencias en este sitio web, puede cambiarlas en cualquier momento haciendo clic en el enlace de la sección «Derechos del visitante del sitio web».</li>
-
-<li> </li>
-</ul>
-
-<h2 id="types-of-cookies">¿Qué tipos de cookies existen?</h2>
-
-<ul>
-<li><strong>Las cookies esenciales</strong> son indispensables para la funcionalidad básica de un sitio web, y habilitan funciones como guardar la información de inicio de sesión o acceder a zonas seguras del sitio. Entre estas cookies se incluyen, por ejemplo, las cookies de seguridad, que pueden identificar a un bot no deseado en el sitio web al almacenar una clave de autenticación en una cookie.</li>
-
-<li><strong>Las cookies funcionales</strong> mejoran la experiencia del usuario porque almacenan la información y las preferencias del usuario, como la configuración del idioma o la configuración de la apariencia del sitio web para poder ofrecerla ya personalizada. Entre estas cookies están, por ejemplo, las cookies de preferencias que almacenan la calidad de vídeo que prefiere el usuario en una sitio web.</li>
-
-<li><strong>Las cookies estadísticas</strong> recogen datos sobre el uso de un sitio web para obtener información sobre el comportamiento de los usuarios y optimizar el rendimiento del sitio. Esto incluye, por ejemplo, una identificación de usuario asignada aleatoriamente que posibilita conocer si ha visitado una subpágina del sitio web.</li>
-
-<li><strong>Las cookies de marketing</strong> se utilizan para rastrear el comportamiento de los usuarios en diferentes sitios web y mostrarles publicidad personalizada basada en los intereses y el comportamiento de navegación de los mismos. Entre estas cookies se incluyen, por ejemplo, las cookies publicitarias que almacenan una interacción con un anuncio en el sitio web y la transmiten a los anunciantes o a un sistema de chat para preguntas de preventa y atención al cliente.</li>
-</ul>
-
-<h2 id="cookies-origin">¿Quién puede instalar cookies en este sitio web?</h2>
-
-<p>En este sitio web, tanto el operador del mismo como los servicios de terceros que se utilizan en el, pueden establecer cookies y acceder a su contenido. Quien puede acceder a una cookie determinada y a su contenido depende de si se trata de cookies propias o de terceros. La página web que se visita crea cookies propias y éstas solo pueden ser leídas por el operador del sitio web y los servicios de terceros integrados en este sitio web. Normalmente los servicios de terceros crean cookies de terceros en otros dominios y estas pueden ser leídas en todos los sitios en los que esté integrado el servicio que controla el dominio. Un ejemplo de uso de estas últimas cookies es el de las redes publicitas al rastrear el comportamiento de los usuarios en diferentes sitios web y ofrecer publicidad personalizada.</p>
-
-<h2 id="list-of-services">¿Qué cookies se utilizan en este sitio web?</h2>
-
-<table>
-<thead>
-<tr>
-<th>Categoría</th>
-<th>Nombre de la cookie técnica</th>
-<th>Servidor de cookies técnicas</th>
-<th>Servicio</th>
-<th>Duración</th>
-<th>Tipo</th>
-<th>Propósito</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Esencial</td>
-<td>real_cookie_banner*</td>
-<td>.spaingh.com</td>
-<td>Real Cookie Banner</td>
-<td>365 días</td>
-<td>HTTP Cookie</td>
-<td>Identificador único para el consentimiento, pero no para el visitante del sitio web. Hash de revisión para los ajustes del banner de cookies (textos, colores, características, grupos de servicios, servicios, bloqueadores de contenido, etc.). Identificadores para los servicios y grupos de servicios consentidos.</td>
-</tr>
-<tr>
-<td>Esencial</td>
-<td>real_cookie_banner*-tcf</td>
-<td>.spaingh.com</td>
-<td>Real Cookie Banner</td>
-<td>365 días</td>
-<td>HTTP Cookie</td>
-<td>Consentimientos recogidos en el marco del TCF almacenados en formato TC String, incluidos los proveedores del TCF, los fines, los fines especiales, las características y las características especiales.</td>
-</tr>
-<tr>
-<td>Esencial</td>
-<td>real_cookie_banner*-gcm</td>
-<td>.spaingh.com</td>
-<td>Real Cookie Banner</td>
-<td>365 días</td>
-<td>HTTP Cookie</td>
-<td>Consentimientos en los tipos de consentimiento (propósitos) recogidos bajo el Modo de Consentimiento de Google almacenados para todos los servicios compatibles con el Modo de Consentimiento de Google.</td>
-</tr>
-<tr>
-<td>Esencial</td>
-<td>real_cookie_banner-test</td>
-<td>.spaingh.com</td>
-<td>Real Cookie Banner</td>
-<td>365 días</td>
-<td>HTTP Cookie</td>
-<td>Cookie establecida para probar la funcionalidad de las cookies HTTP. Eliminada inmediatamente después de la prueba.</td>
-</tr>
-<tr>
-<td>Esencial</td>
-<td>real_cookie_banner*</td>
-<td>https://spaingh.com</td>
-<td>Real Cookie Banner</td>
-<td>&#8211;</td>
-<td>Local Storage</td>
-<td>Identificador único para el consentimiento, pero no para el visitante del sitio web. Hash de revisión para los ajustes del banner de cookies (textos, colores, características, grupos de servicios, servicios, bloqueadores de contenido, etc.). Identificadores para los servicios y grupos de servicios consentidos. Sólo se almacena hasta que se documenta el consentimiento en el servidor del sitio web.</td>
-</tr>
-<tr>
-<td>Esencial</td>
-<td>real_cookie_banner*-tcf</td>
-<td>https://spaingh.com</td>
-<td>Real Cookie Banner</td>
-<td>&#8211;</td>
-<td>Local Storage</td>
-<td>Los consentimientos recogidos en el marco del TCF se almacenan en formato TC String, incluidos los proveedores del TCF, los fines, los fines especiales, las características y las características especiales. Sólo se almacena hasta que se documenta el consentimiento en el servidor del sitio web.</td>
-</tr>
-<tr>
-<td>Esencial</td>
-<td>real_cookie_banner*-gcm</td>
-<td>https://spaingh.com</td>
-<td>Real Cookie Banner</td>
-<td>&#8211;</td>
-<td>Local Storage</td>
-<td>Los consentimientos recopilados bajo el Modo de Consentimiento de Google se almacenan en tipos de consentimiento (propósitos) para todos los servicios compatibles con el Modo de Consentimiento de Google. Sólo se almacena hasta que el consentimiento se documenta en el servidor del sitio web.</td>
-</tr>
-<tr>
-<td>Esencial</td>
-<td>real_cookie_banner-consent-queue*</td>
-<td>https://spaingh.com</td>
-<td>Real Cookie Banner</td>
-<td>&#8211;</td>
-<td>Local Storage</td>
-<td>Almacenamiento en caché local de la selección en el banner de cookies hasta que el servidor documente el consentimiento; documentación periódica o al cambiar de página intentada si el servidor no está disponible o está sobrecargado.</td>
-</tr>
-</tbody>
-</table>
-
-<p>La política de cookies se actualizó por última vez el noviembre 28, 2024.</p>
+<h1>Política de cookies</h1>
+<p><em>Última actualización: 12 de septiembre de 2026</em></p>
+<p>Esta política explica qué cookies utiliza <strong>spaingh.com</strong>, con qué finalidad y cómo puede aceptarlas, rechazarlas o cambiar de opinión en cualquier momento. Complementa nuestra <a href="/es/politica-de-privacidad/">Política de Privacidad</a>.</p>
+<h2>¿Qué son las cookies?</h2>
+<p>Las cookies son pequeños archivos de texto que un sitio web guarda en su navegador. Sirven para recordar sus preferencias o para medir, de forma agregada, cómo se usa la web.</p>
+<h2>Cookies que utiliza este sitio</h2>
+<table><thead><tr><th>Cookie</th><th>Tipo</th><th>Finalidad</th><th>Duración</th></tr></thead><tbody><tr><td><code>sgh_consent</code></td><td>Técnica (propia)</td><td>Guarda su decisión sobre las cookies analíticas (aceptadas o rechazadas). Es necesaria para respetar su elección y no volver a mostrar el aviso.</td><td>12 meses</td></tr><tr><td><code>_ga, _ga_*</code></td><td>Analítica (Google Analytics 4)</td><td>Distinguen usuarios y sesiones para obtener estadísticas de uso anónimas y agregadas (páginas visitadas, origen de la visita, uso de la calculadora y del verificador). <strong>Solo se instalan si usted acepta.</strong> La dirección IP se anonimiza.</td><td>Hasta 2 años</td></tr><tr><td><code>__cf_bm, cf_clearance</code></td><td>Técnica (Cloudflare)</td><td>Seguridad y protección anti-bots de la infraestructura de Cloudflare, incluida la verificación del formulario de contacto (Turnstile). No identifican a la persona.</td><td>Hasta 30 minutos / 1 año</td></tr></tbody></table>
+<h2>Consentimiento y cómo cambiar de opinión</h2>
+<p>Al entrar en la web se muestra un aviso. Las cookies analíticas <strong>no se activan</strong> hasta que pulsa «Aceptar». Puede cambiar su decisión en cualquier momento:</p>
+<p><a href="#" class="sgh-btn-cookies" data-cookie-settings>Cambiar mis preferencias de cookies</a></p>
+<p>También puede borrar las cookies desde la configuración de su navegador; en ese caso el aviso volverá a mostrarse en su próxima visita.</p>
+<h2>Gestión desde el navegador</h2>
+<p>Todos los navegadores permiten bloquear o eliminar cookies: <a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Chrome</a>, <a href="https://support.mozilla.org/es/kb/cookies-informacion-que-los-sitios-web-guardan-en-" target="_blank" rel="noopener">Firefox</a>, <a href="https://support.apple.com/es-es/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a>, <a href="https://support.microsoft.com/es-es/microsoft-edge/eliminar-las-cookies-en-microsoft-edge-63947406-6915-a6d1-c3b9-cd9b7ba6b4f2" target="_blank" rel="noopener">Edge</a>.</p>
+<h2>Terceros</h2>
+<p>Google Analytics es un servicio de Google Ireland Ltd. Consulte <a href="https://policies.google.com/technologies/cookies?hl=es" target="_blank" rel="noopener">cómo usa Google las cookies</a>. Cloudflare Inc. presta la infraestructura y la protección anti-bots (<a href="https://www.cloudflare.com/cookie-policy/" target="_blank" rel="noopener">política de cookies de Cloudflare</a>).</p>
+<h2>Contacto</h2>
+<p>Para cualquier cuestión sobre esta política: <a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a>.</p>

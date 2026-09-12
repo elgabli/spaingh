@@ -20,12 +20,23 @@ const policyHref = withLangPrefix(lang, i18nConfig[lang].footer.cookies.href);
 <script>
   const box = document.getElementById('sgh-cookies');
   const w = window as unknown as { sghConsentState?: () => string | null; sghConsent?: (c: string) => void };
-  if (box && w.sghConsentState && !w.sghConsentState()) {
-    box.hidden = false;
+  if (box) {
     box.querySelectorAll<HTMLButtonElement>('button[data-consent]').forEach((b) => {
       b.addEventListener('click', () => {
         w.sghConsent?.(b.dataset.consent || 'denied');
         box.hidden = true;
+      });
+    });
+    if (w.sghConsentState && !w.sghConsentState()) box.hidden = false;
+    // Enlace "Cambiar mis preferencias" (política de cookies): borra la
+    // elección y vuelve a mostrar el aviso. Retirar el consentimiento de GA
+    // es efectivo en la siguiente carga (el script ya no se inyecta).
+    document.querySelectorAll('[data-cookie-settings]').forEach((el) => {
+      el.addEventListener('click', (e) => {
+        e.preventDefault();
+        document.cookie = 'sgh_consent=; Max-Age=0; Path=/';
+        box.hidden = false;
+        box.scrollIntoView({ behavior: 'smooth', block: 'end' });
       });
     });
   }

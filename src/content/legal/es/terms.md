@@ -46,7 +46,7 @@ updatedDate: 2026-09-11
 <p>Bienvenido a <strong>Spain Global Hub (SGH)</strong>. Este documento describe los términos y condiciones que rigen el uso de nuestro sitio web <strong><a href="https://spaingh.com/">https://spaingh.com/</a></strong> y los servicios que ofrecemos. Al acceder a este sitio web o utilizar nuestros servicios, aceptas cumplir con los siguientes términos en su totalidad. Si no estás de acuerdo con alguna de las disposiciones aquí mencionadas, te recomendamos no utilizar nuestro sitio.</p>
 <hr />
 <h3><strong>1. Información General</strong></h3>
-<p>1.1 Este sitio web, <strong><a href="https://spaingh.com/">https://spaingh.com/</a></strong>, es operado por <strong>Spain Global Hub (SGH)</strong>, con sede en [Dirección] y número de identificación fiscal [Número].<br />1.2 El propósito de este sitio es proporcionar información y acceso a servicios relacionados con asesoría legal, fiscal e inmobiliaria en España.</p>
+<p>1.1 Este sitio web, <strong><a href="https://spaingh.com/">https://spaingh.com/</a></strong>, es operado por <strong>Spain Global Hub (SGH)</strong>.<br />1.2 El propósito de este sitio es proporcionar información y acceso a servicios relacionados con asesoría legal, fiscal e inmobiliaria en España.</p>
 <hr />
 <h3><strong>2. Uso del Sitio</strong></h3>
 <p>2.1 Puedes acceder al contenido del sitio para uso personal, informativo y no comercial.<br />2.2 Está prohibido:</p>

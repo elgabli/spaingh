@@ -10,7 +10,7 @@ publishedDate: 2024-11-27
 updatedDate: 2026-09-11
 ---
 
-<h1>Spain Global Hub : Boutique Advisory Hub for International Clients in Spain</h1>
+<h1>Spain Global Hub: asesoría boutique para clientes internacionales en España</h1>
 <h2>Quiénes somos</h2>
 <p>
         <strong>Spain Global Hub (SGH)</strong> es un hub boutique de coordinación y advisory que conecta a clientes internacionales con profesionales cuidadosamente seleccionados en España, especializado en inversión, movilidad internacional y <strong>real estate advisory</strong>.

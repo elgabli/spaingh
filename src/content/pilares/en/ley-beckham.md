@@ -16,10 +16,6 @@ lets qualifying expatriates pay a flat **24% tax rate** on Spanish employment in
 (47% on the excess), instead of the ordinary progressive IRPF scale that can reach 45–54% depending
 on your Autonomous Community.
 
-> **Note (12-sep-2026):** the previous English version of this calculator on spaingh.com used an
-> outdated flat 37% model and has not been updated since. This page uses the real engine (19
-> Autonomous Communities + regional tax regimes, verified against production) — the WordPress
-> version still needs the same fix if it stays online during the migration.
 
 ### Who qualifies
 

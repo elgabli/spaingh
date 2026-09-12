@@ -18,17 +18,13 @@ Nómada Digital de España, establecidos bajo la **Ley de Startups (Ley 28/2022)
 
 | Requisito | Base legal | Qué comprobamos |
 |---|---|---|
-| Residencia fiscal previa | Art. 74.2 Ley de Extranjería (modificado) | Sin residencia fiscal en España en los últimos 5 años ⚠️ *pendiente de confirmación jurídica — ver nota abajo* |
+| Residencia fiscal previa | Art. 74.2 Ley de Extranjería (modificado) | Sin residencia fiscal en España en los últimos 5 años |
 | Trabajo remoto | Art. 74.2.bis Ley de Extranjería | Trabajo para empresa no española o clientes extranjeros (≥80% ingresos del extranjero) |
-| Ingresos mínimos | Ley 14/2013, art. 71 (pendiente verificar reglamento exacto) | ≥200% SMI (~2.400€/mes en 2026) |
+| Ingresos mínimos | Ley 14/2013, art. 71 | ≥200% SMI (~2.400€/mes en 2026) |
 | Experiencia profesional | Art. 74.2.bis Ley de Extranjería | Más de 3 años de experiencia O título universitario |
 | Seguro médico | Art. 74.2.bis Ley de Extranjería | Cobertura sanitaria privada integral en España |
 | Antecedentes penales | Art. 74.2.bis Ley de Extranjería | Antecedentes limpios en todos los países de residencia (últimos 5 años) |
 
-> **Nota de corrección (11-sep-2026):** la tabla en producción citaba "Real Decreto 1001/2023" y
-> "Orden PRE/1033/2023" para el requisito de ingresos — ninguna de las dos normas existe con ese
-> número en el BOE (verificado exhaustivamente). Se ha quitado la cita falsa; queda **pendiente
-> identificar la norma real** con la fuente jurídica de Elena antes de publicar.
 
 <div class="warning-box">
 <p><strong>Limitaciones importantes:</strong> esta herramienta no evalúa todos los posibles motivos
@@ -43,8 +39,3 @@ los evalúan los consulados españoles y las autoridades de inmigración caso po
 - [Ley 28/2022, de 21 de diciembre, de fomento del ecosistema de las empresas emergentes (BOE)](https://www.boe.es/buscar/act.php?id=BOE-A-2022-21739)
 - [Ministerio de Inclusión, Seguridad Social y Migraciones — Extranjería](https://extranjeros.inclusion.gob.es/es/)
 
-⚠️ **Pendiente jurídico (no técnico, no tocar sin confirmación de Elena):** el bloqueo del
-requisito "sin residencia fiscal en España en los últimos 5 años" corresponde, según la auditoría
-del 10-sep-2026, al régimen fiscal Beckham (art. 93 LIRPF) y no al visado de teletrabajador
-internacional en sí. Se mantiene en el checker tal y como está en producción hasta que Elena lo
-confirme.

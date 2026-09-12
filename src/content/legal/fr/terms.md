@@ -20,7 +20,7 @@ updatedDate: 2026-09-11
 <p>Bienvenue à <strong>Spain Global Hub (SGH)</strong>. Ce document décrit les termes et conditions qui régissent l&#8217;utilisation de notre site web <strong><a href="https://spaingh.com/">https://spaingh.com/</a></strong> et les services que nous offrons. En accédant à ce site web ou en utilisant nos services, vous acceptez de respecter les conditions suivantes dans leur intégralité. Si vous n&#8217;êtes pas d&#8217;accord avec l&#8217;une des dispositions mentionnées ici, nous vous recommandons de ne pas utiliser notre site.</p>
 <hr />
 <h3><strong>1. Informations Générales</strong></h3>
-<p>1.1 Ce site web, <strong><a href="https://spaingh.com/">https://spaingh.com/</a></strong>, est exploité par <strong>Spain Global Hub (SGH)</strong>, dont le siège social est situé à [Adresse] et dont le numéro d&#8217;identification fiscale est [Numéro].<br />1.2 L&#8217;objectif de ce site est de fournir des informations et un accès à des services liés à la consultation juridique, fiscale et immobilière en Espagne.</p>
+<p>1.1 Ce site web, <strong><a href="https://spaingh.com/">https://spaingh.com/</a></strong>, est exploité par <strong>Spain Global Hub (SGH)</strong>.<br />1.2 L&#8217;objectif de ce site est de fournir des informations et un accès à des services liés à la consultation juridique, fiscale et immobilière en Espagne.</p>
 <hr />
 <h3><strong>2. Utilisation du Site</strong></h3>
 <p>2.1 Vous pouvez accéder au contenu du site pour un usage personnel, informatif et non commercial.<br />2.2 Il est interdit :</p>

@@ -18,7 +18,7 @@ updatedDate: 2026-09-11
 
 <p>Here’s the simple breakdown of Spanish citizenship vs. permanent residency:</p>
 
-<p>| Residency Permit (TIE Card) | Citizenship (Passport) | | :&#8212; | :&#8212; | | Temporary, needs renewal | Permanent, never expires | | Doesn&#8217;t grant an EU passport | Grants a Spanish &amp; EU passport | | The required first step | The final goal |</p>
+<table><thead><tr><th>Residency Permit (TIE Card)</th><th>Citizenship (Passport)</th></tr></thead><tbody><tr><td>Temporary, needs renewal</td><td>Permanent, never expires</td></tr><tr><td>Doesn’t grant an EU passport</td><td>Grants a Spanish &amp; EU passport</td></tr><tr><td>The required first step</td><td>The final goal</td></tr></tbody></table>
 
 <img width="1200" height="801" src="/img/get-spanish-citizenship-1200x801.jpg" alt="get spanish citizenship" />Physical paper international passport of a Spanish citizen
 

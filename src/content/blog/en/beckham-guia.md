@@ -10,9 +10,6 @@ publishedDate: 2026-02-24
 updatedDate: 2026-09-12
 ---
 
-<blockquote>
-<p><code>Ultimate Beckham Law Spain 2026 Guide: How to Shield Your Wealth &amp; Slash Taxes Legally</code></p>
-</blockquote>
 
 <ul>
 <li></li>
