@@ -15,7 +15,7 @@
 /calculadora-ley-beckham-calcula-tus-impuestos-como-expatriado-en-espana/  /es/calculadora-ley-beckham/               301
 /step-to-apply-tourist-visa-in-spain-from-kuwait/                   /en/step-to-apply-tourist-visa-in-spain-from-kuwait/  301
 /invertir-en-el-mercado-inmobiliario-de-madrid/                     /es/                                              301
-/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/ /en/                                              301
+/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/ /en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/  301
 /como-crear-una-empresa-en-espana-guia-completa-para-extranjeros-en-2025/  /es/servicios/creacion-de-empresas-en-espana/  301
 
 # --- E. Prefijo /ar/ roto (nunca decidido, no es el usuario elena_ar) ---
@@ -47,7 +47,6 @@
 /es/vender-propiedad-espana-guia-2026/                               /es/                                              301
 /es/vender-propiedad-espana-no-residentes-guia-2026/                 /es/                                              301
 /es/visado-para-inversores-en-espana/                                /es/                                              301
-/es/visado-turistico-espana-dubai-2026/                              /es/                                              301
 /es/servicios/inversion-inmobiliaria-espana/                        /es/                                              301
 /es/servicios/inversion-inmobiliaria/                                /es/                                              301
 /es/iva-franquiciado-espana-2026-autonomos/                          /es/                                              301
@@ -60,7 +59,6 @@
 
 # Añadidos 2026-09-12 tras cruzar GSC (180 días) con el sitio nuevo: URLs con
 # impresiones reales que no tenían destino. Ver notas/docs/spaingh/gsc-decisiones-2026-09-12.md
-/en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/  /en/step-to-apply-tourist-visa-in-spain-from-kuwait/  301
 /en/news/                                                            /en/blog/                                         301
 /en/news/page/*                                                      /en/blog/                                         301
 /fr/actualites-de-sgh/                                               /fr/blog/                                         301
