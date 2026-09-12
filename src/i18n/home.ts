@@ -14,7 +14,7 @@ export interface HomeContent {
   challenges: { kicker: string; h2: string; lead: string; items: HomeCard[] };
   method: { kicker: string; h2: string; steps: HomeCard[] };
   testimonials: { kicker: string; h2: string; items: { text: string; name: string; role: string }[] };
-  insights: { kicker: string; h2: string; lead: string; items: { title: string; meta: string; href: string }[] };
+  insights: { kicker: string; h2: string; lead: string; viewAll: string };
   cta: { kicker: string; h2: string; text: string; button: string; privacy: string };
   guarantee: HomeCard[];
 }
@@ -69,11 +69,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     insights: {
       kicker: 'Insights & Noticias', h2: 'Conocimiento al servicio de su inversión',
       lead: 'Guías y análisis de nuestro equipo sobre fiscalidad, residencia e inversión en España.',
-      items: [
-        { title: 'Ley Beckham 2026: requisitos y cómo aplicar', meta: 'Fiscalidad · Ver guía →', href: '/es/ley-beckham-2026-guia-completa/' },
-        { title: 'Calcula tu ahorro fiscal con la Ley Beckham', meta: 'Herramienta · Probar →', href: '/es/calculadora-ley-beckham/' },
-        { title: 'Últimas noticias y análisis del equipo', meta: 'Blog · Ver noticias →', href: '/es/noticias/' },
-      ],
+      viewAll: 'Ver todas las noticias →',
     },
     cta: {
       kicker: 'Estamos listos para ayudarle', h2: 'Solicite su consulta personalizada hoy mismo',
@@ -136,11 +132,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     insights: {
       kicker: 'Insights & News', h2: 'Knowledge at the service of your investment',
       lead: 'Guides and analysis from our team on taxation, residency and investment in Spain.',
-      items: [
-        { title: 'Beckham Law Spain: complete 2026 guide', meta: 'Tax · Read guide →', href: '/en/beckham-law-spain-guide/' },
-        { title: 'Calculate your tax savings under the Beckham Law', meta: 'Tool · Try it →', href: '/en/beckham-law-calculator/' },
-        { title: 'Latest news and analysis from the team', meta: 'Blog · View posts →', href: '/en/blog/' },
-      ],
+      viewAll: 'View all articles →',
     },
     cta: {
       kicker: 'We are ready to help', h2: 'Request your personalised consultation today',
@@ -203,11 +195,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     insights: {
       kicker: 'Insights & Actualités', h2: 'Le savoir au service de votre investissement',
       lead: 'Guides et analyses de notre équipe sur la fiscalité, la résidence et l’investissement en Espagne.',
-      items: [
-        { title: 'Calculez votre économie fiscale avec la Loi Beckham', meta: 'Outil · Essayer →', href: '/fr/calculateur-loi-beckham/' },
-        { title: 'Vérifiez votre éligibilité au Visa Nomade Numérique', meta: 'Outil · Vérifier →', href: '/fr/verificateur-visa-nomade-numerique/' },
-        { title: 'Dernières actualités et analyses de l’équipe', meta: 'Blog · Voir →', href: '/fr/blog/' },
-      ],
+      viewAll: 'Voir toutes les actualités →',
     },
     cta: {
       kicker: 'Nous sommes prêts à vous accompagner', h2: "Demandez votre consultation personnalisée dès aujourd'hui",

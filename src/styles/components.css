@@ -155,10 +155,18 @@ sgh-nav-wrapper, site-header, .elementor-location-header{display:none}
 .sgh2 .sgh2-testi-user .u span{color:#7a8a86;font-size:.82rem}
 .sgh2 .sgh2-blog{background:#fff;border-top:1px solid #eef3f1}
 .sgh2 .sgh2-blog-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:44px}
-.sgh2 .sgh2-blog-card{background:#f4f7f6;border:1px solid #e4ebe9;border-radius:16px;padding:30px;display:block;color:#33475b!important;transition:transform .25s,border-color .25s}
+.sgh2 .sgh2-blog-card{background:#f4f7f6;border:1px solid #e4ebe9;border-radius:16px;padding:0;overflow:hidden;display:flex;flex-direction:column;color:#33475b!important;text-decoration:none;transition:transform .25s,border-color .25s}
+.sgh2 .sgh2-blog-card .im{display:block;position:relative;aspect-ratio:16/9;overflow:hidden;background:#0a3d3c}
+.sgh2 .sgh2-blog-card .im img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.sgh2 .sgh2-blog-card .im em{position:absolute;top:10px;left:10px;font-style:normal;background:rgba(6,31,29,.85);color:#c5a059;font-size:.7rem;font-weight:800;letter-spacing:1px;padding:4px 8px;border-radius:6px}
+.sgh2 .sgh2-blog-card .bd{display:block;padding:20px 22px 22px}
+.sgh2 .sgh2-blog-card time{display:block;font-size:.76rem;color:#7a8a86;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.sgh2 .sgh2-blog-all{margin:28px 0 0;text-align:center}
+.sgh2 .sgh2-blog-all a{color:#0a3d3c;font-weight:800;font-size:.95rem;text-decoration:none;border-bottom:2px solid #c5a059;padding-bottom:2px}
+.sgh2 .sgh2-blog-all a:hover{color:#3fb0ac}
 .sgh2 .sgh2-blog-card:hover{transform:translateY(-6px);border-color:#3fb0ac}
 .sgh2 .sgh2-blog-card .bn{font-family:'Playfair Display',serif;font-size:2.4rem;color:#c5a059;font-weight:800;line-height:1;margin-bottom:14px}
-.sgh2 .sgh2-blog-card h3{font-size:1.15rem;color:#061f1d;margin:0 0 10px}
+.sgh2 .sgh2-blog-card h3{font-size:1.05rem;line-height:1.35;color:#061f1d;margin:0 0 10px}
 .sgh2 .sgh2-blog-card span{color:#0a3d3c;font-weight:700;font-size:.9rem}
 .sgh2 .sgh2-cta{background:linear-gradient(135deg,#0a2321 0%,#2d827f 100%);text-align:center;color:#fff}
 .sgh2 .sgh2-cta .kicker{color:#c5a059}
