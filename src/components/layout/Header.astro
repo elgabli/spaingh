@@ -12,6 +12,12 @@ const { lang, translations = [] } = Astro.props;
 const t = i18nConfig[lang];
 const navItems = [t.nav.home, t.nav.services, t.nav.blog, t.nav.about, t.nav.contact];
 const ctaHref = withLangPrefix(lang, `${t.nav.contact.href}?origen=header`);
+// Banderas inline (SVG mínimos, sin ficheros externos): ES, GB, FR.
+const FLAGS: Record<Lang, string> = {
+  es: '<svg viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#c60b1e"/><rect y="3.75" width="22" height="7.5" fill="#ffc400"/></svg>',
+  en: '<svg viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#012169"/><path d="M0 0l22 15M22 0L0 15" stroke="#fff" stroke-width="3"/><path d="M0 0l22 15M22 0L0 15" stroke="#c8102e" stroke-width="1.2"/><path d="M11 0v15M0 7.5h22" stroke="#fff" stroke-width="4.5"/><path d="M11 0v15M0 7.5h22" stroke="#c8102e" stroke-width="2.5"/></svg>',
+  fr: '<svg viewBox="0 0 22 15" aria-hidden="true"><rect width="22" height="15" fill="#fff"/><rect width="7.33" height="15" fill="#002395"/><rect x="14.67" width="7.33" height="15" fill="#ed2939"/></svg>',
+};
 const langLinks = LANGS.map((l) => ({
   code: l,
   name: i18nConfig[l].name,
@@ -38,12 +44,13 @@ const langLinks = LANGS.map((l) => ({
     </nav>
     <div class="lang" id="sghh-lang">
       <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label={t.name}>
+        <span class="fl" set:html={FLAGS[lang]} />
         {lang.toUpperCase()}
         <svg class="cx" viewBox="0 0 10 10" aria-hidden="true"><path d="M1 3l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.6" /></svg>
       </button>
       <div class="lang-menu">
         {langLinks.map((l) => (
-          <a href={l.href} hreflang={l.code} lang={l.code} class:list={{ on: l.current }}>{l.name}</a>
+          <a href={l.href} hreflang={l.code} lang={l.code} class:list={{ on: l.current }}><span class="fl" set:html={FLAGS[l.code]} />{l.name}</a>
         ))}
       </div>
     </div>

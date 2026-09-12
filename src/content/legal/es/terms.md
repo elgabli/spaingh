@@ -1,6 +1,6 @@
 ---
 title: "Términos y Condiciones de Uso | Spain Global Hub"
-description: "Términos y condiciones de uso del sitio web spaingh.com."
+description: "Términos y condiciones de uso de spaingh.com: alcance de la información publicada, propiedad intelectual, responsabilidad y legislación aplicable."
 lang: es
 slug: terminos-y-condiciones-de-uso
 translationGroup: terms

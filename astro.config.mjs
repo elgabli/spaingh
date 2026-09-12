@@ -15,5 +15,5 @@ export default defineConfig({
       prefixDefaultLocale: true,
     },
   },
-  integrations: [sitemap(), mdx()],
+  integrations: [sitemap({ filter: (page) => page !== 'https://spaingh.com/' && !page.includes('/404') }), mdx()],
 });

@@ -34,7 +34,7 @@ export const contactText: Record<Lang, ContactText> = {
     errors: { generic: 'No se ha podido enviar. Inténtelo de nuevo o escríbanos a sgh@spaingh.com.', required: 'Complete los campos obligatorios.', email: 'Revise el correo electrónico.', privacy: 'Debe aceptar la política de privacidad.', turnstile: 'Verificación anti-spam pendiente. Espere un segundo y reintente.' },
   },
   en: {
-    title: 'Contact | Spain Global Hub',
+    title: 'Contact Us | Spain Global Hub',
     description: 'Contact Spain Global Hub for a private evaluation of your tax, residency or investment situation in Spain.',
     h1: 'Request your private evaluation',
     intro: 'Tell us about your case and we will reply within 24 working hours with a first assessment and next steps.',
@@ -48,7 +48,7 @@ export const contactText: Record<Lang, ContactText> = {
     errors: { generic: 'Your message could not be sent. Please try again or email sgh@spaingh.com.', required: 'Please complete the required fields.', email: 'Please check the email address.', privacy: 'You must accept the privacy policy.', turnstile: 'Anti-spam check pending. Wait a second and try again.' },
   },
   fr: {
-    title: 'Contact | Spain Global Hub',
+    title: 'Contactez-nous | Spain Global Hub',
     description: 'Contactez Spain Global Hub pour une évaluation privée de votre situation fiscale, de résidence ou d’investissement en Espagne.',
     h1: 'Demandez votre évaluation privée',
     intro: 'Décrivez-nous votre cas et nous vous répondons sous 24 h ouvrées avec une première analyse et les prochaines étapes.',

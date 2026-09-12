@@ -1,6 +1,6 @@
 ---
-title: "Calculadora Ley Beckham 2026: Tu Ahorro con la Ley de Startups | Spain Global Hub"
-description: "Calcula tu ahorro fiscal como expatriado en España bajo el régimen especial de impatriados (Ley Beckham, 24% hasta 600.000 €) frente al IRPF ordinario, con las escalas 2025/26 de las 19 comunidades autónomas."
+title: "Calculadora Ley Beckham 2026: Tu Ahorro Fiscal | Spain Global Hub"
+description: "Calcula tu ahorro como expatriado en España con la Ley Beckham (24 % hasta 600.000 €) frente al IRPF ordinario, con las escalas 2025/26 de las 19 comunidades."
 lang: es
 slug: calculadora-ley-beckham
 translationGroup: ley-beckham

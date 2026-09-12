@@ -51,7 +51,7 @@ export const pagesText: Record<Lang, PagesText> = {
     },
     blog: {
       title: 'Blog | Spain Global Hub',
-      description: 'Articles on taxation, visas and investment for foreigners in Spain.',
+      description: 'Articles and guides on taxation, visas, residency and investment for foreigners relocating to Spain.',
       h1: 'Blog',
       intro: 'Guides and analysis from the team on taxation, residency and investment in Spain.',
       empty: 'No articles in this language yet.',
@@ -61,8 +61,8 @@ export const pagesText: Record<Lang, PagesText> = {
   },
   fr: {
     services: {
-      title: 'Services | Spain Global Hub',
-      description: 'Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Visa Nomade Numérique, Professionnel Hautement Qualifié et création de sociétés.',
+      title: 'Nos services | Spain Global Hub',
+      description: 'Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Visa Nomade Numérique, PHQ et création de sociétés.',
       h1: 'Services',
       intro: "Quatre domaines dans lesquels nous accompagnons ceux qui s'installent ou investissent en Espagne, de l'évaluation initiale à la résolution du dossier.",
       pilares: {

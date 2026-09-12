@@ -49,7 +49,7 @@ updatedDate: 2026-09-11
 
 <p>It is vital to note that only the fixed <strong>salary</strong> counts; bonuses or variable pay are usually excluded when the <strong>immigration lawyer</strong> reviews your <strong>job contract</strong>.</p>
 
-<img width="1200" height="750" src="/img/apply-for-highly-qualified-professional-visa-spain-1-1200x750.jpeg" alt="" />Close up of man, travel agency worker holding plane tickets.
+<img width="1200" height="750" src="/img/apply-for-highly-qualified-professional-visa-spain-1-1200x750.jpeg" alt="Highly Qualified Professional visa Spain: advisor handing over documents" />
 
 <h2 id="company">The Role of the Spanish Company and the Job Offer</h2>
 

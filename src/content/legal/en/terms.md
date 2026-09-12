@@ -1,6 +1,6 @@
 ---
 title: "Terms of Use | Spain Global Hub"
-description: "Terms of use governing access to and use of the spaingh.com website."
+description: "Terms of use of spaingh.com: scope of the information published, intellectual property, liability and applicable law."
 lang: en
 slug: terms-of-use
 translationGroup: terms
