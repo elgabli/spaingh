@@ -152,6 +152,8 @@ const schemaNodes = [
       <nav class="sgh-crumbs" aria-label="Breadcrumb">
         <a href={withLangPrefix(lang, '/')}>{t.article.home}</a> › <a href={crumb.href}>{crumb.label}</a>
       </nav>
+      <div class="sgh-post-grid">
+      <div class="sgh-post-main">
       <header class:list={['sgh-post-hero', { 'has-img': !!image }]}>
         {image && <img src={image} alt={entry.data.imageAlt ?? h1Text} width="1200" height="675" fetchpriority="high" />}
         <div class="in">
@@ -163,10 +165,10 @@ const schemaNodes = [
           </p>
         </div>
       </header>
-      <div class="sgh-post-grid">
         <article class="sgh-article sgh-post-body">
           {isHtml ? <Fragment set:html={htmlBody} /> : <Content />}
         </article>
+      </div>
         <aside class="sgh-post-side">
           {toc.length > 1 && (
             <nav class="sgh-toc" aria-label={t.article.toc}>

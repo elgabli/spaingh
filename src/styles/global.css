@@ -139,13 +139,14 @@ main a {
 .sgh-post { max-width: 1200px; margin: 0 auto; padding: 22px 20px 70px; }
 .sgh-crumbs { font-size: .82rem; color: #7a8a86; margin-bottom: 14px; }
 .sgh-crumbs a { color: #0a3d3c; font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
-.sgh-post-hero { position: relative; border-radius: 18px; overflow: hidden; background: linear-gradient(135deg, #061f1d 0%, #0a3d3c 55%, #0c4f4b 100%); color: #fff; min-height: 300px; display: flex; align-items: flex-end; margin-bottom: 34px; }
+.sgh-post-hero { position: relative; border-radius: 18px; overflow: hidden; background: linear-gradient(135deg, #061f1d 0%, #0a3d3c 55%, #0c4f4b 100%); color: #fff; min-height: 300px; display: flex; align-items: flex-end; margin-bottom: 30px; }
 .sgh-post-hero img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; margin: 0; border-radius: 0; }
 .sgh-post-hero.has-img::before { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(6,31,29,.25) 0%, rgba(6,31,29,.72) 60%, rgba(6,31,29,.9) 100%); }
-.sgh-post-hero .in { position: relative; padding: 56px 48px 34px; max-width: 900px; }
-.sgh-post-hero h1 { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.7rem, 3.2vw, 2.6rem); line-height: 1.18; color: #fff; margin: 0 0 14px; letter-spacing: -.3px; text-shadow: 0 2px 14px rgba(0,0,0,.35); }
+.sgh-post-hero .in { position: relative; padding: 56px 40px 30px; }
+.sgh-post-hero h1 { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(1.6rem, 2.6vw, 2.3rem); line-height: 1.18; color: #fff; margin: 0 0 14px; letter-spacing: -.3px; text-shadow: 0 2px 14px rgba(0,0,0,.35); }
 .sgh-post-hero .meta { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; font-size: .8rem; letter-spacing: .6px; text-transform: uppercase; color: var(--sgh-dorado); font-weight: 700; }
 .sgh-post-grid { display: grid; grid-template-columns: minmax(0, 1fr) 320px; gap: 48px; align-items: start; }
+.sgh-post-main { min-width: 0; }
 .sgh-post-body { max-width: none; margin: 0; padding: 0; }
 .sgh-post-body > :first-child { margin-top: 0; }
 .sgh-post-side { position: sticky; top: 100px; display: flex; flex-direction: column; gap: 18px; }
@@ -174,10 +175,12 @@ main a {
   .sgh-post-hero { min-height: 240px; }
 }
 @media (max-width: 1024px) {
-  /* En móvil/tablet el índice va antes del texto y las tarjetas después */
+  /* En móvil/tablet: hero, índice, texto y al final las tarjetas */
   .sgh-post-grid { display: flex; flex-direction: column; }
-  .sgh-post-side { display: contents; }
+  .sgh-post-main, .sgh-post-side { display: contents; }
+  .sgh-post-hero { order: -2; }
   .sgh-post-side .sgh-toc { order: -1; }
+  .sgh-post-body { order: 0; }
   .sgh-post-side .sgh-side-card { order: 1; }
 }
 @media (max-width: 600px) {
