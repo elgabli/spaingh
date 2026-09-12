@@ -8,6 +8,7 @@ export interface PagesText {
   services: { title: string; description: string; h1: string; intro: string; pilares: Record<Pilar, { name: string; text: string }>; soon: string };
   blog: { title: string; description: string; h1: string; intro: string; empty: string; otherLangs: string; readMore: string; updated: string; published: string; readTime: string; back: string };
   notFound: { title: string; h1: string; text: string; home: string };
+  article: { home: string; toc: string; toolBeckham: { title: string; text: string; button: string }; toolNomad: { title: string; text: string; button: string }; toolServices: { title: string; text: string; button: string }; contact: { title: string; text: string; button: string } };
 }
 
 export const pagesText: Record<Lang, PagesText> = {
@@ -39,6 +40,13 @@ export const pagesText: Record<Lang, PagesText> = {
       back: '← Todas las noticias',
     },
     notFound: { title: 'Página no encontrada | Spain Global Hub', h1: 'Página no encontrada', text: 'La página que busca no existe o ha cambiado de dirección.', home: 'Ir al inicio' },
+    article: {
+      home: 'Inicio', toc: 'En este artículo',
+      toolBeckham: { title: 'Calculadora Ley Beckham', text: 'Compare el IRPF ordinario con el tipo del 24 % para su salario y comunidad.', button: 'Calcular mi ahorro' },
+      toolNomad: { title: 'Verificador Visado Nómada Digital', text: 'Compruebe en 2 minutos si cumple los requisitos del visado.', button: 'Comprobar elegibilidad' },
+      toolServices: { title: 'Nuestros servicios', text: 'Ley Beckham, Nómada Digital, Profesional Cualificado y creación de empresas.', button: 'Ver servicios' },
+      contact: { title: '¿Hablamos?', text: 'Reserve una consulta personalizada. Respuesta en 24 h laborables.', button: 'Reservar consulta' },
+    },
   },
   en: {
     services: {
@@ -68,6 +76,13 @@ export const pagesText: Record<Lang, PagesText> = {
       back: '← All articles',
     },
     notFound: { title: 'Page not found | Spain Global Hub', h1: 'Page not found', text: 'The page you are looking for does not exist or has moved.', home: 'Go to home' },
+    article: {
+      home: 'Home', toc: 'In this article',
+      toolBeckham: { title: 'Beckham Law Calculator', text: 'Compare ordinary income tax with the 24% flat rate for your salary and region.', button: 'Calculate my savings' },
+      toolNomad: { title: 'Digital Nomad Visa Checker', text: 'Find out in 2 minutes whether you meet the visa requirements.', button: 'Check eligibility' },
+      toolServices: { title: 'Our services', text: 'Beckham Law, Digital Nomad Visa, Highly Qualified Professional and company formation.', button: 'View services' },
+      contact: { title: 'Shall we talk?', text: 'Book a personalised consultation. Reply within 24 working hours.', button: 'Book a consultation' },
+    },
   },
   fr: {
     services: {
@@ -97,6 +112,13 @@ export const pagesText: Record<Lang, PagesText> = {
       back: '← Toutes les actualités',
     },
     notFound: { title: 'Page introuvable | Spain Global Hub', h1: 'Page introuvable', text: "La page que vous cherchez n'existe pas ou a changé d'adresse.", home: "Aller à l'accueil" },
+    article: {
+      home: 'Accueil', toc: 'Dans cet article',
+      toolBeckham: { title: 'Calculateur Loi Beckham', text: "Comparez l'IRPF ordinaire avec le taux de 24 % pour votre salaire et votre région.", button: 'Calculer mon économie' },
+      toolNomad: { title: 'Vérificateur Visa Nomade Numérique', text: 'Vérifiez en 2 minutes si vous remplissez les conditions du visa.', button: "Vérifier l'éligibilité" },
+      toolServices: { title: 'Nos services', text: 'Loi Beckham, Visa Nomade Numérique, Professionnel Hautement Qualifié et création de société.', button: 'Voir les services' },
+      contact: { title: 'On en parle ?', text: 'Réservez une consultation personnalisée. Réponse sous 24 h ouvrées.', button: 'Réserver une consultation' },
+    },
   },
 };
 

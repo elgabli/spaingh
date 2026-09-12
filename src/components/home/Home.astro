@@ -6,21 +6,17 @@ import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
 import { homeContent } from '../../i18n/home';
 import { getCollection } from 'astro:content';
 import { pagesText } from '../../i18n/pages';
-import { LANGS } from '../../i18n/config';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const c = homeContent[lang];
 
-// Últimos 3 artículos del idioma (si no hay ninguno, los de otros idiomas).
+// Últimos 3 artículos DEL IDIOMA. Nunca se mezclan idiomas (SEO): si no hay
+// artículos en este idioma, la sección no se renderiza.
 const byDate = (a: any, b: any) =>
   (b.data.updatedDate ?? b.data.publishedDate).getTime() - (a.data.updatedDate ?? a.data.publishedDate).getTime();
-const allPosts = (await getCollection('blog')).sort(byDate);
-const ownPosts = allPosts.filter((p) => p.data.lang === lang);
-const latestPosts = (ownPosts.length ? ownPosts : allPosts).slice(0, 3);
-const dateFmts = Object.fromEntries(
-  LANGS.map((l) => [l, new Intl.DateTimeFormat(i18nConfig[l].locale.replace('_', '-'), { year: 'numeric', month: 'short', day: 'numeric' })]),
-) as Record<Lang, Intl.DateTimeFormat>;
+const latestPosts = (await getCollection('blog')).filter((p) => p.data.lang === lang).sort(byDate).slice(0, 3);
+const dateFmt = new Intl.DateTimeFormat(i18nConfig[lang].locale.replace('_', '-'), { year: 'numeric', month: 'short', day: 'numeric' });
 const contactHref = withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=home`);
 
 const ICONS = {
@@ -138,22 +134,21 @@ const guaranteeIcons = [ICONS.shieldCheck, ICONS.clock, ICONS.check];
     </div>
   </section>
 
-  <section class="sgh2-blog">
+  {latestPosts.length > 0 && <section class="sgh2-blog">
     <div class="wrap reveal">
       <span class="kicker">{c.insights.kicker}</span>
       <h2 class="h2">{c.insights.h2}</h2>
       <p class="lead">{c.insights.lead}</p>
       <div class="sgh2-blog-grid">
         {latestPosts.map((p) => {
-          const pl = p.data.lang as Lang;
           const date = p.data.updatedDate ?? p.data.publishedDate;
           return (
-            <a class="sgh2-blog-card" href={withLangPrefix(pl, `/${p.data.slug}/`)} hreflang={pl} lang={pl}>
-              <span class="im"><img src={p.data.image ?? '/img/cover-fiscal.svg'} alt={p.data.imageAlt ?? ''} loading="lazy" width="600" height="338" />{pl !== lang && <em>{pl.toUpperCase()}</em>}</span>
+            <a class="sgh2-blog-card" href={withLangPrefix(lang, `/${p.data.slug}/`)}>
+              <span class="im"><img src={p.data.image ?? '/img/cover-fiscal.svg'} alt={p.data.imageAlt ?? ''} loading="lazy" width="600" height="338" /></span>
               <span class="bd">
-                <time datetime={date.toISOString().slice(0, 10)}>{dateFmts[pl].format(date)}</time>
+                <time datetime={date.toISOString().slice(0, 10)}>{dateFmt.format(date)}</time>
                 <h3>{p.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, '')}</h3>
-                <span class="more">{pagesText[pl].blog.readMore}</span>
+                <span class="more">{pagesText[lang].blog.readMore}</span>
               </span>
             </a>
           );
@@ -161,7 +156,7 @@ const guaranteeIcons = [ICONS.shieldCheck, ICONS.clock, ICONS.check];
       </div>
       <p class="sgh2-blog-all"><a href={withLangPrefix(lang, i18nConfig[lang].nav.blog.href)}>{c.insights.viewAll}</a></p>
     </div>
-  </section>
+  </section>}
 
   <section class="sgh2-cta">
     <div class="wrap reveal">

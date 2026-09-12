@@ -12,7 +12,7 @@ imageAlt: "Visa de Professionnel Hautement Qualifié en Espagne"
 
 Le visa de professionnel hautement qualifié en Espagne est devenu le choix privilégié des talents internationaux qui se relocalisent en Méditerranée. En 2026, la législation espagnole en matière d'immigration continue de favoriser les experts qualifiés à la recherche d'une autorisation de résidence et de travail accélérée. Que vous soyez ingénieur ou cadre supérieur, ce permis offre une alternative simplifiée aux visas de travail standard.
 
-## Conditions requises pour le visa de professionnel hautement qualifié en Espagne {#requirements}
+## Conditions requises pour le visa de professionnel hautement qualifié en Espagne
 
 Pour **demander une autorisation de professionnel hautement qualifié**, le demandeur doit respecter des normes rigoureuses. Ce **visa de travail en Espagne** n'est pas destiné aux travailleurs généraux, mais à ceux qui possèdent des **qualifications professionnelles avancées**. Pour **obtenir le statut de professionnel hautement qualifié**, vous devez détenir un **Master**, une **licence**, ou justifier d'au moins trois ans d'**expérience remarquable** dans votre **profession**.
 
@@ -30,7 +30,7 @@ Lors de la **demande du permis spécialisé de professionnel qualifié**, vous d
 
 - **Assurance maladie** : Vous devez disposer d'une couverture valide **en Espagne entière** et dans l'**Espace Schengen**.
 
-## Conditions salariales pour les professionnels hautement qualifiés en 2026 {#salary}
+## Conditions salariales pour les professionnels hautement qualifiés en 2026
 
 Des questions sur les tranches salariales de 2026 ? [Parlez à un Expert](/fr/contact/?origen=hqp)
 
@@ -44,15 +44,13 @@ Les **conditions salariales** sont souvent le plus grand obstacle. Pour **demand
 
 Il est vital de noter que seul le **salaire fixe** compte ; les bonus ou les rémunérations variables sont généralement exclus lorsque l'**avocat en immigration** examine votre **contrat de travail**.
 
-![Visa de professionnel hautement qualifié en Espagne : conseiller remettant des documents](/img/apply-for-highly-qualified-professional-visa-spain-1-1200x750.jpeg)
-
-## Le rôle de l'entreprise espagnole et de l'offre d'emploi {#company}
+## Le rôle de l'entreprise espagnole et de l'offre d'emploi
 
 Pour un **permis de travailleur qualifié en Espagne**, l'employeur doit être une **entreprise** de taille significative ou opérer dans un **secteur stratégique en Espagne**. Une **entreprise espagnole** de plus de 250 salariés ou ayant un chiffre d'affaires élevé est automatiquement éligible pour recruter via la **voie du visa HQP**.
 
 La **description du poste** doit être détaillée. L'**UGE-CE** vérifiera si les tâches requièrent les **connaissances** et la **formation** fournis par votre **Master**. Si votre **demande est rejetée**, c'est souvent parce que la **description du poste** était trop générique pour un **visa de professionnel hautement qualifié**.
 
-## Délais de traitement et cadre juridique {#processing}
+## Délais de traitement et cadre juridique
 
 Le délai de traitement du **visa de professionnel hautement qualifié en Espagne** est l'une de ses meilleures caractéristiques. Alors qu'un visa de travail standard peut prendre plusieurs mois, le **visa de professionnel hautement qualifié en Espagne** est généralement résolu en 20 jours ouvrables. Si vous ne recevez pas de réponse dans ce délai pour votre **visa de professionnel hautement qualifié en Espagne**, le **silence positif** s'applique, ce qui signifie que votre résidence est techniquement approuvée.
 
@@ -60,13 +58,13 @@ Une fois que vous avez l'**autorisation**, vous devez vous présenter au **poste
 
 ---
 
-## Comment obtenir le statut de professionnel hautement qualifié {#status}
+## Comment obtenir le statut de professionnel hautement qualifié
 
 Pour que votre **profil spécialisé de professionnel qualifié** soit reconnu, le **bureau espagnol de l'immigration** évalue votre **permis de travail professionnel** en fonction du prestige de votre université ou de vos **qualifications professionnelles** antérieures. Que votre formation soit en **psychologie clinique**, ingénierie, ou **gestion d'entreprise**, vous devez démontrer que vous faites partie des **professionnels hautement qualifiés** dont le pays a besoin.
 
 Si vous êtes déjà **en Espagne** avec un **visa d'étudiant**, la transition vers un **permis de travail de professionnel hautement qualifié** est plus facile que jamais. Vous n'aurez pas besoin de **voyager à nouveau en Espagne** pour modifier votre statut. Cependant, si votre **demande est rejetée**, vous devez **soumettre une nouvelle demande** dans les délais légaux pour éviter une situation irrégulière.
 
-## Membres de la famille et permis de professionnel hautement qualifié {#family}
+## Membres de la famille et permis de professionnel hautement qualifié
 
 L'un des meilleurs aspects du **visa HQP** est qu'il couvre votre famille. Chaque **membre adulte**, tel qu'un conjoint, peut également **vivre et travailler légalement** dans le pays. Pour **demander ce visa** pour vos membres de la famille, vous devrez **soumettre un nouveau dossier** pour chaque membre, y compris son **certificat de mariage** ou ses **certificats de naissance**, le tout selon la **Convention d'apostille**.
 
@@ -82,11 +80,11 @@ Une fois que le **visa de travail de professionnel hautement qualifié** est app
 
 Gardez à l'esprit que, bien que les fichiers numériques soient la norme, certains bureaux exigent toujours des **copies physiques** de votre **carte d'identité** ou **permis de résidence**.
 
-## Renouvellement du visa de professionnel hautement qualifié {#renewal}
+## Renouvellement du visa de professionnel hautement qualifié
 
 Le **renouvellement du statut de professionnel hautement qualifié** intervient tous les trois ans. Si vous continuez à **travailler dans le pays** pour une entreprise **basée en Espagne**, le processus est presque automatique. Si vous changez d'emploi, votre nouvel **employeur** doit s'assurer qu'il respecte les **conditions salariales** et fournir un nouveau **contrat de travail** aux autorités. Travailler avec des **avocats en immigration expérimentés** à ce stade garantit que votre **travail de professionnel hautement qualifié** continue sans interruption.
 
-## Comparaison : Visa HQP vs. Visa Nomade Numérique {#comparison}
+## Comparaison : Visa HQP vs. Visa Nomade Numérique
 
 De nombreux professionnels se demandent s'ils devraient choisir le visa de nomade numérique ou le **visa de professionnel hautement qualifié en Espagne**. Alors que le visa nomade est destiné à ceux qui travaillent pour des entreprises en dehors du pays, le **visa de professionnel hautement qualifié en Espagne** est destiné à ceux qui ont une offre d'emploi locale. Les deux vous permettent de vivre et travailler, mais le **visa de professionnel hautement qualifié en Espagne** offre un chemin plus stable vers la résidence permanente à long terme.
 

@@ -2,10 +2,10 @@
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+import { pagesText, listingUrls } from '../../i18n/pages';
 import { articleSchema, webApplicationSchema } from '../../lib/schema';
 import BeckhamCalculator from '../../components/islands/BeckhamCalculator.astro';
 import NomadChecker from '../../components/islands/NomadChecker.astro';
-import { pagesText } from '../../i18n/pages';
 
 const SITE_URL = 'https://spaingh.com';
 
@@ -39,13 +39,10 @@ export async function getStaticPaths() {
 
 const { entry, all } = Astro.props as { entry: AnyEntry; all: AnyEntry[] };
 const { Content, headings } = await render(entry as any);
-// H1: WordPress mostraba el título fuera del contenido, así que la mayoría de
-// artículos no traen H1. Si el cuerpo no tiene uno, lo genera la plantilla.
-const bodyHasH1 = entry.data.format === 'html'
-  ? /<h1[\s>]/i.test(entry.body ?? '')
-  : headings.some((h: { depth: number }) => h.depth === 1);
-const h1Text = entry.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, '');
 const lang = entry.data.lang as Lang;
+const t = pagesText[lang];
+const h1Text = entry.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, '');
+const isHtml = entry.data.format === 'html';
 
 const canonicalUrl = `${SITE_URL}/${lang}/${entry.data.slug}/`;
 
@@ -60,24 +57,71 @@ const translations = all
 const srcFile = (entry as { filePath?: string }).filePath ?? '';
 const isBeckhamPillar = entry.collection === 'pilares' && /\/ley-beckham\.mdx?$/.test(srcFile);
 const isNomadPillar = entry.collection === 'pilares' && /\/nomada-digital\.mdx?$/.test(srcFile);
+const hasIsland = isBeckhamPillar || isNomadPillar;
 const beckhamTail = isBeckhamPillar ? beckhamTails[`../../content-raw/beckham-tail-${lang}.html`] : undefined;
 
-// Imagen destacada: en la cabecera del artículo solo si es una foto real
-// (no una portada de marca .svg) y el cuerpo no la incluye ya.
+// Plantilla "artículo" (hero con imagen + índice lateral + tarjetas): blog y
+// guías de pilar sin isla. Legales y páginas con isla: plantilla simple.
+const isBlog = entry.collection === 'blog';
+const isArticle = (isBlog || entry.collection === 'pilares') && !hasIsland;
+
+// Imagen destacada: og:image solo si es foto real (no portada de marca .svg).
 const image = entry.data.image;
 const isPhoto = !!image && !/\.svg$/i.test(image);
-const bodyHasImage = !!image && (entry.body ?? '').includes(image);
-const heroImage = isPhoto && !bodyHasImage ? image : undefined;
 const ogImage = isPhoto ? `${SITE_URL}${image}` : undefined;
 
-// Meta del artículo (solo blog): fecha y tiempo de lectura.
-const isBlog = entry.collection === 'blog';
-const blogT = pagesText[lang].blog;
+// Cuerpo HTML (WordPress): se quita el H1 propio (el hero ya lo pinta), la
+// imagen destacada si viene repetida, y se añaden ids a los H2 sin id para el índice.
+const slugify = (s: string) =>
+  s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().replace(/<[^>]+>/g, '').replace(/&[a-z#0-9]+;/g, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+let htmlBody = entry.body ?? '';
+let toc: { id: string; text: string }[] = [];
+if (isHtml) {
+  if (isArticle) {
+    htmlBody = htmlBody.replace(/<h1[\s>][\s\S]*?<\/h1>/i, '');
+    if (image) {
+      const esc = image.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      htmlBody = htmlBody
+        .replace(new RegExp(`<figure[^>]*>\\s*<img[^>]*src="${esc}"[^>]*>[\\s\\S]*?<\\/figure>`, 'i'), '')
+        .replace(new RegExp(`<p[^>]*>\\s*<img[^>]*src="${esc}"[^>]*>\\s*<\\/p>`, 'i'), '')
+        .replace(new RegExp(`<img[^>]*src="${esc}"[^>]*>`, 'i'), '');
+    }
+  }
+  const used = new Set<string>();
+  htmlBody = htmlBody.replace(/<h2([^>]*)>([\s\S]*?)<\/h2>/gi, (m, attrs: string, inner: string) => {
+    const text = inner.replace(/<[^>]+>/g, '').replace(/&#8217;|&rsquo;/g, '’').replace(/&amp;/g, '&').trim();
+    const idMatch = attrs.match(/\sid="([^"]+)"/);
+    let id = idMatch ? idMatch[1] : slugify(text) || 'seccion';
+    while (used.has(id)) id += '-2';
+    used.add(id);
+    toc.push({ id, text });
+    return idMatch ? m : `<h2 id="${id}"${attrs}>${inner}</h2>`;
+  });
+} else {
+  toc = headings.filter((h: { depth: number }) => h.depth === 2).map((h: { slug: string; text: string }) => ({ id: h.slug, text: h.text }));
+}
+const bodyHasH1 = isHtml ? /<h1[\s>]/i.test(htmlBody) : headings.some((h: { depth: number }) => h.depth === 1);
+
+// Meta del artículo: fecha y tiempo de lectura.
 const words = (entry.body ?? '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
 const readMinutes = Math.max(1, Math.round(words / 220));
 const metaDate = entry.data.updatedDate ?? entry.data.publishedDate;
 const dateFmt = new Intl.DateTimeFormat(i18nConfig[lang].locale.replace('_', '-'), { year: 'numeric', month: 'long', day: 'numeric' });
-const blogHref = withLangPrefix(lang, i18nConfig[lang].nav.blog.href);
+
+// Migas y tarjetas laterales.
+const crumb = isBlog
+  ? { href: listingUrls.blog[lang], label: i18nConfig[lang].nav.blog.label }
+  : { href: listingUrls.services[lang], label: i18nConfig[lang].nav.services.label };
+const pilares = all.filter((e) => e.collection === 'pilares' && e.data.lang === lang) as CollectionEntry<'pilares'>[];
+const calc = pilares.find((e) => /\/ley-beckham\.mdx?$/.test((e as { filePath?: string }).filePath ?? ''));
+const checker = pilares.find((e) => /\/nomada-digital\.mdx?$/.test((e as { filePath?: string }).filePath ?? ''));
+const topic = `${entry.data.translationGroup} ${'pilar' in entry.data ? (entry.data as { pilar: string }).pilar : ''}`;
+const tool = /beckham/i.test(topic) && calc
+  ? { ...t.article.toolBeckham, href: withLangPrefix(lang, `/${calc.data.slug}/`) }
+  : /nomad/i.test(topic) && checker
+    ? { ...t.article.toolNomad, href: withLangPrefix(lang, `/${checker.data.slug}/`) }
+    : { ...t.article.toolServices, href: listingUrls.services[lang] };
+const contactHref = withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=${isBlog ? 'articulo' : 'pilar'}`);
 
 const schemaNodes = [
   articleSchema({
@@ -103,26 +147,57 @@ const schemaNodes = [
   schemaNodes={schemaNodes}
   ogImage={ogImage}
 >
-  {/* .sgh-beckham en el <article>: el CSS original de la calculadora define
-      .sghb-lead, .sghb-faq, .sghb-note… siempre bajo ese ancestro. */}
-  <article class:list={['sgh-article', { 'sgh-beckham': isBeckhamPillar }]}>
-    {isBlog && <a class="sgh-article-back" href={blogHref}>{blogT.back}</a>}
-    {!bodyHasH1 && <h1>{h1Text}</h1>}
-    {isBlog && (
-      <p class="sgh-article-meta">
-        <span>{entry.data.updatedDate ? blogT.updated : blogT.published} <time datetime={metaDate.toISOString().slice(0, 10)}>{dateFmt.format(metaDate)}</time></span>
-        <span>·</span>
-        <span>{readMinutes} {blogT.readTime}</span>
-      </p>
-    )}
-    {heroImage && (
-      <figure class="sgh-article-hero">
-        <img src={heroImage} alt={entry.data.imageAlt ?? h1Text} width="1200" height="675" fetchpriority="high" />
-      </figure>
-    )}
-    {isNomadPillar && <NomadChecker lang={lang} />}
-    {entry.data.format === 'html' ? <Fragment set:html={entry.body ?? ''} /> : <Content />}
-    {isBeckhamPillar && <BeckhamCalculator lang={lang} />}
-    {beckhamTail && <Fragment set:html={beckhamTail} />}
-  </article>
+  {isArticle ? (
+    <div class="sgh-post">
+      <nav class="sgh-crumbs" aria-label="Breadcrumb">
+        <a href={withLangPrefix(lang, '/')}>{t.article.home}</a> › <a href={crumb.href}>{crumb.label}</a>
+      </nav>
+      <header class:list={['sgh-post-hero', { 'has-img': !!image }]}>
+        {image && <img src={image} alt={entry.data.imageAlt ?? h1Text} width="1200" height="675" fetchpriority="high" />}
+        <div class="in">
+          <h1>{h1Text}</h1>
+          <p class="meta">
+            <span>{entry.data.updatedDate ? t.blog.updated : t.blog.published} <time datetime={metaDate.toISOString().slice(0, 10)}>{dateFmt.format(metaDate)}</time></span>
+            <span>·</span>
+            <span>{readMinutes} {t.blog.readTime}</span>
+          </p>
+        </div>
+      </header>
+      <div class="sgh-post-grid">
+        <article class="sgh-article sgh-post-body">
+          {isHtml ? <Fragment set:html={htmlBody} /> : <Content />}
+        </article>
+        <aside class="sgh-post-side">
+          {toc.length > 1 && (
+            <nav class="sgh-toc" aria-label={t.article.toc}>
+              <p class="tt">{t.article.toc}</p>
+              <ol>
+                {toc.map((h) => <li><a href={`#${h.id}`}>{h.text}</a></li>)}
+              </ol>
+            </nav>
+          )}
+          <div class="sgh-side-card tool">
+            <p class="tt">{tool.title}</p>
+            <p>{tool.text}</p>
+            <a class="btn" href={tool.href}>{tool.button}</a>
+          </div>
+          <div class="sgh-side-card contact">
+            <p class="tt">{t.article.contact.title}</p>
+            <p>{t.article.contact.text}</p>
+            <a class="btn gold" href={contactHref}>{t.article.contact.button}</a>
+          </div>
+        </aside>
+      </div>
+    </div>
+  ) : (
+    <article class:list={['sgh-article', { 'sgh-beckham': isBeckhamPillar }]}>
+      {/* .sgh-beckham en el <article>: el CSS original de la calculadora define
+          .sghb-lead, .sghb-faq, .sghb-note… siempre bajo ese ancestro. */}
+      {!bodyHasH1 && <h1>{h1Text}</h1>}
+      {isNomadPillar && <NomadChecker lang={lang} />}
+      {isHtml ? <Fragment set:html={htmlBody} /> : <Content />}
+      {isBeckhamPillar && <BeckhamCalculator lang={lang} />}
+      {beckhamTail && <Fragment set:html={beckhamTail} />}
+    </article>
+  )}
 </BaseLayout>
