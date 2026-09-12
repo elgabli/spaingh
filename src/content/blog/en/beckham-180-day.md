@@ -8,6 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-02-24
 updatedDate: 2026-09-12
+image: "/img/ley-beckham-2026-espana-asesor-fiscal-500x281.jpg"
+imageAlt: "Beckham Law 180-day rule"
 ---
 
 <p>

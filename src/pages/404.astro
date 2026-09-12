@@ -8,6 +8,7 @@ import { LANGS } from '../i18n/config';
 
 <BaseLayout title={pagesText.es.notFound.title} description={pagesText.es.notFound.text} lang="es" canonicalUrl="https://spaingh.com/404/" noindex>
   <div class="sgh-404">
+    <a class="logo" href="/es/" aria-label="Spain Global Hub"><img src="/logo-sgh.png" alt="Spain Global Hub" width="220" height="100" /></a>
     <div class="code">404</div>
     {LANGS.map((l) => (
       <p lang={l}><strong>{pagesText[l].notFound.h1}.</strong> {pagesText[l].notFound.text}</p>

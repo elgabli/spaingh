@@ -8,6 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-01-01
 updatedDate: 2026-09-11
+image: "/img/cover-visado.svg"
+imageAlt: "Spain tourist visa from Kuwait"
 ---
 
 <hr />

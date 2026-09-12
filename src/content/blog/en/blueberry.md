@@ -8,6 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-03-01
 updatedDate: 2026-09-11
+image: "/img/blueberry-fruits-1200x675.jpg"
+imageAlt: "Blueberry farming in Huelva, Spain"
 ---
 
 <p id="p-rc_1041085601ea2b9f-67"></p>

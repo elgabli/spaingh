@@ -6,7 +6,7 @@ export const PILAR_ORDER: Pilar[] = ['ley-beckham', 'nomada-digital', 'profesion
 
 export interface PagesText {
   services: { title: string; description: string; h1: string; intro: string; pilares: Record<Pilar, { name: string; text: string }>; soon: string };
-  blog: { title: string; description: string; h1: string; intro: string; empty: string; readMore: string };
+  blog: { title: string; description: string; h1: string; intro: string; empty: string; otherLangs: string; readMore: string; updated: string; published: string; readTime: string; back: string };
   notFound: { title: string; h1: string; text: string; home: string };
 }
 
@@ -31,7 +31,12 @@ export const pagesText: Record<Lang, PagesText> = {
       h1: 'Noticias',
       intro: 'Guías y análisis del equipo sobre fiscalidad, residencia e inversión en España.',
       empty: 'Todavía no hay artículos en este idioma.',
+      otherLangs: 'Mientras tanto, puede leer nuestros artículos en otros idiomas:',
       readMore: 'Leer más →',
+      updated: 'Actualizado el',
+      published: 'Publicado el',
+      readTime: 'min de lectura',
+      back: '← Todas las noticias',
     },
     notFound: { title: 'Página no encontrada | Spain Global Hub', h1: 'Página no encontrada', text: 'La página que busca no existe o ha cambiado de dirección.', home: 'Ir al inicio' },
   },
@@ -55,7 +60,12 @@ export const pagesText: Record<Lang, PagesText> = {
       h1: 'Blog',
       intro: 'Guides and analysis from the team on taxation, residency and investment in Spain.',
       empty: 'No articles in this language yet.',
+      otherLangs: 'In the meantime, you can read our articles in other languages:',
       readMore: 'Read more →',
+      updated: 'Updated on',
+      published: 'Published on',
+      readTime: 'min read',
+      back: '← All articles',
     },
     notFound: { title: 'Page not found | Spain Global Hub', h1: 'Page not found', text: 'The page you are looking for does not exist or has moved.', home: 'Go to home' },
   },
@@ -79,7 +89,12 @@ export const pagesText: Record<Lang, PagesText> = {
       h1: 'Actualités',
       intro: "Guides et analyses de l'équipe sur la fiscalité, la résidence et l'investissement en Espagne.",
       empty: "Pas encore d'articles dans cette langue.",
+      otherLangs: 'En attendant, vous pouvez lire nos articles dans d’autres langues :',
       readMore: 'Lire la suite →',
+      updated: 'Mis à jour le',
+      published: 'Publié le',
+      readTime: 'min de lecture',
+      back: '← Toutes les actualités',
     },
     notFound: { title: 'Page introuvable | Spain Global Hub', h1: 'Page introuvable', text: "La page que vous cherchez n'existe pas ou a changé d'adresse.", home: "Aller à l'accueil" },
   },

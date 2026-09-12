@@ -60,7 +60,7 @@ sgh-nav-wrapper, site-header, .elementor-location-header{display:none}
 
 /* ==================== FOOTER (portado de producción, footer.css) ==================== */
 .elementor-location-footer, .footer-custom-sgh, footer[class*="elementor"], footer elementor-widget-container, .elementor-location-single footer, footer .elementor-widget-html { display:none!important }
-.sghf{background:#061f1d;color:#cfd9d4;padding:64px 20px 26px;border-top:4px solid #3fb0ac;font-family:'Inter',Arial,sans-serif}
+.sghf{background:#061f1d;color:#cfd9d4;padding:56px 20px 26px;border-top:4px solid #3fb0ac;font-family:'Inter',Arial,sans-serif}
 .sghf .w{max-width:1200px;margin:0 auto;display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:40px;text-align:left}
 .sghf h4{color:#fff;font-family:'Playfair Display',Georgia,serif;font-size:1rem;letter-spacing:.4px;margin:0 0 16px}
 .sghf a{color:#cfd9d4;text-decoration:none;font-size:.85rem;display:block;padding:5px 0;transition:color .2s}
@@ -70,7 +70,11 @@ sgh-nav-wrapper, site-header, .elementor-location-header{display:none}
 .sghf .social a{display:inline-block;margin-right:12px;opacity:.7;padding:0}
 .sghf .social a:hover{opacity:1;color:#c5a059}
 .sghf .contact .row{margin-bottom:10px}
-.sghf .contact .row b{color:#fff}
+.sghf .contact .row b{color:#fff;display:block;font-size:.72rem;text-transform:uppercase;letter-spacing:.8px;margin-bottom:2px;color:#8fa39c}
+.sghf .contact .row a{padding:0;color:#fff;font-size:.9rem}
+.sghf .contact .cta{display:inline-block;margin-top:14px;background:linear-gradient(90deg,#c5a059,#d9b96e);color:#061f1d;font-weight:800;font-size:.78rem;letter-spacing:.5px;text-transform:uppercase;padding:10px 18px;border-radius:9px}
+.sghf .contact .cta:hover{color:#061f1d;filter:brightness(1.06)}
+.sghf h4.sub{margin-top:22px}
 .sghf .discl{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:10px;padding:16px 18px;font-size:.78rem;color:#9fb0a9;line-height:1.6;max-width:1200px;margin:36px auto 0}
 .sghf .discl b{color:#c5a059}
 .sghf .rebrand{display:flex;align-items:center;justify-content:center;gap:7px;margin:22px auto 0;font-size:.66rem;color:#f0c674;background:rgba(197,160,89,.1);border:1px solid rgba(197,160,89,.3);border-radius:99px;padding:5px 14px;max-width:max-content}

@@ -8,6 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-01-01
 updatedDate: 2026-09-11
+image: "/img/cover-empresa.svg"
+imageAlt: "Constitución de sociedades en España"
 ---
 
 <h1>Análisis Forense 2026: Ingeniería de Constitución Societaria en España para Capital No Residente</h1>

@@ -1,10 +1,11 @@
 ---
 import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import { type Lang } from '../../i18n/config';
+import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
 import { articleSchema, webApplicationSchema } from '../../lib/schema';
 import BeckhamCalculator from '../../components/islands/BeckhamCalculator.astro';
 import NomadChecker from '../../components/islands/NomadChecker.astro';
+import { pagesText } from '../../i18n/pages';
 
 const SITE_URL = 'https://spaingh.com';
 
@@ -61,6 +62,23 @@ const isBeckhamPillar = entry.collection === 'pilares' && /\/ley-beckham\.mdx?$/
 const isNomadPillar = entry.collection === 'pilares' && /\/nomada-digital\.mdx?$/.test(srcFile);
 const beckhamTail = isBeckhamPillar ? beckhamTails[`../../content-raw/beckham-tail-${lang}.html`] : undefined;
 
+// Imagen destacada: en la cabecera del artículo solo si es una foto real
+// (no una portada de marca .svg) y el cuerpo no la incluye ya.
+const image = entry.data.image;
+const isPhoto = !!image && !/\.svg$/i.test(image);
+const bodyHasImage = !!image && (entry.body ?? '').includes(image);
+const heroImage = isPhoto && !bodyHasImage ? image : undefined;
+const ogImage = isPhoto ? `${SITE_URL}${image}` : undefined;
+
+// Meta del artículo (solo blog): fecha y tiempo de lectura.
+const isBlog = entry.collection === 'blog';
+const blogT = pagesText[lang].blog;
+const words = (entry.body ?? '').replace(/<[^>]+>/g, ' ').split(/\s+/).filter(Boolean).length;
+const readMinutes = Math.max(1, Math.round(words / 220));
+const metaDate = entry.data.updatedDate ?? entry.data.publishedDate;
+const dateFmt = new Intl.DateTimeFormat(i18nConfig[lang].locale.replace('_', '-'), { year: 'numeric', month: 'long', day: 'numeric' });
+const blogHref = withLangPrefix(lang, i18nConfig[lang].nav.blog.href);
+
 const schemaNodes = [
   articleSchema({
     url: canonicalUrl,
@@ -83,11 +101,25 @@ const schemaNodes = [
   translations={translations}
   noindex={entry.data.noindex}
   schemaNodes={schemaNodes}
+  ogImage={ogImage}
 >
   {/* .sgh-beckham en el <article>: el CSS original de la calculadora define
       .sghb-lead, .sghb-faq, .sghb-note… siempre bajo ese ancestro. */}
   <article class:list={['sgh-article', { 'sgh-beckham': isBeckhamPillar }]}>
+    {isBlog && <a class="sgh-article-back" href={blogHref}>{blogT.back}</a>}
     {!bodyHasH1 && <h1>{h1Text}</h1>}
+    {isBlog && (
+      <p class="sgh-article-meta">
+        <span>{entry.data.updatedDate ? blogT.updated : blogT.published} <time datetime={metaDate.toISOString().slice(0, 10)}>{dateFmt.format(metaDate)}</time></span>
+        <span>·</span>
+        <span>{readMinutes} {blogT.readTime}</span>
+      </p>
+    )}
+    {heroImage && (
+      <figure class="sgh-article-hero">
+        <img src={heroImage} alt={entry.data.imageAlt ?? h1Text} width="1200" height="675" fetchpriority="high" />
+      </figure>
+    )}
     {isNomadPillar && <NomadChecker lang={lang} />}
     {entry.data.format === 'html' ? <Fragment set:html={entry.body ?? ''} /> : <Content />}
     {isBeckhamPillar && <BeckhamCalculator lang={lang} />}

@@ -8,6 +8,8 @@ seoPriority: alta
 format: html
 publishedDate: 2026-01-01
 updatedDate: 2026-09-11
+image: "/img/get-spanish-citizenship-1200x801.jpg"
+imageAlt: "Obtaining Spanish citizenship"
 ---
 
 <p id="heading-0"></p>

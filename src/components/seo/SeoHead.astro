@@ -17,7 +17,13 @@ interface Props {
   ogImage?: string;
 }
 
-const { title, description, lang, canonicalUrl, translations = [], noindex = false, ogImage = 'https://spaingh.com/og-default.png' } = Astro.props;
+const props = Astro.props;
+const { description, lang, canonicalUrl, translations = [], noindex = false } = props;
+const ogImage = props.ogImage ?? 'https://spaingh.com/og-default.png';
+// Sufijo de marca en <title> cuando el título es corto y no lo lleva ya
+// (los artículos largos se dejan tal cual para no pasar de ~60 caracteres).
+const rawTitle = props.title.trim();
+const title = /spain global hub/i.test(rawTitle) || rawTitle.length > 45 ? rawTitle : `${rawTitle} | Spain Global Hub`;
 ---
 
 <title>{title}</title>

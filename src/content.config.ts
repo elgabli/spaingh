@@ -20,6 +20,11 @@ const seoFields = {
   publishedDate: z.coerce.date(),
   updatedDate: z.coerce.date().optional(),
   noindex: z.boolean().default(false),
+  // Imagen destacada (ruta absoluta bajo /public, ej. "/img/foo.jpg"): se usa
+  // en las tarjetas de listado, en la cabecera del artículo (si el cuerpo no
+  // la incluye ya) y como og:image. Sin ella, la tarjeta usa una portada de marca.
+  image: z.string().optional(),
+  imageAlt: z.string().optional(),
   // 'html' = cuerpo copiado tal cual de WordPress (ya renderizado): se inyecta
   // con set:html SIN pasar por Markdown. Si pasa por Markdown, el HTML
   // indentado de WordPress se convierte en bloques de código (<pre> con

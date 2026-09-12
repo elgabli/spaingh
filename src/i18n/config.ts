@@ -36,6 +36,15 @@ export interface LangConfig {
     privacy: NavLink;
     cookies: NavLink;
     terms: NavLink;
+    tagline: string;
+    colServices: string;
+    colCompany: string;
+    colTools: string;
+    colContact: string;
+    calculator: string;
+    checker: string;
+    email: string;
+    whatsapp: string;
   };
   cta: {
     privateConsultation: string;
@@ -67,6 +76,15 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       privacy: { href: '/politica-de-privacidad/', label: 'Privacidad' },
       cookies: { href: '/politica-de-cookies/', label: 'Cookies' },
       terms: { href: '/terminos-y-condiciones-de-uso/', label: 'Condiciones de uso' },
+      tagline: 'Asesoría boutique jurídica y fiscal para inversores y expatriados que se trasladan a España o invierten en el país.',
+      colServices: 'Servicios',
+      colCompany: 'Empresa',
+      colTools: 'Herramientas',
+      colContact: 'Contacto',
+      calculator: 'Calculadora Ley Beckham',
+      checker: 'Verificador Visado Nómada Digital',
+      email: 'Email',
+      whatsapp: 'WhatsApp',
     },
     cta: { privateConsultation: 'Evaluación Privada' },
     cookies: {
@@ -94,6 +112,15 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       privacy: { href: '/privacy-policy/', label: 'Privacy' },
       cookies: { href: '/cookie-policy/', label: 'Cookies' },
       terms: { href: '/terms-of-use/', label: 'Terms of Use' },
+      tagline: 'Boutique legal and tax advisory for investors and expats relocating to or investing in Spain.',
+      colServices: 'Services',
+      colCompany: 'Company',
+      colTools: 'Tools',
+      colContact: 'Contact',
+      calculator: 'Beckham Law Calculator',
+      checker: 'Digital Nomad Visa Checker',
+      email: 'Email',
+      whatsapp: 'WhatsApp',
     },
     cta: { privateConsultation: 'Request Private Evaluation' },
     cookies: {
@@ -121,6 +148,15 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       privacy: { href: '/politique-de-confidentialite/', label: 'Confidentialité' },
       cookies: { href: '/politique-de-cookies/', label: 'Cookies' },
       terms: { href: '/conditions-utilisation/', label: "Conditions d'utilisation" },
+      tagline: "Cabinet boutique de conseil juridique et fiscal pour investisseurs et expatriés qui s'installent ou investissent en Espagne.",
+      colServices: 'Services',
+      colCompany: 'Cabinet',
+      colTools: 'Outils',
+      colContact: 'Contact',
+      calculator: 'Calculateur Loi Beckham',
+      checker: 'Vérificateur Visa Nomade Numérique',
+      email: 'Email',
+      whatsapp: 'WhatsApp',
     },
     cta: { privateConsultation: 'Consultation Privée' },
     cookies: {

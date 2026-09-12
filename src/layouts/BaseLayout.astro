@@ -25,9 +25,11 @@ interface Props {
   /** Homes: secciones a sangre completa que ya traen su propio hueco para el
    * header fijo (.sgh2{padding-top:70px}); <main> no debe añadir otro. */
   fullBleed?: boolean;
+  /** og:image absoluta de la página (por defecto la genérica del sitio). */
+  ogImage?: string;
 }
 
-const { title, description, lang, canonicalUrl, translations, noindex, schemaNodes, fullBleed = false } = Astro.props;
+const { title, description, lang, canonicalUrl, translations, noindex, schemaNodes, fullBleed = false, ogImage } = Astro.props;
 const locale = i18nConfig[lang].locale;
 ---
 
@@ -43,6 +45,7 @@ const locale = i18nConfig[lang].locale;
       canonicalUrl={canonicalUrl}
       translations={translations}
       noindex={noindex}
+      ogImage={ogImage}
     />
     <JsonLd nodes={schemaNodes} />
     <meta property="og:locale" content={locale} />

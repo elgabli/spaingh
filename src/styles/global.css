@@ -117,9 +117,25 @@ main a {
 .sgh-card p { font-size: .92rem; margin: 0; color: #4b5f5a; }
 .sgh-card time { display: block; font-size: .78rem; color: #7a8a86; text-transform: uppercase; letter-spacing: .5px; margin-bottom: 8px; }
 .sgh-card .more { display: inline-block; margin-top: 12px; color: #0a3d3c; font-weight: 700; font-size: .88rem; }
+/* Tarjetas de artículo con imagen destacada */
+.sgh-card-post { padding: 0; overflow: hidden; display: flex; flex-direction: column; }
+.sgh-card-img { display: block; position: relative; aspect-ratio: 16 / 9; overflow: hidden; background: #0a3d3c; }
+.sgh-card-img img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; }
+.sgh-card-lang { position: absolute; top: 10px; left: 10px; background: rgba(6,31,29,.85); color: var(--sgh-dorado); font-size: .7rem; font-weight: 800; letter-spacing: 1px; padding: 4px 8px; border-radius: 6px; }
+.sgh-card-body { display: block; padding: 18px 20px 20px; }
+.sgh-cards-posts { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 22px; }
+.sgh-soon { color: #4b5f5a; margin: 0 0 22px; }
+/* Cabecera de artículo */
+.sgh-article-back { display: inline-block; font-size: .85rem; font-weight: 700; color: #0a3d3c; text-decoration: none; margin-bottom: 14px; }
+.sgh-article-back:hover { color: var(--sgh-teal); }
+.sgh-article-meta { display: flex; flex-wrap: wrap; gap: 8px; font-size: .85rem; color: #7a8a86; margin: -6px 0 18px; text-transform: uppercase; letter-spacing: .5px; }
+.sgh-article-hero { margin: 0 0 26px; }
+.sgh-article-hero img { width: 100%; height: auto; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 14px; margin: 0; display: block; }
 .sgh-soon { color: #7a8a86; font-style: italic; }
-.sgh-404 { max-width: 700px; margin: 0 auto; padding: 80px 20px 120px; text-align: center; }
-.sgh-404 .code { font-family: 'Playfair Display', Georgia, serif; font-size: 5rem; color: var(--sgh-dorado); line-height: 1; margin-bottom: 10px; }
+.sgh-404 { max-width: 700px; margin: 0 auto; padding: 56px 20px 110px; text-align: center; }
+.sgh-404 .logo { display: inline-block; margin-bottom: 28px; }
+.sgh-404 .logo img { width: 200px; height: auto; display: block; }
+.sgh-404 .code { font-family: 'Playfair Display', Georgia, serif; font-size: 5rem; color: var(--sgh-dorado); line-height: 1; margin-bottom: 14px; }
 .sgh-404 .links { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-top: 28px; }
 .sgh-404 .links a { background: var(--sgh-verde); color: #fff; padding: 12px 22px; border-radius: 9px; font-weight: 700; text-decoration: none; }
 .sgh-article .sgh-btn-cookies { display: inline-block; background: var(--sgh-verde); color: #fff !important; padding: 11px 20px; border-radius: 9px; text-decoration: none !important; font-weight: 700; }

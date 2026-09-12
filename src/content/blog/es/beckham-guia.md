@@ -8,6 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-01-01
 updatedDate: 2026-09-12
+image: "/img/beckham-law-spain-2026-scaled-e1771913990725.jpg"
+imageAlt: "Ley Beckham 2026 en España"
 ---
 
 <p>La <strong>Ley Beckham</strong> —oficialmente el Régimen Especial de Trabajadores Desplazados del <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2006-20764" target="_blank" rel="noreferrer noopener">artículo 93 de la Ley del IRPF</a>— permite a quienes cumplan sus condiciones calcular su deuda de IRPF con reglas especiales basadas en el IRNR, manteniendo la condición de <strong>contribuyentes IRPF</strong>. La escala aplicable a los rendimientos del trabajo es del <strong>24% hasta 600.000 € y del 47% sobre el exceso</strong>; determinadas rentas del ahorro tienen una escala distinta. Para acogerse, el solicitante <strong>no debe haber sido residente fiscal en España los 5 años previos</strong> y debe adquirir residencia fiscal española por un desplazamiento que responda a una de las causas del art. 93.1.b, además de cumplir los demás requisitos. El trámite se realiza mediante el <strong>Modelo 149</strong> de la <a href="https://sede.agenciatributaria.gob.es/" target="_blank" rel="noreferrer noopener">AEAT</a> ; la ficha oficial G606 indica un plazo de resolución de 10 días hábiles. Esto no garantiza la fecha de finalización de un expediente concreto.</p>

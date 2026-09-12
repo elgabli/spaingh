@@ -8,6 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-03-21
 updatedDate: 2026-09-12
+image: "/img/blueberry-fruits-1200x675.jpg"
+imageAlt: "Arándanos: exportación desde Huelva"
 ---
 
 <p>El mercado internacional del «oro azul» ha experimentado una transformación estructural sin precedentes. Según los últimos informes de la <strong>Organización Internacional del Arándano (IBO)</strong>, la superficie cultivada mundial ha superado las <strong>267.000 hectáreas</strong>, consolidando a la <strong>exportación de arándano</strong> como uno de los pilares más dinámicos del sector agroindustrial global. Para España, 2026 marca un año de consolidación estratégica frente a competidores como Perú y Marruecos.</p>

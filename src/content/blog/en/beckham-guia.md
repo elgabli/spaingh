@@ -8,6 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-02-24
 updatedDate: 2026-09-12
+image: "/img/beckham-law-spain-2026-scaled-e1771913990725.jpg"
+imageAlt: "Beckham Law Spain 2026"
 ---
 
 

@@ -1,5 +1,7 @@
 ---
+import { getCollection } from 'astro:content';
 import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+import { pagesText, PILAR_ORDER, listingUrls } from '../../i18n/pages';
 
 interface Props {
   lang: Lang;
@@ -7,21 +9,68 @@ interface Props {
 
 const { lang } = Astro.props;
 const t = i18nConfig[lang];
+const f = t.footer;
+const pilarNames = pagesText[lang].services.pilares;
+
+// Páginas de pilar del idioma. Las herramientas (calculadora / verificador)
+// se identifican por fichero fuente, igual que en [...slug].astro.
+const pilares = (await getCollection('pilares')).filter((p) => p.data.lang === lang);
+const srcOf = (e: { filePath?: string }) => e.filePath ?? '';
+const calculator = pilares.find((e) => /\/ley-beckham\.mdx?$/.test(srcOf(e)));
+const checker = pilares.find((e) => /\/nomada-digital\.mdx?$/.test(srcOf(e)));
+const servicesHref = listingUrls.services[lang];
+
+const serviceLinks = PILAR_ORDER.map((pilar) => {
+  const page =
+    pilares.find((e) => e.data.pilar === pilar && e !== calculator && e !== checker) ??
+    pilares.find((e) => e.data.pilar === pilar);
+  return { label: pilarNames[pilar].name, href: page ? withLangPrefix(lang, `/${page.data.slug}/`) : servicesHref };
+});
+const companyLinks = [t.nav.home, t.nav.services, t.nav.blog, t.nav.about, t.nav.contact].map((n) => ({
+  label: n.label,
+  href: withLangPrefix(lang, n.href),
+}));
+const toolLinks = [
+  calculator && { label: f.calculator, href: withLangPrefix(lang, `/${calculator.data.slug}/`) },
+  checker && { label: f.checker, href: withLangPrefix(lang, `/${checker.data.slug}/`) },
+].filter(Boolean) as { label: string; href: string }[];
+const contactHref = withLangPrefix(lang, `${t.nav.contact.href}?origen=footer`);
 ---
 
 <footer class="sghf">
   <div class="w">
     <div class="brand">
-      <img src="/logo-sgh.png" alt="Spain Global Hub" />
+      <img src="/logo-sgh.png" alt="Spain Global Hub" width="170" height="78" loading="lazy" />
+      <p>{f.tagline}</p>
+    </div>
+    <div>
+      <h4>{f.colServices}</h4>
+      {serviceLinks.map((l) => <a href={l.href}>{l.label}</a>)}
+      {toolLinks.length > 0 && (
+        <>
+          <h4 class="sub">{f.colTools}</h4>
+          {toolLinks.map((l) => <a href={l.href}>{l.label}</a>)}
+        </>
+      )}
+    </div>
+    <div>
+      <h4>{f.colCompany}</h4>
+      {companyLinks.map((l) => <a href={l.href}>{l.label}</a>)}
+    </div>
+    <div class="contact">
+      <h4>{f.colContact}</h4>
+      <div class="row"><b>{f.email}</b><a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a></div>
+      <div class="row"><b>{f.whatsapp}</b><a href="https://wa.me/34601555547" rel="noopener" target="_blank">+34 601 555 547</a></div>
+      <a class="cta" href={contactHref}>{t.cta.privateConsultation}</a>
     </div>
   </div>
-  <div class="discl">{t.footer.professionalNotice}</div>
+  <div class="discl">{f.professionalNotice}</div>
   <div class="legal">
-    <span>{t.footer.rightsReserved}</span>
+    <span>{f.rightsReserved}</span>
     <span>
-      <a href={withLangPrefix(lang, t.footer.privacy.href)}>{t.footer.privacy.label}</a>
-      <a href={withLangPrefix(lang, t.footer.cookies.href)}>{t.footer.cookies.label}</a>
-      <a href={withLangPrefix(lang, t.footer.terms.href)}>{t.footer.terms.label}</a>
+      <a href={withLangPrefix(lang, f.privacy.href)}>{f.privacy.label}</a>
+      <a href={withLangPrefix(lang, f.cookies.href)}>{f.cookies.label}</a>
+      <a href={withLangPrefix(lang, f.terms.href)}>{f.terms.label}</a>
     </span>
   </div>
 </footer>

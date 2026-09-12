@@ -8,6 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2024-11-24
 updatedDate: 2026-09-12
+image: "/img/cover-residencia.svg"
+imageAlt: "Residencia en España para extranjeros"
 ---
 
 

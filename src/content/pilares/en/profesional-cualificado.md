@@ -8,6 +8,8 @@ pilar: profesional-cualificado
 format: html
 publishedDate: 2026-02-01
 updatedDate: 2026-09-11
+image: "/img/apply-for-highly-qualified-professional-visa-spain-1-1200x750.jpeg"
+imageAlt: "Highly Qualified Professional Visa Spain"
 ---
 
 <p>The Highly Qualified Professional Visa Spain has become the premier choice for international talent relocating to the Mediterranean. In 2026, Spanish immigration law continues to favor skilled experts seeking a fast-track residence and work authorization. Whether you are an engineer or senior executive, this permit offers a streamlined alternative to standard work visas. In this guide, we explain how the process works, the key requirements, and how to secure approval without delays.</p>

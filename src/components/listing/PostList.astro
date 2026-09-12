@@ -1,32 +1,47 @@
 ---
 import { getCollection } from 'astro:content';
-import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
+import { i18nConfig, withLangPrefix, LANGS, type Lang } from '../../i18n/config';
 import { pagesText } from '../../i18n/pages';
 
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = pagesText[lang].blog;
-const posts = (await getCollection('blog'))
-  .filter((p) => p.data.lang === lang)
-  .sort((a, b) => (b.data.updatedDate ?? b.data.publishedDate).getTime() - (a.data.updatedDate ?? a.data.publishedDate).getTime());
-const fmt = new Intl.DateTimeFormat(i18nConfig[lang].locale.replace('_', '-'), { year: 'numeric', month: 'long', day: 'numeric' });
+const byDate = (a: any, b: any) =>
+  (b.data.updatedDate ?? b.data.publishedDate).getTime() - (a.data.updatedDate ?? a.data.publishedDate).getTime();
+const allPosts = (await getCollection('blog')).sort(byDate);
+const own = allPosts.filter((p) => p.data.lang === lang);
+// Sin artículos en este idioma: se muestran los de los demás idiomas con
+// su etiqueta, para que el listado no quede vacío.
+const fallback = own.length === 0;
+const posts = fallback ? allPosts : own;
+const fmtFor = (l: Lang) =>
+  new Intl.DateTimeFormat(i18nConfig[l].locale.replace('_', '-'), { year: 'numeric', month: 'long', day: 'numeric' });
+const fmts = Object.fromEntries(LANGS.map((l) => [l, fmtFor(l)])) as Record<Lang, Intl.DateTimeFormat>;
+const cleanTitle = (s: string) => s.replace(/\s*\|\s*Spain Global Hub\s*$/i, '');
 ---
 
 <div class="sgh-list">
   <h1>{t.h1}</h1>
   <p class="sgh-list-intro">{t.intro}</p>
-  {posts.length === 0 ? (
-    <p class="sgh-soon">{t.empty}</p>
-  ) : (
-    <div class="sgh-cards sgh-cards-posts">
-      {posts.map((p) => (
-        <a class="sgh-card" href={withLangPrefix(lang, `/${p.data.slug}/`)}>
-          <time datetime={(p.data.updatedDate ?? p.data.publishedDate).toISOString().slice(0, 10)}>{fmt.format(p.data.updatedDate ?? p.data.publishedDate)}</time>
-          <h3>{p.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, '')}</h3>
-          <p>{p.data.description}</p>
-          <span class="more">{t.readMore}</span>
+  {fallback && <p class="sgh-soon">{t.empty} {t.otherLangs}</p>}
+  <div class="sgh-cards sgh-cards-posts">
+    {posts.map((p) => {
+      const pl = p.data.lang as Lang;
+      const date = p.data.updatedDate ?? p.data.publishedDate;
+      return (
+        <a class="sgh-card sgh-card-post" href={withLangPrefix(pl, `/${p.data.slug}/`)} hreflang={pl} lang={pl}>
+          <span class="sgh-card-img">
+            <img src={p.data.image ?? '/img/cover-fiscal.svg'} alt={p.data.imageAlt ?? ''} loading="lazy" width="600" height="338" />
+            {fallback && <span class="sgh-card-lang">{pl.toUpperCase()}</span>}
+          </span>
+          <span class="sgh-card-body">
+            <time datetime={date.toISOString().slice(0, 10)}>{fmts[pl].format(date)}</time>
+            <h3>{cleanTitle(p.data.title)}</h3>
+            <p>{p.data.description}</p>
+            <span class="more">{pagesText[pl].blog.readMore}</span>
+          </span>
         </a>
-      ))}
-    </div>
-  )}
+      );
+    })}
+  </div>
 </div>
