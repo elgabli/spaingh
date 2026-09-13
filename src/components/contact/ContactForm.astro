@@ -10,7 +10,7 @@ interface Props { lang: Lang }
 const { lang } = Astro.props;
 const t = contactText[lang];
 const privacyHref = withLangPrefix(lang, i18nConfig[lang].footer.privacy.href);
-const SITEKEY = import.meta.env.PUBLIC_TURNSTILE_SITEKEY || '0x4AAAAAACofoaNK9WWVMXhw';
+const SITEKEY = import.meta.env.PUBLIC_TURNSTILE_SITEKEY || '0x4AAAAAAA1Feg9qMp2Iohqk';
 const origen = Astro.url.searchParams.get('origen') || '';
 ---
 
