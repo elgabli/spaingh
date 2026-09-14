@@ -1,5 +1,5 @@
 ---
-title: "Visa de Professionnel Hautement Qualifié en Espagne 2026 : Conditions, Salaire et Démarches"
+title: "Visa Professionnel Hautement Qualifié Espagne 2026 : conditions"
 description: "Visa de professionnel hautement qualifié en Espagne 2026 : conditions salariales, UGE-CE, famille et délais de traitement."
 lang: fr
 slug: visa-professionnel-hautement-qualifie-espagne

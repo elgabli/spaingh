@@ -1,6 +1,6 @@
 ---
-title: "Visa Nomade Numérique Espagne 2026 : Conditions, Revenus Minimums et Démarches"
-description: "Guide complet du Visa Nomade Numérique d'Espagne : conditions requises, revenus minimums (200% du SMI), modalités de demande, avantages fiscaux et erreurs courantes. Loi 28/2022."
+title: "Visa Nomade Numérique Espagne 2026 : conditions et démarches"
+description: "Guide du Visa Nomade Numérique d'Espagne : conditions, revenus minimums (200 % du SMI), démarches, avantages fiscaux et erreurs courantes. Loi 28/2022."
 lang: fr
 slug: visa-nomade-numerique-espagne
 translationGroup: nomada-digital-guia
