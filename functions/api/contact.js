@@ -29,8 +29,13 @@ export async function onRequestPost({ request, env }) {
   let body;
   try { body = await readBody(request); } catch { return json({ ok: false, error: 'bad_request' }, 400); }
 
-  // Honeypot: los bots rellenan "website"; respondemos ok sin hacer nada.
-  if (body.website) return json({ ok: true });
+  // Honeypot: los bots rellenan el campo oculto; respondemos ok sin hacer nada.
+  // (Antes se llamaba "website" y el autocompletado de Chrome lo rellenaba
+  // en humanos reales → leads perdidos en silencio. Ahora queda en el log.)
+  if (body.sgh_x9 || body.website) {
+    console.warn('honeypot', { field: body.sgh_x9 ? 'sgh_x9' : 'website', ua: request.headers.get('user-agent') || '' });
+    return json({ ok: true });
+  }
 
   const f = {};
   for (const [k, max] of Object.entries(MAX)) f[k] = String(body[k] ?? '').trim().slice(0, max);

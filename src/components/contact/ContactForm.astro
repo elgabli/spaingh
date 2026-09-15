@@ -22,7 +22,10 @@ const origen = Astro.url.searchParams.get('origen') || '';
     <input type="hidden" name="lang" value={lang} />
     <input type="hidden" name="origen" value={origen} />
     <input type="hidden" name="page" value={Astro.url.pathname} />
-    <div class="sgh-hp" aria-hidden="true"><label>Website <input type="text" name="website" tabindex="-1" autocomplete="off" /></label></div>
+    {/* Honeypot: nombre sin significado para que el autocompletado del
+        navegador NO lo rellene (con name="website" Chrome lo rellenaba con
+        la web guardada del usuario y la función descartaba el lead). */}
+    <div class="sgh-hp" aria-hidden="true"><label>Leave empty <input type="text" name="sgh_x9" tabindex="-1" autocomplete="off" data-lpignore="true" data-1p-ignore /></label></div>
 
     <div class="sgh-form-grid">
       <label class="sgh-field">
