@@ -80,3 +80,9 @@
 # --- F. URL legacy de la calculadora (enlaces antiguos en WP) ---
 /es/beckham-law-calculator/  /es/calculadora-ley-beckham/  301
 /fr/beckham-law-calculator/  /fr/calculateur-loi-beckham/  301
+
+# --- G. Sitemaps antiguos de WordPress (Rank Math / core) → sitemap de Astro ---
+/sitemap_index.xml  /sitemap-index.xml  301
+/wp-sitemap.xml     /sitemap-index.xml  301
+/post-sitemap.xml   /sitemap-index.xml  301
+/page-sitemap.xml   /sitemap-index.xml  301
