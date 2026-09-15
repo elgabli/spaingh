@@ -140,16 +140,16 @@ The UK and Spain have a **bilateral agreement (in force since 2023)** that allow
 
 ## Quick Questions Answered
 
-**Can I visit the UK while resident in Spain?**
+### Can I visit the UK while resident in Spain?
 Yes, freely. As a British citizen, you have the right to enter the UK anytime, provided you return within your visa validity.
 
-**Do I need private health insurance?**
+### Do I need private health insurance?
 Usually yes—it's required for most Spanish residence visas. The NHS does not cover Spain. UK pensioners with an S1 form may access Spanish public healthcare; others must arrange private cover or register with the SNS after arrival.
 
-**Can I work remotely for a UK firm?**
+### Can I work remotely for a UK firm?
 Yes, under a Digital Nomad Visa. However, you become subject to Spanish tax and contributions. Consult a tax adviser on payroll implications.
 
-**What if I overstay the 90-day tourist limit?**
+### What if I overstay the 90-day tourist limit?
 You face a fine, possible expulsion and a re-entry ban to the Schengen Area. Start visa applications before day 90.
 
 ## Next Steps
