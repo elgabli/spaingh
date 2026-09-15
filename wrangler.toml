@@ -1,0 +1,24 @@
+# Configuración del proyecto Cloudflare Pages "spaingh".
+# Con este fichero presente, `wrangler pages deploy` usa ESTA configuración
+# (bindings y variables) como fuente de verdad en cada deploy.
+# Los secretos (TURNSTILE_SECRET, TG_BOT_TOKEN, RESEND_API_KEY) NO van aquí:
+# se ponen con `wrangler pages secret put <NOMBRE> --project-name spaingh`
+# o en el panel (Settings → Variables and Secrets).
+name = "spaingh"
+compatibility_date = "2026-09-12"
+pages_build_output_dir = "dist"
+
+[vars]
+TG_CHAT_ID = "701767019"
+
+[[kv_namespaces]]
+binding = "LEADS"
+id = "5ad145fded764d9a807b67ab679e2b37"
+
+[env.production]
+[env.production.vars]
+TG_CHAT_ID = "701767019"
+
+[[env.production.kv_namespaces]]
+binding = "LEADS"
+id = "5ad145fded764d9a807b67ab679e2b37"
