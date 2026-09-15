@@ -3,7 +3,7 @@ import { getCollection, render, type CollectionEntry } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { i18nConfig, withLangPrefix, type Lang } from '../../i18n/config';
 import { pagesText, listingUrls } from '../../i18n/pages';
-import { articleSchema, webApplicationSchema } from '../../lib/schema';
+import { articleGraphSchema, webApplicationSchema, webPageSchema, serviceSchema, faqPageSchema, extractFaq, author } from '../../lib/schema';
 import BeckhamCalculator from '../../components/islands/BeckhamCalculator.astro';
 import NomadChecker from '../../components/islands/NomadChecker.astro';
 
@@ -123,17 +123,25 @@ const tool = /beckham/i.test(topic) && calc
     : { ...t.article.toolServices, href: listingUrls.services[lang] };
 const contactHref = withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=${isBlog ? 'articulo' : 'pilar'}`);
 
+const isServicePage = entry.collection === 'pilares' && /\/(beckham-servicio|constitucion-empresas)\.mdx?$/.test(srcFile);
+const isAbout = entry.collection === 'legal' && /\/about\.mdx?$/.test(srcFile);
+const imageUrl = (entry.data as { image?: string }).image ? `${SITE_URL}${(entry.data as { image?: string }).image}` : undefined;
+const faqItems = extractFaq((entry.body ?? '') + '\n' + (beckhamTail ?? ''));
 const schemaNodes = [
-  articleSchema({
-    url: canonicalUrl,
-    headline: entry.data.title,
-    description: entry.data.description,
-    datePublished: entry.data.publishedDate.toISOString(),
-    dateModified: entry.data.updatedDate?.toISOString(),
+  author,
+  webPageSchema({
+    url: canonicalUrl, name: h1Text, description: entry.data.description, lang,
+    datePublished: entry.data.publishedDate.toISOString(), dateModified: entry.data.updatedDate?.toISOString(),
+    image: imageUrl, type: isAbout ? 'AboutPage' : 'WebPage',
   }),
-  ...(isBeckhamPillar
-    ? [webApplicationSchema({ url: canonicalUrl, name: entry.data.title, description: entry.data.description })]
-    : []),
+  articleGraphSchema({
+    url: canonicalUrl, headline: h1Text, description: entry.data.description, image: imageUrl, lang,
+    datePublished: entry.data.publishedDate.toISOString(), dateModified: entry.data.updatedDate?.toISOString(),
+    type: entry.collection === 'blog' ? 'BlogPosting' : 'Article',
+  }),
+  ...(isBeckhamPillar ? [webApplicationSchema({ url: canonicalUrl, name: h1Text, description: entry.data.description })] : []),
+  ...(isServicePage ? [serviceSchema({ url: canonicalUrl, name: h1Text, description: entry.data.description, lang, serviceType: /beckham/.test(srcFile) ? 'Beckham Law tax advisory' : 'Company formation in Spain' })] : []),
+  ...(faqItems.length ? [faqPageSchema(faqItems)] : []),
 ];
 ---
 

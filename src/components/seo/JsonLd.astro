@@ -1,5 +1,5 @@
 ---
-import { organization } from '../../lib/schema';
+import { organization, website } from '../../lib/schema';
 
 interface Props {
   /** Nodos adicionales del @graph (Article, FAQPage, WebApplication, etc.),
@@ -11,7 +11,7 @@ const { nodes = [] } = Astro.props;
 
 const graph = {
   '@context': 'https://schema.org',
-  '@graph': [organization, ...nodes],
+  '@graph': [organization, website, ...nodes],
 };
 ---
 

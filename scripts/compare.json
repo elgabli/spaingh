@@ -1,0 +1,4297 @@
+[
+ {
+  "path": "/en/",
+  "old": {
+   "status": 200,
+   "chain": [
+    "/cdn-cgi/challenge-platform/scripts/jsd/main.js→/cdn-cgi/challenge-platform/h/g/scripts/jsd/330e41bb475c/main.js?"
+   ],
+   "finalUrl": "https://spaingh.com/en/",
+   "lang": "en-GB",
+   "title": "SGH | Residency, Tax & Real Estate Advisory for Expats",
+   "desc": "Senior legal & tax hub in Spain. Expert Beckham Law advisory, post-Golden Visa residency, and secure real estate investment. 15 years of excellence.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 623,
+   "types": [
+    "Corporation",
+    "Organization",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/en/#webpage"
+   ],
+   "faq": 0,
+   "imgs": 14,
+   "noalt": 0,
+   "links": 24,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:36+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/",
+   "lang": "en",
+   "title": "Private Advisory for Investors and Expats in Spain | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 563,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "schema Corporation no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/about-spain-global-hub/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/about-spain-global-hub/",
+   "lang": "en-GB",
+   "title": "Spain Global Hub | Boutique Advisory for International Clients",
+   "desc": "Discover Spain Global Hub: a boutique advisory hub in Spain. We coordinate legal, tax, and real estate experts for seamless international investments.",
+   "canonical": "https://spaingh.com/en/about-spain-global-hub/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Spain Global Hub: Boutique Advisory Hub for International Clients in Spain",
+   "h1n": 1,
+   "h2n": 8,
+   "words": 592,
+   "types": [
+    "ProfessionalService"
+   ],
+   "ids": [],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/about-spain-global-hub/",
+   "lang": "en",
+   "title": "About Spain Global Hub",
+   "desc": "Learn about Spain Global Hub: legal, tax and residency advisory for expatriates and investors in Spain.",
+   "canonical": "https://spaingh.com/en/about-spain-global-hub/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Spain Global Hub: Boutique Advisory Hub for International Clients in Spain",
+   "h1n": 1,
+   "h2n": 8,
+   "words": 584,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema ProfessionalService no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/apartments-for-sale-estepona/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/apartments-for-sale-estepona/",
+   "lang": "en-GB",
+   "title": "Apartments for Sale in Estepona | Legal & Investment Guide 2026",
+   "desc": "Looking for apartments for sale in Estepona, Spain? Secure your investment with our 2026 legal guide. Expert advice on taxes, ITP vs VAT, and prime locations. Visit SGH.",
+   "canonical": "https://spaingh.com/en/apartments-for-sale-estepona/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Apartments for sale in Estepona",
+   "h1n": 1,
+   "h2n": 9,
+   "words": 1972,
+   "types": [
+    "Article",
+    "ImageObject",
+    "Organization",
+    "WebPage+FAQPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2024/12/apartments-for-sale-in-Estepona-scaled.jpg",
+    "https://spaingh.com/en/apartments-for-sale-estepona/#webpage"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 1,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2024/12/apartments-for-sale-in-Estepona-1200x800.jpg",
+   "dateMod": "2026-09-11T18:15:44+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/en/apartments-for-sale-estepona/→/en/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/en/",
+   "lang": "en",
+   "title": "Private Advisory for Investors and Expats in Spain | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 563,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /en/",
+   "texto 1972→563 (-71%)",
+   "schema Article no está en la nueva",
+   "schema WebPage+FAQPage no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/beckham-law-180-day-rule/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/beckham-law-180-day-rule/",
+   "lang": "en-GB",
+   "title": "Beckham Law 180-Day Rule: Model 149 Calculation (2026)",
+   "desc": "Avoid Beckham Law rejection. Learn the 180-day rule calculation for Model 149 in 2026. Official deadlines for Social Security Alta, Nomads, and Executives.",
+   "canonical": "https://spaingh.com/en/beckham-law-180-day-rule/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Beckham Law 180-Day Rule: Official Model 149 Calculation Guide (2026)",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 769,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/beckham-law-180-day-rule.png",
+    "https://spaingh.com/en/beckham-law-180-day-rule/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/beckham-law-180-day-rule/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 2,
+   "noalt": 1,
+   "links": 3,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/beckham-law-180-day-rule.png",
+   "dateMod": "2026-09-11T18:15:55+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/beckham-law-180-day-rule/",
+   "lang": "en",
+   "title": "Beckham Law 180-Day Rule: Official Model 149 Calculation Guide (2026)",
+   "desc": "The Beckham Law '180-day rule' explained: Form 149 must be filed within 6 months of Social Security registration (art. 116 RIRPF). How to count the deadline in 2026.",
+   "canonical": "https://spaingh.com/en/beckham-law-180-day-rule/",
+   "hreflang": "en",
+   "robots": "",
+   "h1": "Beckham Law 180-Day Rule: Official Model 149 Calculation Guide (2026)",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 853,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 7,
+   "ogImage": "https://spaingh.com/img/ley-beckham-regla-180-dias-modelo-149.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/beckham-law-calculator/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/beckham-law-calculator/",
+   "lang": "en-GB",
+   "title": "Beckham Law Calculator 2026: Calculate Your Tax Savings | Spain Global Hub",
+   "desc": "Calculate your savings with the Beckham Law Calculator 2026: flat 24% rate up to €600,000 (47% above) for 6 years. Free, instant, with official IRPF scales per region.",
+   "canonical": "https://spaingh.com/en/beckham-law-calculator/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Beckham Law Calculator 2026: Your Savings Under the Startups Law",
+   "h1n": 1,
+   "h2n": 3,
+   "words": 700,
+   "types": [
+    "FAQPage",
+    "WebApplication"
+   ],
+   "ids": [],
+   "faq": 5,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/beckham-law-calculator-2026.png",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/beckham-law-calculator/",
+   "lang": "en",
+   "title": "Beckham Law Calculator 2026: Spain Tax Savings Calculator | Spain Global Hub",
+   "desc": "Free Beckham Law tax calculator for Spain: compare the 24% flat rate (up to €600,000) with ordinary IRPF income tax by region and see your annual savings.",
+   "canonical": "https://spaingh.com/en/beckham-law-calculator/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Beckham Law Calculator 2026: Spain Tax Savings Calculator",
+   "h1n": 1,
+   "h2n": 2,
+   "words": 348,
+   "types": [
+    "Article",
+    "Organization",
+    "WebApplication"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/en/beckham-law-calculator/"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 4,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "texto 700→348 (-50%)",
+   "FAQPage perdido (5)",
+   "schema FAQPage no está en la nueva",
+   "imágenes 1→0",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/beckham-law-spain-guide/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/beckham-law-spain-guide/",
+   "lang": "en-GB",
+   "title": "Beckham Law Spain 2026: Shield Wealth & Slash Taxes",
+   "desc": "The ultimate guide to Beckham Law Spain 2026. Learn how to secure the 24% flat rate and protect your global assets now.",
+   "canonical": "https://spaingh.com/en/beckham-law-spain-guide/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Beckham Law Spain 2026: Shield Your Wealth & Slash Taxes",
+   "h1n": 1,
+   "h2n": 9,
+   "words": 3476,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/madrid-spain-financial-district-skyline-scaled.jpg",
+    "https://spaingh.com/en/beckham-law-spain-guide/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/beckham-law-spain-guide/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 7,
+   "noalt": 1,
+   "links": 10,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/madrid-spain-financial-district-skyline-1200x801.jpg",
+   "dateMod": "2026-09-11T18:15:53+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/beckham-law-spain-guide/",
+   "lang": "en",
+   "title": "Beckham Law Spain 2026: Shield Your Wealth & Slash Taxes",
+   "desc": "Beckham Law Spain 2026 guide: 24% flat tax up to €600,000, who qualifies, Form 149 deadline, exclusions and how to apply. With free savings calculator.",
+   "canonical": "https://spaingh.com/en/beckham-law-spain-guide/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Beckham Law Spain 2026: Shield Your Wealth & Slash Taxes",
+   "h1n": 1,
+   "h2n": 9,
+   "words": 3547,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 14,
+   "ogImage": "https://spaingh.com/img/beckham-law-spain-2026-scaled-e1771913990725.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/contact/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/contact/",
+   "lang": "en-GB",
+   "title": "Contact Spain Global Hub – Residency, Tax & Real Estate Experts in Spain",
+   "desc": "Contact Spain Global Hub for expert legal, tax, residency and real estate advisory in Spain. Our specialists will respond within 24 hours to guide your project securely.",
+   "canonical": "https://spaingh.com/en/contact/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "",
+   "h1n": 0,
+   "h2n": 1,
+   "words": 139,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/en/contact/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/contact/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:23+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/contact/",
+   "lang": "en",
+   "title": "Contact Us | Spain Global Hub",
+   "desc": "Contact Spain Global Hub for a private evaluation of your tax, residency or investment situation in Spain.",
+   "canonical": "https://spaingh.com/en/contact/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Request your private evaluation",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 108,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/digital-nomad-visa-eligibility-checker/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/digital-nomad-visa-eligibility-checker/",
+   "lang": "en-GB",
+   "title": "Spain Digital Nomad Visa Eligibility Checker 2026 | Spain Global Hub",
+   "desc": "Check if you qualify for Spain Digital Nomad Visa in under 2 minutes: income requirements, remote work rules, experience and more. Free tool by Spain Global Hub.",
+   "canonical": "https://spaingh.com/en/digital-nomad-visa-eligibility-checker/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Spain Digital Nomad Visa Eligibility Checker",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 872,
+   "types": [
+    "Article",
+    "FAQPage",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/en/digital-nomad-visa-eligibility-checker/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/digital-nomad-visa-eligibility-checker/#richSnippet"
+   ],
+   "faq": 8,
+   "imgs": 7,
+   "noalt": 0,
+   "links": 4,
+   "ogImage": "",
+   "dateMod": "2026-09-11T22:46:39+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/digital-nomad-visa-eligibility-checker/",
+   "lang": "en",
+   "title": "Spain Digital Nomad Visa Eligibility Checker | Spain Global Hub",
+   "desc": "Find out if you qualify for Spain's Digital Nomad Visa in under 2 minutes.",
+   "canonical": "https://spaingh.com/en/digital-nomad-visa-eligibility-checker/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Spain Digital Nomad Visa Eligibility Checker",
+   "h1n": 1,
+   "h2n": 2,
+   "words": 299,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 0,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "texto 872→299 (-66%)",
+   "FAQPage perdido (8)",
+   "schema FAQPage no está en la nueva",
+   "schema Person no está en la nueva",
+   "imágenes 7→0",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/does-student-visa-count-towards-residency-spain/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/does-student-visa-count-towards-residency-spain/",
+   "lang": "en-GB",
+   "title": "Does a Student Visa Count Towards Residency in Spain? (2026)",
+   "desc": "Does a student visa count towards residency in Spain? Learn the 50% rule for EU residency and citizenship exclusions in this 2026 legal guide.",
+   "canonical": "https://spaingh.com/en/does-student-visa-count-towards-residency-spain/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Does a Student Visa Count Towards Residency in Spain? 2026 Expert Guide",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 677,
+   "types": [
+    "Article",
+    "FAQPage"
+   ],
+   "ids": [],
+   "faq": 2,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 1,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/does-student-visa-count-towards-residency-spain-sgh.png",
+   "dateMod": "2026-02-27T11:00:00+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/does-student-visa-count-towards-residency-spain/",
+   "lang": "en",
+   "title": "Does a Student Visa Count Towards Residency in Spain? Official 2026 Answer",
+   "desc": "Short answer: student stays count 50% towards long-term residency but not towards nationality by residence. The 2025 regulation, how years are counted and the routes to permanent residency.",
+   "canonical": "https://spaingh.com/en/does-student-visa-count-towards-residency-spain/",
+   "hreflang": "en",
+   "robots": "",
+   "h1": "Does a Student Visa Count Towards Residency in Spain? Official 2026 Answer",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 752,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/visado-estudiante-residencia-espana.jpg",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "FAQPage perdido (2)",
+   "schema FAQPage no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/highly-qualified-professional-visa-spain/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/highly-qualified-professional-visa-spain/",
+   "lang": "en-GB",
+   "title": "Highly Qualified Professional Visa Spain 2026: Full Guide",
+   "desc": "Complete 2026 guide to the highly qualified professional visa spain. Learn about salary requirements, the application process, and how to get your work permit.",
+   "canonical": "https://spaingh.com/en/highly-qualified-professional-visa-spain/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Highly Qualified Professional Visa Spain: 2026 Guide to Your Work Permit",
+   "h1n": 1,
+   "h2n": 10,
+   "words": 1311,
+   "types": [
+    "Guide"
+   ],
+   "ids": [],
+   "faq": 0,
+   "imgs": 2,
+   "noalt": 1,
+   "links": 3,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/highly-qualified-professional-visa-spain-1200x800.jpg",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/highly-qualified-professional-visa-spain/",
+   "lang": "en",
+   "title": "Highly Qualified Worker Visa Spain 2026: Requirements, Salary Thresholds and How to Apply",
+   "desc": "Highly Qualified Professional (skilled worker) visa for Spain in 2026: salary thresholds, employer requirements, UGE-CE fast track, family members, processing times and how to apply.",
+   "canonical": "https://spaingh.com/en/highly-qualified-professional-visa-spain/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Highly Qualified Worker Visa Spain 2026: Requirements, Salary Thresholds and How to Apply",
+   "h1n": 1,
+   "h2n": 10,
+   "words": 1397,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 7,
+   "ogImage": "https://spaingh.com/img/apply-for-highly-qualified-professional-visa-spain-1-1200x750.jpeg",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema Guide no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/how-easy-is-it-to-move-to-spain-from-uk/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/how-easy-is-it-to-move-to-spain-from-uk/",
+   "lang": "en-GB",
+   "title": "How Easy is it to Move to Spain from UK? (2026 Residency Guide)",
+   "desc": "Wondering how easy is it to move to Spain from UK after Brexit? Learn about the Digital Nomad Visa, income requirements, and 2026 residency rules for Brits.",
+   "canonical": "https://spaingh.com/en/how-easy-is-it-to-move-to-spain-from-uk/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "How Easy is it to Move to Spain from UK? The 2026 Reality Check",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 849,
+   "types": [
+    "FAQPage"
+   ],
+   "ids": [],
+   "faq": 2,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 0,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/03/how-easy-is-it-to-move-to-spain-from-uk-2026-guide-e1773530969171.png",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/how-easy-is-it-to-move-to-spain-from-uk/",
+   "lang": "en",
+   "title": "Moving to Spain from the UK in 2026: Visas, Taxes and What Changed After Brexit",
+   "desc": "Can you move to Spain from the UK? Yes—but since 2021, you'll need a visa for stays over 90 days. Here's what routes exist for British residents, the tax implications, and how to navigate the process.",
+   "canonical": "https://spaingh.com/en/how-easy-is-it-to-move-to-spain-from-uk/",
+   "hreflang": "en",
+   "robots": "",
+   "h1": "Moving to Spain from the UK in 2026: Visas, Taxes and What Changed After Brexit",
+   "h1n": 1,
+   "h2n": 9,
+   "words": 1711,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 13,
+   "ogImage": "https://spaingh.com/img/mudarse-a-espana-desde-reino-unido.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "FAQPage perdido (2)",
+   "schema FAQPage no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/how-to-get-spanish-citizenship/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/how-to-get-spanish-citizenship/",
+   "lang": "en-GB",
+   "title": "How to Get Spanish Citizenship: A Step-by-Step Guide",
+   "desc": "Learn how to get Spanish citizenship easily with our guide. Discover Spanish citizenship requirements, application steps, and tips for citizenship by descent.",
+   "canonical": "https://spaingh.com/en/how-to-get-spanish-citizenship/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Steps to Obtain Spanish Citizenship Easily",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 1108,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/how-to-get-spanish-citizenship-scaled.jpg",
+    "https://spaingh.com/en/how-to-get-spanish-citizenship/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/how-to-get-spanish-citizenship/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 2,
+   "noalt": 1,
+   "links": 1,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/how-to-get-spanish-citizenship-1200x800.jpg",
+   "dateMod": "2026-09-11T18:15:49+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/how-to-get-spanish-citizenship/",
+   "lang": "en",
+   "title": "How to Get Spanish Citizenship in 2026: Residency Years, Requirements and Application Steps",
+   "desc": "How to get Spanish citizenship: residency periods (10, 5, 2 or 1 year), who qualifies, CCSE and DELE exams, documents, how to apply and how long it takes in 2026.",
+   "canonical": "https://spaingh.com/en/how-to-get-spanish-citizenship/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "How to Get Spanish Citizenship in 2026: Residency Years, Requirements and Application Steps",
+   "h1n": 1,
+   "h2n": 10,
+   "words": 1838,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 12,
+   "ogImage": "https://spaingh.com/img/get-spanish-citizenship-1200x801.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/invest-in-costa-del-sol-guide/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/invest-in-costa-del-sol-guide/",
+   "lang": "en-GB",
+   "title": "Invest in Costa del Sol:A Strategic Guide to High-Precision Real Estate |",
+   "desc": "Planning to invest in Costa del Sol? Discover the best areas and legal strategies to secure your property investment in Spain with high-precision due diligence.",
+   "canonical": "https://spaingh.com/en/invest-in-costa-del-sol-guide/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Invest in Costa del Sol:A Strategic Guide to High-Precision Real Estate",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 884,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/01/Costa-del-Sol-A-Real-Estate-Investment-Paradise.webp",
+    "https://spaingh.com/en/invest-in-costa-del-sol-guide/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/invest-in-costa-del-sol-guide/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 2,
+   "noalt": 1,
+   "links": 2,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/01/Costa-del-Sol-A-Real-Estate-Investment-Paradise.webp",
+   "dateMod": "2026-09-11T18:15:41+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/en/invest-in-costa-del-sol-guide/→/en/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/en/",
+   "lang": "en",
+   "title": "Private Advisory for Investors and Expats in Spain | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 563,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /en/",
+   "texto 884→563 (-36%)",
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/investing-in-the-madrid-real-estate-market/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/investing-in-the-madrid-real-estate-market/",
+   "lang": "en-GB",
+   "title": "Investing in the Madrid Real Estate Market: 7 Proven Tips for 2026",
+   "desc": "Maximize your ROI by investing in the Madrid real estate market. Our 2026 guide covers tax breaks, legal security, and how to buy property in Madrid for investment.",
+   "canonical": "https://spaingh.com/en/investing-in-the-madrid-real-estate-market/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "How to Secure an Investment Property in Madrid: 2026 Legal & Tax Guide",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 784,
+   "types": [
+    "Article",
+    "FAQPage",
+    "Product"
+   ],
+   "ids": [],
+   "faq": 3,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 1,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/Invertir-en-el-mercado-inmobiliario-de-Madrid-1200x787.jpg",
+   "dateMod": "2026-02-27"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/en/investing-in-the-madrid-real-estate-market/→/en/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/en/",
+   "lang": "en",
+   "title": "Private Advisory for Investors and Expats in Spain | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 563,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /en/",
+   "FAQPage perdido (3)",
+   "schema Article no está en la nueva",
+   "schema FAQPage no está en la nueva",
+   "schema Product no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/investor-visa-spain/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/investor-visa-spain/",
+   "lang": "en-GB",
+   "title": "Residency by Investment Spain 2026 | SGH Global Advisory",
+   "desc": "Strategic residency by investment in Spain for HNWIs. Expert management of real estate, financial assets, and legal compliance under 2026 regulations.",
+   "canonical": "https://spaingh.com/en/investor-visa-spain/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Residency by Investment in Spain",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 519,
+   "types": [
+    "FAQPage",
+    "LegalService"
+   ],
+   "ids": [],
+   "faq": 4,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/en/investor-visa-spain/→/en/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/en/",
+   "lang": "en",
+   "title": "Private Advisory for Investors and Expats in Spain | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 563,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /en/",
+   "FAQPage perdido (4)",
+   "schema FAQPage no está en la nueva",
+   "schema LegalService no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/news/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/news/",
+   "lang": "en-GB",
+   "title": "Strategic Insights & Investment Updates | Spain Global Hub",
+   "desc": "Expert analysis on Spanish real estate, legal changes, and tax frameworks for international investors. Stay informed with SGH Strategic Insights.",
+   "canonical": "https://spaingh.com/en/news/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Key Updates and Regulatory Intelligence in Spain",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 16,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/en/news/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/news/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:27+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/en/news/→/en/blog/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/en/blog/",
+   "lang": "en",
+   "title": "Blog | Spain Global Hub",
+   "desc": "Articles and guides on taxation, visas, residency and investment for foreigners relocating to Spain.",
+   "canonical": "https://spaingh.com/en/blog/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Blog",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 371,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 8,
+   "noalt": 0,
+   "links": 8,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /en/blog/",
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/real-estate-lawyer/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/real-estate-lawyer/",
+   "lang": "en-GB",
+   "title": "Real Estate Lawyer in Spain | Legal Engineering & Due Diligence",
+   "desc": "Independent Real Estate Lawyers in Spain. We provide high-precision Legal Engineering and Due Diligence for property acquisitions. No agency ties—just absolute protection for your capital and assets. Request your consultation.",
+   "canonical": "https://spaingh.com/en/real-estate-lawyer/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Legal Engineering for Real Estate Acquisitions.",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 354,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/en/real-estate-lawyer/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/real-estate-lawyer/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:08+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/en/real-estate-lawyer/→/en/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/en/",
+   "lang": "en",
+   "title": "Private Advisory for Investors and Expats in Spain | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 563,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /en/",
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/selling-property-in-spain-guide/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/selling-property-in-spain-guide/",
+   "lang": "en-GB",
+   "title": "Selling property in Spain: The Ultimate 2026 Non-Resident Guide",
+   "desc": "Expert 2026 guide on selling property in Spain as a non-resident. Master the 19% CGT, the 3% withholding, and the 0% Plusvalía rule for losses.",
+   "canonical": "https://spaingh.com/en/selling-property-in-spain-guide/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Selling property in Spain: The Ultimate 2026 Non-Resident Guide",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 1200,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/02/selling-a-property-in-spain-as-a-non-resident.jpg",
+    "https://spaingh.com/en/selling-property-in-spain-guide/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/selling-property-in-spain-guide/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 7,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/selling-a-property-in-spain-as-a-non-resident.jpg",
+   "dateMod": "2026-09-11T18:15:58+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/en/selling-property-in-spain-guide/→/en/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/en/",
+   "lang": "en",
+   "title": "Private Advisory for Investors and Expats in Spain | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 563,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /en/",
+   "texto 1200→563 (-53%)",
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/services/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/services/",
+   "lang": "en-GB",
+   "title": "Strategic Law & Tax Firm Spain | SGH Private Advisory",
+   "desc": "Expert legal management for high-value profiles in Spain. We unify Residency, Tax Architecture (Beckham Law), and Real Estate investment under one strategic direction.",
+   "canonical": "https://spaingh.com/en/services/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Our Practice Areas",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 454,
+   "types": [
+    "ImageObject",
+    "Organization",
+    "Service",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/asesoria-fiscal-legal-espanya-sgh-scaled.jpg",
+    "https://spaingh.com/en/services/#webpage"
+   ],
+   "faq": 0,
+   "imgs": 13,
+   "noalt": 0,
+   "links": 14,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/asesoria-fiscal-legal-espanya-sgh-1200x801.jpg",
+   "dateMod": "2026-09-11T18:15:34+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/services/",
+   "lang": "en",
+   "title": "Services | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expats and investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/services/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Services",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 267,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 6,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "texto 454→267 (-41%)",
+   "schema Service no está en la nueva",
+   "imágenes 13→0",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/services/beckham-law-tax-advisory/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/services/beckham-law-tax-advisory/",
+   "lang": "en-GB",
+   "title": "Beckham Law Spain: Tax Advisory & Form 149 Management",
+   "desc": "Reduce your Spanish income tax to a 24% flat rate. Expert tax planning for expats and digital nomads under the 2026 Startup Act. Apply within the 6-month window!",
+   "canonical": "https://spaingh.com/en/services/beckham-law-tax-advisory/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Beckham Law in Spain: Specialized Tax Advisory",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 955,
+   "types": [
+    "Article",
+    "FAQPage",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/en/services/beckham-law-tax-advisory/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/services/beckham-law-tax-advisory/#richSnippet"
+   ],
+   "faq": 3,
+   "imgs": 2,
+   "noalt": 0,
+   "links": 30,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:12+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/services/beckham-law-tax-advisory/",
+   "lang": "en",
+   "title": "Beckham Law Spain: Tax Advisory & Form 149 Management",
+   "desc": "Beckham Law tax advisory in Spain: eligibility review, Form 149 filing, 24% flat rate up to €600,000 and annual compliance for executives and relocating professionals.",
+   "canonical": "https://spaingh.com/en/services/beckham-law-tax-advisory/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Beckham Law Spain: Tax Advisory & Form 149 Management",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 726,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 9,
+   "ogImage": "https://spaingh.com/img/asesoria-ley-beckham-espana.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "FAQPage perdido (3)",
+   "schema FAQPage no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/services/real-estate-investment-spain/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/services/real-estate-investment-spain/",
+   "lang": "en-GB",
+   "title": "Real Estate Investment in Spain | Legal & Tax Advisory | SGH",
+   "desc": "Maximize your real estate investment in Spain with Spain Global Hub. We provide a full-service approach: property search, legal due diligence, and tax optimization for global investors. Secure your Golden Visa with experts.",
+   "canonical": "https://spaingh.com/en/services/real-estate-investment-spain/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Real Estate Buy & Sell in Spain with Comprehensive Advisory",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 521,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/en/services/real-estate-investment-spain/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/services/real-estate-investment-spain/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 4,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:18+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/en/services/real-estate-investment-spain/→/en/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/en/",
+   "lang": "en",
+   "title": "Private Advisory for Investors and Expats in Spain | Spain Global Hub",
+   "desc": "Legal, tax and residency advisory for expatriates and foreign investors in Spain: Beckham Law, Digital Nomad Visa, Highly Qualified Professional Visa and company formation.",
+   "canonical": "https://spaingh.com/en/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Private Advisory for Investors and Expats in Spain",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 563,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /en/",
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/services/strategic-corporate-deployment-in-spain/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/services/strategic-corporate-deployment-in-spain/",
+   "lang": "en-GB",
+   "title": "Strategic Corporate Deployment in Spain |",
+   "desc": "Establish your business in Spain with Spain Global Hub. Corporate engineering, international tax optimization, and Golden Visa management for elite investors.",
+   "canonical": "https://spaingh.com/en/services/strategic-corporate-deployment-in-spain/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "STRATEGIC CORPORATE DEPLOYMENT IN SPAIN",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 324,
+   "types": [
+    "Article",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/unnamed.jpg",
+    "https://spaingh.com/en/services/strategic-corporate-deployment-in-spain/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/services/strategic-corporate-deployment-in-spain/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/unnamed.jpg",
+   "dateMod": "2026-09-11T18:15:15+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/services/strategic-corporate-deployment-in-spain/",
+   "lang": "en",
+   "title": "Strategic Corporate Deployment in Spain | Spain Global Hub",
+   "desc": "Company formation in Spain for foreign investors: SL incorporation, NIE/NIF, bank account, tax registration and corporate structure managed end to end by SGH.",
+   "canonical": "https://spaingh.com/en/services/strategic-corporate-deployment-in-spain/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Strategic Corporate Deployment in Spain",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 395,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/creacion-de-empresas-espana-madrid.jpg",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/spain-blueberry-investment/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/spain-blueberry-investment/",
+   "lang": "en-GB",
+   "title": "Spain Blueberry 2026: The Ultimate Industry & Market Guide",
+   "desc": "Huelva blueberry production, blueberry investment Spain, agricultural assets 2026, hydroponic farming Spain, Doñana water regulations.",
+   "canonical": "https://spaingh.com/en/spain-blueberry-investment/",
+   "hreflang": "en,es",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "The Spain Blueberry Boom: The Blue Gold Rush for Foreign Investors in 2026",
+   "h1n": 1,
+   "h2n": 10,
+   "words": 1592,
+   "types": [],
+   "ids": [],
+   "faq": 0,
+   "imgs": 2,
+   "noalt": 1,
+   "links": 3,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/03/Blueberry-1200x800.jpg",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/spain-blueberry-investment/",
+   "lang": "en",
+   "title": "The Spain Blueberry Boom: The Blue Gold Rush for Foreign Investors in 2026",
+   "desc": "Spain's blueberry boom in 2026: production in Huelva, export markets, margins and the legal and tax structure foreign investors need to enter the sector.",
+   "canonical": "https://spaingh.com/en/spain-blueberry-investment/",
+   "hreflang": "en,es,x-default",
+   "robots": "",
+   "h1": "The Spain Blueberry Boom: The Blue Gold Rush for Foreign Investors in 2026",
+   "h1n": 1,
+   "h2n": 10,
+   "words": 1700,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 7,
+   "ogImage": "https://spaingh.com/img/blueberry-fruits-1200x675.jpg",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/",
+   "lang": "en-GB",
+   "title": "Spain Tourist Visa from Dubai: Definitive 2026 Guide for Expatriates",
+   "desc": ".sgh-cta-footer h2 { color: white; }",
+   "canonical": "https://spaingh.com/en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/",
+   "hreflang": "en,es",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "",
+   "h1n": 2,
+   "h2n": 6,
+   "words": 375,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/01/Spain-Tourist-Visa-from-Dubai.webp",
+    "https://spaingh.com/en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 0,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/01/Spain-Tourist-Visa-from-Dubai.webp",
+   "dateMod": "2026-09-11T18:15:40+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/",
+   "lang": "en",
+   "title": "Spain Tourist Visa from Dubai: 2026 Guide for UAE Expatriates",
+   "desc": "How UAE residents apply for a Spain Schengen tourist visa from Dubai: eligibility, documents, BLS International appointment, fees, common mistakes and tips.",
+   "canonical": "https://spaingh.com/en/spain-tourist-visa-from-dubai-your-guide-to-a-seamless-application/",
+   "hreflang": "en,es,x-default",
+   "robots": "",
+   "h1": "Spain Tourist Visa from Dubai: 2026 Guide for UAE Expatriates",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 412,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/dubai-skyline.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/en/step-to-apply-tourist-visa-in-spain-from-kuwait/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/en/step-to-apply-tourist-visa-in-spain-from-kuwait/",
+   "lang": "en-GB",
+   "title": "How to Apply for a Spain Tourist Visa from Kuwait: Step-by-Step Guide |",
+   "desc": "Planning a trip to Spain from Kuwait? Learn the step-by-step process to apply for a Spain tourist visa, including required documents, fees, and tips for a smooth application.",
+   "canonical": "https://spaingh.com/en/step-to-apply-tourist-visa-in-spain-from-kuwait/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "How to Apply for a Spain Tourist Visa from Kuwait: Step-by-Step Guide",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 680,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/02/step-to-apply-tourist-visa-in-spain-from-kuwait​.webp",
+    "https://spaingh.com/en/step-to-apply-tourist-visa-in-spain-from-kuwait/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/step-to-apply-tourist-visa-in-spain-from-kuwait/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 0,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/step-to-apply-tourist-visa-in-spain-from-kuwait​.webp",
+   "dateMod": "2026-09-11T18:15:43+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/en/step-to-apply-tourist-visa-in-spain-from-kuwait/",
+   "lang": "en",
+   "title": "How to Apply for a Spain Tourist Visa from Kuwait: Step-by-Step Guide",
+   "desc": "How Kuwaiti citizens apply for a Spain Schengen tourist visa: requirements, documents, BLS appointment, fees, processing time and tips for approval.",
+   "canonical": "https://spaingh.com/en/step-to-apply-tourist-visa-in-spain-from-kuwait/",
+   "hreflang": "en",
+   "robots": "",
+   "h1": "How to Apply for a Spain Tourist Visa from Kuwait: Step-by-Step Guide",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 722,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 4,
+   "ogImage": "https://spaingh.com/img/visado-schengen-espana.jpg",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang en-GB→en"
+  ]
+ },
+ {
+  "path": "/es/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/",
+   "lang": "es-ES",
+   "title": "Asesoría Privada para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Spain Global Hub: boutique advisory legal, fiscal e inmobiliaria para inversores internacionales y expatriados en España. Ley Beckham, Golden Visa, residencia e inversión inmobiliaria.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España | Spain Global Hub",
+   "h1n": 2,
+   "h2n": 6,
+   "words": 524,
+   "types": [
+    "Article",
+    "Organization",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/#richSnippet",
+    "https://spaingh.com/#org"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 6,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:55+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/",
+   "lang": "es",
+   "title": "Asesoría para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Cualificado y empresas.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 575,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/abogado-inmobiliario/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/abogado-inmobiliario/",
+   "lang": "es-ES",
+   "title": "Abogado Inmobiliario en España | Auditoría y Seguridad Jurídica SGH",
+   "desc": "Proteja su inversión con ingeniería jurídica. Due Diligence técnica, fiscal y legal para activos de lujo y patrimonios globales. Seguridad total en su adquisición.",
+   "canonical": "https://spaingh.com/es/abogado-inmobiliario/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Ingeniería Jurídica en Adquisiciones Inmobiliarias.",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 363,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/abogado-inmobiliario/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/abogado-inmobiliario/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:37+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/es/abogado-inmobiliario/→/es/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/es/",
+   "lang": "es",
+   "title": "Asesoría para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Cualificado y empresas.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 575,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /es/",
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/calculadora-ley-beckham/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/calculadora-ley-beckham/",
+   "lang": "es-ES",
+   "title": "Calculadora Ley Beckham 2026: Calcula tu Ahorro Fiscal | Spain Global Hub",
+   "desc": "Calcula tu ahorro con la Calculadora Ley Beckham 2026: tipo fijo del 24% hasta 600.000 € (47% sobre el exceso) durante 6 años. Gratis, al instante y con escalas IRPF oficiales por comunidad autónoma.",
+   "canonical": "https://spaingh.com/es/calculadora-ley-beckham/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Calculadora Ley Beckham 2026: Tu Ahorro con la Ley de Startups",
+   "h1n": 1,
+   "h2n": 7,
+   "words": 1627,
+   "types": [
+    "Article",
+    "FAQPage",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebApplication",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/02/Calculadora-Ley-Beckham.png",
+    "https://spaingh.com/es/calculadora-ley-beckham/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/calculadora-ley-beckham/#richSnippet"
+   ],
+   "faq": 12,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 3,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/Calculadora-Ley-Beckham.png",
+   "dateMod": "2026-09-11T18:14:39+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/calculadora-ley-beckham/",
+   "lang": "es",
+   "title": "Calculadora Ley Beckham 2026: Ahorro Fiscal y Sueldo Neto | Spain Global Hub",
+   "desc": "Calcula tu sueldo neto y tu ahorro fiscal con la Ley Beckham (24 % hasta 600.000 €) frente al IRPF ordinario, con las escalas 2025/26 de las 19 comunidades autónomas.",
+   "canonical": "https://spaingh.com/es/calculadora-ley-beckham/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Calculadora Ley Beckham 2026: Tu Ahorro con la Ley de Startups",
+   "h1n": 1,
+   "h2n": 7,
+   "words": 1549,
+   "types": [
+    "Article",
+    "Organization",
+    "WebApplication"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/es/calculadora-ley-beckham/"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 3,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "FAQPage perdido (12)",
+   "schema FAQPage no está en la nueva",
+   "schema Person no está en la nueva",
+   "imágenes 1→0",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/contacto/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/contacto/",
+   "lang": "es-ES",
+   "title": "Contacto |",
+   "desc": "Directorio de Enlace",
+   "canonical": "https://spaingh.com/es/contacto/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Gestión de Consultas de Alto Valor",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 147,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/contacto/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/contacto/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:52+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/contacto/",
+   "lang": "es",
+   "title": "Contacto | Spain Global Hub",
+   "desc": "Contacta con Spain Global Hub para una evaluación privada de tu situación fiscal, de residencia o inversión en España.",
+   "canonical": "https://spaingh.com/es/contacto/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Solicite su evaluación privada",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 104,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/devoluciones-de-irpf-a-mutualistas-y-sentencia-del-tribunal-supremo-claves-para-entender-los-cambios-recientes/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/devoluciones-de-irpf-a-mutualistas-y-sentencia-del-tribunal-supremo-claves-para-entender-los-cambios-recientes/",
+   "lang": "es-ES",
+   "title": "Devoluciones de IRPF a Mutualistas y Sentencia del Tribunal Supremo: Claves para Entender los Cambios Recientes |",
+   "desc": "Descubre las claves del cambio en las devoluciones del IRPF a mutualistas y la sentencia del Tribunal Supremo sobre convenios colectivos. Analizamos sus implicaciones y por qué son relevantes en 2025.",
+   "canonical": "https://spaingh.com/es/devoluciones-de-irpf-a-mutualistas-y-sentencia-del-tribunal-supremo-claves-para-entender-los-cambios-recientes/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Devoluciones de IRPF a Mutualistas y Sentencia del Tribunal Supremo: Claves para Entender los Cambios Recientes",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 576,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/02/Tribunal-Supremo.jpg",
+    "https://spaingh.com/es/devoluciones-de-irpf-a-mutualistas-y-sentencia-del-tribunal-supremo-claves-para-entender-los-cambios-recientes/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/devoluciones-de-irpf-a-mutualistas-y-sentencia-del-tribunal-supremo-claves-para-entender-los-cambios-recientes/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 8,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/Tribunal-Supremo.jpg",
+   "dateMod": "2026-08-09T15:41:27+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/es/devoluciones-de-irpf-a-mutualistas-y-sentencia-del-tribunal-supremo-claves-para-entender-los-cambios-recientes/→/es/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/es/",
+   "lang": "es",
+   "title": "Asesoría para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Cualificado y empresas.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 575,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /es/",
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/exportacion-de-arandano/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/exportacion-de-arandano/",
+   "lang": "es-ES",
+   "title": "Exportación de arándano en España 2026: Informe de Mercado",
+   "desc": "Analizamos la exportación de arándano en 2026. España lidera la UE con el 18% del suministro. Datos de producción, mercados clave (EE. UU., Alemania) y rentabilidad.",
+   "canonical": "https://spaingh.com/es/exportacion-de-arandano/",
+   "hreflang": "en,es",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Exportación de arándano en España 2026: Informe Global de Mercado",
+   "h1n": 1,
+   "h2n": 7,
+   "words": 880,
+   "types": [],
+   "ids": [],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 9,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/03/Exportacion-de-arandano-1200x800.jpg",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/exportacion-de-arandano/",
+   "lang": "es",
+   "title": "Exportación de arándano en España 2026: Informe Global de Mercado",
+   "desc": "Exportación de arándano en España 2026: producción en Huelva, mercados, márgenes y estructura legal y fiscal para inversores extranjeros que entran en el sector.",
+   "canonical": "https://spaingh.com/es/exportacion-de-arandano/",
+   "hreflang": "en,es,x-default",
+   "robots": "",
+   "h1": "Exportación de arándano en España 2026: Informe Global de Mercado",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 825,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/blueberry-fruits-1200x675.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/ingenieria-societaria-espana-capital-extranjero/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/ingenieria-societaria-espana-capital-extranjero/",
+   "lang": "es-ES",
+   "title": "Ingeniería Societaria en España 2026 | Análisis Forense SGH",
+   "desc": "Análisis técnico 2026: Cómo constituir sociedades en España para capital extranjero. Evite bloqueos de cumplimiento bancario, riesgos de sustancia y optimice su estructura fiscal (ETVE).",
+   "canonical": "https://spaingh.com/es/ingenieria-societaria-espana-capital-extranjero/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Constitución de Sociedades en España para Inversores Extranjeros (Guía 2026)",
+   "h1n": 2,
+   "h2n": 8,
+   "words": 1179,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/Skyline-de-Madrid-e1773524591574.jpg",
+    "https://spaingh.com/es/ingenieria-societaria-espana-capital-extranjero/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/ingenieria-societaria-espana-capital-extranjero/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 8,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/Skyline-de-Madrid-e1773524591574.jpg",
+   "dateMod": "2026-08-09T15:41:28+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/ingenieria-societaria-espana-capital-extranjero/",
+   "lang": "es",
+   "title": "Constitución de Sociedades en España para Inversores Extranjeros (Guía 2026)",
+   "desc": "Constitución de sociedades en España para inversores extranjeros: SL vs sucursal, NIE y NIF, capital, plazos, costes y fiscalidad del capital no residente en 2026.",
+   "canonical": "https://spaingh.com/es/ingenieria-societaria-espana-capital-extranjero/",
+   "hreflang": "es",
+   "robots": "",
+   "h1": "Constitución de Sociedades en España para Inversores Extranjeros (Guía 2026)",
+   "h1n": 1,
+   "h2n": 7,
+   "words": 1159,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 4,
+   "ogImage": "https://spaingh.com/img/constitucion-sociedades-espana-madrid.jpg",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/invertir-en-el-mercado-inmobiliario-de-madrid/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/invertir-en-el-mercado-inmobiliario-de-madrid/",
+   "lang": "es-ES",
+   "title": "Invertir en Madrid 2026: Guía Fiscal y Rentabilidad",
+   "desc": "Guía 2026 para invertir en Madrid. Analizamos rentabilidad, barrios y cómo optimizar su inversión con la Ley Beckham (24% fijo). ¡Maximice su beneficio neto hoy!",
+   "canonical": "https://spaingh.com/es/invertir-en-el-mercado-inmobiliario-de-madrid/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Guía de Inversión Inmobiliaria en Madrid 2026: Rentabilidad, Seguridad Jurídica y Estrategia Fiscal",
+   "h1n": 1,
+   "h2n": 8,
+   "words": 675,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/02/Invertir-en-el-mercado-inmobiliario-de-Madrid-scaled.jpg",
+    "https://spaingh.com/es/invertir-en-el-mercado-inmobiliario-de-madrid/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/invertir-en-el-mercado-inmobiliario-de-madrid/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 8,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/Invertir-en-el-mercado-inmobiliario-de-Madrid-1200x787.jpg",
+   "dateMod": "2026-08-09T15:41:25+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/es/invertir-en-el-mercado-inmobiliario-de-madrid/→/es/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/es/",
+   "lang": "es",
+   "title": "Asesoría para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Cualificado y empresas.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 575,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /es/",
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/iva-franquiciado-espana-2026-autonomos/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/iva-franquiciado-espana-2026-autonomos/",
+   "lang": "es-ES",
+   "title": "Régimen de Franquicia del IVA 2026: ¿Te conviene el cambio?",
+   "desc": "Descubre cómo funcionará el IVA franquiciado en España en 2026: límites de 85.000€, ventajas para autónomos y análisis para decidir si te conviene el cambio.",
+   "canonical": "https://spaingh.com/es/iva-franquiciado-espana-2026-autonomos/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "IVA franquiciado en España 2026: límites, ventajas y análisis completo para autónomos",
+   "h1n": 1,
+   "h2n": 9,
+   "words": 748,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/03/iva-franquiciado-espana-2026-autonomos.png",
+    "https://spaingh.com/es/iva-franquiciado-espana-2026-autonomos/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/iva-franquiciado-espana-2026-autonomos/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 8,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/03/iva-franquiciado-espana-2026-autonomos.png",
+   "dateMod": "2026-08-09T15:41:22+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/es/iva-franquiciado-espana-2026-autonomos/→/es/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/es/",
+   "lang": "es",
+   "title": "Asesoría para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Cualificado y empresas.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 575,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /es/",
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/ley-beckham-2026-guia-completa/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/ley-beckham-2026-guia-completa/",
+   "lang": "es-ES",
+   "title": "Ley Beckham 2026: Guía Completa, Requisitos y Cómo Aplicar [+Calculadora]",
+   "desc": "La Ley Beckham permite pagar solo el 24% de IRPF durante 6 años. Requisitos, plazos, Modelo 149 y calculadora de sueldo neto. Evaluación gratuita →",
+   "canonical": "https://spaingh.com/es/ley-beckham-2026-guia-completa/",
+   "hreflang": "",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Ley Beckham 2026: Guía Completa, Requisitos y Cómo Aplicar [+Calculadora]",
+   "h1n": 1,
+   "h2n": 9,
+   "words": 2140,
+   "types": [
+    "BlogPosting",
+    "FAQPage",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/08/ley-beckham-2026-espana-asesor-fiscal.jpg",
+    "https://spaingh.com/es/ley-beckham-2026-guia-completa/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/ley-beckham-2026-guia-completa/#richSnippet"
+   ],
+   "faq": 5,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 13,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/08/ley-beckham-2026-espana-asesor-fiscal.jpg",
+   "dateMod": "2026-09-11T01:06:06+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/ley-beckham-2026-guia-completa/",
+   "lang": "es",
+   "title": "Ley Beckham 2026: Guía Completa, Requisitos y Cómo Aplicar [+Calculadora]",
+   "desc": "Ley Beckham 2026: requisitos, tipo del 24 % hasta 600.000 €, plazo del Modelo 149, exclusiones y cómo solicitar el régimen de impatriados. Con calculadora gratuita.",
+   "canonical": "https://spaingh.com/es/ley-beckham-2026-guia-completa/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Ley Beckham 2026: Guía Completa, Requisitos y Cómo Aplicar [+Calculadora]",
+   "h1n": 1,
+   "h2n": 8,
+   "words": 2042,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 9,
+   "ogImage": "https://spaingh.com/img/beckham-law-spain-2026-scaled-e1771913990725.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "FAQPage perdido (5)",
+   "schema BlogPosting no está en la nueva",
+   "schema FAQPage no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/noticias/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/noticias/",
+   "lang": "es-ES",
+   "title": "Noticias |",
+   "desc": "Legal & Strategic Insights Análisis experto sobre fiscalidad internacional, normativa de inversión inmobiliaria y estrategias para la movilidad global en",
+   "canonical": "https://spaingh.com/es/noticias/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Legal & Strategic Insights",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 13,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/noticias/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/noticias/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:48+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/noticias/",
+   "lang": "es",
+   "title": "Noticias | Spain Global Hub",
+   "desc": "Artículos sobre fiscalidad, visados e inversión para extranjeros en España.",
+   "canonical": "https://spaingh.com/es/noticias/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Noticias",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 273,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 6,
+   "noalt": 0,
+   "links": 6,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/politica-de-cookies/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/politica-de-cookies/",
+   "lang": "es-ES",
+   "title": "Política de cookies |",
+   "desc": "Con esta política de cookies, nos gustaría explicar qué son las cookies y las tecnologías similares a las cookies, cómo nosotros y otros proveedores de servicios las utilizamos en este sitio web, qué información recopilan, durante cuánto tiempo y con qué fines las utilizamos.",
+   "canonical": "https://spaingh.com/es/politica-de-cookies/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Política de cookies",
+   "h1n": 1,
+   "h2n": 9,
+   "words": 1685,
+   "types": [
+    "Article",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2024/12/map_bg.png",
+    "https://spaingh.com/es/politica-de-cookies/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/politica-de-cookies/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 8,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:46+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/politica-de-cookies/",
+   "lang": "es",
+   "title": "Política de Cookies | Spain Global Hub",
+   "desc": "Política de cookies de Spain Global Hub: qué cookies usamos, con qué fines y cómo gestionarlas.",
+   "canonical": "https://spaingh.com/es/politica-de-cookies/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Política de cookies",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 300,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "texto 1685→300 (-82%)",
+   "schema Person no está en la nueva",
+   "imágenes 1→0",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/politica-de-privacidad/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/politica-de-privacidad/",
+   "lang": "es-ES",
+   "title": "Política de Privacidad |",
+   "desc": "Última actualización: 28 de noviembre de 2024",
+   "canonical": "https://spaingh.com/es/politica-de-privacidad/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Política de Privacidad",
+   "h1n": 2,
+   "h2n": 0,
+   "words": 711,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/politica-de-privacidad/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/politica-de-privacidad/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:45+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/politica-de-privacidad/",
+   "lang": "es",
+   "title": "Política de Privacidad | Spain Global Hub",
+   "desc": "Política de privacidad de Spain Global Hub: cómo recopilamos, usamos y protegemos tus datos personales.",
+   "canonical": "https://spaingh.com/es/politica-de-privacidad/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Política de Privacidad",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 708,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/servicios/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/servicios/",
+   "lang": "es-ES",
+   "title": "Servicios Legales, Fiscales e Inmobiliarios en España | SGH",
+   "desc": "Soluciones 360° para inversores internacionales y empresas. Expertos en Ley Beckham, Visados HQP y Real Estate Prime. Blindamos su patrimonio y su residencia en España.",
+   "canonical": "https://spaingh.com/es/servicios/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Nuestros servicios",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 420,
+   "types": [
+    "Article",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/asesoria-fiscal-legal-espanya-sgh-scaled.jpg",
+    "https://spaingh.com/es/servicios/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/servicios/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 13,
+   "noalt": 0,
+   "links": 14,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/asesoria-fiscal-legal-espanya-sgh-1200x801.jpg",
+   "dateMod": "2026-09-11T18:14:50+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/servicios/",
+   "lang": "es",
+   "title": "Servicios | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Altamente Cualificado y constitución de empresas.",
+   "canonical": "https://spaingh.com/es/servicios/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Servicios",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 275,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 6,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "texto 420→275 (-35%)",
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "imágenes 13→0",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/servicios/asesoria-ley-beckham/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/servicios/asesoria-ley-beckham/",
+   "lang": "es-ES",
+   "title": "Ley Beckham España: Asesoría Fiscal y Gestión Modelo 149",
+   "desc": "Reduzca su IRPF al 24% con la Ley Beckham. Expertos en gestión fiscal para impatriados y nómadas digitales. ¡Asegure su ahorro antes de que expire el plazo de 6 meses!",
+   "canonical": "https://spaingh.com/es/servicios/asesoria-ley-beckham/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Ley Beckham en España: Asesoría Fiscal Especializada",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 997,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/servicios/asesoria-ley-beckham/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/servicios/asesoria-ley-beckham/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 2,
+   "noalt": 0,
+   "links": 32,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:41+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/servicios/asesoria-ley-beckham/",
+   "lang": "es",
+   "title": "Asesoría Fiscal Ley Beckham en España: Asesores Expertos y Modelo 149",
+   "desc": "Asesoría Ley Beckham en España: análisis de elegibilidad, presentación del Modelo 149, tributación al 24 % hasta 600.000 € y cumplimiento anual para directivos e impatriados.",
+   "canonical": "https://spaingh.com/es/servicios/asesoria-ley-beckham/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Fiscal Ley Beckham en España: Asesores Expertos y Modelo 149",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 745,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/asesoria-ley-beckham-espana.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/servicios/creacion-de-empresas-en-espana/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/servicios/creacion-de-empresas-en-espana/",
+   "lang": "es-ES",
+   "title": "Creación de empresas en España |",
+   "desc": "Establezca su empresa en España con Spain Global Hub. Ingeniería corporativa, optimización fiscal internacional y gestión de Golden Visa para inversores de élite.",
+   "canonical": "https://spaingh.com/es/servicios/creacion-de-empresas-en-espana/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "DESPLIEGUE CORPORATIVO ESTRATÉGICO EN ESPAÑA",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 350,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/servicios/creacion-de-empresas-en-espana/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/servicios/creacion-de-empresas-en-espana/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:26:35+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/servicios/creacion-de-empresas-en-espana/",
+   "lang": "es",
+   "title": "Creación de empresas en España | Spain Global Hub",
+   "desc": "Creación de empresas en España para inversores extranjeros: constitución de SL, NIE/NIF, cuenta bancaria, alta fiscal y estructura societaria gestionadas de principio a fin.",
+   "canonical": "https://spaingh.com/es/servicios/creacion-de-empresas-en-espana/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Creación de empresas en España",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 418,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/creacion-de-empresas-espana-madrid.jpg",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/servicios/inversion-inmobiliaria/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/servicios/inversion-inmobiliaria/",
+   "lang": "es-ES",
+   "title": "Inversión inmobiliaria en España | Spain Global Hub",
+   "desc": "Optimice su inversión inmobiliaria en España con Spain Global Hub. Ofrecemos asesoramiento integral: inmobiliario, legal y fiscal en una sola estructura. Expertos en Golden Visa y gestión de activos premium para clientes internacionales. ¡Consúltenos ahora!",
+   "canonical": "https://spaingh.com/es/servicios/inversion-inmobiliaria/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Compra y Venta de Viviendas en España con Asesoramiento Integral",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 556,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/servicios/inversion-inmobiliaria/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/servicios/inversion-inmobiliaria/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 4,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:43+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/es/servicios/inversion-inmobiliaria/→/es/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/es/",
+   "lang": "es",
+   "title": "Asesoría para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Cualificado y empresas.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 575,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /es/",
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/sobre-nosotros/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/sobre-nosotros/",
+   "lang": "es-ES",
+   "title": "Sobre Nosotros |",
+   "desc": "Un punto de contacto único para proyectos internacionales en España.",
+   "canonical": "https://spaingh.com/es/sobre-nosotros/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Sobre Nosotros",
+   "h1n": 2,
+   "h2n": 8,
+   "words": 607,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/sobre-nosotros/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/sobre-nosotros/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:14:53+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/sobre-nosotros/",
+   "lang": "es",
+   "title": "Sobre Nosotros | Spain Global Hub",
+   "desc": "Conoce a Spain Global Hub: asesoría legal, fiscal y de residencia para expatriados e inversores en España.",
+   "canonical": "https://spaingh.com/es/sobre-nosotros/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Spain Global Hub: asesoría boutique para clientes internacionales en España",
+   "h1n": 1,
+   "h2n": 8,
+   "words": 595,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/terms-of-use/",
+  "old": {
+   "status": 200,
+   "chain": [
+    "/es/terms-of-use/→https://spaingh.com/en/terms-of-use/"
+   ],
+   "finalUrl": "https://spaingh.com/en/terms-of-use/",
+   "lang": "en-GB",
+   "title": "Terms of Use |",
+   "desc": "Questions regarding these terms?",
+   "canonical": "https://spaingh.com/en/terms-of-use/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Terms of Use",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 275,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/en/terms-of-use/#webpage",
+    "https://spaingh.com/en/author/elena-mochales/",
+    "https://spaingh.com/en/terms-of-use/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 0,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:07+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/es/terms-of-use/→/es/terminos-y-condiciones-de-uso/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/es/terminos-y-condiciones-de-uso/",
+   "lang": "es",
+   "title": "Términos y Condiciones de Uso | Spain Global Hub",
+   "desc": "Términos y condiciones de uso de spaingh.com: alcance de la información publicada, propiedad intelectual, responsabilidad y legislación aplicable.",
+   "canonical": "https://spaingh.com/es/terminos-y-condiciones-de-uso/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Términos y Condiciones de Uso",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 591,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "redirige a /es/terminos-y-condiciones-de-uso/",
+   "schema Person no está en la nueva",
+   "lang en-GB→es"
+  ]
+ },
+ {
+  "path": "/es/vender-propiedad-espana-guia-2026/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/vender-propiedad-espana-guia-2026/",
+   "lang": "es-ES",
+   "title": "Vender Propiedad en España como No Residente – Guía 2026",
+   "desc": "Vender propiedad en España en 2026: Guía completa sobre el impuesto del 19% (IRNR), la retención del 3% y cómo recuperar su dinero legalmente.",
+   "canonical": "https://spaingh.com/es/vender-propiedad-espana-guia-2026/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Vender Propiedad en España: La Guía Definitiva 2026",
+   "h1n": 1,
+   "h2n": 7,
+   "words": 1411,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/02/selling-a-property-in-spain-as-a-non-resident.jpg",
+    "https://spaingh.com/es/vender-propiedad-espana-guia-2026/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/vender-propiedad-espana-guia-2026/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 15,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/selling-a-property-in-spain-as-a-non-resident.jpg",
+   "dateMod": "2026-08-09T15:41:26+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/es/vender-propiedad-espana-guia-2026/→/es/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/es/",
+   "lang": "es",
+   "title": "Asesoría para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Cualificado y empresas.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 575,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /es/",
+   "texto 1411→575 (-59%)",
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/visado-nomada-digital-elegibilidad/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/visado-nomada-digital-elegibilidad/",
+   "lang": "es-ES",
+   "title": "Comprobador de Elegibilidad del Visado Nómada Digital en España | Spain Global Hub",
+   "desc": "Comprueba si cumples los requisitos del Visado Nómada Digital en España en menos de 2 minutos. Gratis, y sin datos personales.",
+   "canonical": "https://spaingh.com/es/visado-nomada-digital-elegibilidad/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Comprobador de Elegibilidad del Visado Nómada Digital en España",
+   "h1n": 2,
+   "h2n": 4,
+   "words": 926,
+   "types": [
+    "Article",
+    "FAQPage",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/es/visado-nomada-digital-elegibilidad/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/visado-nomada-digital-elegibilidad/#richSnippet"
+   ],
+   "faq": 8,
+   "imgs": 7,
+   "noalt": 0,
+   "links": 4,
+   "ogImage": "",
+   "dateMod": "2026-09-11T23:26:32+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/visado-nomada-digital-elegibilidad/",
+   "lang": "es",
+   "title": "Verificador de Elegibilidad del Visado Nómada Digital de España",
+   "desc": "Descubre si cumples los requisitos para el Visado Nómada Digital de España en menos de 2 minutos.",
+   "canonical": "https://spaingh.com/es/visado-nomada-digital-elegibilidad/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Verificador de Elegibilidad del Visado Nómada Digital de España",
+   "h1n": 1,
+   "h2n": 2,
+   "words": 309,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 0,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "texto 926→309 (-67%)",
+   "FAQPage perdido (8)",
+   "schema FAQPage no está en la nueva",
+   "schema Person no está en la nueva",
+   "imágenes 7→0",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/visado-para-inversores-en-espana/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/visado-para-inversores-en-espana/",
+   "lang": "es-ES",
+   "title": "Visado de Inversor España 2026 | Residencia y Activos SGH",
+   "desc": "Expertos en residencia por inversión en España para altos patrimonios. Gestión de activos estratégicos, compliance legal y movilidad global bajo normativa 2026.",
+   "canonical": "https://spaingh.com/es/visado-para-inversores-en-espana/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Inversión y Residencia en España",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 521,
+   "types": [
+    "LegalService"
+   ],
+   "ids": [],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/es/visado-para-inversores-en-espana/→/es/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/es/",
+   "lang": "es",
+   "title": "Asesoría para Inversores y Expatriados en España | Spain Global Hub",
+   "desc": "Asesoría legal, fiscal y de residencia para expatriados e inversores en España: Ley Beckham, Nómada Digital, Profesional Cualificado y empresas.",
+   "canonical": "https://spaingh.com/es/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Asesoría Privada para Inversores y Expatriados en España",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 575,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /es/",
+   "schema LegalService no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/es/visado-turistico-espana-dubai-2026/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/es/visado-turistico-espana-dubai-2026/",
+   "lang": "es-ES",
+   "title": "Visado Turístico a España desde Dubái: Guía Definitiva 2026 para Expatriados",
+   "desc": "Guía completa 2026 para expatriados: solicitud de visado turístico a España desde Dubái con pasos, documentación y consejos estratégicos.",
+   "canonical": "https://spaingh.com/es/visado-turistico-espana-dubai-2026/",
+   "hreflang": "en,es",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Visado Turístico a España desde Dubái: Guía Definitiva 2026 para Expatriados",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 533,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/01/Spain-Tourist-Visa-from-Dubai.webp",
+    "https://spaingh.com/es/visado-turistico-espana-dubai-2026/#webpage",
+    "https://spaingh.com/es/autor/elena-mochales/",
+    "https://spaingh.com/es/visado-turistico-espana-dubai-2026/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 1,
+   "links": 8,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/01/Spain-Tourist-Visa-from-Dubai.webp",
+   "dateMod": "2026-08-09T15:41:24+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/es/visado-turistico-espana-dubai-2026/",
+   "lang": "es",
+   "title": "Visado Turístico a España desde Dubái: Guía 2026 para Expatriados en EAU",
+   "desc": "Cómo solicitar el visado Schengen para España desde Dubái: elegibilidad, documentación, cita en BLS International, tasas, errores frecuentes y consejos.",
+   "canonical": "https://spaingh.com/es/visado-turistico-espana-dubai-2026/",
+   "hreflang": "en,es,x-default",
+   "robots": "",
+   "h1": "Visado Turístico a España desde Dubái: Guía 2026 para Expatriados en EAU",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 485,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/dubai-skyline.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang es-ES→es"
+  ]
+ },
+ {
+  "path": "/fr/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/",
+   "lang": "fr-FR",
+   "title": "Services Juridiques, Fiscaux et Immobiliers Spécialisés en Espagne",
+   "desc": "Accompagnement juridique, fiscal et immobilier pour les particuliers et investisseurs souhaitant s'installer ou investir en Espagne. Nous offrons une expertise spécialisée pour garantir une transition sereine et sécuriser vos investissements sur le marché espagnol.",
+   "canonical": "https://spaingh.com/fr/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Conseil Privé pour Investisseurs et Expatriés en Espagne",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 587,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/fr/#webpage",
+    "https://spaingh.com/fr/author/elena-mochales/",
+    "https://spaingh.com/fr/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 11,
+   "noalt": 0,
+   "links": 6,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:30+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/fr/",
+   "lang": "fr",
+   "title": "Conseil pour Investisseurs et Expatriés en Espagne | Spain Global Hub",
+   "desc": "Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Nomade Numérique, PHQ et création de sociétés.",
+   "canonical": "https://spaingh.com/fr/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Conseil Privé pour Investisseurs et Expatriés en Espagne",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 646,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/actualites-de-sgh/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/actualites-de-sgh/",
+   "lang": "fr-FR",
+   "title": "Actualités de SGH |",
+   "desc": "Mises à jour et changements importants en Espagne.",
+   "canonical": "https://spaingh.com/fr/actualites-de-sgh/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "",
+   "h1n": 0,
+   "h2n": 0,
+   "words": 23,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/fr/actualites-de-sgh/#webpage",
+    "https://spaingh.com/fr/author/elena-mochales/",
+    "https://spaingh.com/fr/actualites-de-sgh/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:22+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/fr/actualites-de-sgh/→/fr/blog/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/fr/blog/",
+   "lang": "fr",
+   "title": "Actualités | Spain Global Hub",
+   "desc": "Articles sur la fiscalité, les visas et l'investissement pour les étrangers en Espagne.",
+   "canonical": "https://spaingh.com/fr/blog/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Actualités",
+   "h1n": 1,
+   "h2n": 0,
+   "words": 147,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 3,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /fr/blog/",
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/avocat-immobilier-espagne-due-diligence/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/avocat-immobilier-espagne-due-diligence/",
+   "lang": "fr-FR",
+   "title": "Avocat Immobilier Espagne | Due Diligence & Audit Légal SGH",
+   "desc": "Experts en ingénierie juridique pour vos acquisitions immobilières en Espagne. Audit technique, fiscal et Due Diligence rigoureuse pour sécuriser votre capital sans commissions d'agences. Votre protection est notre priorité.",
+   "canonical": "https://spaingh.com/fr/avocat-immobilier-espagne-due-diligence/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Ingénierie Juridique pour les Acquisitions Immobilières.",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 430,
+   "types": [
+    "LegalService"
+   ],
+   "ids": [],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/fr/avocat-immobilier-espagne-due-diligence/→/fr/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/fr/",
+   "lang": "fr",
+   "title": "Conseil pour Investisseurs et Expatriés en Espagne | Spain Global Hub",
+   "desc": "Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Nomade Numérique, PHQ et création de sociétés.",
+   "canonical": "https://spaingh.com/fr/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Conseil Privé pour Investisseurs et Expatriés en Espagne",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 646,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /fr/",
+   "schema LegalService no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/calculateur-loi-beckham/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/calculateur-loi-beckham/",
+   "lang": "fr-FR",
+   "title": "Calculateur Loi Beckham 2026 : Calculez votre Économie d'Impôt | Spain Global Hub",
+   "desc": "Calculez votre économie avec le Calculateur Loi Beckham 2026 : taux fixe de 24% jusqu)à 600 000 € (47% au-delà) pendant 6 ans. Gratuit, instantané, barèmes IRPF officiels par communauté.",
+   "canonical": "https://spaingh.com/fr/calculateur-loi-beckham/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Calculateur Loi Beckham 2026 : Votre Économie avec la Loi Startups",
+   "h1n": 1,
+   "h2n": 3,
+   "words": 786,
+   "types": [
+    "FAQPage",
+    "WebApplication"
+   ],
+   "ids": [],
+   "faq": 5,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/Calculadora-Ley-Beckham.png",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/fr/calculateur-loi-beckham/",
+   "lang": "fr",
+   "title": "Calculateur Loi Beckham 2026 | Spain Global Hub",
+   "desc": "Calculez votre économie fiscale en tant qu'expatrié en Espagne sous le régime spécial des impatriés (Loi Beckham) par rapport à l'IRPF ordinaire.",
+   "canonical": "https://spaingh.com/fr/calculateur-loi-beckham/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Calculateur Loi Beckham 2026",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 319,
+   "types": [
+    "Article",
+    "Organization",
+    "WebApplication"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/fr/calculateur-loi-beckham/"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 0,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "texto 786→319 (-59%)",
+   "FAQPage perdido (5)",
+   "schema FAQPage no está en la nueva",
+   "imágenes 1→0",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/contact/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/contact/",
+   "lang": "fr-FR",
+   "title": "Contact |",
+   "desc": "DÉMARRER",
+   "canonical": "https://spaingh.com/fr/contact/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "",
+   "h1n": 0,
+   "h2n": 1,
+   "words": 156,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/fr/contact/#webpage",
+    "https://spaingh.com/fr/author/elena-mochales/",
+    "https://spaingh.com/fr/contact/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:20+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/fr/contact/",
+   "lang": "fr",
+   "title": "Contactez-nous | Spain Global Hub",
+   "desc": "Contactez Spain Global Hub pour une évaluation privée de votre situation fiscale, de résidence ou d’investissement en Espagne.",
+   "canonical": "https://spaingh.com/fr/contact/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Demandez votre évaluation privée",
+   "h1n": 1,
+   "h2n": 1,
+   "words": 109,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/guide-investissement-immobilier-madrid-2026/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/guide-investissement-immobilier-madrid-2026/",
+   "lang": "fr-FR",
+   "title": "Investir à Madrid 2026 : Rentabilité, Fiscalité et Conseils SGH",
+   "desc": "Guide 2026 pour investir à Madrid : découvrez la rentabilité, les avantages fiscaux (Loi Beckham) et la sécurité juridique avec l'expertise conseil de SGH.",
+   "canonical": "https://spaingh.com/fr/guide-investissement-immobilier-madrid-2026/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Guide d’Investissement Immobilier à Madrid 2026 : Rentabilité, Sécurité Juridique et Stratégie Fiscale",
+   "h1n": 1,
+   "h2n": 7,
+   "words": 687,
+   "types": [
+    "Article"
+   ],
+   "ids": [],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/Invertir-en-el-mercado-inmobiliario-de-Madrid-1200x787.jpg",
+   "dateMod": "2026-03-04T23:30:00+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/fr/guide-investissement-immobilier-madrid-2026/→/fr/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/fr/",
+   "lang": "fr",
+   "title": "Conseil pour Investisseurs et Expatriés en Espagne | Spain Global Hub",
+   "desc": "Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Nomade Numérique, PHQ et création de sociétés.",
+   "canonical": "https://spaingh.com/fr/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Conseil Privé pour Investisseurs et Expatriés en Espagne",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 646,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /fr/",
+   "schema Article no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/services/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/services/",
+   "lang": "fr-FR",
+   "title": "Strategic Law & Tax Firm Spain | SGH Private Advisory",
+   "desc": "Expert legal management for high-value profiles in Spain. We unify Residency, Tax Architecture (Beckham Law), and Real Estate investment under one strategic direction.",
+   "canonical": "https://spaingh.com/fr/services/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Nos Domaines d'Expertise",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 459,
+   "types": [
+    "ImageObject",
+    "Organization",
+    "Service",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/asesoria-fiscal-legal-espanya-sgh-scaled.jpg",
+    "https://spaingh.com/fr/services/#webpage"
+   ],
+   "faq": 0,
+   "imgs": 13,
+   "noalt": 0,
+   "links": 14,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/asesoria-fiscal-legal-espanya-sgh-1200x801.jpg",
+   "dateMod": "2026-09-11T18:15:28+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/fr/services/",
+   "lang": "fr",
+   "title": "Nos services | Spain Global Hub",
+   "desc": "Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Visa Nomade Numérique, PHQ et création de sociétés.",
+   "canonical": "https://spaingh.com/fr/services/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Services",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 249,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 6,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "texto 459→249 (-46%)",
+   "schema Service no está en la nueva",
+   "imágenes 13→0",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/services/achat-et-vente-de-biens-immobiliers-en-espagne-avec-conseil-global/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/services/achat-et-vente-de-biens-immobiliers-en-espagne-avec-conseil-global/",
+   "lang": "fr-FR",
+   "title": "Real Estate Investment in Spain | Legal & Tax Advisory | SGH",
+   "desc": "Investissement immobilier en Espagne avec Spain Global Hub. Expertise juridique et fiscale pour sécuriser votre achat. Solutions clés en main pour investisseurs.",
+   "canonical": "https://spaingh.com/fr/services/achat-et-vente-de-biens-immobiliers-en-espagne-avec-conseil-global/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Achat et Vente de Biens Immobiliers en Espagne avec Conseil Global",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 606,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/fr/services/achat-et-vente-de-biens-immobiliers-en-espagne-avec-conseil-global/#webpage",
+    "https://spaingh.com/fr/author/elena-mochales/",
+    "https://spaingh.com/fr/services/achat-et-vente-de-biens-immobiliers-en-espagne-avec-conseil-global/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 4,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:17+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/fr/services/achat-et-vente-de-biens-immobiliers-en-espagne-avec-conseil-global/→/fr/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/fr/",
+   "lang": "fr",
+   "title": "Conseil pour Investisseurs et Expatriés en Espagne | Spain Global Hub",
+   "desc": "Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Nomade Numérique, PHQ et création de sociétés.",
+   "canonical": "https://spaingh.com/fr/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Conseil Privé pour Investisseurs et Expatriés en Espagne",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 646,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /fr/",
+   "schema Article no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/services/company-formation-spain-premium-investment/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/services/company-formation-spain-premium-investment/",
+   "lang": "fr-FR",
+   "title": "Déploiement Corporatif Stratégique en Espagne |",
+   "desc": "Establish your business in Spain with Spain Global Hub. Expert corporate engineering, international tax optimization, and Golden Visa management for elite investors.",
+   "canonical": "https://spaingh.com/fr/services/company-formation-spain-premium-investment/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "DÉPLOIEMENT CORPORATIF STRATÉGIQUE EN ESPAGNE",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 377,
+   "types": [
+    "Article",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2026/02/unnamed.jpg",
+    "https://spaingh.com/fr/services/company-formation-spain-premium-investment/#webpage",
+    "https://spaingh.com/fr/author/elena-mochales/",
+    "https://spaingh.com/fr/services/company-formation-spain-premium-investment/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2026/02/unnamed.jpg",
+   "dateMod": "2026-09-11T18:15:13+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/fr/services/company-formation-spain-premium-investment/",
+   "lang": "fr",
+   "title": "Déploiement Corporatif Stratégique en Espagne | Spain Global Hub",
+   "desc": "Création de société en Espagne pour investisseurs étrangers : constitution de SL, NIE/NIF, compte bancaire, immatriculation fiscale et structure sociétaire gérées de A à Z.",
+   "canonical": "https://spaingh.com/fr/services/company-formation-spain-premium-investment/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Déploiement Corporatif Stratégique en Espagne",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 456,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/creacion-de-empresas-espana-madrid.jpg",
+   "dateMod": "2026-09-11T00:00:00.000Z"
+  },
+  "flags": [
+   "schema Person no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/services/loi-beckham-conseil-fiscal/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/services/loi-beckham-conseil-fiscal/",
+   "lang": "fr-FR",
+   "title": "Loi Beckham Espagne : Conseil Fiscal et Gestion Impatriés | SGH",
+   "desc": "Optimisez votre fiscalité avec la Loi Beckham en Espagne. Réduisez votre impôt à 24%. Expertise en gestion du Modèle 149 et protection de patrimoine.",
+   "canonical": "https://spaingh.com/fr/services/loi-beckham-conseil-fiscal/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Loi Beckham en Espagne : Conseil Fiscal Spécialisé",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 984,
+   "types": [
+    "Article",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/fr/services/loi-beckham-conseil-fiscal/#webpage",
+    "https://spaingh.com/fr/author/elena-mochales/",
+    "https://spaingh.com/fr/services/loi-beckham-conseil-fiscal/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 2,
+   "noalt": 0,
+   "links": 26,
+   "ogImage": "",
+   "dateMod": "2026-09-11T18:15:10+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/fr/services/loi-beckham-conseil-fiscal/",
+   "lang": "fr",
+   "title": "Loi Beckham en Espagne | Spain Global Hub",
+   "desc": "Conseil fiscal Loi Beckham en Espagne : analyse d'éligibilité, dépôt du formulaire 149, imposition à 24 % jusqu'à 600 000 € et conformité annuelle pour cadres et impatriés.",
+   "canonical": "https://spaingh.com/fr/services/loi-beckham-conseil-fiscal/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Loi Beckham en Espagne",
+   "h1n": 1,
+   "h2n": 5,
+   "words": 733,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 1,
+   "noalt": 0,
+   "links": 5,
+   "ogImage": "https://spaingh.com/img/asesoria-ley-beckham-espana.jpg",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "schema Person no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/vendre-propriete-espagne-non-resident-guide-2026/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/vendre-propriete-espagne-non-resident-guide-2026/",
+   "lang": "fr-FR",
+   "title": "Vendre une propriété en Espagne en tant que non-résident – Guide 2026",
+   "desc": "Guide expert 2026 : Vendre un bien immobilier en Espagne en tant que non-résident. Maîtrisez l'impôt de 19%, la retenue de 3% et l'exonération de la Plus-value.",
+   "canonical": "https://spaingh.com/fr/vendre-propriete-espagne-non-resident-guide-2026/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Vendre une propriété en Espagne en tant que non-résident – Guide 2026",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 511,
+   "types": [
+    "BlogPosting",
+    "ImageObject",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/wp-content/uploads/2025/02/selling-a-property-in-spain-as-a-non-resident.jpg",
+    "https://spaingh.com/fr/vendre-propriete-espagne-non-resident-guide-2026/#webpage",
+    "https://spaingh.com/fr/author/elena-mochales/",
+    "https://spaingh.com/fr/vendre-propriete-espagne-non-resident-guide-2026/#richSnippet"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 1,
+   "ogImage": "https://spaingh.com/wp-content/uploads/2025/02/selling-a-property-in-spain-as-a-non-resident.jpg",
+   "dateMod": "2026-09-11T18:15:56+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/fr/vendre-propriete-espagne-non-resident-guide-2026/→/fr/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/fr/",
+   "lang": "fr",
+   "title": "Conseil pour Investisseurs et Expatriés en Espagne | Spain Global Hub",
+   "desc": "Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Nomade Numérique, PHQ et création de sociétés.",
+   "canonical": "https://spaingh.com/fr/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Conseil Privé pour Investisseurs et Expatriés en Espagne",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 646,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /fr/",
+   "schema BlogPosting no está en la nueva",
+   "schema Person no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/verificateur-visa-nomade-numerique/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/verificateur-visa-nomade-numerique/",
+   "lang": "fr-FR",
+   "title": "Vérificateur d'Éligibilité au Visa Nomade Numérique en Espagne | Spain Global Hub",
+   "desc": "Vérifiez si vous remplissez les conditions du Visa Nomade Numérique en Espagne en moins de 2 minutes. Gratuit, sans données personnelles.",
+   "canonical": "https://spaingh.com/fr/verificateur-visa-nomade-numerique/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Vérificateur d’Éligibilité au Visa Nomade Numérique en Espagne",
+   "h1n": 2,
+   "h2n": 4,
+   "words": 980,
+   "types": [
+    "Article",
+    "FAQPage",
+    "Organization",
+    "Person",
+    "WebPage",
+    "WebSite"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization",
+    "https://spaingh.com/#website",
+    "https://spaingh.com/fr/verificateur-visa-nomade-numerique/#webpage",
+    "https://spaingh.com/fr/author/elena-mochales/",
+    "https://spaingh.com/fr/verificateur-visa-nomade-numerique/#richSnippet"
+   ],
+   "faq": 8,
+   "imgs": 7,
+   "noalt": 0,
+   "links": 4,
+   "ogImage": "",
+   "dateMod": "2026-09-11T23:30:48+01:00"
+  },
+  "new": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.pages.dev/fr/verificateur-visa-nomade-numerique/",
+   "lang": "fr",
+   "title": "Vérificateur d'Éligibilité au Visa Nomade Numérique en Espagne",
+   "desc": "Découvrez si vous remplissez les conditions du Visa Nomade Numérique espagnol en moins de 2 minutes.",
+   "canonical": "https://spaingh.com/fr/verificateur-visa-nomade-numerique/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Vérificateur d'Éligibilité au Visa Nomade Numérique en Espagne",
+   "h1n": 1,
+   "h2n": 2,
+   "words": 330,
+   "types": [
+    "Article",
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 0,
+   "noalt": 0,
+   "links": 0,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": "2026-09-12T00:00:00.000Z"
+  },
+  "flags": [
+   "texto 980→330 (-66%)",
+   "FAQPage perdido (8)",
+   "schema FAQPage no está en la nueva",
+   "schema Person no está en la nueva",
+   "imágenes 7→0",
+   "lang fr-FR→fr"
+  ]
+ },
+ {
+  "path": "/fr/visa-dinvestisseur-en-espagne/",
+  "old": {
+   "status": 200,
+   "chain": [],
+   "finalUrl": "https://spaingh.com/fr/visa-dinvestisseur-en-espagne/",
+   "lang": "fr-FR",
+   "title": "Résidence par Investissement Espagne 2026 | Spain Global Hub",
+   "desc": "Expertise en résidence par investissement en Espagne pour 2026. Optimisation fiscale (Loi Beckham), due diligence immobilière et gestion stratégique d’actifs par SGH. Obtenez votre permis de séjour en 20 jours. Consultation privée.",
+   "canonical": "https://spaingh.com/fr/visa-dinvestisseur-en-espagne/",
+   "hreflang": "en,es,fr",
+   "robots": "follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large",
+   "h1": "Résidence par Investissement en Espagne",
+   "h1n": 1,
+   "h2n": 4,
+   "words": 577,
+   "types": [
+    "FAQPage",
+    "LegalService"
+   ],
+   "ids": [],
+   "faq": 4,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 2,
+   "ogImage": "",
+   "dateMod": ""
+  },
+  "new": {
+   "status": 200,
+   "chain": [
+    "/fr/visa-dinvestisseur-en-espagne/→/fr/"
+   ],
+   "finalUrl": "https://spaingh.pages.dev/fr/",
+   "lang": "fr",
+   "title": "Conseil pour Investisseurs et Expatriés en Espagne | Spain Global Hub",
+   "desc": "Conseil juridique, fiscal et de résidence pour expatriés et investisseurs en Espagne : Loi Beckham, Nomade Numérique, PHQ et création de sociétés.",
+   "canonical": "https://spaingh.com/fr/",
+   "hreflang": "en,es,fr,x-default",
+   "robots": "",
+   "h1": "Conseil Privé pour Investisseurs et Expatriés en Espagne",
+   "h1n": 1,
+   "h2n": 6,
+   "words": 646,
+   "types": [
+    "Organization"
+   ],
+   "ids": [
+    "https://spaingh.com/#organization"
+   ],
+   "faq": 0,
+   "imgs": 3,
+   "noalt": 0,
+   "links": 11,
+   "ogImage": "https://spaingh.com/og-default.png",
+   "dateMod": ""
+  },
+  "flags": [
+   "redirige a /fr/",
+   "FAQPage perdido (4)",
+   "schema FAQPage no está en la nueva",
+   "schema LegalService no está en la nueva",
+   "lang fr-FR→fr"
+  ]
+ }
+]
