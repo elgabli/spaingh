@@ -6,6 +6,7 @@
 //   CONTACT_TO        (opcional, por defecto sgh@spaingh.com; varios separados por coma)
 //   CONTACT_FROM      (opcional, por defecto "Spain Global Hub <web@spaingh.com>"; dominio verificado en Resend)
 //   CONTACT_DRY_RUN   (opcional, "1" = no envía email; para pruebas locales con wrangler)
+//   TG_BOT_TOKEN + TG_CHAT_ID (opcional): aviso inmediato por Telegram de cada lead
 // Binding KV LEADS (namespace SGH_LEADS): copia de seguridad de cada consulta,
 // clave lead:<ISO fecha>:<id>. Se guarda SIEMPRE, se envíe o no el email, para
 // no perder ningún contacto (leer con `wrangler kv key list --namespace-id ...`).
@@ -67,20 +68,40 @@ export async function onRequestPost({ request, env }) {
 <h3 style="font-family:Arial,sans-serif">Mensaje</h3><p style="font-family:Arial,sans-serif;font-size:14px;white-space:pre-wrap">${esc(f.message || '—')}</p>`;
   const text = rows.map(([k, v]) => `${k}: ${v}`).join('\n') + `\n\nMensaje:\n${f.message || '—'}`;
 
-  // Copia en KV (nunca bloquea la respuesta).
-  let stored = false;
+  // Copia en KV (nunca bloquea la respuesta). Se relee la clave para
+  // confirmar que el binding escribe donde creemos.
+  let stored = false; let key = '';
   if (env.LEADS) {
     try {
-      const id = crypto.randomUUID();
-      await env.LEADS.put(`lead:${new Date().toISOString()}:${id}`, JSON.stringify({ ...f, ip, ts: Date.now() }), { metadata: { reason: f.reason, lang: f.lang } });
-      stored = true;
-    } catch (e) { console.error('kv', e); }
+      key = `lead:${new Date().toISOString()}:${crypto.randomUUID()}`;
+      await env.LEADS.put(key, JSON.stringify({ ...f, ip, ts: Date.now() }), { metadata: { reason: f.reason, lang: f.lang } });
+      const back = await env.LEADS.get(key);
+      stored = !!back;
+      console.log('kv', { key, readBack: !!back });
+    } catch (e) { console.error('kv', String(e)); }
+  } else {
+    console.warn('kv: binding LEADS ausente');
   }
 
-  if (env.CONTACT_DRY_RUN === '1') return json({ ok: true, dryRun: true, subject, to });
-  // Sin proveedor de email configurado: el lead queda en KV y se responde ok
-  // (el equipo lo revisa desde KV hasta que haya RESEND_API_KEY).
-  if (!env.RESEND_API_KEY) return stored ? json({ ok: true, stored: true }) : json({ ok: false, error: 'not_configured' }, 500);
+  // Aviso por Telegram (opcional): TG_BOT_TOKEN + TG_CHAT_ID en Pages.
+  let notified = false;
+  if (env.TG_BOT_TOKEN && env.TG_CHAT_ID) {
+    try {
+      const tgText = `📩 Nuevo lead web (${f.lang || 'es'})\n${rows.map(([k, v]) => `${k}: ${v}`).join('\n')}\n\nMensaje:\n${(f.message || '—').slice(0, 800)}`;
+      const tg = await fetch(`https://api.telegram.org/bot${env.TG_BOT_TOKEN}/sendMessage`, {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ chat_id: env.TG_CHAT_ID, text: tgText, disable_web_page_preview: true }),
+      });
+      notified = tg.ok; if (!tg.ok) console.error('telegram', tg.status, await tg.text().catch(() => ''));
+    } catch (e) { console.error('telegram', String(e)); }
+  }
+
+  if (env.CONTACT_DRY_RUN === '1') { console.log('branch: dryRun'); return json({ ok: true, dryRun: true, subject, to }); }
+  // Sin proveedor de email configurado: el lead queda en KV (y/o Telegram) y se responde ok.
+  if (!env.RESEND_API_KEY) {
+    console.log('branch: sin RESEND_API_KEY', { stored, notified });
+    return (stored || notified) ? json({ ok: true, stored, notified, key }) : json({ ok: false, error: 'not_configured' }, 500);
+  }
 
   const sent = await fetch('https://api.resend.com/emails', {
     method: 'POST',
@@ -90,9 +111,10 @@ export async function onRequestPost({ request, env }) {
   if (!sent.ok) {
     console.error('resend', sent.status, await sent.text().catch(() => ''));
     // El lead ya está en KV: no se muestra error al usuario si se guardó.
-    return stored ? json({ ok: true, stored: true }) : json({ ok: false, error: 'send_failed' }, 502);
+    return (stored || notified) ? json({ ok: true, stored, notified, key }) : json({ ok: false, error: 'send_failed' }, 502);
   }
-  return json({ ok: true });
+  console.log('branch: resend ok', { stored, notified });
+  return json({ ok: true, stored, notified, key, emailed: true });
 }
 
 export const onRequest = ({ request }) =>
