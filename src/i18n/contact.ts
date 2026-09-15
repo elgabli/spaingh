@@ -14,6 +14,7 @@ export interface ContactText {
   reasons: string[];
   nationalities: string[];
   select: string;
+  value: { text: string; bullets: string[]; directLabel: string };
   ok: { title: string; text: string };
   errors: { generic: string; required: string; email: string; privacy: string; turnstile: string };
 }
@@ -30,6 +31,11 @@ export const contactText: Record<Lang, ContactText> = {
     reasons: ['Ley Beckham', 'Visado Nómada Digital', 'Profesional Altamente Cualificado', 'Constitución de empresas', 'Otros visados y extranjería', 'Otro'],
     nationalities: ['España', 'Alemania', 'Arabia Saudí', 'Argentina', 'China', 'Colombia', 'Emiratos Árabes', 'Estados Unidos', 'Francia', 'Italia', 'Kuwait', 'Luxemburgo', 'México', 'Qatar', 'Reino Unido', 'Suiza', 'Otros'],
     select: 'Seleccione…',
+    value: {
+      text: 'En Spain Global Hub entendemos que la movilidad internacional exige precisión absoluta. Revisamos cada solicitud para asignar al especialista jurídico y fiscal más adecuado a su perfil.',
+      bullets: ['Respuesta inicial en menos de 24 horas laborables.', 'Asignación directa de un consultor senior.', 'Absoluta confidencialidad y cumplimiento RGPD.', 'Análisis experto desde la doble perspectiva legal y fiscal.', 'Gestión de datos segura y cifrada.'],
+      directLabel: 'Atención directa',
+    },
     ok: { title: 'Mensaje recibido', text: 'Gracias. Le responderemos en menos de 24 h laborables.' },
     errors: { generic: 'No se ha podido enviar. Inténtelo de nuevo o escríbanos a sgh@spaingh.com.', required: 'Complete los campos obligatorios.', email: 'Revise el correo electrónico.', privacy: 'Debe aceptar la política de privacidad.', turnstile: 'Verificación anti-spam pendiente. Espere un segundo y reintente.' },
   },
@@ -44,6 +50,11 @@ export const contactText: Record<Lang, ContactText> = {
     reasons: ['Beckham Law', 'Digital Nomad Visa', 'Highly Qualified Professional', 'Company formation', 'Other visas & immigration', 'Other'],
     nationalities: ['Spain', 'Germany', 'Saudi Arabia', 'Argentina', 'China', 'Colombia', 'United Arab Emirates', 'United States', 'France', 'Italy', 'Kuwait', 'Luxembourg', 'Mexico', 'Qatar', 'United Kingdom', 'Switzerland', 'Other'],
     select: 'Select…',
+    value: {
+      text: 'At Spain Global Hub we know international mobility demands absolute precision. We review every request to assign the legal and tax specialist best suited to your profile.',
+      bullets: ['Initial reply within 24 working hours.', 'Direct assignment of a senior consultant.', 'Absolute confidentiality and GDPR compliance.', 'Expert analysis from a dual legal and tax perspective.', 'Secure, encrypted data handling.'],
+      directLabel: 'Direct contact',
+    },
     ok: { title: 'Message received', text: 'Thank you. We will reply within 24 working hours.' },
     errors: { generic: 'Your message could not be sent. Please try again or email sgh@spaingh.com.', required: 'Please complete the required fields.', email: 'Please check the email address.', privacy: 'You must accept the privacy policy.', turnstile: 'Anti-spam check pending. Wait a second and try again.' },
   },
@@ -58,6 +69,11 @@ export const contactText: Record<Lang, ContactText> = {
     reasons: ['Loi Beckham', 'Visa Nomade Numérique', 'Professionnel Hautement Qualifié', 'Création de société', 'Autres visas et immigration', 'Autre'],
     nationalities: ['Espagne', 'Allemagne', 'Arabie Saoudite', 'Argentine', 'Chine', 'Colombie', 'Émirats Arabes Unis', 'États-Unis', 'France', 'Italie', 'Koweït', 'Luxembourg', 'Mexique', 'Qatar', 'Royaume-Uni', 'Suisse', 'Autres'],
     select: 'Sélectionnez…',
+    value: {
+      text: 'Chez Spain Global Hub, nous savons que la mobilité internationale exige une précision absolue. Nous étudions chaque demande pour vous attribuer le spécialiste juridique et fiscal le plus adapté à votre profil.',
+      bullets: ['Première réponse sous 24 heures ouvrées.', 'Attribution directe d’un consultant senior.', 'Confidentialité absolue et conformité RGPD.', 'Analyse experte sous le double angle juridique et fiscal.', 'Traitement des données sécurisé et chiffré.'],
+      directLabel: 'Contact direct',
+    },
     ok: { title: 'Message reçu', text: 'Merci. Nous vous répondrons sous 24 h ouvrées.' },
     errors: { generic: "Votre message n'a pas pu être envoyé. Réessayez ou écrivez à sgh@spaingh.com.", required: 'Veuillez remplir les champs obligatoires.', email: "Vérifiez l'adresse e-mail.", privacy: 'Vous devez accepter la politique de confidentialité.', turnstile: 'Vérification anti-spam en attente. Patientez une seconde et réessayez.' },
   },
