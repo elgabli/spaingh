@@ -1,14 +1,17 @@
 ---
-title: "Obtenir la Nationalité Espagnole en 2026 : Années de Résidence, Conditions et Démarches"
+title: "Nationalité Espagnole en 2026 : années de résidence, conditions, coûts et démarches"
 description: "Comment obtenir la nationalité espagnole : périodes de résidence (10, 5, 2 ou 1 an), conditions, examens CCSE et DELE, documents nécessaires et procédure."
 lang: fr
 slug: obtenir-nationalite-espagnole
 translationGroup: citizenship
 seoPriority: alta
+updatedDate: 2026-09-16
 publishedDate: 2026-09-12
 image: "/img/nacionalidad-espanola-pasaporte.jpg"
 imageAlt: "Passeport espagnol : nationalité par résidence"
 ---
+
+**Réponse rapide.** La plupart des étrangers obtiennent la nationalité espagnole **par résidence** : 10 ans de résidence légale et continue en règle générale, **2 ans** pour les ressortissants des pays ibéro-américains, d’Andorre, des Philippines, de Guinée équatoriale et du Portugal (et les Séfarades), **5 ans** pour les réfugiés et **1 an** pour les conjoints d’Espagnols, les personnes nées en Espagne et les enfants ou petits-enfants d’Espagnols. En plus des années : casier vierge, examen CCSE et, sauf si l’espagnol est langue officielle de votre pays, le DELE A2. La demande se dépose en ligne auprès du ministère de la Justice, les frais sont d’environ 105 € et le délai légal est d’un an (12–18 mois en pratique). **Il n’existe pas de nationalité par investissement.** Utilisez le vérificateur ci-dessus pour connaître votre voie.
 
 L'obtention de la nationalité espagnole n'est pas une demande que vous présentez à votre arrivée. C'est l'aboutissement d'une période de **résidence légale en Espagne** : dix ans pour les ressortissants français et la plupart des autres nationalités, deux ans pour les ressortissants des pays ibéro-américains, un an pour les conjoints de citoyens espagnols. Tout le reste, de l'examen de langue au serment, vient après l'expiration de ces périodes.
 
@@ -50,6 +53,24 @@ Trois conditions s'appliquent à chaque période :
 **Enfants d'un parent espagnol** n'ont généralement besoin d'aucune résidence. Si votre mère ou père était espagnol à votre naissance, vous êtes espagnol par origine et avez seulement besoin d'enregistrer la naissance. Si le parent a acquis la nationalité espagnole plus tard, ou si vous êtes né hors d'Espagne de parents ou grands-parents nés en Espagne, vous pouvez être en mesure d'**opter** pour la nationalité dans les délais fixés par le Code civil, ou de demander après une année de résidence légale.
 
 **Petits-enfants et descendants d'exilés** : la Loi de la Mémoire démocratique (Ley 20/2022) a ouvert une fenêtre spéciale pour les descendants d'Espagnols qui ont perdu leur nationalité par l'exil. Cette fenêtre a fermé en octobre 2025. Les descendants qui n'ont pas présenté de demande à temps reviennent aux règles générales ci-dessus.
+
+## Il n’existe pas de nationalité espagnole par investissement
+
+L’Espagne n’a jamais vendu de passeports. Le permis de résidence pour investisseurs appelé *Golden Visa* n’accordait qu’une **résidence**, dont la durée comptait pour la période générale de 10 ans comme n’importe quel autre permis. Le Golden Visa a été supprimé le 3 avril 2025 (loi organique 1/2025). Qui veut s’installer en Espagne aujourd’hui utilise les mêmes permis que tout le monde — [Visa Nomade Numérique](/fr/services/visa-nomade-numerique/), [Professionnel Hautement Qualifié](/fr/services/visa-professionnel-hautement-qualifie/), indépendant ou résidence non lucrative — puis les périodes de résidence.
+
+## Combien ça coûte en 2026
+
+| Poste | Coût approximatif |
+|---|---|
+| Frais de demande (modèle 790, code 026) | 105 € (actualisés chaque année) |
+| Examen CCSE | 85 € |
+| Examen DELE A2 | 130–150 € selon le centre |
+| Apostilles et légalisations | 20–80 € par document selon le pays |
+| Traductions assermentées | 30–60 € par page |
+| Extraits de casier judiciaire | Gratuit à 40 € selon le pays |
+| DNI et passeport après approbation | Environ 12 € + 30 € |
+
+Les honoraires dépendent de la complexité du dossier (pays de résidence, membres de la famille, refus antérieurs). Un dossier bien préparé coûte moins cher qu’un refus suivi d’un recours.
 
 ## Conditions communes à tout demandeur
 
@@ -106,20 +127,27 @@ Pendant ces années, vous serez résident fiscal espagnol. Si vous êtes réimpl
 
 ## Questions fréquemment posées
 
-**Le temps en tant qu'étudiant compte-t-il ?**
+### Le temps en tant qu'étudiant compte-t-il ?
 Non pour la nationalité. Les séjours d'études comptent à 50 % vers la résidence de longue durée selon le règlement de 2025, mais la période de nationalité commence avec votre première autorisation de résidence.
 
-**Puis-je demander de l'étranger ?**
+### Puis-je demander de l'étranger ?
 Non. La nationalité par résidence exige que vous soyez résident légal en Espagne au moment de la demande et pendant le traitement du dossier.
 
-**Combien de temps puis-je passer hors d'Espagne pendant la période ?**
+### Combien de temps puis-je passer hors d'Espagne pendant la période ?
 Il n'y a pas de limite fixée par la loi. Les voyages courts ne sont pas un problème. Les absences de plusieurs mois, ou vivre à l'étranger tout en conservant une carte espagnole, brisent la continuité et mènent à un refus.
 
-**Mes enfants peuvent-ils demander avec moi ?**
+### Mes enfants peuvent-ils demander avec moi ?
 Les enfants mineurs qui sont résidents légaux peuvent demander par l'intermédiaire de leurs parents et bénéficier de la même période. Les enfants nés en Espagne de parents étrangers peuvent demander après une année de résidence légale.
 
-**Que se passe-t-il si la demande est rejetée ?**
+### Que se passe-t-il si la demande est rejetée ?
 Les refus peuvent être contestés devant le ministère de la Justice puis devant les tribunaux administratifs. Les raisons courantes sont les absences, les antécédents judiciaires et les documents manquants ou expirés, de sorte que la plupart des refus peuvent être évités avec un dossier correctement préparé.
+
+### Combien de temps faut-il au total pour obtenir la nationalité espagnole ?
+Ajoutez la période de résidence (10, 5, 2 ou 1 an) au délai de traitement (12–18 mois en pratique) et quelques mois pour les examens et documents. Un professionnel latino-américain obtient généralement son passeport 3 à 4 ans après son arrivée ; un Français, 11 à 12 ans — en conservant sa nationalité française grâce à l’accord de 2021.
+
+### Peut-on obtenir la nationalité en achetant un bien ou en investissant ?
+Non. L’Espagne n’a pas de programme de nationalité par investissement. Le Golden Visa, supprimé en avril 2025, ne donnait qu’une résidence ; les investisseurs suivent les mêmes périodes que tout le monde.
+
 
 ## Parlons-en avant de compter vos années
 

@@ -172,7 +172,7 @@ export function extractFaq(raw: string): FaqItem[] {
     if (q.length > 8 && a.length > 20) items.push({ question: q, answer: a });
   }
   if (items.length) return items;
-  const secRe = /(?:<h2[^>]*>\s*([^<]*(?:preguntas frecuentes|frequently asked|questions fr[ée]quentes|quick questions|questions answered|\bfaq\b)[^<]*)<\/h2>|^##\s+(.*(?:preguntas frecuentes|frequently asked|questions fr[ée]quentes|quick questions|questions answered|\bfaq\b).*)$)/im;
+  const secRe = /(?:<h2[^>]*>\s*([^<]*(?:preguntas frecuentes|frequently asked|questions fr[ée]quentes|questions fr[ée]quemment|quick questions|questions answered|\bfaq\b)[^<]*)<\/h2>|^##\s+(.*(?:preguntas frecuentes|frequently asked|questions fr[ée]quentes|questions fr[ée]quemment|quick questions|questions answered|\bfaq\b).*)$)/im;
   const start = raw.search(secRe);
   if (start < 0) return items;
   let section = raw.slice(start);

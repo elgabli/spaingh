@@ -208,3 +208,11 @@ main a {
 .sgh-pilar-cta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 16px 0 0; }
 .sgh-pilar-cta .btn { background: var(--sgh-verde); color: #fff; font-weight: 800; padding: 11px 20px; border-radius: 9px; text-decoration: none; font-size: .9rem; }
 .sgh-pilar-cta span { color: #7a8a86; font-size: .85rem; }
+/* Verificador de nacionalidad (reutiliza el checker Nómada) */
+.sgh-post-main .sgh-cit { margin: 24px 0 8px; padding: 0; max-width: none; }
+.sgh-cit .result-cta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 16px 0 8px; }
+.sgh-cit .result-cta .note { font-size: .85rem; color: #7a8a86; }
+.sgh-cit .disclaimer { font-size: .78rem; color: #7a8a86; margin: 10px 0; }
+.sgh-cit .result-box ul { margin: 8px 0 0; padding-left: 20px; }
+.sgh-cit .result-box li { margin-bottom: 6px; font-size: .95rem; }
+.sgh-cit .result-box h4 { margin: 0 0 6px; font-size: 1rem; }

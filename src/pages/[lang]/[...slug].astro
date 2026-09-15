@@ -6,6 +6,7 @@ import { pagesText, listingUrls } from '../../i18n/pages';
 import { articleGraphSchema, webApplicationSchema, webPageSchema, serviceSchema, faqPageSchema, extractFaq, author } from '../../lib/schema';
 import BeckhamCalculator from '../../components/islands/BeckhamCalculator.astro';
 import NomadChecker from '../../components/islands/NomadChecker.astro';
+import CitizenshipChecker from '../../components/islands/CitizenshipChecker.astro';
 
 const SITE_URL = 'https://spaingh.com';
 
@@ -131,6 +132,7 @@ if (isHtml && isArticle) {
 
 const isServicePage = entry.collection === 'pilares' && /\/(beckham-servicio|constitucion-empresas|nomada-servicio|pac-servicio)\.mdx?$/.test(srcFile);
 const isAbout = entry.collection === 'legal' && /\/about\.mdx?$/.test(srcFile);
+const isCitizenship = entry.data.translationGroup === 'citizenship';
 const imageUrl = (entry.data as { image?: string }).image ? `${SITE_URL}${(entry.data as { image?: string }).image}` : undefined;
 const faqItems = extractFaq((entry.body ?? '') + '\n' + (beckhamTail ?? ''));
 const schemaNodes = [
@@ -179,6 +181,7 @@ const schemaNodes = [
           </p>
         </div>
       </header>
+        {isCitizenship && <CitizenshipChecker lang={lang} />}
         <article class="sgh-article sgh-post-body" data-mid-cta={midCtaHtml}>
           {isHtml ? <Fragment set:html={htmlBody} /> : <Content />}
           <Fragment set:html={midCtaHtml.replace('sgh-mid-cta', 'sgh-mid-cta sgh-end-cta')} />

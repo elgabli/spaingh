@@ -5,10 +5,13 @@ lang: es
 slug: nacionalidad-espanola-por-residencia
 translationGroup: citizenship
 seoPriority: alta
+updatedDate: 2026-09-16
 publishedDate: 2026-09-12
 image: "/img/nacionalidad-espanola-pasaporte.jpg"
 imageAlt: "Pasaporte español: nacionalidad por residencia"
 ---
+
+**Respuesta rápida.** La mayoría de los extranjeros obtienen la nacionalidad española **por residencia**: 10 años de residencia legal y continuada como regla general, **2 años** para nacionales de países iberoamericanos, Andorra, Filipinas, Guinea Ecuatorial y Portugal (y sefardíes), **5 años** para refugiados y **1 año** para cónyuges de españoles, nacidos en España e hijos o nietos de españoles. Además de los años: antecedentes limpios, el examen CCSE y, salvo que el español sea lengua oficial de su país, el DELE A2. Se solicita en línea ante el Ministerio de Justicia, la tasa ronda los 105 € y el plazo legal es de un año (12–18 meses en la práctica). **No existe la nacionalidad por inversión.** Use el verificador de arriba para saber qué vía le corresponde.
 
 La nacionalidad española no es algo que usted solicite al llegar. Es el resultado de un período de **residencia legal en España**: dos años para ciudadanos de países iberoamericanos, diez años para la mayoría de otras nacionalidades, un año para cónyuges de ciudadanos españoles. Todo lo demás, desde el examen de idioma hasta el juramento, viene después de que hayan transcurrido esos años.
 
@@ -50,6 +53,24 @@ Tres condiciones aplican a cada período:
 **Hijos de progenitor español** por lo general no necesitan residencia alguna. Si su madre o padre era español cuando usted nació, usted es español por origen y simplemente necesita registrar el nacimiento. Si el progenitor adquirió la nacionalidad española posteriormente, u usted nació fuera de España de progenitores o abuelos nacidos en España, puede ser capaz de **optar** por la nacionalidad dentro de los plazos establecidos por el Código Civil, o solicitar después de un año de residencia legal.
 
 **Nietos y descendientes de exiliados**: la Ley de Memoria Democrática (Ley 20/2022) abrió una ventana especial para descendientes de españoles que perdieron su nacionalidad por exilio. Esa ventana cerró en octubre de 2025. Los descendientes que no presentaron solicitud a tiempo vuelven a las reglas generales anteriores.
+
+## No existe la nacionalidad española por inversión
+
+España nunca ha vendido pasaportes. El permiso de residencia para inversores conocido como *Golden Visa* solo concedía **residencia**, y ese tiempo computaba para el período general de 10 años como cualquier otro permiso. La Golden Visa se suprimió el 3 de abril de 2025 (Ley Orgánica 1/2025). Quien hoy quiere establecerse en España utiliza los mismos permisos que los demás — [Visado Nómada Digital](/es/servicios/visado-nomada-digital/), [Profesional Altamente Cualificado](/es/servicios/profesional-altamente-cualificado/), cuenta propia o residencia no lucrativa — y después los períodos de residencia.
+
+## Cuánto cuesta en 2026
+
+| Concepto | Coste aproximado |
+|---|---|
+| Tasa de solicitud (modelo 790, código 026) | 105 € (se actualiza cada año) |
+| Examen CCSE | 85 € |
+| Examen DELE A2 | 130–150 € según el centro |
+| Apostillas y legalizaciones | 20–80 € por documento, según el país |
+| Traducciones juradas | 30–60 € por página |
+| Certificados de antecedentes | Gratis a 40 € según el país |
+| DNI y pasaporte tras la aprobación | Unos 12 € + 30 € |
+
+Los honorarios legales dependen de la complejidad del expediente (países de residencia, familiares, denegaciones previas). Un expediente bien preparado cuesta menos que una denegación seguida de recurso.
 
 ## Requisitos comunes para todo solicitante
 
@@ -106,20 +127,27 @@ Durante esos años usted será residente fiscal español. Si se traslada por tra
 
 ## Preguntas frecuentes
 
-**¿Cuenta el tiempo en un visado de estudiante?**
+### ¿Cuenta el tiempo en un visado de estudiante?
 No para la nacionalidad. Las estancias de estudiante cuentan al 50% hacia la residencia de larga duración bajo la regulación de 2025, pero el período de nacionalidad comienza con su primera autorización de residencia.
 
-**¿Puedo solicitar desde el extranjero?**
+### ¿Puedo solicitar desde el extranjero?
 No. La nacionalidad por residencia requiere que usted sea residente legal en España en el momento de la solicitud y durante la tramitación.
 
-**¿Cuánto tiempo puedo pasar fuera de España durante el período?**
+### ¿Cuánto tiempo puedo pasar fuera de España durante el período?
 No hay un límite fijo en la ley. Los viajes cortos no son un problema. Las ausencias de varios meses, o vivir en el extranjero mientras se mantiene una tarjeta española, rompen la continuidad y llevan a denegación.
 
-**¿Pueden mis hijos solicitar conmigo?**
+### ¿Pueden mis hijos solicitar conmigo?
 Los hijos menores que son residentes legales pueden solicitar a través de sus padres y beneficiarse del mismo período. Los hijos nacidos en España de padres extranjeros pueden solicitar después de un año de residencia legal.
 
-**¿Qué sucede si la solicitud es denegada?**
+### ¿Qué sucede si la solicitud es denegada?
 Las denegaciones pueden apelarse ante el Ministerio de Justicia y luego ante los juzgados de lo contencioso-administrativo. Las razones comunes son ausencias, antecedentes penales y documentos faltantes o caducados, por lo que la mayoría de denegaciones son evitables con un expediente correctamente preparado.
+
+### ¿Cuánto tarda en total la nacionalidad española?
+Sume el período de residencia (10, 5, 2 o 1 año) al tiempo de tramitación (12–18 meses en la práctica) y unos meses para exámenes y documentos. Un profesional latinoamericano suele tener el pasaporte español 3–4 años después de llegar; un estadounidense o británico, 11–12 años.
+
+### ¿Se puede obtener la nacionalidad comprando una vivienda o invirtiendo?
+No. España no tiene programa de nacionalidad por inversión. La Golden Visa, suprimida en abril de 2025, solo daba residencia; los inversores siguen los mismos períodos que los demás.
+
 
 ## Hable con nosotros antes de contar sus años
 

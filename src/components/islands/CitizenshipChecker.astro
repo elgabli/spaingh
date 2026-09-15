@@ -1,0 +1,72 @@
+---
+// Verificador de vía a la nacionalidad: reutiliza el diseño del checker Nómada
+// (.dnv-wrap/.tool-box/.question-card…). Lógica en lib/citizenship-checker/route.ts.
+import { strings } from '../../lib/citizenship-checker/strings';
+import type { Lang } from '../../i18n/config';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const t = strings[lang];
+const qs = [t.q.situation, t.q.origin, t.q.residence, t.q.absences, t.q.record, t.q.spanish];
+---
+
+<div class="dnv-wrap sgh-cit" id="citizenship-checker">
+  <div class="tool-box">
+    <div class="tool-header">
+      <h2 class="sgh-elig">{t.title}</h2>
+      <p>{t.subtitle}</p>
+    </div>
+    <div class="progress-wrap">
+      <div class="progress-meta"><span id="cit-step">{t.step(1, qs.length)}</span><span id="cit-pct">{Math.round(100 / qs.length)}%</span></div>
+      <div class="progress-track"><div class="progress-fill" id="cit-bar" style={`width:${Math.round(100 / qs.length)}%`}></div></div>
+    </div>
+    <div id="cit-quiz">
+      {qs.map((q, i) => (
+        <div class:list={['question-card', { active: i === 0 }]} data-step={i + 1} data-key={q.key}>
+          <div style="display:flex;align-items:center;margin-bottom:16px;"><span class="q-number">{i + 1}</span><h3 class="q-title">{q.title}</h3></div>
+          <p class="q-desc">{q.desc}</p>
+          <div class="options">{q.options.map((o) => <button class="option-btn" type="button" data-value={o.value}><span class="text">{o.text}</span></button>)}</div>
+          {q.tip && <div class="tip-box"><p>💡 {q.tip}</p></div>}
+        </div>
+      ))}
+    </div>
+    <div class="result-card" id="cit-result"></div>
+  </div>
+</div>
+
+<script>
+  import { assessCitizenship, type CitizenshipAnswers } from '../../lib/citizenship-checker/route';
+  import { strings } from '../../lib/citizenship-checker/strings';
+  import type { Lang } from '../../i18n/config';
+  const root = document.getElementById('citizenship-checker'); if (!root) throw new Error('cit');
+  const lang = (document.documentElement.lang || 'en') as Lang; const t = strings[lang];
+  const cards = [...root.querySelectorAll<HTMLElement>('.question-card')]; const total = cards.length;
+  const answers: Record<string, string> = {};
+  const esc = (s: string) => s.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' })[c] as string);
+  function show(i: number) {
+    cards.forEach((c, k) => c.classList.toggle('active', k === i));
+    root!.querySelector('#cit-step')!.textContent = t.step(i + 1, total);
+    const pct = Math.round(((i + 1) / total) * 100); root!.querySelector('#cit-pct')!.textContent = `${pct}%`; (root!.querySelector('#cit-bar') as HTMLElement).style.width = `${pct}%`;
+  }
+  function finish() {
+    const a: CitizenshipAnswers = { situation: answers.situation as CitizenshipAnswers['situation'], origin: (answers.origin || 'other') as CitizenshipAnswers['origin'], residence: (answers.residence || '0') as CitizenshipAnswers['residence'], absences: answers.absences === 'yes', record: answers.record !== 'no', spanish: (answers.spanish || 'none') as CitizenshipAnswers['spanish'] };
+    const r = assessCitizenship(a);
+    const color = r.status === 'ready' || r.status === 'origin' ? 'green' : r.status === 'pending-years' ? 'yellow' : 'red';
+    const emoji = color === 'green' ? '✅' : color === 'yellow' ? '⏳' : '⚠️';
+    const statusText = r.status === 'origin' ? t.status.origin : r.status === 'ready' ? t.status.ready : r.status === 'pending-years' ? t.status.pending(r.yearsLeft) : t.status.blocked;
+    const items = r.flags.map((f) => `<li>${esc(t.flags[f])}</li>`).join('');
+    const box = root!.querySelector<HTMLElement>('#cit-result')!;
+    box.innerHTML = `<div class="result-box ${color}"><div class="result-emoji">${emoji}</div><h3 class="result-title">${esc(t.routes[r.route])}</h3><p class="result-desc">${esc(statusText)}</p>${r.status !== 'origin' ? `<p class="result-desc"><strong>${esc(t.yearsLine(r.yearsRequired, r.yearsDone))}</strong></p>` : ''}</div>
+      <div class="result-box"><h4>${esc(t.checklistTitle)}</h4><ul>${items}</ul></div>
+      <div class="result-cta"><a class="btn-primary" href="${t.ctaHref}">${esc(t.cta)}</a><span class="note">${esc(t.ctaNote)}</span></div>
+      <p class="disclaimer">${esc(t.disclaimer)}</p><button type="button" class="restart-btn" id="cit-restart">${esc(t.restart)}</button>`;
+    cards.forEach((c) => c.classList.remove('active')); root!.querySelector<HTMLElement>('.progress-wrap')!.style.display = 'none'; box.style.display = 'block';
+    box.querySelector('#cit-restart')!.addEventListener('click', () => { for (const k in answers) delete answers[k]; box.style.display = 'none'; root!.querySelector<HTMLElement>('.progress-wrap')!.style.display = ''; show(0); root!.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
+    const w = window as unknown as { gtag?: (...x: unknown[]) => void }; w.gtag?.('event', 'sgh_tool_use', { tool: 'citizenship-checker', route: r.route, status: r.status });
+  }
+  cards.forEach((card, i) => card.querySelectorAll<HTMLButtonElement>('.option-btn').forEach((b) => b.addEventListener('click', () => {
+    answers[card.dataset.key!] = b.dataset.value!;
+    // Hijo de español: no procede seguir preguntando por residencia.
+    if (card.dataset.key === 'situation' && b.dataset.value === 'spanish-parent') return finish();
+    if (i + 1 < total) show(i + 1); else finish();
+  })));
+</script>
