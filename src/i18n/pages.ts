@@ -8,7 +8,7 @@ export interface PagesText {
   services: { title: string; description: string; h1: string; intro: string; pilares: Record<Pilar, { name: string; text: string }>; soon: string };
   blog: { title: string; description: string; h1: string; intro: string; empty: string; otherLangs: string; readMore: string; updated: string; published: string; readTime: string; back: string };
   notFound: { title: string; h1: string; text: string; home: string };
-  article: { home: string; toc: string; toolBeckham: { title: string; text: string; button: string }; toolNomad: { title: string; text: string; button: string }; toolServices: { title: string; text: string; button: string }; contact: { title: string; text: string; button: string } };
+  article: { home: string; toc: string; toolBeckham: { title: string; text: string; button: string }; toolNomad: { title: string; text: string; button: string }; toolServices: { title: string; text: string; button: string }; contact: { title: string; text: string; button: string }; midCta: { title: string; text: string; button: string; wa: string } };
 }
 
 export const pagesText: Record<Lang, PagesText> = {
@@ -46,6 +46,7 @@ export const pagesText: Record<Lang, PagesText> = {
       toolNomad: { title: 'Verificador Visado Nómada Digital', text: 'Compruebe en 2 minutos si cumple los requisitos del visado.', button: 'Comprobar elegibilidad' },
       toolServices: { title: 'Nuestros servicios', text: 'Ley Beckham, Nómada Digital, Profesional Cualificado y creación de empresas.', button: 'Ver servicios' },
       contact: { title: '¿Hablamos?', text: 'Reserve una consulta personalizada. Respuesta en 24 h laborables.', button: 'Reservar consulta' },
+      midCta: { title: '¿Le aplica a su caso?', text: 'Cuéntenos su situación y le decimos en 24 h laborables si cumple los requisitos y cuál es el siguiente paso. Sin compromiso.', button: 'Evaluación privada gratuita', wa: 'o escríbanos por WhatsApp' },
     },
   },
   en: {
@@ -82,6 +83,7 @@ export const pagesText: Record<Lang, PagesText> = {
       toolNomad: { title: 'Digital Nomad Visa Checker', text: 'Find out in 2 minutes whether you meet the visa requirements.', button: 'Check eligibility' },
       toolServices: { title: 'Our services', text: 'Beckham Law, Digital Nomad Visa, Highly Qualified Professional and company formation.', button: 'View services' },
       contact: { title: 'Shall we talk?', text: 'Book a personalised consultation. Reply within 24 working hours.', button: 'Book a consultation' },
+      midCta: { title: 'Does this apply to you?', text: 'Tell us your situation and within 24 working hours we will tell you whether you qualify and what the next step is. No obligation.', button: 'Free private evaluation', wa: 'or message us on WhatsApp' },
     },
   },
   fr: {
@@ -118,6 +120,7 @@ export const pagesText: Record<Lang, PagesText> = {
       toolNomad: { title: 'Vérificateur Visa Nomade Numérique', text: 'Vérifiez en 2 minutes si vous remplissez les conditions du visa.', button: "Vérifier l'éligibilité" },
       toolServices: { title: 'Nos services', text: 'Loi Beckham, Visa Nomade Numérique, Professionnel Hautement Qualifié et création de société.', button: 'Voir les services' },
       contact: { title: 'On en parle ?', text: 'Réservez une consultation personnalisée. Réponse sous 24 h ouvrées.', button: 'Réserver une consultation' },
+      midCta: { title: 'Est-ce que cela s’applique à vous ?', text: 'Décrivez-nous votre situation : sous 24 h ouvrées, nous vous disons si vous remplissez les conditions et quelle est la prochaine étape. Sans engagement.', button: 'Évaluation privée gratuite', wa: 'ou écrivez-nous sur WhatsApp' },
     },
   },
 };

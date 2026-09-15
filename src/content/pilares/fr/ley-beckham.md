@@ -1,5 +1,5 @@
 ---
-title: "Calculateur Loi Beckham 2026 | Spain Global Hub"
+title: "Calculateur Loi Beckham 2026 : salaire net et économie d’impôt"
 description: "Calculez votre économie fiscale en tant qu'expatrié en Espagne sous le régime spécial des impatriés (Loi Beckham) par rapport à l'IRPF ordinaire."
 lang: fr
 slug: calculateur-loi-beckham

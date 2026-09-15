@@ -11,8 +11,22 @@ const contactHref = withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?o
 const groups = PILAR_ORDER.map((pilar) => ({
   pilar,
   ...t.pilares[pilar],
-  pages: entries.filter((e) => e.data.pilar === pilar).map((e) => ({ href: withLangPrefix(lang, `/${e.data.slug}/`), title: e.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, ''), description: e.data.description })),
+  pages: entries.filter((e) => e.data.pilar === pilar).map((e) => {
+    const slug = e.data.slug; const file = (e as { filePath?: string }).filePath ?? '';
+    const kind = /^(servicios|services)\//.test(slug) ? 'service' : /\/(ley-beckham|nomada-digital)\.mdx?$/.test(file) ? 'tool' : 'guide';
+    return { href: withLangPrefix(lang, `/${slug}/`), title: e.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, ''), description: e.data.description, kind };
+  }).sort((a, b) => ({ service: 0, tool: 1, guide: 2 }[a.kind] - { service: 0, tool: 1, guide: 2 }[b.kind])),
 }));
+const KIND: Record<Lang, Record<string, string>> = {
+  es: { service: 'Servicio', tool: 'Herramienta gratuita', guide: 'Guía' },
+  en: { service: 'Service', tool: 'Free tool', guide: 'Guide' },
+  fr: { service: 'Service', tool: 'Outil gratuit', guide: 'Guide' },
+};
+const CTA: Record<Lang, { button: string; note: string }> = {
+  es: { button: 'Evaluación privada gratuita', note: 'Respuesta en 24 h laborables · sin compromiso' },
+  en: { button: 'Free private evaluation', note: 'Reply within 24 working hours · no obligation' },
+  fr: { button: 'Évaluation privée gratuite', note: 'Réponse sous 24 h ouvrées · sans engagement' },
+};
 ---
 
 <div class="sgh-list">
@@ -25,7 +39,8 @@ const groups = PILAR_ORDER.map((pilar) => ({
       {g.pages.length > 0 ? (
         <div class="sgh-cards">
           {g.pages.map((p) => (
-            <a class="sgh-card" href={p.href}>
+            <a class:list={['sgh-card', `sgh-card-${p.kind}`]} href={p.href}>
+              <span class="sgh-kind">{KIND[lang][p.kind]}</span>
               <h3>{p.title}</h3>
               <p>{p.description}</p>
             </a>
@@ -34,6 +49,7 @@ const groups = PILAR_ORDER.map((pilar) => ({
       ) : (
         <p class="sgh-soon"><a href={contactHref}>{t.soon}</a></p>
       )}
+      <p class="sgh-pilar-cta"><a class="btn" href={`${contactHref}-${g.pilar}`}>{CTA[lang].button}</a><span>{CTA[lang].note}</span></p>
     </section>
   ))}
 </div>

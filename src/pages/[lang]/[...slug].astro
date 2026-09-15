@@ -122,8 +122,14 @@ const tool = /beckham/i.test(topic) && calc
     ? { ...t.article.toolNomad, href: withLangPrefix(lang, `/${checker.data.slug}/`) }
     : { ...t.article.toolServices, href: listingUrls.services[lang] };
 const contactHref = withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=${isBlog ? 'articulo' : 'pilar'}`);
+// CTA intermedia (misma para Markdown —marcador del plugin rehype— y HTML —inserción tras el 3.º H2—).
+const midCtaHtml = `<div class="sgh-mid-cta"><p><strong>${t.article.midCta.title}</strong>${t.article.midCta.text}</p><a class="btn" href="${withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=cta-articulo`)}">${t.article.midCta.button}</a><a class="wa" href="https://wa.me/34601555547" rel="noopener" target="_blank">${t.article.midCta.wa}</a></div>`;
+if (isHtml && isArticle) {
+  let n = 0; const h2s = (htmlBody.match(/<h2[\s>]/gi) || []).length; const at = h2s >= 4 ? 3 : 2;
+  if (h2s >= 2) htmlBody = htmlBody.replace(/<h2[\s>]/gi, (m) => (++n === at ? midCtaHtml + m : m));
+}
 
-const isServicePage = entry.collection === 'pilares' && /\/(beckham-servicio|constitucion-empresas)\.mdx?$/.test(srcFile);
+const isServicePage = entry.collection === 'pilares' && /\/(beckham-servicio|constitucion-empresas|nomada-servicio|pac-servicio)\.mdx?$/.test(srcFile);
 const isAbout = entry.collection === 'legal' && /\/about\.mdx?$/.test(srcFile);
 const imageUrl = (entry.data as { image?: string }).image ? `${SITE_URL}${(entry.data as { image?: string }).image}` : undefined;
 const faqItems = extractFaq((entry.body ?? '') + '\n' + (beckhamTail ?? ''));
@@ -140,7 +146,7 @@ const schemaNodes = [
     type: entry.collection === 'blog' ? 'BlogPosting' : 'Article',
   }),
   ...(isBeckhamPillar ? [webApplicationSchema({ url: canonicalUrl, name: h1Text, description: entry.data.description })] : []),
-  ...(isServicePage ? [serviceSchema({ url: canonicalUrl, name: h1Text, description: entry.data.description, lang, serviceType: /beckham/.test(srcFile) ? 'Beckham Law tax advisory' : 'Company formation in Spain' })] : []),
+  ...(isServicePage ? [serviceSchema({ url: canonicalUrl, name: h1Text, description: entry.data.description, lang, serviceType: /beckham/.test(srcFile) ? 'Beckham Law tax advisory' : /nomada/.test(srcFile) ? 'Digital Nomad Visa application' : /pac/.test(srcFile) ? 'Highly Qualified Professional visa application' : 'Company formation in Spain' })] : []),
   ...(faqItems.length ? [faqPageSchema(faqItems)] : []),
 ];
 ---
@@ -173,9 +179,20 @@ const schemaNodes = [
           </p>
         </div>
       </header>
-        <article class="sgh-article sgh-post-body">
+        <article class="sgh-article sgh-post-body" data-mid-cta={midCtaHtml}>
           {isHtml ? <Fragment set:html={htmlBody} /> : <Content />}
+          <Fragment set:html={midCtaHtml.replace('sgh-mid-cta', 'sgh-mid-cta sgh-end-cta')} />
         </article>
+        <script>
+          // Artículos Markdown: la CTA intermedia se inserta tras el 3.º H2 (2.º si hay pocos).
+          // En los artículos HTML ya viene insertada en el servidor.
+          document.querySelectorAll<HTMLElement>('.sgh-post-body').forEach((art) => {
+            if (art.querySelector('.sgh-mid-cta:not(.sgh-end-cta)')) return;
+            const h2 = art.querySelectorAll('h2'); if (h2.length < 2) return;
+            const at = h2[h2.length >= 4 ? 2 : 1]; const tpl = document.createElement('template');
+            tpl.innerHTML = art.getAttribute('data-mid-cta') || ''; at.before(tpl.content);
+          });
+        </script>
       </div>
         <aside class="sgh-post-side">
           {toc.length > 1 && (

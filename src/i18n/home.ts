@@ -29,7 +29,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     pillars: [
       { title: 'Ley Beckham', text: 'Régimen de impatriados al 24 %: evaluación, solicitud (Modelo 149) y planificación fiscal completa.', href: '/es/servicios/asesoria-ley-beckham/', cta: 'Ver servicio →' },
       { title: 'Visado Nómada Digital', text: 'Residencia para teletrabajadores y sus familias: elegibilidad, expediente y seguimiento hasta la TIE.', href: '/es/visado-nomada-digital-elegibilidad/', cta: 'Comprobar elegibilidad →' },
-      { title: 'Profesional Altamente Cualificado', text: 'Permiso de trabajo para directivos y perfiles cualificados contratados por empresas en España.', href: '/es/servicios/', cta: 'Consultar →' },
+      { title: 'Profesional Altamente Cualificado', text: 'Permiso de trabajo para directivos y perfiles cualificados contratados por empresas en España.', href: '/es/servicios/profesional-altamente-cualificado/', cta: 'Ver servicio →' },
       { title: 'Constitución de Empresas', text: 'Creación de sociedades, estructura societaria y cumplimiento para operar en España desde el primer día.', href: '/es/servicios/creacion-de-empresas-en-espana/', cta: 'Ver servicio →' },
     ],
     trust: {
@@ -92,7 +92,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     pillars: [
       { title: 'Beckham Law', text: '24% flat-rate impatriate regime: eligibility review, application (Form 149) and full tax planning.', href: '/en/services/beckham-law-tax-advisory/', cta: 'View service →' },
       { title: 'Digital Nomad Visa', text: 'Residency for remote workers and their families: eligibility, file preparation and follow-up through to the TIE card.', href: '/en/digital-nomad-visa-eligibility-checker/', cta: 'Check eligibility →' },
-      { title: 'Highly Qualified Professional', text: 'Work permit for executives and qualified profiles hired by companies in Spain.', href: '/en/highly-qualified-professional-visa-spain/', cta: 'Read the guide →' },
+      { title: 'Highly Qualified Professional', text: 'Work permit for executives and qualified profiles hired by companies in Spain.', href: '/en/services/highly-qualified-professional-visa/', cta: 'View service →' },
       { title: 'Company Formation', text: 'Incorporation, corporate structure and compliance to operate in Spain from day one.', href: '/en/services/strategic-corporate-deployment-in-spain/', cta: 'View service →' },
     ],
     trust: {
@@ -155,7 +155,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     pillars: [
       { title: 'Loi Beckham', text: "Régime des impatriés à 24 % : évaluation, demande (formulaire 149) et planification fiscale complète.", href: '/fr/services/loi-beckham-conseil-fiscal/', cta: 'Voir le service →' },
       { title: 'Visa Nomade Numérique', text: 'Résidence pour télétravailleurs et leurs familles : éligibilité, dossier et suivi jusqu’à la carte TIE.', href: '/fr/verificateur-visa-nomade-numerique/', cta: 'Vérifier mon éligibilité →' },
-      { title: 'Professionnel Hautement Qualifié', text: 'Permis de travail pour cadres et profils qualifiés recrutés par des entreprises en Espagne.', href: '/fr/services/', cta: 'Nous consulter →' },
+      { title: 'Professionnel Hautement Qualifié', text: 'Permis de travail pour cadres et profils qualifiés recrutés par des entreprises en Espagne.', href: '/fr/services/visa-professionnel-hautement-qualifie/', cta: 'Voir le service →' },
       { title: 'Création de Société', text: 'Constitution, structure sociétaire et conformité pour opérer en Espagne dès le premier jour.', href: '/fr/services/company-formation-spain-premium-investment/', cta: 'Voir le service →' },
     ],
     trust: {

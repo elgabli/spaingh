@@ -116,18 +116,21 @@ const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.
           <p id="sghb-std-tax" class="sghb-amount"></p>
           <p id="sghb-std-rate" class="sghb-rate"></p>
           <p id="sghb-std-meta" class="sghb-meta"></p>
+          <p id="sghb-std-net" class="sghb-net"></p>
         </div>
         <div class="sghb-card sghb-card-beckham">
           <h4>{t.beckham}</h4>
           <p id="sghb-bek-tax" class="sghb-amount"></p>
           <p id="sghb-bek-rate" class="sghb-rate"></p>
           <p id="sghb-bek-meta" class="sghb-meta"></p>
+          <p id="sghb-bek-net" class="sghb-net"></p>
         </div>
       </div>
       <div id="sghb-save" class="sghb-save">
         <p id="sghb-save-amount" class="sghb-save-amount"></p>
         <p id="sghb-save-note" class="sghb-save-note"></p>
       </div>
+      <p class="sghb-net-note" id="sghb-net-note"></p>
       <div class="sghb-warn" id="sghb-warn" style="display:none"><p>⚠️ {t.warn}</p></div>
 
       <details class="sghb-break">
@@ -149,9 +152,9 @@ const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.
   const lang = (root.dataset.lang ?? 'es') as Lang;
 
   const STRINGS: Record<Lang, any> = {
-    es: { effRate: 'Tipo efectivo', scaleMeta: (r: string) => `Escala 2025/26 · ${r}`, bekIncl: 'Incluye tramo del 47% sobre el exceso de 600.000 €', bekFlat: 'Tipo fijo 24% hasta 600.000 €', saveNote: (y: number, total: string) => `Ahorro acumulado en ${y} ${y === 1 ? 'año' : 'años'}: ${total} · frente al IRPF general`, loseNote: 'Con este salario, Beckham pagaría más IRPF que el régimen general', perYear: '/ año', from: 'Desde', tramoLabel: 'Tramo', combined: (r: string) => `IRPF 2025/26 · ${r} · combinado estatal + autonómico`, locale: 'es-ES' },
-    en: { effRate: 'Effective rate', scaleMeta: (r: string) => `2025/26 scale · ${r}`, bekIncl: 'Includes the 47% bracket on the excess over €600,000', bekFlat: 'Flat 24% rate up to €600,000', saveNote: (y: number, total: string) => `Accumulated savings over ${y} ${y === 1 ? 'year' : 'years'}: ${total} · vs. ordinary IRPF`, loseNote: 'With this salary, Beckham would pay more IRPF than the general regime', perYear: '/ year', from: 'From', tramoLabel: 'Bracket', combined: (r: string) => `IRPF 2025/26 · ${r} · combined state + regional`, locale: 'en-GB' },
-    fr: { effRate: 'Taux effectif', scaleMeta: (r: string) => `Barème 2025/26 · ${r}`, bekIncl: "Inclut la tranche de 47% sur l'excédent de 600 000 €", bekFlat: "Taux fixe de 24% jusqu'à 600 000 €", saveNote: (y: number, total: string) => `Économies cumulées sur ${y} ${y === 1 ? 'an' : 'ans'} : ${total} · vs IRPF général`, loseNote: "Avec ce salaire, le régime Beckham paierait plus d'IRPF que le régime général", perYear: '/ an', from: 'À partir de', tramoLabel: 'Tranche', combined: (r: string) => `IRPF 2025/26 · ${r} · combiné État + région`, locale: 'fr-FR' },
+    es: { effRate: 'Tipo efectivo', scaleMeta: (r: string) => `Escala 2025/26 · ${r}`, bekIncl: 'Incluye tramo del 47% sobre el exceso de 600.000 €', bekFlat: 'Tipo fijo 24% hasta 600.000 €', saveNote: (y: number, total: string) => `Ahorro acumulado en ${y} ${y === 1 ? 'año' : 'años'}: ${total} · frente al IRPF general`, loseNote: 'Con este salario, Beckham pagaría más IRPF que el régimen general', perYear: '/ año', netLabel: 'Sueldo neto anual ≈', netNote: 'Neto = bruto − IRPF − cotización del trabajador a la Seguridad Social (≈ 6,47 %, base máxima 2026). Estimación orientativa.', from: 'Desde', tramoLabel: 'Tramo', combined: (r: string) => `IRPF 2025/26 · ${r} · combinado estatal + autonómico`, locale: 'es-ES' },
+    en: { effRate: 'Effective rate', scaleMeta: (r: string) => `2025/26 scale · ${r}`, bekIncl: 'Includes the 47% bracket on the excess over €600,000', bekFlat: 'Flat 24% rate up to €600,000', saveNote: (y: number, total: string) => `Accumulated savings over ${y} ${y === 1 ? 'year' : 'years'}: ${total} · vs. ordinary IRPF`, loseNote: 'With this salary, Beckham would pay more IRPF than the general regime', perYear: '/ year', netLabel: 'Net annual salary ≈', netNote: 'Net = gross − IRPF − employee Social Security contribution (≈ 6.47%, capped at the 2026 maximum base). Indicative estimate.', from: 'From', tramoLabel: 'Bracket', combined: (r: string) => `IRPF 2025/26 · ${r} · combined state + regional`, locale: 'en-GB' },
+    fr: { effRate: 'Taux effectif', scaleMeta: (r: string) => `Barème 2025/26 · ${r}`, bekIncl: "Inclut la tranche de 47% sur l'excédent de 600 000 €", bekFlat: "Taux fixe de 24% jusqu'à 600 000 €", saveNote: (y: number, total: string) => `Économies cumulées sur ${y} ${y === 1 ? 'an' : 'ans'} : ${total} · vs IRPF général`, loseNote: "Avec ce salaire, le régime Beckham paierait plus d'IRPF que le régime général", perYear: '/ an', netLabel: 'Salaire net annuel ≈', netNote: 'Net = brut − IRPF − cotisation salariale à la Sécurité sociale (≈ 6,47 %, base maximale 2026). Estimation indicative.', from: 'À partir de', tramoLabel: 'Tranche', combined: (r: string) => `IRPF 2025/26 · ${r} · combiné État + région`, locale: 'fr-FR' },
   };
   const s = STRINGS[lang];
 
@@ -173,6 +176,11 @@ const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.
     el('sghb-bek-tax').textContent = fmt(beckham);
     el('sghb-bek-rate').textContent = total > 0 ? `${s.effRate} ${pct(beckham / total)} · 24%/47%` : '—';
     el('sghb-bek-meta').textContent = total > 600000 ? s.bekIncl : s.bekFlat;
+    // Sueldo neto orientativo: cotización del trabajador ≈ 6,47 % hasta la base máxima 2026 (4.909,50 €/mes).
+    const ss = Math.min(total, 4909.5 * 12) * 0.0647;
+    el('sghb-std-net').textContent = `${s.netLabel} ${fmt(Math.max(0, total - standard.cuota - ss))}`;
+    el('sghb-bek-net').textContent = `${s.netLabel} ${fmt(Math.max(0, total - beckham - ss))}`;
+    el('sghb-net-note').textContent = s.netNote;
 
     const saveBox = el('sghb-save');
     if (annualSavings >= 0) {

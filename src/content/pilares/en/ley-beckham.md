@@ -1,5 +1,5 @@
 ---
-title: "Beckham Law Calculator 2026: Spain Tax Savings Calculator | Spain Global Hub"
+title: "Beckham Law Calculator 2026: Net Salary & Tax Savings in Spain"
 description: "Free Beckham Law tax calculator for Spain: compare the 24% flat rate (up to €600,000) with ordinary IRPF income tax by region and see your annual savings."
 lang: en
 slug: beckham-law-calculator

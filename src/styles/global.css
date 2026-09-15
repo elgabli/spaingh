@@ -189,3 +189,22 @@ main a {
   .sgh-post-hero .in { padding: 32px 18px 20px; }
   .sgh-toc ol { max-height: none; }
 }
+
+/* Botón flotante WhatsApp (solo móvil/tablet) */
+.sgh-wa-float { display: none; position: fixed; right: 16px; bottom: 18px; z-index: 9000; width: 54px; height: 54px; border-radius: 50%; background: #25d366; color: #fff; align-items: center; justify-content: center; box-shadow: 0 8px 22px rgba(0,0,0,.28); }
+.sgh-wa-float svg { width: 30px; height: 30px; }
+@media (max-width: 1024px) { .sgh-wa-float { display: flex; } }
+/* Sueldo neto en la calculadora */
+.sghb-net { margin: 10px 0 0; padding-top: 8px; border-top: 1px dashed rgba(127,127,127,.35); font-weight: 800; font-size: .95rem; }
+.sghb-net-note { font-size: .74rem; color: #7a8a86; margin: 6px 0 12px; grid-column: 1 / -1; }
+/* CTA intermedia en artículos */
+.sgh-mid-cta { margin: 32px 0; padding: 22px 24px; border-radius: 14px; background: linear-gradient(135deg, #061f1d 0%, #0a3d3c 100%); color: #fff; display: flex; flex-wrap: wrap; align-items: center; gap: 14px 24px; }
+.sgh-mid-cta strong { display: block; font-size: 1.05rem; margin-bottom: 4px; }
+.sgh-mid-cta p { flex: 1 1 320px; margin: 0; color: rgba(255,255,255,.88); font-size: .95rem; }
+.sgh-mid-cta a.btn { flex: 0 0 auto; background: linear-gradient(90deg,#c5a059,#d9b96e); color: #061f1d !important; font-weight: 800; text-decoration: none !important; padding: 12px 20px; border-radius: 10px; font-size: .9rem; }
+.sgh-mid-cta a.wa { flex: 0 0 auto; color: #fff !important; font-weight: 700; text-decoration: underline !important; font-size: .9rem; }
+.sgh-kind { display: inline-block; font-size: .7rem; font-weight: 800; letter-spacing: 1.2px; text-transform: uppercase; color: var(--sgh-teal); margin-bottom: 8px; }
+.sgh-card-service { border-top: 3px solid var(--sgh-dorado); }
+.sgh-pilar-cta { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; margin: 16px 0 0; }
+.sgh-pilar-cta .btn { background: var(--sgh-verde); color: #fff; font-weight: 800; padding: 11px 20px; border-radius: 9px; text-decoration: none; font-size: .9rem; }
+.sgh-pilar-cta span { color: #7a8a86; font-size: .85rem; }
