@@ -185,6 +185,15 @@ const schemaNodes = [
         <article class="sgh-article sgh-post-body" data-mid-cta={midCtaHtml}>
           {isHtml ? <Fragment set:html={htmlBody} /> : <Content />}
           <Fragment set:html={midCtaHtml.replace('sgh-mid-cta', 'sgh-mid-cta sgh-end-cta')} />
+          <aside class="sgh-author" aria-label={t.article.author.reviewed}>
+            <img src="/img/elena-mochales.jpg" alt="Elena Mochales" width="96" height="96" loading="lazy" />
+            <div>
+              <p class="who"><span class="lbl">{t.article.author.reviewed}</span> <a href={withLangPrefix(lang, i18nConfig[lang].nav.about.href)}>Elena Mochales</a></p>
+              <p class="role">{t.article.author.role}</p>
+              <p class="bio">{t.article.author.bio}</p>
+              <p class="date">{t.article.author.updated}: <time datetime={metaDate.toISOString().slice(0, 10)}>{dateFmt.format(metaDate)}</time></p>
+            </div>
+          </aside>
         </article>
         <script>
           // Artículos Markdown: la CTA intermedia se inserta tras el 3.º H2 (2.º si hay pocos).

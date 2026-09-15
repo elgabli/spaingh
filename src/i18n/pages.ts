@@ -8,7 +8,7 @@ export interface PagesText {
   services: { title: string; description: string; h1: string; intro: string; pilares: Record<Pilar, { name: string; text: string }>; soon: string };
   blog: { title: string; description: string; h1: string; intro: string; empty: string; otherLangs: string; readMore: string; updated: string; published: string; readTime: string; back: string };
   notFound: { title: string; h1: string; text: string; home: string };
-  article: { home: string; toc: string; toolBeckham: { title: string; text: string; button: string }; toolNomad: { title: string; text: string; button: string }; toolServices: { title: string; text: string; button: string }; contact: { title: string; text: string; button: string }; midCta: { title: string; text: string; button: string; wa: string } };
+  article: { home: string; toc: string; toolBeckham: { title: string; text: string; button: string }; toolNomad: { title: string; text: string; button: string }; toolServices: { title: string; text: string; button: string }; contact: { title: string; text: string; button: string }; midCta: { title: string; text: string; button: string; wa: string }; author: { reviewed: string; role: string; bio: string; updated: string } };
 }
 
 export const pagesText: Record<Lang, PagesText> = {
@@ -47,6 +47,7 @@ export const pagesText: Record<Lang, PagesText> = {
       toolServices: { title: 'Nuestros servicios', text: 'Ley Beckham, Nómada Digital, Profesional Cualificado y creación de empresas.', button: 'Ver servicios' },
       contact: { title: '¿Hablamos?', text: 'Reserve una consulta personalizada. Respuesta en 24 h laborables.', button: 'Reservar consulta' },
       midCta: { title: '¿Le aplica a su caso?', text: 'Cuéntenos su situación y le decimos en 24 h laborables si cumple los requisitos y cuál es el siguiente paso. Sin compromiso.', button: 'Evaluación privada gratuita', wa: 'o escríbanos por WhatsApp' },
+      author: { reviewed: 'Revisado por', role: 'Abogada · ICAM nº C69993 · colegiada desde 2000', bio: 'Especialista en extranjería y nacionalidad española (Derecho y Empresariales por ICADE; Máster en Derecho de Extranjería e Inmigración, Universidad Carlos III). Más de 20 años de ejercicio y clientes de más de 50 nacionalidades. Atiende en español, inglés y árabe.', updated: 'Última revisión' },
     },
   },
   en: {
@@ -84,6 +85,7 @@ export const pagesText: Record<Lang, PagesText> = {
       toolServices: { title: 'Our services', text: 'Beckham Law, Digital Nomad Visa, Highly Qualified Professional and company formation.', button: 'View services' },
       contact: { title: 'Shall we talk?', text: 'Book a personalised consultation. Reply within 24 working hours.', button: 'Book a consultation' },
       midCta: { title: 'Does this apply to you?', text: 'Tell us your situation and within 24 working hours we will tell you whether you qualify and what the next step is. No obligation.', button: 'Free private evaluation', wa: 'or message us on WhatsApp' },
+      author: { reviewed: 'Reviewed by', role: 'Lawyer · ICAM no. C69993 · registered since 2000', bio: 'Specialist in Spanish immigration and nationality law (Law and Business degrees, ICADE; Master\'s in Immigration and Asylum Law, Universidad Carlos III de Madrid). Over 20 years of practice with clients from more than 50 nationalities. Works in Spanish, English and Arabic.', updated: 'Last reviewed' },
     },
   },
   fr: {
@@ -121,6 +123,7 @@ export const pagesText: Record<Lang, PagesText> = {
       toolServices: { title: 'Nos services', text: 'Loi Beckham, Visa Nomade Numérique, Professionnel Hautement Qualifié et création de société.', button: 'Voir les services' },
       contact: { title: 'On en parle ?', text: 'Réservez une consultation personnalisée. Réponse sous 24 h ouvrées.', button: 'Réserver une consultation' },
       midCta: { title: 'Est-ce que cela s’applique à vous ?', text: 'Décrivez-nous votre situation : sous 24 h ouvrées, nous vous disons si vous remplissez les conditions et quelle est la prochaine étape. Sans engagement.', button: 'Évaluation privée gratuite', wa: 'ou écrivez-nous sur WhatsApp' },
+      author: { reviewed: 'Révisé par', role: 'Avocate · ICAM nº C69993 · inscrite depuis 2000', bio: 'Spécialiste du droit des étrangers et de la nationalité espagnole (Droit et Gestion, ICADE ; Master en droit de l’immigration et de l’asile, Universidad Carlos III de Madrid). Plus de 20 ans d’exercice et des clients de plus de 50 nationalités. Exerce en espagnol, anglais et arabe.', updated: 'Dernière révision' },
     },
   },
 };

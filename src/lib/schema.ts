@@ -25,8 +25,26 @@ export const author = {
   '@type': 'Person',
   '@id': `${SITE_URL}/es/sobre-nosotros/#elena-mochales`,
   name: 'Elena Mochales',
+  givenName: 'Elena',
+  familyName: 'Mochales Modroño',
   url: `${SITE_URL}/es/sobre-nosotros/`,
+  image: `${SITE_URL}/img/elena-mochales.jpg`,
+  jobTitle: 'Abogada de extranjería y nacionalidad',
+  description: 'Abogada colegiada en el Ilustre Colegio de la Abogacía de Madrid (ICAM nº C69993) desde 2000, especializada en derecho de extranjería, nacionalidad española y movilidad internacional. Más de 20 años de ejercicio y clientes de más de 50 nacionalidades.',
   worksFor: { '@id': organization['@id'] },
+  memberOf: { '@type': 'Organization', name: 'Ilustre Colegio de la Abogacía de Madrid (ICAM)', url: 'https://www.icam.es/' },
+  identifier: { '@type': 'PropertyValue', propertyID: 'ICAM', value: 'C69993' },
+  alumniOf: [
+    { '@type': 'CollegeOrUniversity', name: 'Universidad Pontificia Comillas (ICADE)' },
+    { '@type': 'CollegeOrUniversity', name: 'Universidad Carlos III de Madrid' },
+  ],
+  hasCredential: [
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Licenciatura en Derecho y Diplomatura en Ciencias Empresariales (ICADE)' },
+    { '@type': 'EducationalOccupationalCredential', credentialCategory: 'degree', name: 'Máster en Derecho de Extranjería e Inmigración, Asilo y Derecho Humanitario (Universidad Carlos III de Madrid)' },
+  ],
+  knowsAbout: ['Spanish immigration law', 'Spanish nationality by residence', 'Beckham Law tax regime', 'Digital Nomad Visa Spain', 'Highly Qualified Professional visa'],
+  knowsLanguage: ['es', 'en', 'ar'],
+  sameAs: ['https://www.linkedin.com/in/elena-mochales-modro%C3%B1o-516151148/'],
 } as const;
 
 interface ArticleSchemaInput {

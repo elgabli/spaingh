@@ -47,7 +47,7 @@ updatedDate: 2026-09-11
 <p>Une structure boutique avec leadership stratégique et supervision juridique spécialisée.</p>
 
 <p><strong>Karim Elgabli</strong> apporte la vision technologique, la stratégie marketing et la coordination des projets internationaux.</p>
-<p><strong>Elena Mochales</strong>, avocate spécialisée en droit de l&#8217;immigration et mobilité internationale, supervise la coordination juridique et l&#8217;orientation vers les clients étrangers.</p>
+<div class="sgh-founder"><img src="/img/elena-mochales.jpg" alt="Elena Mochales, avocate" width="120" height="120" loading="lazy" /><div><p><strong>Elena Mochales</strong>, avocate inscrite au Barreau de Madrid (<strong>ICAM nº C69993</strong>) depuis 2000, supervise la coordination juridique et l’accompagnement des clients étrangers. Diplômée en Droit et en Gestion d’entreprise par ICADE (Universidad Pontificia Comillas) et titulaire d’un Master en droit de l’immigration, de l’asile et humanitaire de l’Universidad Carlos III de Madrid, elle exerce depuis plus de 20 ans en droit des étrangers et de la nationalité, avec des clients de plus de 50 nationalités. Elle travaille en espagnol, anglais et arabe, à Barcelone et en ligne.</p></div></div>
 <p>Leur collaboration garantit la cohérence stratégique, l&#8217;attention personnalisée et l&#8217;exécution structurée de chaque projet.</p>
 <h2>Réseau de partenaires et réseau consultatif</h2>
 <p>
