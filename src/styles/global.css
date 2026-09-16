@@ -232,3 +232,5 @@ main a {
 @media (max-width: 560px) { .sgh-article .sgh-founder { flex-direction: column; } }
 /* Descriptor bajo el logo: máximo dos líneas, ancho acotado */
 .sghh .lg .lg-t small { display: block; max-width: 230px; white-space: normal; line-height: 1.35; }
+/* Cabecera encogida al hacer scroll: solo el logo, sin nombre ni descriptor */
+.sghh.sc .lg .lg-t { display: none; }
