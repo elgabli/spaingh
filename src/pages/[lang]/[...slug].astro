@@ -124,7 +124,7 @@ const tool = /beckham/i.test(topic) && calc
     : { ...t.article.toolServices, href: listingUrls.services[lang] };
 const contactHref = withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=${isBlog ? 'articulo' : 'pilar'}`);
 // CTA intermedia (misma para Markdown —marcador del plugin rehype— y HTML —inserción tras el 3.º H2—).
-const midCtaHtml = `<div class="sgh-mid-cta"><p><strong>${t.article.midCta.title}</strong>${t.article.midCta.text}</p><a class="btn" href="${withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=cta-articulo`)}">${t.article.midCta.button}</a><a class="wa" href="https://wa.me/34601555547" rel="noopener" target="_blank">${t.article.midCta.wa}</a></div>`;
+const midCtaHtml = `<div class="sgh-mid-cta"><p><strong>${t.article.midCta.title}</strong>${t.article.midCta.text}</p><a class="btn" href="${withLangPrefix(lang, `${i18nConfig[lang].nav.contact.href}?origen=cta-articulo`)}" data-umami-event="cta_contacto">${t.article.midCta.button}</a><a class="wa" href="https://wa.me/34601555547" data-umami-event="whatsapp" rel="noopener" target="_blank">${t.article.midCta.wa}</a></div>`;
 if (isHtml && isArticle) {
   let n = 0; const h2s = (htmlBody.match(/<h2[\s>]/gi) || []).length; const at = h2s >= 4 ? 3 : 2;
   if (h2s >= 2) htmlBody = htmlBody.replace(/<h2[\s>]/gi, (m) => (++n === at ? midCtaHtml + m : m));
@@ -223,7 +223,7 @@ const schemaNodes = [
           <div class="sgh-side-card contact">
             <p class="tt">{t.article.contact.title}</p>
             <p>{t.article.contact.text}</p>
-            <a class="btn gold" href={contactHref}>{t.article.contact.button}</a>
+            <a class="btn gold" href={contactHref} data-umami-event="cta_contacto">{t.article.contact.button}</a>
           </div>
         </aside>
       </div>

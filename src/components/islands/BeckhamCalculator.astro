@@ -288,6 +288,7 @@ const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.
     const w = window as any;
     const params = { lang, ccaa: state.community, salario: state.salary, anos: state.years };
     if (typeof w.gtag === 'function') w.gtag('event', 'sgh_calc_use', params);
+    if (w.umami) w.umami.track('calculadora_beckham', params);
   }
   root.addEventListener('input', trackUse, { once: true });
 

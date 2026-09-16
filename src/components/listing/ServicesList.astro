@@ -47,9 +47,9 @@ const CTA: Record<Lang, { button: string; note: string }> = {
           ))}
         </div>
       ) : (
-        <p class="sgh-soon"><a href={contactHref}>{t.soon}</a></p>
+        <p class="sgh-soon"><a href={contactHref} data-umami-event="cta_contacto">{t.soon}</a></p>
       )}
-      <p class="sgh-pilar-cta"><a class="btn" href={`${contactHref}-${g.pilar}`}>{CTA[lang].button}</a><span>{CTA[lang].note}</span></p>
+      <p class="sgh-pilar-cta"><a class="btn" href={`${contactHref} data-umami-event="cta_contacto"-${g.pilar}`}>{CTA[lang].button}</a><span>{CTA[lang].note}</span></p>
     </section>
   ))}
 </div>

@@ -40,7 +40,7 @@ const langLinks = LANGS.map((l) => ({
           <li><a href={withLangPrefix(lang, item.href)}>{item.label}</a></li>
         ))}
       </ul>
-      <a class="cta cta-menu" href={ctaHref}>{t.cta.privateConsultation}</a>
+      <a class="cta cta-menu" href={ctaHref} data-umami-event="cta_contacto">{t.cta.privateConsultation}</a>
     </nav>
     <div class="lang" id="sghh-lang">
       <button class="lang-btn" type="button" aria-haspopup="true" aria-expanded="false" aria-label={t.name}>
@@ -50,11 +50,11 @@ const langLinks = LANGS.map((l) => ({
       </button>
       <div class="lang-menu">
         {langLinks.map((l) => (
-          <a href={l.href} hreflang={l.code} lang={l.code} class:list={{ on: l.current }}><span class="fl" set:html={FLAGS[l.code]} />{l.name}</a>
+          <a href={l.href} hreflang={l.code} lang={l.code} data-umami-event="idioma" data-umami-event-a={l.code} class:list={{ on: l.current }}><span class="fl" set:html={FLAGS[l.code]} />{l.name}</a>
         ))}
       </div>
     </div>
-    <a class="cta" href={ctaHref}>{t.cta.privateConsultation}</a>
+    <a class="cta" href={ctaHref} data-umami-event="cta_contacto">{t.cta.privateConsultation}</a>
     <button class="bur" type="button" aria-label="Menú" aria-controls="sghh-nav" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>

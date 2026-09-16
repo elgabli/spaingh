@@ -50,6 +50,7 @@ const locale = i18nConfig[lang].locale;
     <JsonLd nodes={schemaNodes} />
     <meta property="og:locale" content={locale} />
     <Analytics />
+    <script is:inline defer src="https://servidor-all.tail77e746.ts.net:8443/script.js" data-website-id="e6794027-31c7-4d6e-8f83-2cb372d31baf"></script>
   </head>
   <body>
     <Header lang={lang} translations={translations} />
@@ -63,7 +64,7 @@ const locale = i18nConfig[lang].locale;
       </a>
     )}
     <script>
-      document.querySelector('[data-wa]')?.addEventListener('click', () => { const w = window as unknown as { gtag?: (...a: unknown[]) => void }; w.gtag?.('event', 'sgh_whatsapp_click', { page: location.pathname }); });
+      document.querySelector('[data-wa]')?.addEventListener('click', () => { const w = window as unknown as { gtag?: (...a: unknown[]) => void }; w.gtag?.('event', 'sgh_whatsapp_click', { page: location.pathname }); (w as any).umami?.track('whatsapp', { tipo: 'flotante' }); });
     </script>
     <CookieBanner lang={lang} />
   </body>

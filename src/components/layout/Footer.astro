@@ -59,9 +59,9 @@ const contactHref = withLangPrefix(lang, `${t.nav.contact.href}?origen=footer`);
     </div>
     <div class="contact">
       <h4>{f.colContact}</h4>
-      <div class="row"><b>{f.email}</b><a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a></div>
-      <div class="row"><b>{f.whatsapp}</b><a href="https://wa.me/34601555547" rel="noopener" target="_blank">+34 601 555 547</a></div>
-      <a class="cta" href={contactHref}>{t.cta.privateConsultation}</a>
+      <div class="row"><b>{f.email}</b><a href="mailto:sgh@spaingh.com" data-umami-event="email">sgh@spaingh.com</a></div>
+      <div class="row"><b>{f.whatsapp}</b><a href="https://wa.me/34601555547" data-umami-event="whatsapp" rel="noopener" target="_blank">+34 601 555 547</a></div>
+      <a class="cta" href={contactHref} data-umami-event="cta_contacto">{t.cta.privateConsultation}</a>
     </div>
   </div>
   <div class="discl">{f.professionalNotice}</div>

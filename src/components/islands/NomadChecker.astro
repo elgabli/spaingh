@@ -123,6 +123,7 @@ const assessmentDesc = { es: 'Responde 7 preguntas sencillas. No se requieren da
     const w = window as any;
     const params = { tool: 'digital-nomad-checker', lang, outcome };
     if (typeof w.gtag === 'function') w.gtag('event', 'sgh_tool_use', params);
+    if (w.umami) w.umami.track('checker_nomada', params);
   }
 
   function showResult() {

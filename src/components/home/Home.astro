@@ -49,7 +49,7 @@ const guaranteeIcons = [ICONS.shieldCheck, ICONS.clock, ICONS.check];
         <h1>{c.hero.h1Pre}<em>{c.hero.h1Em}</em>{c.hero.h1Post}</h1>
         <p>{c.hero.lead}</p>
         <div class="sgh2-hero-actions">
-          <a href={contactHref} class="btn-gold"><svg viewBox="0 0 24 24"><path d={ICONS.lock} /></svg> {c.hero.ctaPrimary}</a>
+          <a href={contactHref} data-umami-event="cta_contacto" class="btn-gold"><svg viewBox="0 0 24 24"><path d={ICONS.lock} /></svg> {c.hero.ctaPrimary}</a>
           <a href={c.hero.ctaSecondaryHref} class="btn-ghost"><svg viewBox="0 0 24 24"><path d={ICONS.chart} /></svg> {c.hero.ctaSecondary}</a>
         </div>
       </div>
@@ -163,7 +163,7 @@ const guaranteeIcons = [ICONS.shieldCheck, ICONS.clock, ICONS.check];
       <span class="kicker">{c.cta.kicker}</span>
       <h2 class="h2">{c.cta.h2}</h2>
       <p>{c.cta.text}</p>
-      <a href={contactHref} class="btn">{c.cta.button}</a>
+      <a href={contactHref} data-umami-event="cta_contacto" class="btn">{c.cta.button}</a>
       <div class="meta"><span>✉ sgh@spaingh.com</span><span>WhatsApp: +34 601 555 547</span></div>
       <p class="privacy">{c.cta.privacy}</p>
     </div>

@@ -22,7 +22,7 @@ const origen = Astro.url.searchParams.get('origen') || '';
   <aside class="sgh-contact-value">
     <p>{t.value.text}</p>
     <ul>{t.value.bullets.map((b) => <li>{b}</li>)}</ul>
-    <p class="sgh-contact-direct-box"><span>{t.value.directLabel}</span><a href="mailto:info@spaingh.com">info@spaingh.com</a><a href="https://wa.me/34601555547" rel="noopener">WhatsApp +34 601 555 547</a></p>
+    <p class="sgh-contact-direct-box"><span>{t.value.directLabel}</span><a href="mailto:info@spaingh.com" data-umami-event="email">info@spaingh.com</a><a href="https://wa.me/34601555547" data-umami-event="whatsapp" rel="noopener">WhatsApp +34 601 555 547</a></p>
   </aside>
   <div>
   <form id="sgh-contact-form" class="sgh-form" method="post" action="/api/contact" novalidate data-lang={lang}>
@@ -85,7 +85,7 @@ const origen = Astro.url.searchParams.get('origen') || '';
   </div>
   </div>
 
-  <p class="sgh-contact-direct">{t.direct} <a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a> · <a href="https://wa.me/34601555547" rel="noopener">WhatsApp +34 601 555 547</a></p>
+  <p class="sgh-contact-direct">{t.direct} <a href="mailto:sgh@spaingh.com" data-umami-event="email">sgh@spaingh.com</a> · <a href="https://wa.me/34601555547" data-umami-event="whatsapp" rel="noopener">WhatsApp +34 601 555 547</a></p>
 </div>
 
 <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
@@ -113,6 +113,7 @@ const origen = Astro.url.searchParams.get('origen') || '';
       if (r.ok && data.ok) {
         form.hidden = true; ok.hidden = false;
         const w = window; if (typeof w.gtag === 'function') w.gtag('event', 'generate_lead', { reason: fd.get('reason'), origen: fd.get('origen') || '' });
+        if (w.umami) w.umami.track('contacto_enviado', { origen: fd.get('origen') || '', motivo: fd.get('reason') || '' });
         return;
       }
       show(data.error === 'turnstile' ? errors.turnstile : errors.generic);
