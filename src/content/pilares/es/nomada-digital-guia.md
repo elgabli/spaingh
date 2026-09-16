@@ -34,7 +34,7 @@ El Visado Nómada Digital exige que cumplas con una serie de requisitos específ
 |---|---|
 | **Sin residencia fiscal previa** | No haber sido residente fiscal en España en los últimos 5 años. Nota: el checker de elegibilidad aplica este requisito; conviene confirmarlo directamente con el consulado. |
 | **Trabajo remoto internacional** | Trabajar para empresa o clientes del extranjero (≥80 % de ingresos del extranjero para autónomos). Contrato laboral escrito o relación mercantil documentada. |
-| **Ingresos mínimos** | Ingresos brutos anuales ≥200 % del Salario Mínimo Interprofesional (SMI). El SMI se actualiza anualmente; en 2026 la cifra aproximada es de 2.400 €/mes, pero consulta el valor vigente en el momento de tu solicitud. |
+| **Ingresos mínimos** | Ingresos brutos anuales ≥200 % del Salario Mínimo Interprofesional (SMI). El SMI se actualiza anualmente; en 2026 la cifra aproximada es de 2.850 €/mes, pero consulta el valor vigente en el momento de tu solicitud. |
 | **Experiencia o titulación** | Poseer título universitario de grado o superior, O demostrar más de 3 años de experiencia profesional en el sector. |
 | **Contrato o relación previa** | Evidencia de una relación laboral o mercantil mínima (según la jurisprudencia, generalmente de al menos 1 año de antigüedad). |
 | **Empresa con actividad mínima** | Si eres empleado, la empresa empleadora debe tener actividad real mínima de 1 año. |
@@ -122,7 +122,7 @@ Para solicitar el Visado Nómada Digital, necesitarás presentar:
 | Aspecto | Nómada Digital | Profesional Altamente Cualificado |
 |---|---|---|
 | **Empleador** | Empresa/cliente extranjero | Empresa española |
-| **Ingresos mínimos** | 200 % SMI (~2.400 €/mes) | 40.000–54.000 € anuales según categoría |
+| **Ingresos mínimos** | 200 % SMI (~2.850 €/mes) | 40.000–54.000 € anuales según categoría |
 | **Experiencia/titulación** | 3 años OR título universitario | Título universitario o 3 años en cargo estratégico |
 | **Plazo (UGE-CE)** | 20 días hábiles | 20 días hábiles |
 | **Duración inicial** | 1 año (consulado) o 3 años (UGE-CE) | 3 años |
@@ -137,7 +137,7 @@ El Nómada Digital es más flexible si trabajas remotamente; el Profesional Alta
 Sí, como autónomo, siempre que al menos 80 % de tus ingresos sean del extranjero. Si deseas trabajar principalmente para empresa española, considera el Visado de Profesional Altamente Cualificado.
 
 **P: ¿Necesito tener el SMI de 2026 exacto o es aproximado?**
-El SMI se actualiza anualmente. El checker usa el valor vigente. Verifica el SMI oficial del año en que solicites (normalmente se publica en enero). La cifra de "~2.400 €/mes" es orientativa para 2026; usa la cifra oficial.
+El SMI se actualiza anualmente. El checker usa el valor vigente. Verifica el SMI oficial del año en que solicites (normalmente se publica en enero). La cifra de "~2.850 €/mes" es orientativa para 2026; usa la cifra oficial.
 
 **P: ¿Qué pasa si mis ingresos caen por debajo del 200 % SMI después de obtener el visado?**
 El requisito de ingresos se evalúa al momento de solicitud. Una vez aprobado, no hay revisión automática anual. Sin embargo, en la renovación, deberás acreditar que sigues cumpliendo los requisitos.

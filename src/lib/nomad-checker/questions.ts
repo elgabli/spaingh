@@ -48,7 +48,7 @@ export const questions_es: Question[] = [
       { answer: '2000_3000', text: `Entre 2.000€ y 3.000€ al mes` },
       { answer: 'below_2000', text: `Menos de 2.000€ al mes` },
     ],
-    tip: `Requisito mínimo:Debes ganar al menos el 200% del salario mínimo interprofesional (SMI) de España. En 2026, esto es aproximadamente 2.400€/mes brutos. Por cada familiar que traigas, el requisito aumenta un 75% del SMI.`,
+    tip: `Requisito mínimo:Debes ganar al menos el 200% del salario mínimo interprofesional (SMI) de España. En 2026, esto es aproximadamente 2.850 €/mes brutos. Por cada familiar que traigas, el requisito aumenta un 75% del SMI.`,
   },
   {
     step: 4,
@@ -127,7 +127,7 @@ export const questions_en: Question[] = [
       { answer: '2000_3000', text: `€2,000 – €3,000 per month` },
       { answer: 'below_2000', text: `Below €2,000 per month` },
     ],
-    tip: `Minimum requirement:You must earn at least 200% of Spain's minimum wage (SMI). In 2026, this is approximately €2,400/month gross. For each family member you bring, the requirement increases by 75% of the SMI.`,
+    tip: `Minimum requirement:You must earn at least 200% of Spain's minimum wage (SMI). In 2026, this is approximately €2,850/month gross. For each family member you bring, the requirement increases by 75% of the SMI.`,
   },
   {
     step: 4,
@@ -206,7 +206,7 @@ export const questions_fr: Question[] = [
       { answer: '2000_3000', text: `Entre 2 000 € et 3 000 € par mois` },
       { answer: 'below_2000', text: `Moins de 2 000 € par mois` },
     ],
-    tip: `Exigence minimale :Vous devez gagner au moins 200% du salaire minimum interprofessionnel (SMI) espagnol. En 2026, cela représente environ 2 400 €/mois brut. Pour chaque membre de la famille que vous emmenez, l'exigence augmente de 75% du SMI.`,
+    tip: `Exigence minimale :Vous devez gagner au moins 200% du salaire minimum interprofessionnel (SMI) espagnol. En 2026, cela représente environ 2 850 €/mois brut. Pour chaque membre de la famille que vous emmenez, l'exigence augmente de 75% du SMI.`,
   },
   {
     step: 4,

@@ -20,7 +20,7 @@ Nómada Digital de España, establecidos bajo la **Ley de Startups (Ley 28/2022)
 |---|---|---|
 | Residencia fiscal previa | Art. 74.2 Ley de Extranjería (modificado) | Sin residencia fiscal en España en los últimos 5 años |
 | Trabajo remoto | Art. 74.2.bis Ley de Extranjería | Trabajo para empresa no española o clientes extranjeros (≥80% ingresos del extranjero) |
-| Ingresos mínimos | Ley 14/2013, art. 71 | ≥200% SMI (~2.400€/mes en 2026) |
+| Ingresos mínimos | Ley 14/2013, art. 71 | ≥200% SMI (~2.850 €/mes en 2026) |
 | Experiencia profesional | Art. 74.2.bis Ley de Extranjería | Más de 3 años de experiencia O título universitario |
 | Seguro médico | Art. 74.2.bis Ley de Extranjería | Cobertura sanitaria privada integral en España |
 | Antecedentes penales | Art. 74.2.bis Ley de Extranjería | Antecedentes limpios en todos los países de residencia (últimos 5 años) |
@@ -43,7 +43,7 @@ los evalúan los consulados españoles y las autoridades de inmigración caso po
 <h3>¿Qué es el Visado Nómada Digital de España?</h3>
 <p>El Visado Nómada Digital de España es un permiso de residencia introducido en 2023 que permite a los trabajadores remotos y freelancers vivir en España mientras trabajan para empresas no españolas o clientes extranjeros. Es válido hasta 3 años (renovable) y puede conducir a la residencia permanente.</p>
 <h3>¿Cuáles son los requisitos de ingresos para el Visado Nómada Digital de España en 2026?</h3>
-<p>En 2026, los solicitantes deben ganar al menos el 200% del salario mínimo interprofesional (SMI) de España, aproximadamente 2.400€ al mes brutos. Por cada familiar incluido en la solicitud, el requisito aumenta un 75% del SMI (aproximadamente 900€/mes adicionales por dependiente).</p>
+<p>En 2026, los solicitantes deben ganar al menos el 200% del salario mínimo interprofesional (SMI) de España, aproximadamente 2.850 € al mes brutos. Por cada familiar incluido en la solicitud, el requisito aumenta un 75% del SMI (aproximadamente 900€/mes adicionales por dependiente).</p>
 <h3>¿Puedo trabajar para una empresa española con el Visado Nómada Digital?</h3>
 <p>Sí, pero con limitaciones. Al menos el 80% de tus ingresos deben provenir de fuera de España. Puedes trabajar para una empresa española, pero solo si representa menos del 20% de tus ingresos totales.</p>
 <h3>¿Cuánto dura el Visado Nómada Digital?</h3>

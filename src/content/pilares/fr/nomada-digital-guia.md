@@ -34,7 +34,7 @@ Le Visa Nomade Numérique exige que vous remplissiez un ensemble spécifique de 
 |---|---|
 | **Pas de résidence fiscale antérieure** | Vous ne devez pas avoir été résident fiscal en Espagne au cours des 5 dernières années. Remarque : le vérificateur d'admissibilité applique cette condition ; il est conseillé de la confirmer directement auprès du consulat. |
 | **Télétravail international** | Travail pour une entreprise étrangère ou des clients étrangers (≥80 % des revenus provenant de l'étranger pour les travailleurs indépendants). Contrat de travail écrit ou relation commerciale documentée. |
-| **Revenus minimums** | Revenus bruts annuels ≥200 % du Salaire Minimum Interprofessionnel (SMI). Le SMI est actualisé chaque année ; en 2026, la figure approximative est de 2 400 €/mois, mais vérifiez la valeur actuelle au moment de votre demande. |
+| **Revenus minimums** | Revenus bruts annuels ≥200 % du Salaire Minimum Interprofessionnel (SMI). Le SMI est actualisé chaque année ; en 2026, la figure approximative est de 2 850 €/mois, mais vérifiez la valeur actuelle au moment de votre demande. |
 | **Expérience ou titres** | Posséder un diplôme universitaire (licence ou supérieur), OU démontrer plus de 3 années d'expérience professionnelle dans votre secteur. |
 | **Relation contractuelle ou commerciale antérieure** | Preuve d'une relation d'emploi ou commerciale minimale (généralement d'au moins 1 année d'ancienneté, selon la jurisprudence). |
 | **Activité minimale de l'employeur** | Si vous êtes salarié, l'entreprise employeur doit avoir une activité réelle minimale de 1 an. |
@@ -122,7 +122,7 @@ Pour demander le Visa Nomade Numérique, vous devrez soumettre :
 | Aspect | Nomade Numérique | Professionnel Hautement Qualifié |
 |---|---|---|
 | **Employeur** | Entreprise/client étranger | Entreprise espagnole |
-| **Revenus minimums** | 200 % du SMI (~2 400 €/mois) | 40 000–54 000 € annuels selon la catégorie |
+| **Revenus minimums** | 200 % du SMI (~2 850 €/mois) | 40 000–54 000 € annuels selon la catégorie |
 | **Expérience/diplôme** | 3 ans OR diplôme universitaire | Diplôme universitaire ou 3 ans en poste stratégique |
 | **Délai de traitement (UGE-CE)** | 20 jours ouvrables | 20 jours ouvrables |
 | **Durée initiale** | 1 an (consulat) ou 3 ans (UGE-CE) | 3 ans |
@@ -137,7 +137,7 @@ Le Visa Nomade Numérique est plus flexible si vous travaillez à distance ; le 
 Oui, en tant qu'indépendant, tant qu'au moins 80 % de vos revenus proviennent de l'étranger. Si vous souhaitez travailler principalement pour une entreprise espagnole, envisagez le Visa de Professionnel Hautement Qualifié.
 
 **Q : Ai-je besoin du SMI exact de 2026 ou c'est approximatif ?**
-Le SMI est actualisé chaque année. Le vérificateur utilise la valeur actuelle. Vérifiez le SMI officiel de l'année de votre demande (normalement publié en janvier). La figure de « ~2 400 €/mois » est indicative pour 2026 ; utilisez la figure officielle.
+Le SMI est actualisé chaque année. Le vérificateur utilise la valeur actuelle. Vérifiez le SMI officiel de l'année de votre demande (normalement publié en janvier). La figure de « ~2 850 €/mois » est indicative pour 2026 ; utilisez la figure officielle.
 
 **Q : Que se passe-t-il si mes revenus tombent en dessous de 200 % du SMI après l'obtention du visa ?**
 La condition de revenus est évaluée au moment de la demande. Une fois approuvé, il n'y a pas d'examen automatique annuel. Cependant, lors du renouvellement, vous devrez prouver que vous répondez toujours aux conditions.

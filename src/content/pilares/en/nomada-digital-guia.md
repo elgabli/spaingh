@@ -34,7 +34,7 @@ The Digital Nomad Visa requires you to meet a specific set of requirements:
 |---|---|
 | **No prior tax residency** | You must not have been a tax resident in Spain in the last 5 years. Note: the eligibility checker applies this requirement; it is advisable to confirm it directly with the consulate. |
 | **International remote work** | Work for a foreign company or foreign clients (≥80% of income from abroad for self-employed). Written employment contract or documented business relationship. |
-| **Minimum income** | Gross annual income ≥200% of the Interprofessional Minimum Wage (SMI). The SMI is updated annually; in 2026 the approximate figure is €2,400/month, but check the current value at the time of your application. |
+| **Minimum income** | Gross annual income ≥200% of the Interprofessional Minimum Wage (SMI). The SMI is updated annually; in 2026 the approximate figure is €2,850/month, but check the current value at the time of your application. |
 | **Experience or qualification** | Hold a university degree (Bachelor or higher), OR demonstrate more than 3 years of professional experience in your sector. |
 | **Prior contract or relationship** | Evidence of a minimum employment or business relationship (generally of at least 1 year of tenure, according to case law). |
 | **Employer minimum activity** | If you are an employee, the employing company must have minimum real activity of 1 year. |
@@ -122,7 +122,7 @@ To apply for the Spain Digital Nomad Visa, you will need to submit:
 | Aspect | Digital Nomad | Highly Qualified Professional |
 |---|---|---|
 | **Employer** | Foreign company/client | Spanish company |
-| **Minimum income** | 200% of SMI (~€2,400/month) | €40,000–€54,000 annually depending on category |
+| **Minimum income** | 200% of SMI (~€2,850/month) | €40,000–€54,000 annually depending on category |
 | **Experience/qualification** | 3 years OR university degree | University degree or 3 years in strategic role |
 | **Processing time (UGE-CE)** | 20 business days | 20 business days |
 | **Initial duration** | 1 year (consulate) or 3 years (UGE-CE) | 3 years |
@@ -137,7 +137,7 @@ The Digital Nomad Visa is more flexible if you work remotely; the Highly Qualifi
 Yes, as a self-employed, as long as at least 80% of your income is from abroad. If you wish to work primarily for a Spanish company, consider the Highly Qualified Professional Visa.
 
 **Q: Do I need the exact 2026 SMI or is it approximate?**
-The SMI is updated annually. The checker uses the current value. Verify the official SMI of the year in which you apply (normally published in January). The figure of "~€2,400/month" is indicative for 2026; use the official figure.
+The SMI is updated annually. The checker uses the current value. Verify the official SMI of the year in which you apply (normally published in January). The figure of "~€2,850/month" is indicative for 2026; use the official figure.
 
 **Q: What happens if my income falls below 200% of the SMI after obtaining the visa?**
 The income requirement is evaluated at the time of application. Once approved, there is no automatic annual review. However, at renewal, you will need to prove that you still meet the requirements.

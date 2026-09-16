@@ -21,7 +21,7 @@ publishedDate: 2026-09-16
 
 | Condition | Ce qui est exigé |
 |---|---|
-| Revenus | ≥ 200 % du SMI espagnol (≈ 2 400 €/mois en 2026) ; +75 % pour le premier membre de la famille et +25 % pour chaque membre supplémentaire |
+| Revenus | ≥ 200 % du SMI espagnol (≈ 2 850 €/mois en 2026) ; +75 % pour le premier membre de la famille et +25 % pour chaque membre supplémentaire |
 | Qualification | Diplôme universitaire ou ≥ 3 ans d’expérience professionnelle |
 | Relation de travail | ≥ 3 mois avec l’entreprise/les clients ; autorisation expresse de télétravail |
 | Assurance santé | Couverture complète en Espagne |

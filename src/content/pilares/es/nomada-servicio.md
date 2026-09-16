@@ -21,7 +21,7 @@ publishedDate: 2026-09-16
 
 | Requisito | Qué se exige |
 |---|---|
-| Ingresos | ≥ 200 % del SMI (≈ 2.400 €/mes en 2026); +75 % por el primer familiar y +25 % por cada uno más |
+| Ingresos | ≥ 200 % del SMI (≈ 2.850 €/mes en 2026); +75 % por el primer familiar y +25 % por cada uno más |
 | Cualificación | Titulación universitaria o ≥ 3 años de experiencia profesional |
 | Relación laboral | ≥ 3 meses con la empresa/clientes; autorización expresa para teletrabajar |
 | Seguro médico | Cobertura completa en España |

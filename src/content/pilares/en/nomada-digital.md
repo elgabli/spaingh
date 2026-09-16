@@ -20,7 +20,7 @@ Digital Nomad Visa, established under the **Startup Law (Ley 28/2022)**.
 |---|---|---|
 | Prior tax residency | Art. 74.2 Ley de Extranjería (as modified) | No Spanish tax residency in last 5 years |
 | Remote work | Art. 74.2.bis Ley de Extranjería | Work for non-Spanish company or foreign clients (≥80% income from abroad) |
-| Minimum income | Ley 14/2013, art. 71 | ≥200% SMI (~€2,400/month in 2026) |
+| Minimum income | Ley 14/2013, art. 71 | ≥200% SMI (~€2,850/month in 2026) |
 | Professional experience | Art. 74.2.bis Ley de Extranjería | 3+ years experience OR university degree |
 | Health insurance | Art. 74.2.bis Ley de Extranjería | Comprehensive private health coverage in Spain |
 | Criminal record | Art. 74.2.bis Ley de Extranjería | Clean record in all countries of residence (last 5 years) |
@@ -43,7 +43,7 @@ factors are assessed by Spanish consulates and immigration authorities on a case
 <h3>What is Spain's Digital Nomad Visa?</h3>
 <p>Spain's Digital Nomad Visa (Visa de Nómada Digital) is a residence permit introduced in 2023 that allows remote workers and freelancers to live in Spain while working for non-Spanish companies or foreign clients. It is valid for up to 3 years (renewable) and can lead to permanent residency.</p>
 <h3>What are the income requirements for Spain's Digital Nomad Visa in 2026?</h3>
-<p>In 2026, applicants must earn at least 200% of Spain's minimum wage (SMI), approximately €2,400 per month gross. For each family member included in the application, the requirement increases by 75% of the SMI (approximately €900/month additional per dependent).</p>
+<p>In 2026, applicants must earn at least 200% of Spain's minimum wage (SMI), approximately €2,850 per month gross. For each family member included in the application, the requirement increases by 75% of the SMI (approximately €900/month additional per dependent).</p>
 <h3>Can I work for a Spanish company with a Digital Nomad Visa?</h3>
 <p>Yes, but with limitations. At least 80% of your income must come from outside Spain. You may work for a Spanish company, but only if it represents less than 20% of your total income.</p>
 <h3>How long does the Digital Nomad Visa last?</h3>

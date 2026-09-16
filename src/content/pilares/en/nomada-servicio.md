@@ -21,7 +21,7 @@ publishedDate: 2026-09-16
 
 | Requirement | What is required |
 |---|---|
-| Income | ≥ 200% of the Spanish minimum wage (≈ €2,400/month in 2026); +75% for the first family member and +25% for each additional one |
+| Income | ≥ 200% of the Spanish minimum wage (≈ €2,850/month in 2026); +75% for the first family member and +25% for each additional one |
 | Qualification | University degree or ≥ 3 years of professional experience |
 | Work relationship | ≥ 3 months with the company/clients; express authorisation to work remotely |
 | Health insurance | Full coverage in Spain |

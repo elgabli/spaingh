@@ -1,167 +1,156 @@
 ---
-title: "Moving to Spain from the UK in 2026: Visas, Taxes and What Changed After Brexit"
-description: "Can you move to Spain from the UK? Yes—but since 2021, you'll need a visa for stays over 90 days. Here's what routes exist for British residents, the tax implications, and how to navigate the process."
+title: "Moving to Spain from the UK in 2026: Visas, Costs, Taxes and Every Step After Brexit"
+description: "Can you move to Spain from the UK in 2026? Yes, with a visa: Digital Nomad, Non-Lucrative, Highly Qualified Professional or family routes. Income thresholds, costs, taxes, healthcare and a step-by-step plan."
 lang: en
 slug: how-easy-is-it-to-move-to-spain-from-uk
 translationGroup: move-uk
 seoPriority: alta
 publishedDate: 2026-09-12
+updatedDate: 2026-09-16
 image: "/img/mudarse-a-espana-desde-reino-unido.jpg"
 imageAlt: "A British couple planning their move to Spain"
 ---
 
-## Can You Move from the UK to Spain in 2026?
+**Quick answer.** Yes, British citizens can still move to Spain, but since Brexit you need a **residence visa** for any stay over 90 days in 180. In 2026 the realistic routes are the **Digital Nomad Visa** (remote income of about €2,850/month), the **Non-Lucrative Visa** (passive income of €28,800/year, no work), the **Highly Qualified Professional** permit (a Spanish job offer of €40,077–54,142+) and the **family route** if your partner is an EU citizen. Budget £3,000–7,000 for the move itself, count on becoming a Spanish tax resident after 183 days, and start 3–4 months before you want to arrive. Below: what changed, which visa fits, what it costs, taxes, healthcare and the order to do things in.
 
-Yes, you can move to Spain from the UK as a British national—but the route depends on how long you intend to stay and your circumstances. Since 1 January 2021, when the Brexit transition period ended, British citizens have lost the automatic right to free movement within the EU. This means **any stay longer than 90 days within any 180-day period requires a residence visa**. The good news is that several practical paths exist: digital nomad visas, work visas for qualified professionals, non-lucrative visas, student visas, and routes based on family ties.
+## What changed for Brits: Brexit, EES and ETIAS
 
-## The 90/180 Schengen Rule and What It Means
+Until 31 December 2020 a British passport was enough to live and work anywhere in Spain. Since 1 January 2021 UK nationals are **third-country nationals**: tourists for up to 90 days in any 180, residents only with a visa or permit. Two more changes arrive in 2025–2026:
 
-As a British citizen, you now fall under Schengen rules alongside other third-country nationals. The key principle: **you can spend up to 90 days in any 180-day rolling period across the entire Schengen Area without a visa**. This is calculated by counting the days you are physically present in Schengen countries cumulatively. If you exceed 90 days, you need a residence permit or you face overstay penalties.
+- **EES (Entry/Exit System)**, in operation since October 2025: your entries and exits are registered biometrically at the border. Overstaying the 90 days is now detected automatically.
+- **ETIAS**, expected from late 2026: a pre-travel authorisation (like the US ESTA) for short visits, around €20 and valid for three years. It is *not* a visa and does not allow you to live in Spain.
 
-The 180-day window is a rolling cycle, not a calendar year. If you spent 60 days in Spain between January and March, and another 50 days between May and July, that's 110 days—exceeding your allowance. Once you overstay, you become liable for fines, deportation, and a ban from re-entry.
+Brits who were legally resident in Spain before 2021 keep their rights under the Withdrawal Agreement (green certificate or TIE "Acuerdo de Retirada"). Everyone else follows the routes below.
 
-## Legal Residence Routes for British Nationals
+## The 90/180 rule in practice
 
-If you want to stay longer than 90 days, you must apply for a residence permit *before* you arrive in Spain. Here are your realistic options:
+You can spend **90 days in any rolling 180-day period** in the whole Schengen Area without a visa. It is not "90 days per trip" and not "180 days a year": count backwards 180 days from any date, and your days in Schengen must not exceed 90. Sixty days in Spain in spring plus fifty in summer is 110 — an overstay, with fines, a possible entry ban and, since EES, a record. If you want to spend more than three months at a time, you need one of the residence routes.
 
-### Digital Nomad Visa
+## Which visa? The routes for British nationals in 2026
 
-**Who it suits**: Remote workers and self-employed professionals with external income.
+| Route | Who it is for | Main requirement (2026) | Can you work? | Family |
+|---|---|---|---|---|
+| **Digital Nomad Visa** | Remote employees and freelancers with UK/foreign clients | Income ≥ 200% of the Spanish minimum wage: about **€2,850/month** (€34,188/year); +75% for the first family member, +25% each additional | Yes, remotely; ≤ 20% from Spanish clients | Yes, and they can work |
+| **Non-Lucrative Visa** | Retirees, people living on savings, rental or investment income | Passive income ≥ 400% IPREM: **€28,800/year** (+€7,200 per dependant); private health insurance | **No** (no work at all, remote included) | Yes |
+| **Highly Qualified Professional** | Employees hired by a company in Spain | Job offer with salary ≥ **€54,142** (managers) or **€40,077** (graduates/technical); or EU Blue Card ≥ 1.4 × the INE average salary (≈ €39,270–41,356) | Yes, for that employer | Yes, and they can work |
+| **Self-employed / entrepreneur** | Setting up a business in Spain | Business plan, funds, qualification; entrepreneur route needs an innovative project | Yes | Yes |
+| **Student visa** | Courses over 90 days | Enrolment, funds, insurance | Part-time (up to 30 h/week) | Limited |
+| **Family member of an EU citizen** | Spouse/partner of a Spanish or EU national | Registered marriage or partnership | Yes | — |
 
-Requires income of at least 200% of the Spanish minimum wage (the figure is updated every year; the checker below uses the current one), private health insurance and a clean criminal record. One-year visa from the consulate, or a three-year residence permit if applied for from Spain; renewable.
+Two routes are gone: the **Golden Visa** (investor residence through property) ended on 3 April 2025, and there is no "retirement visa" other than the Non-Lucrative.
 
-**Pros**: Straightforward; renewable; open to any nationality.
+### Digital Nomad Visa: the route most Brits use
 
-**Cons**: Income threshold changes annually; ties you to independent work.
+If you work for a UK employer that lets you work remotely, or you freelance for clients outside Spain, this is usually the best fit: you can apply **from Spain** while on your 90 tourist days (3-year permit through the UGE, decided in 20 working days) or at the Spanish consulate in London (1-year visa). You need ≥ 3 months with your employer or clients, a degree or 3 years' experience, private health insurance and a clean criminal record. Employees also need a certificate that the company allows remote work and, in practice, a UK A1 or a Spanish Social Security arrangement. Check whether you qualify in two minutes with our [Digital Nomad Visa eligibility checker](/en/digital-nomad-visa-eligibility-checker/), or see the full [Digital Nomad Visa service](/en/services/digital-nomad-visa-spain/).
 
-Learn more: [Digital Nomad Visa Eligibility Checker](/en/digital-nomad-visa-eligibility-checker/)
+### Non-Lucrative Visa: for retirees and passive income
 
-### Highly Qualified Professional Visa (HQP)
+The classic route for pensioners: prove €28,800 a year (pension, rental income, dividends, savings) plus €7,200 per family member, private Spanish health insurance without co-payments, and a clean record. It is applied for at the consulate in the UK and you **cannot work**, not even remotely for a UK company. It is renewed for two years, then two more, and leads to long-term residence after five.
 
-**Who it suits**: Skilled workers with tertiary education or regulated sector experience, sponsored by a Spanish employer.
+### Highly Qualified Professional: if a Spanish company hires you
 
-Your Spanish employer files the application with the Large Companies and Strategic Groups Unit (UGE-CE). The permit is tied to that employer and role and is fast-tracked by law. Leads to long-term residence after five years.
+Executives and graduates with a job offer in Spain get a fast permit through the UGE (20 working days), with the family included and the spouse allowed to work. The salary thresholds and process are in our [Highly Qualified Professional visa guide](/en/highly-qualified-professional-visa-spain/).
 
-**Pros**: Clear path if sponsored; leads to permanent residency.
+### Family member of an EU citizen
 
-**Cons**: Employer-dependent; tied to specific job; income thresholds must be met.
+If your spouse or registered partner is Spanish or an EU national living in Spain, you apply for the **family member of a Union citizen** card from Spain: no income threshold beyond the family's means, work allowed, five-year card.
 
-Learn more: [Highly Qualified Professional Visa Spain](/en/highly-qualified-professional-visa-spain/)
+## What it costs to move from the UK to Spain
 
-### Non-Lucrative Visa
+| Item | Typical cost (2026) |
+|---|---|
+| Visa fee at the consulate (Non-Lucrative, DNV) | £70–100 |
+| Residence authorisation from Spain (DNV, HQP) | €70–80 in fees plus TIE card (€16) |
+| Apostilles (criminal record, marriage/birth certificates) | £30–45 each |
+| Sworn translations | €30–60 per page |
+| Private health insurance (compulsory for NLV/DNV) | €600–1,500 per person per year |
+| UK criminal record certificate (ACRO) | £55–65 |
+| Removals UK–Spain | £2,000–6,000 depending on volume |
+| Rental deposit and first month | 2–3 months' rent |
+| Legal assistance for the file | Depends on the route and family size |
 
-**Who it suits**: Retirees and individuals with passive income (pensions, investments, rental income).
+A realistic one-off budget for a couple is **£3,000–7,000 before rent**. Timewise, allow **3–4 months** from deciding to arriving: documents and apostilles (4–6 weeks), consulate appointment or UGE filing (2–4 weeks), decision (20 working days from Spain; 1–3 months at the consulate).
 
-Requires proof of sufficient passive income (a multiple of the IPREM index, updated annually; check the current figure with the consulate), private health insurance and no work in Spain. One year initially, then renewable for two-year periods.
+## Taxes: what happens to your UK income and pension
 
-**Pros**: Flexible; renewable indefinitely.
+- **You become a Spanish tax resident** if you spend more than 183 days in Spain in a calendar year, or your main economic interests or family are here. From then on Spain taxes your **worldwide income**.
+- **Progressive IRPF** in Spain runs from about 19% to 45–54% depending on the region. If you relocate for work (DNV or HQP), check the **Beckham Law**: a flat 24% on employment income up to €600,000 for six years, provided you were not a Spanish tax resident in the previous five. Our [Beckham Law calculator](/en/beckham-law-calculator/) compares both regimes for your salary and region; the option must be exercised within six months of registering with Social Security.
+- **UK pensions**: under the UK–Spain double tax treaty, private and state pensions are generally taxed only in Spain once you are resident; UK government-service pensions remain taxed in the UK. Withdrawing a pension lump sum before or after moving changes the tax significantly — plan the timing.
+- **ISAs are not tax-free in Spain**, and selling your UK home after becoming Spanish resident can create a Spanish capital-gains liability. Sell or restructure before you move if the numbers matter.
+- **Wealth tax and the assets declaration (Modelo 720)** apply above certain thresholds to worldwide assets, with regional exemptions.
 
-**Cons**: Cannot work; proving income requires documentation.
+## Healthcare
 
-### Student Visa
+- **Non-Lucrative and Digital Nomad** applicants must hold private Spanish health insurance with full coverage and no co-payments.
+- **UK State Pensioners** can register their **S1 form** in Spain and access the public health system at the UK's expense.
+- **Employees** (HQP) and self-employed pay into Spanish Social Security and are covered by the public system from day one.
+- The GHIC/EHIC only covers short visits, not residence.
 
-**Who it suits**: Those enrolled in an accredited Spanish course.
+## Practical steps once you have the visa
 
-Requires admission to a Spanish institution and proof of funds. Note that student stays count only 50% towards long-term residence and not at all towards citizenship.
+1. **NIE**: your foreigner identification number, obtained with the visa or on arrival.
+2. **TIE card**: fingerprint appointment at the National Police within 30 days of arrival; the physical card takes 3–6 weeks.
+3. **Padrón**: register at the town hall — needed for healthcare, schools and most paperwork.
+4. **Bank account**: Spanish banks open accounts with passport, NIE and proof of address.
+5. **Driving licence**: UK licences can be **exchanged** for Spanish ones without a test (agreement in force since 2023), but you must apply within six months of becoming resident.
+6. **Social Security number** if you will work or pay contributions.
+7. **Pets and cars**: pet passport rules apply; importing a UK car means Spanish registration, ITV inspection and taxes — often not worth it.
 
-**Pros**: Quick approval if you have confirmed enrolment.
+## Common mistakes
 
-**Cons**: Limited work rights (20 hours/week during term); must obtain a job offer to transition to a work visa.
+- Arriving on the 90 tourist days and "sorting it out later" on a route that must be applied for from the UK (Non-Lucrative).
+- Ordering documents in the wrong sequence: criminal records and apostilles expire in 3–6 months.
+- Assuming remote work is allowed on a Non-Lucrative Visa. It is not.
+- Not checking the Beckham Law before arriving; the deadline is short and the difference over six years can reach six figures.
+- Selling the UK home after becoming Spanish tax resident.
+- Letting the UK driving licence exchange window (6 months) pass.
 
-### Family Visa (Spouse or Partner of an EU Citizen)
+## How long it takes and the path to permanent residence
 
-**Who it suits**: Married to or in registered partnership with an EU national.
-
-Allows you to work immediately; permanent residence after five years.
-
-**Pros**: Fastest approval; allows immediate work.
-
-**Cons**: Requires legally recognised family ties.
-
-## Residence Routes Comparison Table
-
-| Route | Duration | Work Allowed | Income/Sponsorship Required | Key Requirement |
-|-------|----------|-----------|--------------------------|-----------------|
-| Digital Nomad | 1 year (3 from Spain) | Yes, remote/self-employed | 200% of minimum wage | Verifiable foreign income |
-| HQP | 1–2 years | Yes, with sponsor | Employer-dependent | Employer sponsorship |
-| Non-Lucrative | 1 year, then 2-year renewals | No | Multiple of IPREM (updated yearly) | Passive income proof |
-| Student | 1 year (renewable) | Limited (20h/week) | Course tuition only | University enrolment |
-| Family (EU partner) | Indefinite | Yes | None | EU citizen spouse/partner |
-
-## Tax Implications of Moving to Spain
-
-### Residence for Tax Purposes
-
-Spain considers you a tax resident if you spend more than **183 days in Spain in any calendar year**, or if your "centre of vital interests" (family, work, economic ties) is in Spain. Once you are a tax resident, you must declare worldwide income to the Spanish tax authority (Agencia Tributaria).
-
-The UK has a Double Taxation Treaty with Spain, so you will not pay tax twice on the same income. However, different income types are taxed differently: salaries under progressive income tax (with rates up to 45%), rental income, pension income, and capital gains each have distinct treatment. You should file UK self-assessment if still required and Spanish income tax (Declaración de la Renta) once resident.
-
-### The Beckham Law (Régimen Especial de Imputación de Rentas)
-
-If you relocate for an employment contract, a directorship or as a digital nomad and have not been a Spanish tax resident in the previous five years, you may opt for the special expatriate regime known as the Beckham Law: a flat 24% rate on Spanish employment income up to €600,000 (47% above), for the year of arrival and the following five, and no Spanish tax on most foreign-source income. It is optional, must be requested within six months of registering with Social Security, and requires planning before you move.
-
-Explore: [Beckham Law Calculator](/en/beckham-law-calculator/) and [Beckham Law Spain Guide](/en/beckham-law-spain-guide/)
-
-### Pensions and Healthcare
-
-UK pensions are generally taxable in Spain once you are resident. Notify both the Spanish tax authority and your UK pension provider. UK pensioners with an S1 form may access Spanish public healthcare; others require private insurance or SNS registration after arrival. Consult a healthcare broker for your eligibility.
-
-## Practical Steps to Settle in Spain
-
-### The NIE and TIE
-
-Your first priority is obtaining a **NIE** (Número de Identidad de Extranjero), a foreigner identification number. You apply for this at the Spanish consulate in the UK when you apply for your residence visa, or you can request one separately through a Spanish consulate if you already have a long-term visa from another country. Processing is usually quick (days to weeks).
-
-Once you arrive and your visa is approved, you'll receive a **TIE** (Tarjeta de Identidad de Extranjero), the physical residence card. This is mandatory for most residence statuses and is your proof of legal residency. Obtain it at your local Extranjería (immigration office) within 30 days of arrival.
-
-### Padrón Registration
-
-Register on the **Padrón** (municipal census) at your local town hall (Ayuntamiento) within 30 days of arrival. This is your proof of residence, essential for opening bank accounts, accessing healthcare, enrolling children in school, and establishing tax residency. It's free and straightforward.
-
-### Bank Account
-
-Spanish banks require a NIE, TIE, or passport, and proof of residence (utility bill or Padrón certificate) to open a basic account. Accounts for non-residents exist but are more restricted. Most banks' online platforms are robust; several offer English-language support for UK expats.
-
-### Driving Licence Exchange
-
-The UK and Spain have a **bilateral agreement (in force since 2023)** that allows you to exchange your UK driving licence for a Spanish one once you are resident. You do not need to re-sit the test. Visit your local Dirección General de Tráfico (DGT, the equivalent of the DVLA) with your UK licence, proof of residency, and NIE. Processing typically takes 3–4 weeks.
-
-## Common Mistakes to Avoid
-
-**Overstaying the 90-day window**: Once past 90 days in any 180-day period without a visa, you face fines and deportation bans. Start your application early.
-
-**Misunderstanding the non-lucrative visa**: It does not allow active work or income. Even managing UK rental properties actively can jeopardise eligibility.
-
-**Underestimating tax complexity**: Hire a gestoría (Spanish tax firm) immediately. UK and Spanish filing rules differ significantly.
-
-**Delaying NIE, TIE, and Padrón**: These unlock banking, healthcare, and legal residency. Do not skip them.
-
-**Ignoring the Double Taxation Treaty**: The treaty prevents double taxation if you declare correctly. Consult a tax adviser about your specific situation.
+| Step | Time |
+|---|---|
+| Gathering documents, apostilles, translations | 4–6 weeks |
+| Application (consulate or UGE) | 2–4 weeks to file |
+| Decision | 20 working days (UGE) · 1–3 months (consulate) |
+| Arrival, TIE, padrón | First month |
+| Long-term residence (EU) | After 5 years of legal residence |
+| Spanish citizenship | After 10 years — see [how to get Spanish citizenship](/en/how-to-get-spanish-citizenship/) |
 
 ## Quick Questions Answered
 
+### Can I move to Spain from the UK without a visa?
+No. Since 2021 you can only stay 90 days in 180 without a visa. Living in Spain requires a residence visa or permit: Digital Nomad, Non-Lucrative, work or family routes.
+
+### How much money do I need to move to Spain from the UK?
+For the visa: about €2,850/month of remote income (Digital Nomad) or €28,800/year of passive income (Non-Lucrative), plus private health insurance. For the move itself: £3,000–7,000 before rent, more with removals.
+
+### Can I work remotely for a UK company from Spain?
+Yes, with the Digital Nomad Visa. You become a Spanish tax resident and may need to arrange Social Security (UK A1 certificate or Spanish contributions). It is not allowed on a Non-Lucrative Visa.
+
 ### Can I visit the UK while resident in Spain?
-Yes, freely. As a British citizen, you have the right to enter the UK anytime, provided you return within your visa validity.
+Yes, freely. As a British citizen you can enter the UK at any time; just do not spend so long there that you lose Spanish residence (more than six months outside Spain in a year can break it).
 
 ### Do I need private health insurance?
-Usually yes—it's required for most Spanish residence visas. The NHS does not cover Spain. UK pensioners with an S1 form may access Spanish public healthcare; others must arrange private cover or register with the SNS after arrival.
+For Non-Lucrative and Digital Nomad visas, yes: full coverage, no co-payments, from a Spanish insurer. State pensioners can use the S1 instead. Employees are covered by Social Security.
 
-### Can I work remotely for a UK firm?
-Yes, under a Digital Nomad Visa. However, you become subject to Spanish tax and contributions. Consult a tax adviser on payroll implications.
+### What if I overstay the 90-day limit?
+A fine, possible expulsion and an entry ban to the whole Schengen Area; since EES the overstay is recorded automatically. Apply for a residence route before day 90.
 
-### What if I overstay the 90-day tourist limit?
-You face a fine, possible expulsion and a re-entry ban to the Schengen Area. Start visa applications before day 90.
+### Can I keep my UK bank account and pension?
+Yes. Some UK banks close accounts of non-residents, so check yours; pensions can be paid to Spain and are taxed under the double tax treaty rules above.
 
-## Next Steps
+### Is it easy to move to Spain from the UK?
+Administratively it is manageable if you pick the right route and prepare the documents in order; most refusals come from missing or expired paperwork, not from the criteria themselves.
 
-Moving to Spain from the UK is feasible and thousands of British nationals do so each year. The key is choosing the right visa route for your situation and starting the application early.
+## Next steps
 
-To explore whether you qualify for a Digital Nomad or HQP visa, use our [Digital Nomad Visa Eligibility Checker](/en/digital-nomad-visa-eligibility-checker/). If the Beckham Law could benefit you, try our [Beckham Law Calculator](/en/beckham-law-calculator/) and read the full [Beckham Law Spain Guide](/en/beckham-law-spain-guide/).
+Tell us your situation — how you earn your income, whether you move alone or with family, and when — and we will tell you which route applies, what it costs and the order to do things in. Spain Global Hub coordinates the immigration and tax side so that your visa, your taxes and your family's residence are decided once, properly.
 
-For more information on long-term residency and the path to Spanish citizenship, see [How to Get Spanish Citizenship](/en/how-to-get-spanish-citizenship/).
+[Request a private evaluation](/en/contact/?origen=uk)
 
-If you have questions specific to your situation, [contact our team](/en/contact/?origen=move-uk)—we help British nationals navigate every stage of the move.
+### Official sources
 
-**Official resources:**
-- Spanish Ministry of Foreign Affairs: https://www.exteriores.gob.es/
-- UK Guidance on Living in Spain: https://www.gov.uk/guidance/living-in-spain
+- [Spanish Consulate in London: visas](https://www.exteriores.gob.es/Consulados/londres/en/Paginas/index.aspx)
+- [Law 14/2013 (Digital Nomad, HQP and entrepreneur permits) – BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2013-10074)
+- [UK Government: Living in Spain](https://www.gov.uk/guidance/living-in-spain)
+- [EU: Entry/Exit System](https://travel-europe.europa.eu/ees_en) and [ETIAS](https://travel-europe.europa.eu/etias_en)

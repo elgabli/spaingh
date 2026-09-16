@@ -20,7 +20,7 @@ Numérique espagnol, établies par la **Loi Startups (Ley 28/2022)**.
 |---|---|---|
 | Résidence fiscale préalable | Art. 74.2 Ley de Extranjería (modifié) | Aucune résidence fiscale en Espagne au cours des 5 dernières années |
 | Travail à distance | Art. 74.2.bis Ley de Extranjería | Emploi dans une entreprise non espagnole ou clients étrangers (≥80% de revenus de l'étranger) |
-| Revenus minimums | Ley 14/2013, art. 71 | ≥200% SMI (~2 400 €/mois en 2026) |
+| Revenus minimums | Ley 14/2013, art. 71 | ≥200% SMI (~2 850 €/mois en 2026) |
 | Expérience professionnelle | Art. 74.2.bis Ley de Extranjería | Plus de 3 ans d'expérience OU un diplôme universitaire |
 | Assurance santé | Art. 74.2.bis Ley de Extranjería | Couverture santé privée complète en Espagne |
 | Casier judiciaire | Art. 74.2.bis Ley de Extranjería | Casier vierge dans tous les pays de résidence (5 dernières années) |
@@ -44,7 +44,7 @@ d'immigration.</p>
 <h3>Qu'est-ce que le Visa Nomade Numérique en Espagne ?</h3>
 <p>Le Visa Nomade Numérique espagnol est un permis de résidence introduit en 2023 qui permet aux travailleurs à distance et aux freelances de vivre en Espagne tout en travaillant pour des entreprises non espagnoles ou des clients étrangers. Il est valable jusqu'à 3 ans (renouvelable) et peut mener à la résidence permanente.</p>
 <h3>Quelles sont les exigences de revenus pour le Visa Nomade Numérique espagnol en 2026 ?</h3>
-<p>En 2026, les candidats doivent gagner au moins 200% du salaire minimum interprofessionnel (SMI) espagnol, soit environ 2 400 € par mois brut. Pour chaque membre de la famille inclus dans la demande, l'exigence augmente de 75% du SMI (environ 900 €/mois supplémentaires par personne à charge).</p>
+<p>En 2026, les candidats doivent gagner au moins 200% du salaire minimum interprofessionnel (SMI) espagnol, soit environ 2 850 € par mois brut. Pour chaque membre de la famille inclus dans la demande, l'exigence augmente de 75% du SMI (environ 900 €/mois supplémentaires par personne à charge).</p>
 <h3>Puis-je travailler pour une entreprise espagnole avec le Visa Nomade Numérique ?</h3>
 <p>Oui, mais avec des limites. Au moins 80% de vos revenus doivent provenir de l'étranger. Vous pouvez travailler pour une entreprise espagnole, mais uniquement si cela représente moins de 20% de vos revenus totaux.</p>
 <h3>Combien de temps dure le Visa Nomade Numérique ?</h3>
