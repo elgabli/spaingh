@@ -48,6 +48,7 @@ updatedDate: 2026-09-11
 
 <p><strong>Karim Elgabli</strong> aporta visión tecnológica, marketing estratégico y coordinación de proyectos internacionales.</p>
 <div class="sgh-founder"><img src="/img/elena-mochales.jpg" alt="Elena Mochales, abogada" width="120" height="120" loading="lazy" /><div><p><strong>Elena Mochales</strong>, abogada colegiada en el Ilustre Colegio de la Abogacía de Madrid (<strong>ICAM nº C69993</strong>) desde el año 2000, supervisa la coordinación legal y la orientación a los clientes extranjeros. Licenciada en Derecho y diplomada en Ciencias Empresariales por ICADE (Universidad Pontificia Comillas) y Máster en Derecho de Extranjería e Inmigración, Asilo y Derecho Humanitario por la Universidad Carlos III de Madrid, lleva más de 20 años dedicada al derecho de extranjería y nacionalidad, con clientes de más de 50 nacionalidades. Atiende en español, inglés y árabe, en Barcelona y en línea.</p></div></div>
+<p><strong>Área fiscal.</strong> El asesoramiento fiscal (Ley Beckham, planificación internacional, fiscalidad de empresas) se presta a través de asesores fiscales colegiados con los que colaboramos de forma estable, coordinados por Spain Global Hub: un único interlocutor para el cliente y un especialista para cada materia.</p>
 <p>Su colaboración garantiza coherencia estratégica, atención personalizada y ejecución estructurada en cada proyecto.</p>
 <h2>Red de partners y advisory network</h2>
 <p>

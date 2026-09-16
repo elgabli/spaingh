@@ -61,6 +61,7 @@ updatedDate: 2026-09-11
       
         <p><strong>Karim Elgabli</strong> brings technological vision, strategic marketing, and international project coordination.</p>
         <div class="sgh-founder"><img src="/img/elena-mochales.jpg" alt="Elena Mochales, lawyer" width="120" height="120" loading="lazy" /><div><p><strong>Elena Mochales</strong>, a lawyer registered with the Madrid Bar Association (<strong>ICAM no. C69993</strong>) since 2000, oversees legal coordination and guidance for foreign clients. She holds degrees in Law and Business Administration from ICADE (Universidad Pontificia Comillas) and a Master's in Immigration, Asylum and Humanitarian Law from Universidad Carlos III de Madrid, and has practised immigration and nationality law for more than 20 years with clients from over 50 nationalities. She works in Spanish, English and Arabic, in Barcelona and online.</p></div></div>
+<p><strong>Tax advisory.</strong> Tax matters (Beckham Law, international tax planning, corporate taxation) are handled by registered tax advisors with whom we collaborate on a permanent basis, coordinated by Spain Global Hub: a single point of contact for the client and a specialist for each area.</p>
         <p>Their collaboration guarantees strategic consistency, personalized attention, and structured execution in every project.</p>
       <h2>Partner Network and Advisory Network</h2>
       <p>
