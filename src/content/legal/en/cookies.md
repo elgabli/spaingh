@@ -25,5 +25,6 @@ updatedDate: 2026-09-12
 <p>All browsers let you block or delete cookies: <a href="https://support.google.com/chrome/answer/95647" target="_blank" rel="noopener">Chrome</a>, <a href="https://support.mozilla.org/en-US/kb/cookies-information-websites-store-on-your-computer" target="_blank" rel="noopener">Firefox</a>, <a href="https://support.apple.com/guide/safari/sfri11471/mac" target="_blank" rel="noopener">Safari</a>, <a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-6915-a6d1-c3b9-cd9b7ba6b4f2" target="_blank" rel="noopener">Edge</a>.</p>
 <h2>Third parties</h2>
 <p>Google Analytics is a service of Google Ireland Ltd. See <a href="https://policies.google.com/technologies/cookies" target="_blank" rel="noopener">how Google uses cookies</a>. Cloudflare Inc. provides the infrastructure and bot protection (<a href="https://www.cloudflare.com/cookie-policy/" target="_blank" rel="noopener">Cloudflare cookie policy</a>).</p>
+<p>The website also uses Umami, an analytics system hosted on our own server that sets no cookies or identifiers and therefore requires no consent. See the <a href="/en/privacy-policy/">privacy policy</a> for details.</p>
 <h2>Contact</h2>
 <p>For any question about this policy: <a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a>.</p>

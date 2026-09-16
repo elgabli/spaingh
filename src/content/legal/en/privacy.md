@@ -223,3 +223,4 @@ updatedDate: 2026-09-11
 <ul>
 <li>By email: sgh@spaingh.com</li>
 </ul>
+<h3>Cookieless audience measurement</h3><p>This website uses Umami, an analytics program hosted on a server operated by the controller, which sets no cookies or persistent identifiers. It records, in aggregate, pages viewed, where the visit came from, country, device and browser type, and certain actions (use of the calculators, form submissions, and clicks on WhatsApp, email and contact buttons). The IP address is used only transiently to estimate the country and is not stored. Since no cookies or equivalent technologies are used, no consent is required; the legal basis is the controller's legitimate interest in understanding how the website is used (Article 6(1)(f) GDPR). You may object by writing to <a href="mailto:sgh@spaingh.com">sgh@spaingh.com</a>. Google Analytics, which does use cookies, is only activated if you accept analytics cookies.</p>
