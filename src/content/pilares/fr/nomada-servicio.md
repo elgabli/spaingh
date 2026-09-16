@@ -39,7 +39,7 @@ Vous ne savez pas si vous remplissez les conditions ? Utilisez le [vérificateur
 
 ## Comment nous travaillons
 
-Première évaluation **gratuite et sans engagement** : décrivez votre cas via le formulaire et sous 24 h ouvrées nous vous confirmons si vous remplissez les conditions, les documents nécessaires et un devis fermé. Ensuite, un interlocuteur unique jusqu’à la TIE.
+Première évaluation **sans engagement** : décrivez votre cas via le formulaire et sous 24 h ouvrées nous vous confirmons si vous remplissez les conditions, les documents nécessaires et un devis fermé. Ensuite, un interlocuteur unique jusqu’à la TIE.
 
 ## Questions fréquentes
 

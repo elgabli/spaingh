@@ -39,7 +39,7 @@ publishedDate: 2026-09-16
 
 ## Cómo trabajamos
 
-Primera evaluación **gratuita y sin compromiso**: nos cuenta su caso por el formulario y en 24 h laborables le decimos si cumple los requisitos, qué documentos necesita y un presupuesto cerrado. A partir de ahí, un único interlocutor hasta la TIE.
+Primera evaluación **sin compromiso**: nos cuenta su caso por el formulario y en 24 h laborables le decimos si cumple los requisitos, qué documentos necesita y un presupuesto cerrado. A partir de ahí, un único interlocutor hasta la TIE.
 
 ## Preguntas frecuentes
 

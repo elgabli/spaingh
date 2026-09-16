@@ -39,7 +39,7 @@ Not sure whether you qualify? Use the [eligibility checker](/en/digital-nomad-vi
 
 ## How we work
 
-First evaluation is **free and without obligation**: tell us your case through the form and within 24 working hours we confirm whether you qualify, which documents you need and a fixed quote. From then on, a single point of contact until your TIE.
+First evaluation is **without obligation**: tell us your case through the form and within 24 working hours we confirm whether you qualify, which documents you need and a fixed quote. From then on, a single point of contact until your TIE.
 
 ## Frequently asked questions
 

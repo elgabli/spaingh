@@ -38,7 +38,7 @@ Guía completa de requisitos, plazos y documentación: [Visado de Profesional Al
 
 ## Cómo trabajamos
 
-Primera evaluación **gratuita**: en 24 h laborables confirmamos viabilidad, documentos y presupuesto cerrado, tanto si nos escribe la empresa como el candidato.
+Primera evaluación **sin compromiso**: en 24 h laborables confirmamos viabilidad, documentos y presupuesto cerrado, tanto si nos escribe la empresa como el candidato.
 
 ## Preguntas frecuentes
 

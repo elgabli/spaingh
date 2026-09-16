@@ -38,7 +38,7 @@ Guide complet des conditions, délais et documents : [Visa Professionnel Hauteme
 
 ## Comment nous travaillons
 
-Première évaluation **gratuite** : sous 24 h ouvrées nous confirmons la faisabilité, les documents et un devis fermé, que ce soit l’employeur ou le candidat qui nous contacte.
+Première évaluation **sans engagement** : sous 24 h ouvrées nous confirmons la faisabilité, les documents et un devis fermé, que ce soit l’employeur ou le candidat qui nous contacte.
 
 ## Questions fréquentes
 

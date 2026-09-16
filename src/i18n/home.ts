@@ -79,7 +79,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     guarantee: [
       { title: 'Confidencialidad absoluta', text: 'Su información y patrimonio protegidos bajo estricto secreto profesional.' },
       { title: 'Respuesta en 24 h', text: 'Gestionamos cada consulta con la máxima prioridad y rapidez.' },
-      { title: 'Sin compromiso', text: 'Primera consulta y evaluación inicial totalmente gratuitas.' },
+      { title: 'Sin compromiso', text: 'Primera consulta y evaluación inicial sin compromiso.' },
     ],
   },
 
@@ -142,7 +142,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     guarantee: [
       { title: 'Absolute confidentiality', text: 'Your information and assets protected under strict professional secrecy.' },
       { title: 'Reply within 24 h', text: 'Every enquiry is handled with top priority and speed.' },
-      { title: 'No obligation', text: 'First consultation and initial assessment completely free.' },
+      { title: 'No obligation', text: 'First consultation and initial assessment with no obligation.' },
     ],
   },
 
@@ -205,7 +205,7 @@ export const homeContent: Record<Lang, HomeContent> = {
     guarantee: [
       { title: 'Confidentialité absolue', text: 'Vos informations et votre patrimoine protégés par le secret professionnel.' },
       { title: 'Réponse sous 24 h', text: 'Chaque demande est traitée avec la plus haute priorité et rapidité.' },
-      { title: 'Sans engagement', text: 'Première consultation et évaluation initiale entièrement gratuites.' },
+      { title: 'Sans engagement', text: 'Première consultation et évaluation initiale sans engagement.' },
     ],
   },
 };

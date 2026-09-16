@@ -38,7 +38,7 @@ Full guide to requirements, timelines and documents: [Highly Qualified Professio
 
 ## How we work
 
-First evaluation is **free**: within 24 working hours we confirm feasibility, documents and a fixed quote — whether the employer or the candidate contacts us.
+First evaluation is **without obligation**: within 24 working hours we confirm feasibility, documents and a fixed quote — whether the employer or the candidate contacts us.
 
 ## Frequently asked questions
 
