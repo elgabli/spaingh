@@ -23,6 +23,7 @@ export interface LangConfig {
   code: Lang;
   locale: string; // para <html lang> y Open Graph
   name: string;
+  tagline: string; // descriptor bajo el logo
   nav: {
     home: NavLink;
     services: NavLink;
@@ -62,6 +63,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
     code: 'es',
     locale: 'es_ES',
     name: 'Español',
+    tagline: 'Asesoría legal y fiscal para establecerse en España',
     nav: {
       home: { href: '/', label: 'Inicio' },
       services: { href: '/servicios/', label: 'Servicios' },
@@ -98,6 +100,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
     code: 'en',
     locale: 'en_GB',
     name: 'English',
+    tagline: 'Legal & tax advisory for relocating to Spain',
     nav: {
       home: { href: '/', label: 'Home' },
       services: { href: '/services/', label: 'Services' },
@@ -134,6 +137,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
     code: 'fr',
     locale: 'fr_FR',
     name: 'Français',
+    tagline: 'Conseil juridique et fiscal pour s’installer en Espagne',
     nav: {
       home: { href: '/', label: 'Accueil' },
       services: { href: '/services/', label: 'Services' },

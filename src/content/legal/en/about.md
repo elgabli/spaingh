@@ -10,7 +10,7 @@ publishedDate: 2024-11-27
 updatedDate: 2026-09-11
 ---
 
-<h1>Spain Global Hub: Boutique Advisory Hub for International Clients in Spain</h1>
+<h1>Spain Global Hub: Legal and Tax Advisory for International Clients in Spain</h1>
 <br />
       <h2>Who we are</h2>
       <p>
