@@ -230,3 +230,5 @@ main a {
 .sgh-article .sgh-founder { display: flex; gap: 20px; align-items: flex-start; margin: 14px 0 22px; }
 .sgh-article .sgh-founder img { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; margin: 0; flex: 0 0 auto; }
 @media (max-width: 560px) { .sgh-article .sgh-founder { flex-direction: column; } }
+/* Descriptor bajo el logo: máximo dos líneas, ancho acotado */
+.sghh .lg .lg-t small { display: block; max-width: 230px; white-space: normal; line-height: 1.35; }
