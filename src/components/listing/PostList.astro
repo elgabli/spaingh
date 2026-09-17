@@ -21,13 +21,14 @@ const cleanTitle = (s: string) => s.replace(/\s*\|\s*Spain Global Hub\s*$/i, '')
   <div class="sgh-cards sgh-cards-posts">
     {posts.map((p) => {
       const date = p.data.updatedDate ?? p.data.publishedDate;
+      const dateLabel = p.data.updatedDate ? 'updated' : 'published';
       return (
         <a class="sgh-card sgh-card-post" href={withLangPrefix(lang, `/${p.data.slug}/`)}>
           <span class="sgh-card-img">
             <img src={p.data.image ?? '/img/cover-fiscal.svg'} alt={p.data.imageAlt ?? ''} loading="lazy" width="600" height="338" />
           </span>
           <span class="sgh-card-body">
-            <time datetime={date.toISOString().slice(0, 10)}>{fmt.format(date)}</time>
+            <span class="sgh-card-date">{dateLabel === 'updated' ? t.updated : t.published} <time datetime={date.toISOString().slice(0, 10)}>{fmt.format(date)}</time></span>
             <h3>{cleanTitle(p.data.title)}</h3>
             <p>{p.data.description}</p>
             <span class="more">{t.readMore}</span>

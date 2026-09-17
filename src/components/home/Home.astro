@@ -142,11 +142,12 @@ const guaranteeIcons = [ICONS.shieldCheck, ICONS.clock, ICONS.check];
       <div class="sgh2-blog-grid">
         {latestPosts.map((p) => {
           const date = p.data.updatedDate ?? p.data.publishedDate;
+      const dateLabel = p.data.updatedDate ? 'updated' : 'published';
           return (
             <a class="sgh2-blog-card" href={withLangPrefix(lang, `/${p.data.slug}/`)}>
               <span class="im"><img src={p.data.image ?? '/img/cover-fiscal.svg'} alt={p.data.imageAlt ?? ''} loading="lazy" width="600" height="338" /></span>
               <span class="bd">
-                <time datetime={date.toISOString().slice(0, 10)}>{dateFmt.format(date)}</time>
+                <span class="sgh2-blog-date">{dateLabel === 'updated' ? pagesText[lang].blog.updated : pagesText[lang].blog.published} <time datetime={date.toISOString().slice(0, 10)}>{dateFmt.format(date)}</time></span>
                 <h3>{p.data.title.replace(/\s*\|\s*Spain Global Hub\s*$/i, '')}</h3>
                 <span class="more">{pagesText[lang].blog.readMore}</span>
               </span>

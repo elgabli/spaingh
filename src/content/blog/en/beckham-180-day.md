@@ -8,8 +8,8 @@ seoPriority: normal
 format: html
 publishedDate: 2026-02-24
 updatedDate: 2026-09-12
-image: "/img/ley-beckham-regla-180-dias-modelo-149.jpg"
-imageAlt: "Beckham Law 180-day rule and Form 149 deadline"
+image: "/img/beckham-law-spain-2026-scaled-e1771913990725.jpg"
+imageAlt: "Madrid-Barajas airport at night: arriving in Spain starts the Beckham Law 180-day clock"
 ---
 
 <p>

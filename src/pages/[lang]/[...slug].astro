@@ -175,7 +175,7 @@ const schemaNodes = [
         <div class="in">
           <h1>{h1Text}</h1>
           <p class="meta">
-            <span>{entry.data.updatedDate ? t.blog.updated : t.blog.published} <time datetime={metaDate.toISOString().slice(0, 10)}>{dateFmt.format(metaDate)}</time></span>
+            <span>{t.blog.published} <time datetime={entry.data.publishedDate.toISOString().slice(0, 10)}>{dateFmt.format(entry.data.publishedDate)}</time>{entry.data.updatedDate && entry.data.updatedDate.getTime() !== entry.data.publishedDate.getTime() && <> · {t.blog.updated} <time datetime={entry.data.updatedDate.toISOString().slice(0, 10)}>{dateFmt.format(entry.data.updatedDate)}</time></>}</span>
             <span>·</span>
             <span>{readMinutes} {t.blog.readTime}</span>
           </p>
