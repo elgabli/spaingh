@@ -97,6 +97,13 @@ const origen = Astro.url.searchParams.get('origen') || '';
   const btn = form.querySelector('.sgh-submit');
   const show = (text) => { msg.textContent = text; msg.hidden = false; };
 
+  // Sitio estático: origen y motivo llegan en la URL y se aplican en el navegador.
+  try {
+    const q = new URLSearchParams(location.search);
+    const o = q.get('origen'); if (o) form.querySelector('input[name="origen"]').value = o.slice(0, 60);
+    if (q.get('motivo') === 'beckham') { const sel = form.querySelector('select[name="reason"]'); if (sel && sel.options.length > 1) sel.selectedIndex = 1; }
+  } catch {}
+
   form.addEventListener('submit', async (e) => {
     e.preventDefault();
     msg.hidden = true;

@@ -23,6 +23,14 @@ interface Props {
 }
 
 const { lang } = Astro.props;
+const CONTACT_PATH = { es: '/es/contacto/', en: '/en/contact/', fr: '/fr/contact/' } as const;
+const CTA = {
+  es: { btn: 'Miramos tu caso gratis →', note: 'Un asesor confirma si este resultado se aplica a tu situación. Sin coste ni compromiso.' },
+  en: { btn: 'Free review of your case →', note: 'An advisor confirms whether this result applies to your situation. No cost, no commitment.' },
+  fr: { btn: 'Analyse gratuite de votre cas →', note: "Un conseiller confirme si ce résultat s'applique à votre situation. Sans frais ni engagement." },
+} as const;
+const ctaHref = `${CONTACT_PATH[lang as keyof typeof CONTACT_PATH] ?? '/es/contacto/'}?origen=calculadora-resultado&motivo=beckham`;
+const cta = CTA[lang as keyof typeof CTA] ?? CTA.es;
 
 const T = {
   es: {
@@ -129,6 +137,8 @@ const regionOptions = Object.entries(REGIONS).map(([key, r]) => ({ key, name: r.
       <div id="sghb-save" class="sghb-save">
         <p id="sghb-save-amount" class="sghb-save-amount"></p>
         <p id="sghb-save-note" class="sghb-save-note"></p>
+        <a class="sghb-btn sghb-cta-btn" href={ctaHref} data-umami-event="cta_contacto" data-umami-event-origen="calculadora-resultado">{cta.btn}</a>
+        <p class="sghb-cta-note">{cta.note}</p>
       </div>
       <p class="sghb-net-note" id="sghb-net-note"></p>
       <div class="sghb-warn" id="sghb-warn" style="display:none"><p>⚠️ {t.warn}</p></div>
