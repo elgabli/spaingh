@@ -1,5 +1,5 @@
 ---
-title: "How to Get Spanish Citizenship in 2026: Routes, Years of Residence, Requirements and Costs"
+title: "How to Apply for Spanish Citizenship in 2026: Routes, Years of Residence, Documents and Costs"
 description: "Spanish citizenship in 2026: 10, 5, 2 or 1 year of legal residence depending on your case, CCSE and DELE A2 exams, documents, fees, processing time and dual nationality. Check your route in one minute."
 lang: en
 slug: how-to-get-spanish-citizenship
@@ -128,6 +128,8 @@ Legal fees vary with the complexity of the file (number of countries of residenc
 5. **Wait for the decision.** The legal deadline is one year; in practice, files are being resolved in 12 to 18 months in 2025–2026, after the backlog of previous years was cleared. If there is no answer after a year, the application is deemed refused by administrative silence, which opens the way to an appeal — most applicants simply wait for the express decision.
 6. **Oath and registration.** Once approved, you have 180 days to attend the Civil Registry, swear or promise loyalty to the King and obedience to the Constitution, and, where required, renounce your previous nationality. Your Spanish nationality is registered on that day.
 7. **DNI and passport.** With the registration certificate you can apply for your Spanish ID card and passport at the National Police.
+
+<div class="sgh-mid-cta"><p><strong>Not sure which route applies to you or when your years start counting?</strong> Tell us your case and within 24 working hours a lawyer registered with the Madrid Bar tells you whether you qualify and what to prepare. No obligation.</p><a class="btn" href="/en/contact/?origen=citizenship-guide" data-umami-event="cta_contacto" data-umami-event-origen="citizenship-guide">Check my eligibility with a lawyer →</a></div>
 
 ## Dual nationality
 
