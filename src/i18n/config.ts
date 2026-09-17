@@ -74,7 +74,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
     footer: {
       rightsReserved: '© 2026 Spain Global Hub. Todos los derechos reservados.',
       professionalNotice:
-        'Spain Global Hub es una firma de servicios jurídicos y fiscales. La información contenida en esta web no sustituye el asesoramiento legal personalizado. SGH no se responsabiliza de las decisiones tomadas sin una consulta formal previa.',
+        'Spain Global Hub coordina servicios jurídicos y fiscales prestados por abogados y asesores colegiados. La información contenida en esta web no sustituye el asesoramiento legal personalizado. SGH no se responsabiliza de las decisiones tomadas sin una consulta formal previa.',
       privacy: { href: '/politica-de-privacidad/', label: 'Privacidad' },
       cookies: { href: '/politica-de-cookies/', label: 'Cookies' },
       terms: { href: '/terminos-y-condiciones-de-uso/', label: 'Condiciones de uso' },
@@ -111,7 +111,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
     footer: {
       rightsReserved: '© 2026 Spain Global Hub. All rights reserved.',
       professionalNotice:
-        'Spain Global Hub is a legal and tax advisory firm. The information on this website does not substitute personalized legal advice. SGH is not responsible for decisions made without prior formal consultation.',
+        'Spain Global Hub coordinates legal and tax services delivered by registered lawyers and advisors. The information on this website does not substitute personalized legal advice. SGH is not responsible for decisions made without prior formal consultation.',
       privacy: { href: '/privacy-policy/', label: 'Privacy' },
       cookies: { href: '/cookie-policy/', label: 'Cookies' },
       terms: { href: '/terms-of-use/', label: 'Terms of Use' },
@@ -148,7 +148,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
     footer: {
       rightsReserved: '© 2026 Spain Global Hub. Tous droits réservés.',
       professionalNotice:
-        'Spain Global Hub est un cabinet de conseil juridique et fiscal. Les informations de ce site ne remplacent pas un conseil juridique personnalisé. SGH ne peut être tenu responsable des décisions prises sans consultation formelle préalable.',
+        'Spain Global Hub coordonne des services juridiques et fiscaux assurés par des avocats et conseillers inscrits. Les informations de ce site ne remplacent pas un conseil juridique personnalisé. SGH ne peut être tenu responsable des décisions prises sans consultation formelle préalable.',
       privacy: { href: '/politique-de-confidentialite/', label: 'Confidentialité' },
       cookies: { href: '/politique-de-cookies/', label: 'Cookies' },
       terms: { href: '/conditions-utilisation/', label: "Conditions d'utilisation" },
