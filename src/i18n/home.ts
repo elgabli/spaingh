@@ -33,7 +33,7 @@ export const homeContent: Record<Lang, HomeContent> = {
       { title: 'Constitución de Empresas', text: 'Creación de sociedades, estructura societaria y cumplimiento para operar en España desde el primer día.', href: '/es/servicios/creacion-de-empresas-en-espana/', cta: 'Ver servicio →' },
     ],
     trust: {
-      kicker: 'Excelencia Contrastada', h2: '15 años asesorando a los perfiles más exigentes del mundo',
+      kicker: 'Excelencia Contrastada', h2: 'Más de 20 años de experiencia jurídica al servicio de perfiles internacionales',
       lead: 'Un equipo boutique que combina rigor jurídico, visión internacional y absoluta discreción.',
       items: [
         { title: 'Seguridad Jurídica', text: 'Expertos en protección de inversión extranjera y cumplimiento normativo.' },
@@ -96,7 +96,7 @@ export const homeContent: Record<Lang, HomeContent> = {
       { title: 'Company Formation', text: 'Incorporation, corporate structure and compliance to operate in Spain from day one.', href: '/en/services/strategic-corporate-deployment-in-spain/', cta: 'View service →' },
     ],
     trust: {
-      kicker: 'Proven Excellence', h2: "15 years advising the world's most demanding profiles",
+      kicker: 'Proven Excellence', h2: 'More than 20 years of legal experience serving international profiles',
       lead: 'A boutique team combining legal rigour, international vision and absolute discretion.',
       items: [
         { title: 'Legal Security', text: 'Experts in foreign investment protection and regulatory compliance.' },
@@ -159,7 +159,7 @@ export const homeContent: Record<Lang, HomeContent> = {
       { title: 'Création de Société', text: 'Constitution, structure sociétaire et conformité pour opérer en Espagne dès le premier jour.', href: '/fr/services/company-formation-spain-premium-investment/', cta: 'Voir le service →' },
     ],
     trust: {
-      kicker: 'Excellence Reconnue', h2: '15 ans au service des profils les plus exigeants au monde',
+      kicker: 'Excellence Reconnue', h2: "Plus de 20 ans d'expérience juridique au service de profils internationaux",
       lead: 'Une équipe boutique alliant rigueur juridique, vision internationale et discrétion absolue.',
       items: [
         { title: 'Sécurité Juridique', text: 'Experts en protection des investissements étrangers et conformité réglementaire.' },
