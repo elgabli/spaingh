@@ -27,6 +27,13 @@ RewriteRule ^(_redirects|_headers|wrangler\.toml)$ - [R=404,L]
 # API (antes Pages Function)
 RewriteRule ^api/contact/?$ api/contact.php [L]
 
+# Raiz: redireccion inmediata por idioma del navegador (antes: pagina en blanco con meta refresh de 2 s)
+RewriteCond %{HTTP:Accept-Language} ^fr [NC]
+RewriteRule ^$ /fr/ [R=302,L]
+RewriteCond %{HTTP:Accept-Language} ^en [NC]
+RewriteRule ^$ /en/ [R=302,L]
+RewriteRule ^$ /es/ [R=302,L]
+
 # ---- Redirecciones 301 (de public/_redirects) ----
 RewriteRule ^en/politica\-de\-cookies\-2/?$ /en/cookie-policy/ [R=301,L]
 RewriteRule ^contacto/?$ /es/contacto/ [R=301,L]
