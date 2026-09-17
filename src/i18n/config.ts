@@ -37,6 +37,7 @@ export interface LangConfig {
     privacy: NavLink;
     cookies: NavLink;
     terms: NavLink;
+    legal: NavLink;
     tagline: string;
     colServices: string;
     colCompany: string;
@@ -78,6 +79,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       privacy: { href: '/politica-de-privacidad/', label: 'Privacidad' },
       cookies: { href: '/politica-de-cookies/', label: 'Cookies' },
       terms: { href: '/terminos-y-condiciones-de-uso/', label: 'Condiciones de uso' },
+      legal: { href: '/aviso-legal/', label: 'Aviso legal' },
       tagline: 'Asesoría boutique jurídica y fiscal para inversores y expatriados que se trasladan a España o invierten en el país.',
       colServices: 'Servicios',
       colCompany: 'Empresa',
@@ -115,6 +117,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       privacy: { href: '/privacy-policy/', label: 'Privacy' },
       cookies: { href: '/cookie-policy/', label: 'Cookies' },
       terms: { href: '/terms-of-use/', label: 'Terms of Use' },
+      legal: { href: '/legal-notice/', label: 'Legal notice' },
       tagline: 'Boutique legal and tax advisory for investors and expats relocating to or investing in Spain.',
       colServices: 'Services',
       colCompany: 'Company',
@@ -152,6 +155,7 @@ export const i18nConfig: Record<Lang, LangConfig> = {
       privacy: { href: '/politique-de-confidentialite/', label: 'Confidentialité' },
       cookies: { href: '/politique-de-cookies/', label: 'Cookies' },
       terms: { href: '/conditions-utilisation/', label: "Conditions d'utilisation" },
+      legal: { href: '/mentions-legales/', label: 'Mentions légales' },
       tagline: "Cabinet boutique de conseil juridique et fiscal pour investisseurs et expatriés qui s'installent ou investissent en Espagne.",
       colServices: 'Services',
       colCompany: 'Cabinet',

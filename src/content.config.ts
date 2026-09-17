@@ -55,7 +55,7 @@ const legal = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/legal' }),
   schema: z.object({
     ...seoFields,
-    legalType: z.enum(['privacy', 'cookies', 'terms', 'about']),
+    legalType: z.enum(['privacy', 'cookies', 'terms', 'about', 'legal']),
   }),
 });
 
