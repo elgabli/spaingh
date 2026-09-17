@@ -19,6 +19,10 @@ export const organization = {
   },
   email: 'sgh@spaingh.com',
   telephone: '+34601555547',
+  areaServed: { '@type': 'Country', name: 'España' },
+  knowsLanguage: ['es', 'en', 'fr'],
+  founder: { '@id': `${SITE_URL}/es/sobre-nosotros/#elena-mochales` },
+  sameAs: ['https://www.trustpilot.com/review/spaingh.com'],
 } as const;
 
 export const author = {
