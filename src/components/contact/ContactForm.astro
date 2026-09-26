@@ -108,6 +108,14 @@ const origen = Astro.url.searchParams.get('origen') || '';
     e.preventDefault();
     msg.hidden = true;
     const fd = new FormData(form);
+    // Copia de lo escrito a Umami en cada intento (aunque falle la validación o el antispam): no perder contactos.
+    try {
+      if (window.umami) {
+        const d = { pagina: location.pathname };
+        for (const [k, v] of fd.entries()) { if (k !== 'cf-turnstile-response' && typeof v === 'string' && v.trim()) d[k] = v.trim().slice(0, 400); }
+        window.umami.track('contacto_intento', d);
+      }
+    } catch {}
     if (!fd.get('name') || !fd.get('email') || !fd.get('phone') || !fd.get('reason')) return show(errors.required);
     if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(String(fd.get('email')))) return show(errors.email);
     if (!fd.get('privacy')) return show(errors.privacy);
@@ -155,11 +163,13 @@ const origen = Astro.url.searchParams.get('origen') || '';
   .sgh-check a { color: #0a3d3c; font-weight: 700; }
   .sgh-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
   .cf-turnstile { margin: 0 0 16px; }
-  .sgh-form-msg { color: var(--sgh-coral); font-weight: 700; margin: 0 0 12px; }
+  .sgh-form-msg { background: #dc2626; color: #fff; font-weight: 700; margin: 0 0 14px; padding: 14px 16px; border-radius: 10px; }
+  .sgh-form-msg::before { content: '⚠ '; }
   .sgh-submit { font: inherit; font-weight: 800; letter-spacing: .5px; text-transform: uppercase; background: linear-gradient(90deg, #c5a059, #d9b96e); color: var(--sgh-verde); border: 0; border-radius: 10px; padding: 15px 30px; cursor: pointer; box-shadow: 0 8px 22px rgba(197,160,89,.35); }
   .sgh-submit:disabled { opacity: .6; cursor: wait; }
-  .sgh-form-ok { background: #f2faf9; border: 1.5px solid var(--sgh-teal); border-radius: 16px; padding: 30px; text-align: center; }
-  .sgh-form-ok h2 { color: var(--sgh-verde); margin: 0 0 8px; }
+  .sgh-form-ok { background: #16a34a; color: #fff; border: 0; border-radius: 16px; padding: 30px; text-align: center; }
+  .sgh-form-ok h2 { color: #fff; margin: 0 0 8px; }
+  .sgh-form-ok p, .sgh-form-ok a { color: #fff; }
   .sgh-contact-direct { margin-top: 28px; color: #4b5f5a; font-size: .95rem; }
   .sgh-contact-direct a { color: #0a3d3c; font-weight: 700; }
   @media (max-width: 640px) { .sgh-form-grid { grid-template-columns: 1fr; } .sgh-form { padding: 20px; } }
